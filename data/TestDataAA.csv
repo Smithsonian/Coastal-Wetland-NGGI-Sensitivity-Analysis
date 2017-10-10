@@ -1,0 +1,5 @@
+Map,Deforestation,Forest.gain,Stable.forest,Stable.non-forest
+Deforestation,66,0,5,4
+Forest.gain,0,55,8,12
+Stable.forest,1,0,153,11
+Stable.non-forest,2,1,9,313
