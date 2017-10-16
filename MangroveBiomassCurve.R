@@ -35,4 +35,4 @@ meanStore <- c()
 for (i in 1:10000) {
   genValues <- rlnorm(19, logMeanMangrove, logSdMangrove)
   meanStore <- c(meanStore,  mean(genValues))
-}
+} 
