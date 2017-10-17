@@ -9,6 +9,14 @@ classOrder <-c('High Intensity Developed', 'Medium Intensity Developed', 'Low In
                'Palustrine Aquatic Bed', 'Estuarine Aquatic Bed', 
                'Snow/Ice')
 
+
+ccapCol <- read.csv(paste(getwd(), "/data/WetlandArea/CCAP/ccapCols.csv", sep=""))
+
+ccapColVect <- c()
+for (i in 1:nrow(ccapCol)) {
+  ccapColVect <- c(ccapColVect, rgb(ccapCol$red[i], ccapCol$green[i], ccapCol$blue[i], max=255))
+}
+
 # Generating Tables to get unbiased esimators of error w/ CI's from CCAP data
 test_aa <- as.matrix(read.csv(paste(getwd(), "/data/TestDataAA.csv", sep=""), row.names = 1))
 test_area <-read.csv(paste(getwd(), "/data/TestDataArea.csv", sep=""))
@@ -158,7 +166,6 @@ areaCorrections <- function(input_matrix, input_areas) {
   
 }
 
-
 # simulate data by category
 simulateAA <- function(aa) {
   for (i in 1:ncol(aa)){
@@ -190,30 +197,9 @@ for (i in 1:1000) {
 }
 
 par(oma = c(3, 3, 3, 0), mfrow=c(5,5), mar=c(2,2,1,1))
-hist(store_df$HID, col="grey", main="HID", xlab="pixels")
-hist(store_df$MID, col="grey", main="MID", xlab="pixels")
-hist(store_df$LID, col="grey", main="LID", xlab="pixels")
-hist(store_df$OSD, col="grey", main="OSD", xlab="pixels")
-hist(store_df$CULT, col="grey", main="CULT", xlab="pixels")
-hist(store_df$PAST, col="grey", main="PAST", xlab="pixels")
-hist(store_df$GRS, col="grey", main="GRS", xlab="pixels")
-hist(store_df$DEC, col="grey", main="DEC", xlab="pixels")
-hist(store_df$EVR, col="grey", main="EVR", xlab="pixels")
-hist(store_df$MIX, col="grey", main="MIX", xlab="pixels")
-hist(store_df$SS, col="grey", main="SS", xlab="pixels")
-hist(store_df$PFW, col="grey", main="PFW", xlab="pixels")
-hist(store_df$PSS, col="grey", main="PSS", xlab="pixels")
-hist(store_df$PEM, col="grey", main="PEM", xlab="pixels")
-hist(store_df$PEM, col="grey", main="PEM", xlab="pixels")
-hist(store_df$EFW, col="grey", main="EFW", xlab="pixels")
-hist(store_df$ESS, col="grey", main="ESS", xlab="pixels")
-hist(store_df$EEM, col="grey", main="EEM", xlab="pixels")
-hist(store_df$UCS, col="grey", main="UCS", xlab="pixels")
-hist(store_df$BARE, col="grey", main="BARE", xlab="pixels")
-hist(store_df$OW, col="grey", main="OW", xlab="pixels")
-hist(store_df$PAB, col="grey", main="PAB", xlab="pixels")
-hist(store_df$EAB, col="grey", main="EAB", xlab="pixels")
-hist(store_df$SNOW, col="grey", main="SNOW", xlab="pixels")
+for (i in 1:length(classOrder)) {
+  hist(c(store_df[,i]), col=ccapColVect[i], main=classOrder[i])
+}
 mtext("pixels (n)", side=1, outer=T, line=1.5)
 mtext("frequency", side=2, outer=T, line=1.5)
 mtext("1,000 Iterations of Accuracy Assesment (multinomial distributions)", side=3, outer=2, line=1.5)

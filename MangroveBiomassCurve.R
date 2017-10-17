@@ -2,7 +2,7 @@
 mengBiomass <- read.csv(paste(getwd(), "/data/MengReview/mangroveAndMarshesABG.csv", sep=""))
 
 mangroveBiomass <- subset(mengBiomass , Ecosystem == "mangrove")
-mangroveBiomass <- subset(mangroveBiomass, (AGBunits != 'gC_m2') & (AGBunits != 'MgC_ha'))
+#mangroveBiomass <- subset(mangroveBiomass, (AGBunits != 'gC_m2') & (AGBunits != 'MgC_ha'))
 
 convertBiomassUnits <- function(input_measurement, input_unit, c_conversion=0.42) {
   gPerMg = 1000000
@@ -26,8 +26,8 @@ mangroveBiomass["AGBgCm2"] <- AGBgCm2
 hist(log(mangroveBiomass$AGBgCm2))
 hist(mangroveBiomass$AGBgCm2)
 
-(logMeanMangrove <- mean(log(mangroveBiomass$AGMgPerM2)))
-(logSdMangrove <- sd(log(mangroveBiomass$AGMgPerM2)))
+(logMeanMangrove <- mean(log(mangroveBiomass$AGBgCm2)))
+(logSdMangrove <- sd(log(mangroveBiomass$AGBgCm2)))
 (exp(logMeanMangrove))
 (exp(logMeanMangrove+logSdMangrove))
 (exp(logMeanMangrove-logSdMangrove))
@@ -37,3 +37,5 @@ for (i in 1:10000) {
   genValues <- rlnorm(19, logMeanMangrove, logSdMangrove)
   meanStore <- c(meanStore,  mean(genValues))
 } 
+
+hist(meanStore)
