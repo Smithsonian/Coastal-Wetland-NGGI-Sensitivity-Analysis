@@ -2,7 +2,7 @@
 # 26 September 2017
 car <- read.csv(paste(getwd(), "/data/MengReview/PbandcsData_170926.csv", sep=""))
 pb <- car$delSOC1[! is.na(car$delSOC1)]
-cs <- car$delSOC2[! is.na(car$delSOC2) ]
+cs <- car$delSOC2[! is.na(car$delSOC2)]
 cs <- cs[cs <= 1500]
 
 par(mfrow=c(1,2))

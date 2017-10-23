@@ -96,7 +96,7 @@ p_accuracy <- function(input_matrix, input_areas) { # function for producer's ac
     }
     exp2 <- pa_output[j]^2 * sum(as.numeric(exp2_store))
     
-    
+     
     temp_var <- (1/Ndotj^2) * (exp1 + exp2)
     var <- c(var, temp_var)
   }

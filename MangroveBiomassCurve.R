@@ -8,7 +8,7 @@ convertBiomassUnits <- function(input_measurement, input_unit, c_conversion=0.42
   gPerMg = 1000000
   m2PerHa = 10000
   gPerKg = 1000
-  if (input_unit == "g_m2") { return(input_measurement) }
+  if (input_unit == "g_m2") { return(input_measurement * c_conversion) }
   else if (input_unit == "gC_m2") { return(input_measurement) }
   else if (input_unit == "MgC_ha") { return(input_measurement / m2PerHa * gPerMg) }
   else if (input_unit == "Mg_ha") { return(input_measurement * c_conversion / m2PerHa * gPerMg) }
