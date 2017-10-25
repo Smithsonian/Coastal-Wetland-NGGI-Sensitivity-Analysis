@@ -33,21 +33,25 @@ pal_lsd <- sd(pal$log.ch4_co2_eq)
 (exp(pal_lmean-pal_lse))
 
 
-par(mfrow=c(1,2), oma=c(3,3,3,0), mar=c(1,1,0,1))
+par(oma=c(3,3,3,0), mar=c(1.5,1.5,1.5,1.5))
 
-hist(est$ch4_co2_eq, probability = T, col="grey", xlab="", main="", breaks= 10)
+m <- matrix(c(1,2), nrow=1)
+layout(mat=m, widths = c(1,2))
+layout.show(n=2)
+
+hist(est$ch4_co2_eq, probability = T, col="grey", xlab="", main="Estuarine (>=5ppt)", breaks= 10)
 y_target <- seq(min(est$ch4_co2_eq), max(est$ch4_co2_eq), by=1)
 target_em <- dnorm(y_target, est_mean, est_sd)
-points(y_target, target_em, type="l", col="red", lwd=2)
+points(y_target, target_em, type="l", col=rgb(179,13,179, max=255), lwd=2)
 
 y_target <- seq(0, max(pal$ch4_co2_eq), by=1)
 log.y <- log(y_target)
 target_pal <- dlnorm(y_target, pal_lmean, pal_lsd)
-hist(pal$ch4_co2_eq, probability = T, col="grey", xlab="", main="", ylim=c(0, max(target_pal)), breaks = 10)
-points(y_target, target_pal, type="l", col="blue", lwd=2)
+hist(pal$ch4_co2_eq, probability = T, col="grey", xlab="", main="Palustrine (<5ppt)", ylim=c(0, max(target_pal)), breaks = 10)
+points(y_target, target_pal, type="l", col=rgb(243,13,243, max=255), lwd=2)
 
 mtext(expression(paste("Methane Emissions (gCH" [4], " m"^-2, " yr"^-1, "-CO" [2], " eq.",")")), side=1, line=1.5, outer = T)
-mtext("Knox's Methane Data (Est and Pal)", side=3, line=1.5, outer = T)
+mtext("Knox's Methane Data", side=3, line=1.5, outer = T)
 mtext("Neubauer's Conversion Factors", side=3, line=0.5, outer = T)
 
 mtext("Density", side=2, line=1.5, outer = T)

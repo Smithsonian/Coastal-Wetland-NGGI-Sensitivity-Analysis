@@ -533,7 +533,7 @@
 # Functions for Generating Soil CAR, Stock, Biomass, and CH4 Values
 {
   # Soil Carbon Accumulation Rate is log normally distributed because it can't be negative and has a long positive tail
-  generateLogNormalMeans <- function(x.n, x.log.mean, x.log.sd) { return(mean(rlnorm(x.n, x.log.mean, x.log.sd))) }
+  generateLogNormalMeans <- function(x.n, x.log.mean, x.log.sd) { return(exp(mean(log(rlnorm(x.n, x.log.mean, x.log.sd)))) ) }
   
   generateNormalMeans <- function(x.n, x.mean, x.sd) { return(mean(rnorm(x.n, x.mean, x.sd))) }
   
@@ -577,7 +577,7 @@
   soil.stocks.1 <- as.data.frame(t(as.matrix(cm.means)))
                                  
   storageAndEmissions.1 = data.frame(soil.burial = exp(pb.log.mean),
-                                     depth.invervals.lost = 10, fraction.loss = 0.625,
+                                     depth.intervals.lost = 10, fraction.loss = 0.625,
                                      biomass.em = exp(biomass.em.log.mean), biomass.ss = exp(biomass.ss.log.mean), biomass.fo = exp(biomass.fo.log.mean),
                                      methane.est = methane.est.mean, methane.pal = exp(methane.pal.log.mean)
                                      )
@@ -604,7 +604,7 @@
     if (! is.na(soilEmissionsFactor)) {
       soilEmissionsFactor <- soilEmissionsFactor
     } else { # if we don't generate one from the input tables
-      soilEmissionsFactor <- generateSoilEmissionsFactor(soil.stocks, storageAndEmissions$depth.invervals.lost[1])
+      soilEmissionsFactor <- generateSoilEmissionsFactor(soil.stocks, storageAndEmissions$depth.intervals.lost[1])
     }
     
     # for every class in estuarineMappedPixels and palustrineMappedPixels
@@ -739,11 +739,11 @@
     # random draws for soil carbon emissions/storage factors
     soil.burial.randomDraw <- generateLogNormalMeans(pb.n, pb.log.mean, pb.log.sd)
     
-    depth.invervals.lost.randomDraw <- generateDepthIntervalsLost()
+    depth.intervals.lost.randomDraw <- generateDepthIntervalsLost()
     
     soil.profiles.randomDraw <- generateSoilCarbonMassProfiles()
     soil.stocks.randomDraw <- as.data.frame(t(as.matrix(colMeans(soil.profiles.randomDraw, na.rm=T))))
-    soilEmissionsFactor.randomDraw <- generateSoilEmissionsFactor(soil.profiles.randomDraw, depth.invervals.lost.randomDraw)
+    soilEmissionsFactor.randomDraw <- generateSoilEmissionsFactor(soil.profiles.randomDraw, depth.intervals.lost.randomDraw)
     
     fraction.loss.randomDraw <- runif(1, 0.5, 0.75)
     
@@ -757,7 +757,7 @@
     methane.pal.randomDraw <- generateLogNormalMeans(methane.pal.n, methane.pal.log.mean, methane.pal.log.sd)
     
     storageAndEmissions.randomDraw = data.frame(soil.burial = soil.burial.randomDraw,
-                                       depth.invervals.lost = depth.invervals.lost.randomDraw, fraction.loss = fraction.loss.randomDraw,
+                                       depth.intervals.lost = depth.intervals.lost.randomDraw, fraction.loss = fraction.loss.randomDraw,
                                        biomass.em = biomass.em.randomDraw, biomass.ss = biomass.ss.randomDraw, biomass.fo = biomass.fo.randomDraw,
                                        methane.est = methane.est.randomDraw, methane.pal = methane.pal.randomDraw)
     
@@ -798,11 +798,11 @@
 }
 
 par(mfrow=c(1,1), mar=c(1,1,1,1), oma=c(3,3,3,0))
-hist(coastalNGGI.savedIterations$total.tonnes.CO2 / 1E6, main="", xlab="", breaks=40, col="grey", xlim=(quantile( (coastalNGGI.savedIterations$total.tonnes.CO2 / 1E6), c(0, 0.975))))
+hist(coastalNGGI.savedIterations$total.tonnes.CO2 / 1E6, main="", xlab="", breaks=40, col="grey")
 mtext(expression(paste("Million Tonnes CO"[2], " (- emission / + storage)")), side=1, line=1.5, outer=T)
 mtext("frequency", side=2, line=1.5, outer=T)
-mtext("Uncertainty Analysis", side=3, line=1.5, outer=T)
-mtext("(1,000 Simulations)", side=3, line=0.5, outer=T)
+mtext(paste("Uncertainty Analysis (", toString(n.iterations), " iterations)", sep=""), side=3, line=1.5, outer=T)
+mtext(expression(paste("All Coastal Wetlands - "^210, "Pb Carbon Burial")), side=3, line=0.5, outer=T)
 abline(v=0, lty=2, lwd=2, col="darkred")
 
 # Re-run The Inventory 1 input-variable at a time for the sensitivity analysis
@@ -1004,21 +1004,124 @@ abline(v=0, lty=2, lwd=2, col="darkred")
   
 }
 
+# Make plots to summarize the sensitivity analysis
+sensitivityAnalysisDF_topTen <- sensitivityAnalysisDF[1:10,]
+par(mar=c(4,9,3,1), oma=c(0,0,0,0))
+barplot(sensitivityAnalysisDF_topTen$effectTonnesCO2 * 1E-6, 
+        horiz = T, ylim=rev(c(1,12)), 
+        names.arg=sensitivityAnalysisDF_topTen$parameter,
+        xlab="",
+        main="Top 10 Uncertain Parameters (All Wetlands)",
+        las=1)
+mtext("Sensitivity of Total NGGI to Parameter", 1, line=2, outer=F)
+mtext(expression(paste("(Million Tonnes CO"[2], ")")), 1, line=3, outer=F)
+
 sensitivityAnalysisDF_topTwenty <- sensitivityAnalysisDF[1:20,]
 barplot(sensitivityAnalysisDF_topTwenty$effectTonnesCO2 * 1E-6, 
         horiz = T, ylim=rev(c(1,24)), 
         names.arg=sensitivityAnalysisDF_topTwenty$parameter,
         xlab="",
-        main="Top 20 Uncertain Parameters (Estuarine)",
+        main="Top 20 Uncertain Parameters (All Wetlands)",
         las=1)
 mtext("Sensitivity of Total NGGI to Parameter", 1, line=2, outer=F)
 mtext(expression(paste("(Million Tonnes CO"[2], ")")), 1, line=3, outer=F)
 
-# Run an alternate version of the sensitivity analysis where all palustrine mapped areas are 0
-# Re-run The Inventory 1 input-variable at a time for the sensitivity analysis
-
+# Run an alternate version of the uncertainty analysis where all palustrine mapped areas are 0
 palustrineMappedPixels.DummyVars <- palCcapClassDf
 palustrineMappedPixels.DummyVars["mappedPixelCount"] <- rep(0, nrow(palustrineMappedPixels.DummyVars))
+
+# Run 1000 Alt Version of the Uncertainty Analysis with only Estuarine Wetlands
+{
+  # Define the number of iterations
+  n.iterations = 1000
+  
+  # need a place to save the output files
+  
+  pb <- txtProgressBar(0, n.iterations) # establish progress bar
+  
+  # load estuarine mapped pixels
+  estuarineMappedPixels.fixedVariables <- estCcapClassDf # these are fixed variables so we use the same one every time
+  palustrineMappedPixels.randomDraw <- palustrineMappedPixels.DummyVars
+  
+  for (i in 1:n.iterations){
+    setTxtProgressBar(pb, i) # forward progress bar
+    
+    # Create Input Tables by randomly drawing from the data's probability distributions  
+    # random draws for area mapping
+    #palustrineMappedPixels.randomDraw <- generatePalustrineAreaTableBNA()
+    ccap2010perPixelScalers.randomDraw <- simulatePerPixelScalers(ccap_aa, ccap_area)
+    cncPerPixelScalers.randomDraw <- simulatePerPixelScalers(cnc_aa, cnc_area)
+    
+    # random draws for soil carbon emissions/storage factors
+    soil.burial.randomDraw <- generateLogNormalMeans(pb.n, pb.log.mean, pb.log.sd)
+    
+    depth.intervals.lost.randomDraw <- generateDepthIntervalsLost()
+    
+    soil.profiles.randomDraw <- generateSoilCarbonMassProfiles()
+    soil.stocks.randomDraw <- as.data.frame(t(as.matrix(colMeans(soil.profiles.randomDraw, na.rm=T))))
+    soilEmissionsFactor.randomDraw <- generateSoilEmissionsFactor(soil.profiles.randomDraw, depth.intervals.lost.randomDraw)
+    
+    fraction.loss.randomDraw <- runif(1, 0.5, 0.75)
+    
+    # random draws for biomass emissions/storage factors
+    biomass.em.randomDraw <- generateLogNormalMeans(biomass.em.n, biomass.em.log.mean, biomass.em.log.sd)
+    biomass.ss.randomDraw <- generateLogNormalMeans(biomass.ss.n, biomass.ss.log.mean, biomass.ss.log.sd)
+    biomass.fo.randomDraw <- generateLogNormalMeans(biomass.fo.n, biomass.fo.log.mean, biomass.fo.log.sd)
+    
+    # random draws for methane emissions factors
+    methane.est.randomDraw <- generateNormalMeans(methane.est.n, methane.est.mean, methane.est.sd)
+    methane.pal.randomDraw <- generateLogNormalMeans(methane.pal.n, methane.pal.log.mean, methane.pal.log.sd)
+    
+    storageAndEmissions.randomDraw = data.frame(soil.burial = soil.burial.randomDraw,
+                                                depth.intervals.lost = depth.intervals.lost.randomDraw, fraction.loss = fraction.loss.randomDraw,
+                                                biomass.em = biomass.em.randomDraw, biomass.ss = biomass.ss.randomDraw, biomass.fo = biomass.fo.randomDraw,
+                                                methane.est = methane.est.randomDraw, methane.pal = methane.pal.randomDraw)
+    
+    
+    # Run NGGI Function
+    coastalNGGI.randomDraw <- coastalNGGI(estuarineMappedPixels=estuarineMappedPixels.fixedVariables,
+                                          palustrineMappedPixels=palustrineMappedPixels.randomDraw,
+                                          ccap2010perPixelScalers=ccap2010perPixelScalers.randomDraw,
+                                          cncPerPixelScalers=cncPerPixelScalers.randomDraw,
+                                          soil.stocks=soil.stocks.randomDraw,
+                                          storageAndEmissions=storageAndEmissions.randomDraw,
+                                          soilEmissionsFactor=soilEmissionsFactor.randomDraw
+    )
+    
+    # if it's the first iteration establish the output data.tables
+    if (i == 1) {
+      palustrineMappedPixels.savedIterations <- as.data.frame(t(as.matrix(palustrineMappedPixels.randomDraw$mappedPixelCount)))
+      colnames(palustrineMappedPixels.savedIterations) <- palustrineMappedPixels.randomDraw$abbrev
+      ccap2010perPixelScalers.savedIterations <- ccap2010perPixelScalers.randomDraw
+      cncPerPixelScalers.savedIterations <- cncPerPixelScalers.randomDraw
+      soil.stocks.savedIterations <- soil.stocks.randomDraw
+      storageAndEmissions.savedIterations <- storageAndEmissions.randomDraw
+      soilEmissionsFactor.savedIterations <- c(soilEmissionsFactor.randomDraw)
+      
+      coastalNGGI.savedIterations <- coastalNGGI.randomDraw
+    } else { # if it's after one add the inputs and outputs as a row in the saved data frames
+      palustrineMappedPixels.savedIterations <- rbind(palustrineMappedPixels.savedIterations, palustrineMappedPixels.randomDraw$mappedPixelCount)
+      ccap2010perPixelScalers.savedIterations <- rbind(ccap2010perPixelScalers.savedIterations, ccap2010perPixelScalers.randomDraw)
+      cncPerPixelScalers.savedIterations <- rbind(cncPerPixelScalers.savedIterations, cncPerPixelScalers.randomDraw)
+      soil.stocks.savedIterations <- rbind(soil.stocks.savedIterations, soil.stocks.randomDraw)
+      storageAndEmissions.savedIterations <- rbind(storageAndEmissions.savedIterations, storageAndEmissions.randomDraw)
+      soilEmissionsFactor.savedIterations <- c(soilEmissionsFactor.savedIterations, soilEmissionsFactor.randomDraw)
+      
+      coastalNGGI.savedIterations <- rbind(coastalNGGI.savedIterations, coastalNGGI.randomDraw)
+    }
+    if (i == n.iterations) {print("Done!")}
+  }
+}
+
+par(mfrow=c(1,1), mar=c(1,1,1,1), oma=c(3,3,3,0))
+hist(coastalNGGI.savedIterations$total.tonnes.CO2 / 1E6, main="", xlab="", breaks=40, col="grey")
+mtext(expression(paste("Million Tonnes CO"[2], " (- emission / + storage)")), side=1, line=1.5, outer=T)
+mtext("frequency", side=2, line=1.5, outer=T)
+mtext(paste("Uncertainty Analysis (", toString(n.iterations), " iterations)", sep=""), side=3, line=1.5, outer=T)
+mtext(expression(paste("Estuarine Wetlands - "^210, "Pb Carbon Burial")), side=3, line=0.5, outer=T)
+abline(v=0, lty=2, lwd=2, col="darkred")
+
+# Re-run The Alternative Inventory 1 input-variable at a time for the sensitivity analysis
 { 
   # for all of the parameter (input) tables generate the median, and upper-lower (95% credible intervals)
   getColumnCIs <- function(input_df = palustrineMappedPixels.savedIterations) {
@@ -1215,6 +1318,7 @@ palustrineMappedPixels.DummyVars["mappedPixelCount"] <- rep(0, nrow(palustrineMa
 }
 
 # Make plots to summarize the sensitivity analysis
+# Make plots to summarize the sensitivity analysis
 sensitivityAnalysisDF_topTen <- sensitivityAnalysisDF[1:10,]
 par(mar=c(4,9,3,1), oma=c(0,0,0,0))
 barplot(sensitivityAnalysisDF_topTen$effectTonnesCO2 * 1E-6, 
@@ -1226,7 +1330,17 @@ barplot(sensitivityAnalysisDF_topTen$effectTonnesCO2 * 1E-6,
 mtext("Sensitivity of Total NGGI to Parameter", 1, line=2, outer=F)
 mtext(expression(paste("(Million Tonnes CO"[2], ")")), 1, line=3, outer=F)
 
-# Run 1000 Alt Version of the Uncertainty Analysis with only Estuarine Wetlands
+sensitivityAnalysisDF_topTwenty <- sensitivityAnalysisDF[1:20,]
+barplot(sensitivityAnalysisDF_topTwenty$effectTonnesCO2 * 1E-6, 
+        horiz = T, ylim=rev(c(1,24)), 
+        names.arg=sensitivityAnalysisDF_topTwenty$parameter,
+        xlab="",
+        main="Top 20 Uncertain Parameters (Estuarine)",
+        las=1)
+mtext("Sensitivity of Total NGGI to Parameter", 1, line=2, outer=F)
+mtext(expression(paste("(Million Tonnes CO"[2], ")")), 1, line=3, outer=F)
+
+# Run an alternate version of the estuarine inventory with cs-based CAR rather than pb-based
 {
   # Define the number of iterations
   n.iterations = 1000
@@ -1249,13 +1363,13 @@ mtext(expression(paste("(Million Tonnes CO"[2], ")")), 1, line=3, outer=F)
     cncPerPixelScalers.randomDraw <- simulatePerPixelScalers(cnc_aa, cnc_area)
     
     # random draws for soil carbon emissions/storage factors
-    soil.burial.randomDraw <- generateLogNormalMeans(pb.n, pb.log.mean, pb.log.sd)
+    soil.burial.randomDraw <- generateLogNormalMeans(cs.n, cs.log.mean, cs.log.sd)
     
-    depth.invervals.lost.randomDraw <- generateDepthIntervalsLost()
+    depth.intervals.lost.randomDraw <- generateDepthIntervalsLost()
     
     soil.profiles.randomDraw <- generateSoilCarbonMassProfiles()
     soil.stocks.randomDraw <- as.data.frame(t(as.matrix(colMeans(soil.profiles.randomDraw, na.rm=T))))
-    soilEmissionsFactor.randomDraw <- generateSoilEmissionsFactor(soil.profiles.randomDraw, depth.invervals.lost.randomDraw)
+    soilEmissionsFactor.randomDraw <- generateSoilEmissionsFactor(soil.profiles.randomDraw, depth.intervals.lost.randomDraw)
     
     fraction.loss.randomDraw <- runif(1, 0.5, 0.75)
     
@@ -1269,7 +1383,7 @@ mtext(expression(paste("(Million Tonnes CO"[2], ")")), 1, line=3, outer=F)
     methane.pal.randomDraw <- generateLogNormalMeans(methane.pal.n, methane.pal.log.mean, methane.pal.log.sd)
     
     storageAndEmissions.randomDraw = data.frame(soil.burial = soil.burial.randomDraw,
-                                                depth.invervals.lost = depth.invervals.lost.randomDraw, fraction.loss = fraction.loss.randomDraw,
+                                                depth.intervals.lost = depth.intervals.lost.randomDraw, fraction.loss = fraction.loss.randomDraw,
                                                 biomass.em = biomass.em.randomDraw, biomass.ss = biomass.ss.randomDraw, biomass.fo = biomass.fo.randomDraw,
                                                 methane.est = methane.est.randomDraw, methane.pal = methane.pal.randomDraw)
     
@@ -1308,215 +1422,11 @@ mtext(expression(paste("(Million Tonnes CO"[2], ")")), 1, line=3, outer=F)
     if (i == n.iterations) {print("Done!")}
   }
 }
-par(mfrow=c(1,1), mar=c(1,1,1,1), oma=c(3,3,3,0))
-hist(coastalNGGI.savedIterations$total.tonnes.CO2 / 1E6, main="", xlab="", breaks=40, col="grey", xlim=(quantile( (coastalNGGI.savedIterations$total.tonnes.CO2 / 1E6), c(0.001, 0.975))))
-mtext(expression(paste("Million Tonnes CO"[2], " (- emission / + storage)")), side=1, line=1.5, outer=T)
-mtext("frequency", side=2, line=1.5, outer=T)
-mtext("Uncertainty Analysis (Estuarine)", side=3, line=1.5, outer=T)
-mtext("(1,000 Simulations)", side=3, line=0.5, outer=T)
-abline(v=0, lty=2, lwd=2, col="darkred")
-
-# Run an alternate version of the estuarine inventory with cs-based CAR rather than pb-based
-{ 
-  # for all of the parameter (input) tables generate the median, and upper-lower (95% credible intervals)
-  getColumnCIs <- function(input_df = palustrineMappedPixels.savedIterations) {
-    for (i in 1:ncol(input_df)) {
-      CredibleIntervals <- quantile(input_df[,i], c(0.025, 0.5, 0.975)) 
-      if (i == 1) { output_df <- data.frame(CredibleIntervals) }
-      else { output_df <- cbind(output_df, CredibleIntervals) }
-    }
-    colnames(output_df) <- colnames(input_df)
-    return(output_df)
-  }
-  
-  ccap2010perPixelScalers.CIs <- getColumnCIs(ccap2010perPixelScalers.savedIterations)
-  cncPerPixelScalers.CIs <- getColumnCIs(cncPerPixelScalers.savedIterations)
-  soil.stocks.CIs <- getColumnCIs(soil.stocks.savedIterations)
-  storageAndEmissions.CIs <- getColumnCIs(storageAndEmissions.savedIterations) 
-  soilEmissionsFactor.CIs <- quantile(soilEmissionsFactor.savedIterations, c(0.025, 0.5, 0.975))
-  
-  parameterNameStore <- c() # empty vector to store parameter names
-  parameterTypeStore <- c() # empty vector to store parameter types
-  parameterEffectStore <- c() # empty vector to store 'effect' of parameter on overall total
-  
-  # iterate through each parameter table
-  # start with palustrineMappedPixels
-  for (i in 1:ncol(palustrineMappedPixels.DummyVars)) {
-    
-    # prep the input data tables
-    {
-      ## Inputs are mapped pixels, area scalers, and storage/emissions factors
-      #palustrineMappedMedians <- palustrineMappedPixels.DummyVars[2,]
-      # analyse min 
-      #palustrineMappedMins <- palustrineMappedMedians
-      #palustrineMappedMaxs <- palustrineMappedMedians
-      
-      #palustrineMappedMins[1,i] <- palustrineMappedPixels.CIs[1,i]
-      #palustrineMappedMaxs[1,i] <- palustrineMappedPixels.CIs[3,i]
-      
-      #palustrineMappedMinsTable <- palCcapClassDf
-      #palustrineMappedMinsTable["mappedPixelCount"] <- c(t(palustrineMappedMins[1,]))
-      
-      #palustrineMappedMaxsTable <- palCcapClassDf
-      #palustrineMappedMaxsTable["mappedPixelCount"] <- c(t(palustrineMappedMaxs[1,]))
-    }
-    minEstimate <- coastalNGGI(estuarineMappedPixels = estuarineMappedPixels.1, 
-                               palustrineMappedPixels = palustrineMappedPixels.DummyVars, 
-                               ccap2010perPixelScalers = ccap2010perPixelScalers.CIs[2,], 
-                               cncPerPixelScalers = cncPerPixelScalers.CIs[2,],
-                               soil.stocks = soil.stocks.CIs[2,],
-                               storageAndEmissions = storageAndEmissions.CIs[2,],
-                               soilEmissionsFactor=NA)
-    maxEstimate <- coastalNGGI(estuarineMappedPixels = estuarineMappedPixels.1, 
-                               palustrineMappedPixels = palustrineMappedPixels.DummyVars, 
-                               ccap2010perPixelScalers = ccap2010perPixelScalers.CIs[2,], 
-                               cncPerPixelScalers = cncPerPixelScalers.CIs[2,],
-                               soil.stocks = soil.stocks.CIs[2,],
-                               storageAndEmissions = storageAndEmissions.CIs[2,],
-                               soilEmissionsFactor=NA)
-    
-    parameterNameStore <- c(parameterNameStore, paste(palustrineMappedMaxsTable$abbrev[i], ".mappedArea", sep=""))
-    parameterTypeStore <- c(parameterTypeStore, "coastal.lands")
-    parameterEffectStore <- c(parameterEffectStore, abs(maxEstimate$total.tonnes.CO2 - minEstimate$total.tonnes.CO2))
-  }
-  
-  # the rest of the analyses will use this input table for palustrine pixel count
-  #palustrineMappedPixels.CIs.Med.Table <- palCcapClassDf
-  #palustrineMappedPixels.CIs.Med.Table["mappedPixelCount"] <- c(t(palustrineMappedPixels.CIs[2,]))
-  
-  # then move on to CCAP 2010 Class Accuracy
-  for (i in 1:ncol(ccap2010perPixelScalers.CIs)) {
-    ccap2010perPixelScalers.Mins <- ccap2010perPixelScalers.CIs[2,]
-    ccap2010perPixelScalers.Mins[1, i] <-  ccap2010perPixelScalers.CIs[1,i]
-    
-    ccap2010perPixelScalers.Maxs <- ccap2010perPixelScalers.CIs[2,]
-    ccap2010perPixelScalers.Maxs[1, i] <-  ccap2010perPixelScalers.CIs[3,i]
-    
-    minEstimate <- coastalNGGI(estuarineMappedPixels = estuarineMappedPixels.1, 
-                               palustrineMappedPixels = palustrineMappedPixels.DummyVars, 
-                               ccap2010perPixelScalers = ccap2010perPixelScalers.Mins, 
-                               cncPerPixelScalers = cncPerPixelScalers.CIs[2,],
-                               soil.stocks = soil.stocks.CIs[2,],
-                               storageAndEmissions = storageAndEmissions.CIs[2,],
-                               soilEmissionsFactor=NA)
-    
-    maxEstimate <- coastalNGGI(estuarineMappedPixels = estuarineMappedPixels.1, 
-                               palustrineMappedPixels = palustrineMappedPixels.DummyVars, 
-                               ccap2010perPixelScalers = ccap2010perPixelScalers.Maxs, 
-                               cncPerPixelScalers = cncPerPixelScalers.CIs[2,],
-                               soil.stocks = soil.stocks.CIs[2,],
-                               storageAndEmissions = storageAndEmissions.CIs[2,],
-                               soilEmissionsFactor=NA)
-    
-    parameterNameStore <- c(parameterNameStore, paste(colnames(ccap2010perPixelScalers.CIs)[i], ".Accuracy", sep=""))
-    parameterTypeStore <- c(parameterTypeStore, "CCAP")
-    parameterEffectStore <- c(parameterEffectStore, abs(maxEstimate$total.tonnes.CO2 - minEstimate$total.tonnes.CO2))
-    
-    
-  }
-  
-  # move on to CNC Accuracy
-  for (i in 1:ncol(cncPerPixelScalers.CIs)) {
-    
-    cncPerPixelScalers.Mins <- cncPerPixelScalers.CIs[2,]
-    cncPerPixelScalers.Mins[1, i] <- cncPerPixelScalers.CIs[1,i]
-    
-    cncPerPixelScalers.Maxs <- cncPerPixelScalers.CIs[2,]
-    cncPerPixelScalers.Maxs[1, i] <- cncPerPixelScalers.CIs[3,i]
-    
-    minEstimate <- coastalNGGI(estuarineMappedPixels = estuarineMappedPixels.1, 
-                               palustrineMappedPixels = palustrineMappedPixels.DummyVars, 
-                               ccap2010perPixelScalers = ccap2010perPixelScalers.CIs[2,], 
-                               cncPerPixelScalers = cncPerPixelScalers.Mins,
-                               soil.stocks = soil.stocks.CIs[2,],
-                               storageAndEmissions = storageAndEmissions.CIs[2,],
-                               soilEmissionsFactor=NA)
-    
-    maxEstimate <- coastalNGGI(estuarineMappedPixels = estuarineMappedPixels.1, 
-                               palustrineMappedPixels = palustrineMappedPixels.DummyVars, 
-                               ccap2010perPixelScalers = ccap2010perPixelScalers.CIs[2,], 
-                               cncPerPixelScalers = cncPerPixelScalers.Maxs,
-                               soil.stocks = soil.stocks.CIs[2,],
-                               storageAndEmissions = storageAndEmissions.CIs[2,],
-                               soilEmissionsFactor=NA)
-    
-    parameterNameStore <- c(parameterNameStore, paste(colnames(cncPerPixelScalers.CIs)[i], ".Accuracy", sep=""))
-    parameterTypeStore <- c(parameterTypeStore, "CCAP")
-    parameterEffectStore <- c(parameterEffectStore, abs(maxEstimate$total.tonnes.CO2 - minEstimate$total.tonnes.CO2))
-    
-    
-  }
-  
-  # move on to soil C stocks
-  for (i in 1:ncol(soil.stocks.CIs)) {
-    
-    soil.stocks.Mins <- soil.stocks.CIs[2,]
-    soil.stocks.Mins[1, i] <- soil.stocks.CIs[1,i]
-    
-    soil.stocks.Maxs <- soil.stocks.CIs[2,]
-    soil.stocks.Maxs[1, i] <- soil.stocks.CIs[3,i]
-    
-    minEstimate <- coastalNGGI(estuarineMappedPixels = estuarineMappedPixels.1, 
-                               palustrineMappedPixels = palustrineMappedPixels.DummyVars, 
-                               ccap2010perPixelScalers = ccap2010perPixelScalers.CIs[2,], 
-                               cncPerPixelScalers = cncPerPixelScalers.CIs[2,],
-                               soil.stocks = soil.stocks.Mins,
-                               storageAndEmissions = storageAndEmissions.CIs[2,],
-                               soilEmissionsFactor=NA)
-    
-    maxEstimate <- coastalNGGI(estuarineMappedPixels = estuarineMappedPixels.1, 
-                               palustrineMappedPixels = palustrineMappedPixels.DummyVars, 
-                               ccap2010perPixelScalers = ccap2010perPixelScalers.CIs[2,], 
-                               cncPerPixelScalers = cncPerPixelScalers.CIs[2,],
-                               soil.stocks = soil.stocks.Maxs,
-                               storageAndEmissions = storageAndEmissions.CIs[2,],
-                               soilEmissionsFactor=NA)
-    
-    parameterNameStore <- c(parameterNameStore, paste(colnames(soil.stocks.CIs)[i], sep=""))
-    parameterTypeStore <- c(parameterTypeStore, "burialAndEmissionFactors")
-    parameterEffectStore <- c(parameterEffectStore, abs(maxEstimate$total.tonnes.CO2 - minEstimate$total.tonnes.CO2))
-  }
-  
-  # move on to burial / emissions factors
-  for (i in 1:ncol(storageAndEmissions.CIs)) {
-    
-    storageAndEmissions.Mins <- storageAndEmissions.CIs[2,]
-    storageAndEmissions.Mins[1, i] <- storageAndEmissions.CIs[1,i]
-    
-    storageAndEmissions.Maxs <- storageAndEmissions.CIs[2,]
-    storageAndEmissions.Maxs[1, i] <- storageAndEmissions.CIs[3,i]
-    
-    minEstimate <- coastalNGGI(estuarineMappedPixels = estuarineMappedPixels.1, 
-                               palustrineMappedPixels = palustrineMappedPixels.DummyVars, 
-                               ccap2010perPixelScalers = ccap2010perPixelScalers.CIs[2,], 
-                               cncPerPixelScalers = cncPerPixelScalers.CIs[2,],
-                               soil.stocks = soil.stocks.CIs[2,],
-                               storageAndEmissions = storageAndEmissions.Mins,
-                               soilEmissionsFactor=NA)
-    
-    maxEstimate <- coastalNGGI(estuarineMappedPixels = estuarineMappedPixels.1, 
-                               palustrineMappedPixels = palustrineMappedPixels.DummyVars, 
-                               ccap2010perPixelScalers = ccap2010perPixelScalers.CIs[2,], 
-                               cncPerPixelScalers = cncPerPixelScalers.CIs[2,],
-                               soil.stocks = soil.stocks.CIs[2,],
-                               storageAndEmissions = storageAndEmissions.Maxs,
-                               soilEmissionsFactor=NA)
-    
-    parameterNameStore <- c(parameterNameStore, paste(colnames(storageAndEmissions.CIs)[i], sep=""))
-    parameterTypeStore <- c(parameterTypeStore, "burialAndEmissionFactors")
-    parameterEffectStore <- c(parameterEffectStore, abs(maxEstimate$total.tonnes.CO2 - minEstimate$total.tonnes.CO2))
-  }
-  
-  sensitivityAnalysisDF <- data.frame(parameter = parameterNameStore, type = parameterTypeStore, effectTonnesCO2 = parameterEffectStore)
-  sensitivityAnalysisDF <- sensitivityAnalysisDF[order(-sensitivityAnalysisDF$effectTonnesCO2), ]
-  
-}
 
 par(mfrow=c(1,1), mar=c(1,1,1,1), oma=c(3,3,3,0))
 hist(coastalNGGI.savedIterations$total.tonnes.CO2 / 1E6, main="", xlab="", breaks=40, col="grey")
 mtext(expression(paste("Million Tonnes CO"[2], " (- emission / + storage)")), side=1, line=1.5, outer=T)
 mtext("frequency", side=2, line=1.5, outer=T)
-mtext(expression(paste("Uncertainty Analysis [Estuarine; "^137, "Cs-based CAR]")), side=3, line=1.5, outer=T)
-mtext("(1,000 Simulations)", side=3, line=0.5, outer=T)
+mtext(paste("Uncertainty Analysis (", toString(n.iterations), " iterations)", sep=""), side=3, line=1.5, outer=T)
+mtext(expression(paste("Estuarine Wetlands - "^137, "Cs Carbon Burial")), side=3, line=0.5, outer=T)
 abline(v=0, lty=2, lwd=2, col="darkred")
-

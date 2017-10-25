@@ -71,36 +71,30 @@
 }
 
 # set up plot to have three columns
-par(mfrow=c(1,3), oma=c(3,3,3,0), mar=c(1,1,1,2))
+
+
+par(oma=c(3,3,0,0), mar=c(1.5,1.5,1.5,1.5))
+
+m <- matrix(c(1,2,3), nrow=1)
+layout(mat=m, widths = c(1,1, 3))
+layout.show(n=3)
+
 
 target_x <- seq(0.01, max(biomass.em.co2, biomass.ss.co2, mangrove.gCO2m2), by=5)
 d.y.em <- dlnorm(target_x, biomass.em.log.mean, biomass.em.log.sd)
 #em.density <- hist(biomass.em.co2, plot=F)$density
-hist(biomass.em.co2, col="grey", main=paste("Emergent (n=",biomass.em.n, ")", sep=""), ylim=c(0, max(d.y.em)), density = T)
 
+hist(biomass.em.co2, col="grey", main=paste("Emergent (n=",biomass.em.n, ")", sep=""), ylim=c(0, max(d.y.em)), probability=T, xlim=c(0,8500))
+points(target_x, d.y.em, col="green", type="l", lwd=2)
 
-hist(biomass.ss.co2, col="grey", main=paste("Scrub/Shrub (n=",biomass.ss.n, ")", sep=""), xlim=range(biomass.em.co2, biomass.ss.co2, mangrove.gCO2m2), plot=T)
-hist(mangrove.gCO2m2, col="grey", main=paste("Forested (n=",biomass.fo.n, ")", sep=""), xlim=range(biomass.em.co2, biomass.ss.co2, mangrove.gCO2m2))
+d.y.ss <- dlnorm(target_x, biomass.ss.log.mean, biomass.ss.log.sd)
+hist(biomass.ss.co2, col="grey", main=paste("Scrub/Shrub (n=",biomass.ss.n, ")", sep=""), probability = T,  xlim=c(0,8500))
+points(target_x, d.y.ss, col="forestgreen", type="l", lwd=2)
 
+d.y.fo <- dlnorm(target_x, biomass.fo.log.mean, biomass.fo.log.sd)
 
-# Prep the CAR Data 
-{
-  pb <- car$delSOC1[! is.na(car$delSOC1)]
-  cs <- car$delSOC2[! is.na(car$delSOC2)]
-  
-  # Variables for the CAR in gC per m2 per year
-  # Convert to gCO2 per m2 per year
-  cs <- cs * carbonToCO2
-  pb <- pb * carbonToCO2
-  
-  # in this case we're going with Cesium dated cores
-  # CAR is log normally distrbuted because it can't be negative and has a long tail
-  cs.n <- length(cs) 
-  cs.log.mean <- mean(log(cs))
-  cs.log.sd <- sd(log(cs))
-  
-  # We'll have these ready in case we change our minds
-  pb.n <- length(pb) 
-  pb.log.mean <- mean(log(pb))
-  pb.log.sd <- sd(log(pb))
-}
+hist(mangrove.gCO2m2, col="grey", main=paste("Forested (n=",biomass.fo.n, ")", sep=""), probability = T, ylim=c(0, max(d.y.fo)))
+points(target_x, d.y.fo, col="brown", type="l", lwd=2)
+
+mtext(expression(paste("Plant Biomass (gCO"[2], " m"^-2, ")")), side=1, line=1.5, outer=T)
+mtext("Density", side=2, line=1.5, outer=T)

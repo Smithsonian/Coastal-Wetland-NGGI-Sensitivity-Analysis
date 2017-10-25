@@ -3,7 +3,7 @@
 car <- read.csv(paste(getwd(), "/data/MengReview/PbandcsData_170926.csv", sep=""))
 pb <- car$delSOC1[! is.na(car$delSOC1)]
 cs <- car$delSOC2[! is.na(car$delSOC2)]
-cs <- cs[cs <= 1500]
+#cs <- cs[cs <= 1500]
 
 par(mfrow=c(1,2))
 
@@ -54,3 +54,25 @@ compounded_sd = sqrt((1 / 10) + (sd(log(pb))^2 / mean(log(pb))))
 (exp(compounded_mean))
 (exp(compounded_mean-compounded_sd))
 (exp(compounded_mean+compounded_sd))
+
+
+# Figure 2
+carbonToCO2 <- 3.666667
+pb <- pb * carbonToCO2
+cs <- cs * carbonToCO2
+
+target_x <- seq(1, max(c(cs, pb)), by=5)
+target_y1 <- dlnorm(target_x, mean(log(cs)), sd(log(cs)))
+target_y2 <- dlnorm(target_x, mean(log(pb)), sd(log(pb)))
+
+par(mfrow=c(1,2), oma=c(3,3,0,0), mar=c(1,1,1,1))
+
+hist(cs,breaks = seq(0,max(cs,pb) + 500, by=500), col="grey", xlab="", probability = T, main=expression(paste({}^137, "Cs")), ylim=c(0,max(target_y1)), xlim=range(cs,pb))
+points(target_x, target_y1, col="darkred", type="l", lwd=2)
+
+maxDpb <- max(hist(pb, plot=F, seq(0,max(cs,pb) + 500, by=500))$density)
+
+hist(pb, breaks = seq(0,max(cs,pb) + 500, by=500), col="grey", xlab="", probability = T, main=expression(paste({}^210, "Pb")), ylim=c(0, max(target_y2, maxDpb)), angle = -45, xlim=range(cs,pb))
+points(target_x, target_y2, col="darkblue", type="l", lwd=2)
+mtext(expression(paste("Carbon Burial Rate (gCO"[2], " m"^-2, "  yr"^-1, ")")), side=1, line=1.5, outer=T)
+mtext("Density", side=2, line=1.5, outer=T)
