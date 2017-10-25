@@ -187,7 +187,7 @@ simmulateCCAP <- simulateAA(ccap_aa)
 
 for (i in 1:1000) {
   simmulateCCAP <- simulateAA(ccap_aa)
-  simulatedAreas <- areaCorrections(simmulateCCAP, ccap_area)$estimatedArea
+  simulatedAreas <- areaCorrections(simmulateCCAP, ccap_area)$perPixelScaler
   if (i == 1){
     store_df <- data.frame(t(as.data.frame(simulatedAreas)), row.names = NULL)
     colnames(store_df) <- colnames(ccap_aa)
@@ -196,10 +196,28 @@ for (i in 1:1000) {
   }
 }
 
+for (i in 1:1000) {
+  simmulateCNC <- simulateAA(cnc_aa)
+  simulatedAreas <- areaCorrections(simmulateCNC, cnc_area)$perPixelScaler
+  if (i == 1){
+    store_df.2 <- data.frame(t(as.data.frame(simulatedAreas)), row.names = NULL)
+    colnames(store_df.2) <- colnames(cnc_aa)
+  } else {
+    store_df.2 <- rbind(store_df.2, simulatedAreas)
+  }
+}
+
 par(oma = c(3, 3, 3, 0), mfrow=c(5,5), mar=c(2,2,1,1))
 for (i in 1:length(classOrder)) {
   hist(c(store_df[,i]), col=ccapColVect[i], main=classOrder[i])
 }
-mtext("pixels (n)", side=1, outer=T, line=1.5)
+
+cncColors <- c("black", "red")
+for (i in 1:ncol(store_df.2)) {
+  hist(c(store_df.2[,i]), col=cncColors[i], main=paste("[",colnames(store_df.2)[i], "]", sep=""))
+}
+mtext("Estimated to Mapped Area (Ratio)", side=1, outer=T, line=1.5)
 mtext("frequency", side=2, outer=T, line=1.5)
 mtext("1,000 Iterations of Accuracy Assesment (multinomial distributions)", side=3, outer=2, line=1.5)
+
+
