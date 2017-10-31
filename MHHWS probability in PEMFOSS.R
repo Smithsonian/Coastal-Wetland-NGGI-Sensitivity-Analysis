@@ -37,6 +37,6 @@ plot(target_x.mha, target_y, type="l", xlab="Pixels (n)", ylab="probability dens
 axis(1)
 axis(2)
 #box()
-mtext("Area (ha)", side=1, line=1.5, outer=T)
+mtext("Area (million ha)", side=1, line=1.5, outer=T)
 mtext("Density", side=2, line=1.5, outer=T)
 mtext(expression(paste(mu, "=", sum(paste(n[i], phi[i]), paste("i=", 0), 1), "   ", sigma^2, "=",  sum(paste(n[i], phi[i], "(1-", phi[i],")"), paste("i=", 0), 1))), side=3, line=1.5)
