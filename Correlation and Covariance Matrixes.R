@@ -4,9 +4,10 @@ library(ggplot2)
 library(raster)
 library(wesanderson)
 library(gridBase)
+library(grid)
 
 # Soils table
-soils <- read.table(paste(getwd(), "/data/HolmquistSoilSynthesis/Cal_Val_Points_171016.txt", sep=""), header=T)
+soils <- read.table("data/HolmquistSoilSynthesis/Cal_Val_Points_171016.txt", header=T)
 
 # Define Important Conversion Factors
 {
@@ -106,23 +107,46 @@ for (x in c(1:15)) {
 cm.cov.df <- data.frame(x= cm.df.x, y=cm.df.y, z = cm.df.varCov)
 
 
-bp<-boxplot(soilCO2 ~ depth, data = cm_oneCol, col="lightblue", xlab="", axisnames = F, horizontal=T, axes = F, main=expression("soil depth increments"), space=0, xlim=c(15,1), xpd=F, outline=F, notch=T)
+par(mar=c(3,1,1,1), oma=c(0,3,0,0), family = 'Arial')
+plot.new()
+m <- matrix(c(1,3,2,3), nrow=2)
+layout(mat=m, widths = c(2,1,3))
+layout.show(n=3)
+
+
+bp<-boxplot(soilCO2 ~ depth, data = cm_oneCol, col="lightgrey", xlab="", axisnames = F, horizontal=T, axes = F, main="A. Medians and Quantiles", space=0, xlim=c(15,1), xpd=F, outline=F, notch=T)
 axis(1)
 axis(2, labels=rev(c("10", "20", "30", "40", "50", "60", "70", "80", "90", "100", "110", "120", "130", "140", "150")), at=rev(1:15))
 #box()
-mtext(expression("g Organic CO"[2]), side=1, line=2)
-mtext("Depth (cm)", side=2, outer = T)
+mtext(expression("g Organic CO"[2]), side=1, line=2.5)
+mtext("Depth (cm)", side=2, line = 2.5, outer = F)
 
-plot(x = cm.n[1:15], y = 1:15, ylim=rev(c(1,15)), type="l", lwd=2, xlab="n", ylab="depth increment (10 cm)")
+plot(x = cm.n[1:15], y = 1:15, ylim=rev(c(1,15)), type="l", lwd=2, main="B. Counts", xlab="", ylab="", axes=F, xpd=F)
+mtext("n", side=1, line=2.5)
+axis(1)
+axis(2, labels=rev(c("10", "20", "30", "40", "50", "60", "70", "80", "90", "100", "110", "120", "130", "140", "150")), at=rev(1:15))
 
-ggplot(data=cm.cov.df, aes(x,y,fill=sqrt(z))) +
+# define a GGPLO
+cov_matrix_ggplot <- ggplot(data=cm.cov.df, aes(x,y,fill=sqrt(z))) +
   geom_tile() +
-  scale_fill_gradientn(name=expression(sqrt("Variance-Covariance")), colours = rainbow(5)) + 
+  ggtitle("C. Variance-Covariance Matrix") +
+  scale_fill_gradient(name=expression(sqrt("Variance-Covariance")), low="lightyellow", high="black") + 
   scale_y_reverse() + 
   ylab("Depth Interval (10 cm)") +
   xlab("Depth Interval (10 cm)") +
-  theme_minimal() 
+  theme_minimal() +
+  theme(text=element_text(family="Arial"), plot.title = element_text(face="bold"))
 
+plot.new() # Reccomended to move onto the next plot
+vps <- baseViewports() # select viewports
+pushViewport(vps$figure) ##   I am in the space of the third plot plot
+vp1 <-plotViewport(c(0,0,1.5,0)) ## create new vp with margins, you play with this values 
+
+print(cov_matrix_ggplot, vp = vp1)
+
+
+
+# Correlation Matrix Plot
 cm.cor.df <- data.frame(x = cm.df.x, y = cm.df.y, z = cm.df.cor)
 
 ggplot(data=cm.cor.df, aes(x,y,fill=z)) +
@@ -132,29 +156,3 @@ ggplot(data=cm.cor.df, aes(x,y,fill=z)) +
 
 
 
-
-# say I would like to have my regular R graphic in top-right quadrant
-par(mfrow = c(2,2), mar=c(0,0,0,0), oma=c(0,0,0,0))
-
-# leave top-left quadrant empty!
-plot.new()
-
-# plot regular R graphic in top-right quadrant
-plot(seq(1:10), seq(1:10), pch = 20)
-
-
-# https://stackoverflow.com/questions/14124373/combine-base-and-ggplot-graphics-in-r-figure-window
-## the last one is the current plot
-plot.new()              ## suggested by @Josh
-vps <- baseViewports()
-pushViewport(vps$figure) ##   I am in the space of the autocorrelation plot
-vp1 <-plotViewport(c(1.8,1,0,1)) ## create new vp with margins, you play with this values 
-require(ggplot2)
-acz <- acf(y, plot=F)
-acd <- data.frame(lag=acz$lag, acf=acz$acf)
-p <- ggplot(acd, aes(lag, acf)) + geom_area(fill="grey") +
-  geom_hline(yintercept=c(0.05, -0.05), linetype="dashed") +
-  theme_bw()+labs(title= "Autocorrelation\n")+
-  ## some setting in the title to get something near to the other plots
-  theme(plot.title = element_text(size = rel(1.4),face ='bold'))
-print(p,vp = vp1)        ## suggested by @bpatiste

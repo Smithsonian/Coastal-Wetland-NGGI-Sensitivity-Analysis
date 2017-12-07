@@ -79,3 +79,25 @@ poly_x1 <- propegated.density[totalRange<mhhws_navd]
 poly_y2 <- c(poly_y1, rev(poly_y1))
 poly_x2 <- c(poly_x1, rep(0, length(poly_x1)))
 polygon(poly_x2, poly_y2, col="grey")
+
+
+# 
+par(mar=c(1,1,0,1), oma=c(3,3,0,0))
+m <- matrix(c(1:1), nrow=1)
+layout(mat=m)
+layout.show(n=1)
+
+plot(navd88_density, navd.y.1, type="l", axes=F, ylim=range(totalRange), lwd=2)
+#points(max(navd88_density),navd88, pch="-", cex=3)
+#points(max(navd88_density),corrected_navd88, pch="-", cex=3)
+#segments(max(navd88_density), navd88, max(navd88_density),corrected_navd88, lwd=1)
+#text(max(navd88_density-.5), navd88 + 0.20, "LiDAR Bias")
+
+axis(2)
+axis(1)
+abline(h=navd88, col="black", lty=1)
+abline(h=corrected_navd88, col="black", lty=2)
+mtext("Probability Density", side=1, line=1.5, outer=T)
+mtext("Elevation (m)", side=2, line=1.5, outer=T)
+
+
