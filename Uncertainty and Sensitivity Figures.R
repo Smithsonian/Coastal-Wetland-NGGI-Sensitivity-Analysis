@@ -1,6 +1,4 @@
 
-coastalNGGI.savedIterations <- read.csv("data/outputTables/MonteCarloResults1/coastalNGGI.savedIterations.csv")
-
 {
   classOrder <-c('High Intensity Developed', 'Medium Intensity Developed', 'Low Intensity Developed', 'Developed Open Space', 
                  'Cultivated', 'Pasture/Hay', 
@@ -72,12 +70,13 @@ coastalNGGI.savedIterations <- read.csv("data/outputTables/MonteCarloResults1/co
 }
 
 {
+  coastalNGGI.savedIterations <- read.csv("data/outputTables/MonteCarloResults1/coastalNGGI.savedIterations.csv")
   dev.off()
   pdf("figs/Uncertainty Analysis Pal Est Loss Stable Total SGWP.pdf", 4, 5)
   par(mfrow=c(1,1), mar=c(2,1,2,1), oma=c(3,3,0,0), family = "ArialMT")
   m <- matrix(c(1,3,5,2,4,5), ncol = 2)
   layout(mat=m)
-  layout.show(n=5)
+  #layout.show(n=5)
   
   est.loss.iter <- rowSums(coastalNGGI.savedIterations[est.loss.cats]) / 1E6
   est.stable.gain.iter <- rowSums(coastalNGGI.savedIterations[est.stable.gain.cats]) / 1E6
@@ -106,12 +105,6 @@ coastalNGGI.savedIterations <- read.csv("data/outputTables/MonteCarloResults1/co
   #mtext(expression(paste("All Coastal Wetlands - "^210, "Pb Carbon Burial")), side=3, line=0.5, outer=T)
   abline(v=0, lty=2, lwd=2, col="darkred")
   
-  outputSummaryData <- rbind(quantile(est.stable.gain.iter, c(0.025, 0.5, 0.975)),
-                             quantile(est.loss.iter, c(0.025, 0.5, 0.975)),
-                             quantile(pal.stable.gain.iter, c(0.025, 0.5, 0.975)),
-                             quantile(pal.loss.iter, c(0.025, 0.5, 0.975)),
-                             quantile(coastalNGGI.savedIterations$total.tonnes.CO2 / 1E6, c(0.025, 0.5, 0.975)))
-  row.names(outputSummaryData) <- c("est.stable.gain", "est.loss", "pas.stable.gain", "past.loss", "total")
   dev.off()
 }
 
@@ -144,4 +137,45 @@ coastalNGGI.savedIterations <- read.csv("data/outputTables/MonteCarloResults1/co
   mtext("Sensitivity of Total NGGI to Parameter", 1, line=2, outer=F)
   mtext(expression(paste("(Million Tonnes CO"[2], ")")), 1, line=3, outer=F)
   dev.off()
+}
+
+{
+  coastalNGGI.savedIterations.2 <- read.csv("data/outputTables/MonteCarloResults2/coastalNGGI.savedIterations.csv")
+  dev.off()
+  pdf("figs/Uncertainty Analysis Pal Est Loss Stable Total GWP.pdf", 4, 5)
+  par(mfrow=c(1,1), mar=c(2,1,2,1), oma=c(3,3,0,0), family = "ArialMT")
+  m <- matrix(c(1,3,5,2,4,5), ncol = 2)
+  layout(mat=m)
+  #layout.show(n=5)
+  
+  est.loss.iter.2 <- rowSums(coastalNGGI.savedIterations.2[est.loss.cats]) / 1E6
+  est.stable.gain.iter.2 <- rowSums(coastalNGGI.savedIterations.2[est.stable.gain.cats]) / 1E6
+  pal.loss.iter.2 <- rowSums(coastalNGGI.savedIterations.2[pal.loss.cats]) / 1E6
+  pal.stable.gain.iter.2 <- rowSums(coastalNGGI.savedIterations.2[pal.stable.gain.cats]) / 1E6
+  
+  hist.x.range.2 <- range(c(est.loss.iter.2, est.stable.gain.iter.2, pal.loss.iter.2, pal.stable.gain.iter.2))
+  
+  target_breaks <- seq(hist.x.range[1] - 3, hist.x.range[2] + 3, by = 5)
+  hist(est.stable.gain.iter.2, xlim=hist.x.range, main="Estuarine Stable/Gains", col="grey", breaks = target_breaks)
+  abline(v=0, lty=2, lwd=2, col="darkred")
+  hist(est.loss.iter.2, xlim=hist.x.range, main="Estuarine Losses", col="grey", breaks = target_breaks)
+  abline(v=0, lty=2, lwd=2, col="darkred")
+  hist(pal.stable.gain.iter.2, xlim=hist.x.range, main="Palustrine Stable/Gains", col="grey", breaks = target_breaks)
+  abline(v=0, lty=2, lwd=2, col="darkred")
+  hist(pal.loss.iter.2, xlim=hist.x.range, main="Palustrine Losses", col="grey", breaks = target_breaks)
+  abline(v=0, lty=2, lwd=2, col="darkred")
+  
+  hist.x.range.2 <- range(50, coastalNGGI.savedIterations.2$total.tonnes.CO2 / 1E6)
+  target_breaks <- seq(hist.x.range.2[1] - 2.5, hist.x.range.2[2] + 2.5, by = 5)
+  
+  hist(coastalNGGI.savedIterations$total.tonnes.CO2 / 1E6, main="Total Gains/Losses", xlab="", breaks=target_breaks, col="grey")
+  
+  mtext(expression(paste("Million Tonnes CO"[2], " (- emission / + storage)")), side=1, line=1.5, outer=T)
+  mtext("frequency", side=2, line=1.5, outer=T)
+  #mtext(paste("Uncertainty Analysis (", toString(n.iterations), " iterations)", sep=""), side=3, line=1.5, outer=T)
+  #mtext(expression(paste("All Coastal Wetlands - "^210, "Pb Carbon Burial")), side=3, line=0.5, outer=T)
+  abline(v=0, lty=2, lwd=2, col="darkred")
+  dev.off()
+  
+  
 }

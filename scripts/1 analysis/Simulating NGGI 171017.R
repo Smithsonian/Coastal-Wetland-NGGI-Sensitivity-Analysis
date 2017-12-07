@@ -844,6 +844,14 @@ set.seed(5) # set seed so that analyses are replicable
       write.table(coastalNGGI.savedIterations, "data/outputTables/MonteCarloResults1/coastalNGGI.savedIterations.csv", sep=",", row.names = F)
     }
   }
+  
+  outputSummaryData <- rbind(quantile(est.stable.gain.iter, c(0.025, 0.5, 0.975)),
+                             quantile(est.loss.iter, c(0.025, 0.5, 0.975)),
+                             quantile(pal.stable.gain.iter, c(0.025, 0.5, 0.975)),
+                             quantile(pal.loss.iter, c(0.025, 0.5, 0.975)),
+                             quantile(coastalNGGI.savedIterations$total.tonnes.CO2 / 1E6, c(0.025, 0.5, 0.975)))
+  row.names(outputSummaryData) <- c("est.stable.gain", "est.loss", "pas.stable.gain", "past.loss", "total")
+  
 }
 
 # Re-run The Inventory 1 input-variable at a time for the sensitivity analysis
@@ -1044,11 +1052,12 @@ set.seed(5) # set seed so that analyses are replicable
   
   sensitivityAnalysisDF <- data.frame(parameter = parameterNameStore, type = parameterTypeStore, effectTonnesCO2 = parameterEffectStore)
   sensitivityAnalysisDF <- sensitivityAnalysisDF[order(-sensitivityAnalysisDF$effectTonnesCO2), ]
+  
+  sensitivityAnalysisDF["effectMillionTonnesCO2"] <- round(sensitivityAnalysisDF$effectTonnesCO2 * 1E-6, 2)
+  View(sensitivityAnalysisDF)
+  write.table(sensitivityAnalysisDF, "data/outputTables/SensitivityAnalysisResults.csv", sep=",", row.names = F)
+  
 }
-
-sensitivityAnalysisDF["effectMillionTonnesCO2"] <- round(sensitivityAnalysisDF$effectTonnesCO2 * 1E-6, 2)
-View(sensitivityAnalysisDF)
-write.table(sensitivityAnalysisDF, "data/outputTables/SensitivityAnalysisResults.csv", sep=",", row.names = F)
 
 # Run an alternate version with Methane GWPs instead of SGWP/SGCPs
 # Run 1000 iterations of the Inventory with Varying Inputs for Uncertainty Analysis
@@ -1143,51 +1152,15 @@ write.table(sensitivityAnalysisDF, "data/outputTables/SensitivityAnalysisResults
       write.table(coastalNGGI.savedIterations, "data/outputTables/MonteCarloResults2/coastalNGGI.savedIterations.csv", sep=",", row.names = F)
     }
   }
+  
+  outputSummaryData.2 <- rbind(quantile(est.stable.gain.iter, c(0.025, 0.5, 0.975)),
+                               quantile(est.loss.iter, c(0.025, 0.5, 0.975)),
+                               quantile(pal.stable.gain.iter, c(0.025, 0.5, 0.975)),
+                               quantile(pal.loss.iter, c(0.025, 0.5, 0.975)),
+                               quantile(coastalNGGI.savedIterations$total.tonnes.CO2 / 1E6, c(0.025, 0.5, 0.975)))
+  row.names(outputSummaryData.2) <- c("est.stable.gain", "est.loss", "pas.stable.gain", "past.loss", "total")
+  
 }
-
-dev.off()
-pdf("figs/Uncertainty Analysis Pal Est Loss Stable Total GWP.pdf", 4, 5)
-par(mfrow=c(1,1), mar=c(2,1,2,1), oma=c(3,3,0,0), family = "ArialMT")
-m <- matrix(c(1,3,5,2,4,5), ncol = 2)
-layout(mat=m)
-#layout.show(n=5)
-
-est.loss.iter <- rowSums(coastalNGGI.savedIterations[est.loss.cats]) / 1E6
-est.stable.gain.iter <- rowSums(coastalNGGI.savedIterations[est.stable.gain.cats]) / 1E6
-pal.loss.iter <- rowSums(coastalNGGI.savedIterations[pal.loss.cats]) / 1E6
-pal.stable.gain.iter <- rowSums(coastalNGGI.savedIterations[pal.stable.gain.cats]) / 1E6
-
-hist.x.range <- range(c(est.loss.iter, est.stable.gain.iter, pal.loss.iter, pal.stable.gain.iter))
-
-target_breaks <- seq(hist.x.range[1] - 3, hist.x.range[2] + 3, by = 5)
-hist(est.stable.gain.iter, xlim=hist.x.range, main="Estuarine Stable/Gains", col="grey", breaks = target_breaks)
-abline(v=0, lty=2, lwd=2, col="darkred")
-hist(est.loss.iter, xlim=hist.x.range, main="Estuarine Losses", col="grey", breaks = target_breaks)
-abline(v=0, lty=2, lwd=2, col="darkred")
-hist(pal.stable.gain.iter, xlim=hist.x.range, main="Palustrine Stable/Gains", col="grey", breaks = target_breaks)
-abline(v=0, lty=2, lwd=2, col="darkred")
-hist(pal.loss.iter, xlim=hist.x.range, main="Palustrine Losses", col="grey", breaks = target_breaks)
-abline(v=0, lty=2, lwd=2, col="darkred")
-
-hist.x.range.2 <- range(50, coastalNGGI.savedIterations$total.tonnes.CO2 / 1E6)
-target_breaks <- seq(hist.x.range.2[1] - 2.5, hist.x.range.2[2] + 2.5, by = 5)
-
-hist(coastalNGGI.savedIterations$total.tonnes.CO2 / 1E6, main="Total Gains/Losses", xlab="", breaks=target_breaks, col="grey")
-
-mtext(expression(paste("Million Tonnes CO"[2], " (- emission / + storage)")), side=1, line=1.5, outer=T)
-mtext("frequency", side=2, line=1.5, outer=T)
-#mtext(paste("Uncertainty Analysis (", toString(n.iterations), " iterations)", sep=""), side=3, line=1.5, outer=T)
-#mtext(expression(paste("All Coastal Wetlands - "^210, "Pb Carbon Burial")), side=3, line=0.5, outer=T)
-abline(v=0, lty=2, lwd=2, col="darkred")
-dev.off()
-
-
-outputSummaryData.2 <- rbind(quantile(est.stable.gain.iter, c(0.025, 0.5, 0.975)),
-                           quantile(est.loss.iter, c(0.025, 0.5, 0.975)),
-                           quantile(pal.stable.gain.iter, c(0.025, 0.5, 0.975)),
-                           quantile(pal.loss.iter, c(0.025, 0.5, 0.975)),
-                           quantile(coastalNGGI.savedIterations$total.tonnes.CO2 / 1E6, c(0.025, 0.5, 0.975)))
-row.names(outputSummaryData.2) <- c("est.stable.gain", "est.loss", "pas.stable.gain", "past.loss", "total")
 
 # output quantile summary
 outputSummaryData <- cbind(outputSummaryData, outputSummaryData.2)
