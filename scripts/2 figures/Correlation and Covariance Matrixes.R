@@ -105,12 +105,14 @@ for (x in c(1:15)) {
 }
 
 cm.cov.df <- data.frame(x= cm.df.x, y=cm.df.y, z = cm.df.varCov)
+
 dev.off()
-pdf('figs/soilSpreadNvarCov.pdf', width=4.5, height=5)
 par(mar=c(3,1,1,1), oma=c(0,3,0,0), family = 'Arial')
 plot.new()
 m <- matrix(c(1,3,2,3), nrow=2)
 layout(mat=m, widths = c(2,1,3))
+
+
 #layout.show(n=3)
 
 
@@ -145,8 +147,6 @@ pushViewport(vps$figure) ##   I am in the space of the third plot plot
 vp1 <-plotViewport(c(0,0,1.5,0)) ## create new vp with margins, you play with this values 
 
 print(cov_matrix_ggplot, vp = vp1)
-
-
 
 # Correlation Matrix Plot
 cm.cor.df <- data.frame(x = cm.df.x, y = cm.df.y, z = cm.df.cor)
