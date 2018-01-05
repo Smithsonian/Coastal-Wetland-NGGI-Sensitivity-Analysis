@@ -1,30 +1,29 @@
 # this will simulate the NGGI Based on Available Data
-# load necessary packages 
-
 set.seed(5) # set seed so that analyses are replicable 
 
+# load necessary packages 
 {
   library(foreign) # to read .dbf files
   library(MASS) # to create multivariate normal distribution
 }
 
-# load files
+# load data files from data folder
 {
   # all CCAP data from 2006 to 2010 for getting estuarine subcategory pixel counts
-  ccap_fullTab <- read.dbf(paste(getwd(), "/data/WetlandArea/CCAP/AllStates2006to2010wGreatLakes_170720B.dbf", sep=""))
+  ccap_fullTab <- read.dbf("data/WetlandArea/CCAP/AllStates2006to2010wGreatLakes_170720B.dbf")
   
-  ccap_aa <- as.matrix(read.csv(paste(getwd(), "/data/WetlandArea/CCAP/2010Classes/CCAP2010AccuracyAssessment.csv", sep=""), row.names = 1))
-  ccap_tab <- read.csv(paste(getwd(), "/data/WetlandArea/CCAP/2010Classes/ccapPixelCounts.csv", sep=""))
+  ccap_aa <- as.matrix(read.csv("data/WetlandArea/CCAP/2010Classes/CCAP2010AccuracyAssessment.csv"), row.names = 1)
+  ccap_tab <- read.csv("data/WetlandArea/CCAP/2010Classes/ccapPixelCounts.csv")
   ccap_area <- ccap_tab$pixels
   
-  cnc_aa <- as.matrix(read.csv(paste(getwd(), "/data/WetlandArea/CCAP/CNC/CCAP06to10ChangeNoChangeAccuracyAssesment.csv", sep=""), row.names = 1))
-  cnc_tab <- read.csv(paste(getwd(), "/data/WetlandArea/CCAP/CNC/cncPixelCounts.csv", sep=""))
+  cnc_aa <- as.matrix(read.csv("data/WetlandArea/CCAP/CNC/CCAP06to10ChangeNoChangeAccuracyAssesment.csv"), row.names = 1)
+  cnc_tab <- read.csv("data/WetlandArea/CCAP/CNC/cncPixelCounts.csv")
   cnc_area <- cnc_tab$pixels
   
-  palustrineFilePath <- paste(getwd(), "/data/WetlandArea/Palustrine/PalustrinePixelCounts/_AllCONUS/tables", sep="")
+  palustrineFilePath <- "data/WetlandArea/Palustrine/PalustrinePixelCounts/_AllCONUS/tables"
   
   # Soils table
-  soils <- read.table(paste(getwd(), "/data/HolmquistSoilSynthesis/Cal_Val_Points_171016.txt", sep=""), header=T)
+  soils <- read.table("data/HolmquistSoilSynthesis/Cal_Val_Points_171016.txt", header=T)
   
   # create a table with all C mass values
   cmMatrix <- as.matrix(data.frame(CM000_010 = soils$vCM000_010, 
@@ -48,16 +47,19 @@ set.seed(5) # set seed so that analyses are replicable
                                    CM180_190 = soils$vCM180_190,
                                    CM190_200 = soils$vCM190_200))
   
-  # define Carbon Accumulation Rate Assumptions
-  car <- read.csv(paste(getwd(), "/data/MengReview/PbandcsData_170926.csv", sep=""))
+  # load CAR data
+  car <- read.csv("data/MengReview/PbandcsData_170926.csv")
   
-  kristinBiomass <- read.csv(paste(getwd(), "/data/Biomass/BiomassSamples.csv", sep=""))
+  # load K Byrd Biomass data
+  kristinBiomass <- read.csv("data/Biomass/BiomassSamples.csv")
   kristinBiomass <- subset(kristinBiomass, biomass_gm > 0)
   
-  mengBiomass <- read.csv(paste(getwd(), "/data/MengReview/mangroveAndMarshesABG.csv", sep=""))
+  # Load Meng and Blanca's Biomass Data
+  mengBiomass <- read.csv("data/MengReview/mangroveAndMarshesABG.csv")
   mangroveBiomass <- subset(mengBiomass , Ecosystem == "mangrove")
   
-  methane <- read.csv(paste(getwd(), "/data/Methane/Methane Synthesis Knox.csv", sep=""))
+  # Load Sara's Methane Data
+  methane <- read.csv("data/Methane/Methane Synthesis Knox.csv")
   names(methane) <- c("Site.Name", "Location", "Region", "Saliniity.class", "year", "Method", "Salinity.ppt", "CH4.flux", "Reference")
   
 }
@@ -121,7 +123,7 @@ set.seed(5) # set seed so that analyses are replicable
              'Snow/Ice'
              )
   
-  
+  # This loop creates a data frame determining which sub-categories are change / no.change events and which are estuarine and palustrine for uncertainty figure later on
   est.loss.cats <-c()
   est.stable.gain.cats <-c()
   pal.loss.cats <-c()
@@ -600,11 +602,17 @@ set.seed(5) # set seed so that analyses are replicable
 {
   # load estuarine mapped pixels
   estuarineMappedPixels.1 = estCcapClassDf
+  estuarineMappedPixels.1["mappedPixelCountSD"] <- rep(NA, nrow(estuarineMappedPixels.1))
   
   # get the average number of palustrine pixels
   palustrineMappedPixels.1 <- palCcapClassDf
   palustrineMappedPixels.1["mappedPixelCount"] <- as.integer(palustrineNormalApproximations$mu)
+  palustrineMappedPixels.1["mappedPixelCountSD"] <- as.integer(palustrineNormalApproximations$sigma)
   
+  # bind two tables and export for reporting purposes
+  totalMappedPixels.1 <- rbind(estuarineMappedPixels.1, palustrineMappedPixels.1)
+  totalMappedPixels.1 <- totalMappedPixels.1[order(-totalMappedPixels.1$mappedPixelCount), ]
+  write.table(totalMappedPixels.1, "data/outputTables/totalMappedPixels.csv", sep=",", row.names = F)
   ccap2010perPixelScalers.1 <- as.data.frame(t(as.matrix(areaCorrections(ccap_aa, ccap_area)$perPixelScaler)))
   names(ccap2010perPixelScalers.1) <- row.names(ccap_aa)
   
