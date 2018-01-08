@@ -51,6 +51,7 @@ cmMatrix <- as.matrix(data.frame(CM000_010 = soils$vCM000_010,
 cmMatrix <- cmMatrix * gramsPerKg * carbonToCO2
 cmMatrix[cmMatrix<0] <- 0
 
+
 depths_vect <-c()
 cm_vect <- c()
 
@@ -65,7 +66,12 @@ cm_oneCol <- data.frame(depth = depths_vect, soilCO2 = cm_vect)
 # get summary statistics for later
 cm.means <- colMeans(cmMatrix, na.rm=T)
 cm.n <- colSums(!is.na(cmMatrix))
+
+write.table(data.frame(gCO2perM2 = cm.means, n = cm.n), "data/outputTables/soilCnAndMeans.csv", sep=",", row.names = F)
+
+
 cm.cov <- cov(cmMatrix, use="complete.obs") # get covariance matrix
+write.table(as.data.frame(cm.cov), "data/outputTables/soilCO2VarCov.csv", sep=",")
 
 cm.cor <- cor(cmMatrix, use="complete.obs") # get correlation matrix
 
