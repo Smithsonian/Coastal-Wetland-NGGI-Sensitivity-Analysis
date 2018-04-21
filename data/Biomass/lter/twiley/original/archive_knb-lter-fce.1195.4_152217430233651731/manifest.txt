@@ -1,0 +1,5 @@
+Manifest file for archive_knb-lter-fce.1195.4_152217430233651731.zip created on Tue Mar 27 12:11:42 MDT 2018
+LT_PP_Castaneda_001.txt (667978 bytes)
+knb-lter-fce.1195.4.xml (64618 bytes)
+knb-lter-fce.1195.4.txt (14248 bytes)
+knb-lter-fce.1195.4.report.xml (24766 bytes)

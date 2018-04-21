@@ -1,241 +1,241 @@
-class_2006,abbrev_2006,class_2010,abbrev_2010,class,abbrev,variableType,mappedPixelCount,mappedPixelCountSD
-Estuarine Emergent Wetland,EEM,Estuarine Emergent Wetland,EEM,Estuarine Emergent Wetland to Estuarine Emergent Wetland,EEM_EEM,fixed,21035881,NA
-Palustrine Forested Wetland,PFW,Palustrine Forested Wetland,PFW,Palustrine Forested Wetland to Palustrine Forested Wetland,PFW_PFW,random,7643651,1332
-Palustrine Emergent Wetland,PEM,Palustrine Emergent Wetland,PEM,Palustrine Emergent Wetland to Palustrine Emergent Wetland,PEM_PEM,random,5320978,1017
-Estuarine Forested Wetland,EFW,Estuarine Forested Wetland,EFW,Estuarine Forested Wetland to Estuarine Forested Wetland,EFW_EFW,fixed,2201959,NA
-Palustrine Scrub/Shrub Wetland,PSS,Palustrine Scrub/Shrub Wetland,PSS,Palustrine Scrub/Shrub Wetland to Palustrine Scrub/Shrub Wetland,PSS_PSS,random,1114357,504
-Estuarine Scrub/Shrub Wetland,ESS,Estuarine Scrub/Shrub Wetland,ESS,Estuarine Scrub/Shrub Wetland to Estuarine Scrub/Shrub Wetland,ESS_ESS,fixed,1111724,NA
-Estuarine Emergent Wetland,EEM,Water,OW,Estuarine Emergent Wetland to Water,EEM_OW,fixed,425773,NA
-Palustrine Emergent Wetland,PEM,Water,OW,Palustrine Emergent Wetland to Water,PEM_OW,random,102454,108
-Water,OW,Palustrine Emergent Wetland,PEM,Water to Palustrine Emergent Wetland,OW_PEM,random,87426,84
-Water,OW,Estuarine Emergent Wetland,EEM,Water to Estuarine Emergent Wetland,OW_EEM,fixed,81553,NA
-Palustrine Forested Wetland,PFW,Palustrine Scrub/Shrub Wetland,PSS,Palustrine Forested Wetland to Palustrine Scrub/Shrub Wetland,PFW_PSS,random,72744,109
-Palustrine Forested Wetland,PFW,Palustrine Emergent Wetland,PEM,Palustrine Forested Wetland to Palustrine Emergent Wetland,PFW_PEM,random,35042,74
-Estuarine Emergent Wetland,EEM,Unconsolidated Shore,UCS,Estuarine Emergent Wetland to Unconsolidated Shore,EEM_UCS,fixed,31005,NA
-Estuarine Emergent Wetland,EEM,Estuarine Aquatic Bed,EAB,Estuarine Emergent Wetland to Estuarine Aquatic Bed,EEM_EAB,fixed,30082,NA
-Palustrine Emergent Wetland,PEM,Palustrine Scrub/Shrub Wetland,PSS,Palustrine Emergent Wetland to Palustrine Scrub/Shrub Wetland,PEM_PSS,random,25972,76
-Estuarine Scrub/Shrub Wetland,ESS,Scrub/Shrub,SS,Estuarine Scrub/Shrub Wetland to Scrub/Shrub,ESS_SS,fixed,23133,NA
-Unconsolidated Shore,UCS,Estuarine Emergent Wetland,EEM,Unconsolidated Shore to Estuarine Emergent Wetland,UCS_EEM,fixed,20418,NA
-Palustrine Scrub/Shrub Wetland,PSS,Palustrine Emergent Wetland,PEM,Palustrine Scrub/Shrub Wetland to Palustrine Emergent Wetland,PSS_PEM,random,17130,56
-Unconsolidated Shore,UCS,Palustrine Emergent Wetland,PEM,Unconsolidated Shore to Palustrine Emergent Wetland,UCS_PEM,random,15598,33
-Estuarine Forested Wetland,EFW,Estuarine Emergent Wetland,EEM,Estuarine Forested Wetland to Estuarine Emergent Wetland,EFW_EEM,fixed,14982,NA
-Estuarine Emergent Wetland,EEM,Bare Land,BAR,Estuarine Emergent Wetland to Bare Land,EEM_BAR,fixed,13319,NA
-Estuarine Forested Wetland,EFW,Evergreen Forest,EVR,Estuarine Forested Wetland to Evergreen Forest,EFW_EVR,fixed,12291,NA
-Palustrine Scrub/Shrub Wetland,PSS,Palustrine Forested Wetland,PFW,Palustrine Scrub/Shrub Wetland to Palustrine Forested Wetland,PSS_PFW,random,8884,51
-Bare Land,BAR,Estuarine Emergent Wetland,EEM,Bare Land to Estuarine Emergent Wetland,BAR_EEM,fixed,8574,NA
-Estuarine Scrub/Shrub Wetland,ESS,Estuarine Emergent Wetland,EEM,Estuarine Scrub/Shrub Wetland to Estuarine Emergent Wetland,ESS_EEM,fixed,7381,NA
-Estuarine Emergent Wetland,EEM,Evergreen Forest,EVR,Estuarine Emergent Wetland to Evergreen Forest,EEM_EVR,fixed,7298,NA
-Palustrine Aquatic Bed,PAB,Palustrine Emergent Wetland,PEM,Palustrine Aquatic Bed to Palustrine Emergent Wetland,PAB_PEM,random,7063,20
-Water,OW,Palustrine Scrub/Shrub Wetland,PSS,Water to Palustrine Scrub/Shrub Wetland,OW_PSS,random,6880,32
-Estuarine Emergent Wetland,EEM,Low Intensity Developed,LID,Estuarine Emergent Wetland to Low Intensity Developed,EEM_LID,fixed,6362,NA
-Estuarine Emergent Wetland,EEM,Developed Open Space,OSD,Estuarine Emergent Wetland to Developed Open Space,EEM_OSD,fixed,6182,NA
-Estuarine Forested Wetland,EFW,Water,OW,Estuarine Forested Wetland to Water,EFW_OW,fixed,5888,NA
-Estuarine Aquatic Bed,EAB,Estuarine Emergent Wetland,EEM,Estuarine Aquatic Bed to Estuarine Emergent Wetland,EAB_EEM,fixed,5704,NA
-Palustrine Emergent Wetland,PEM,Bare Land,BAR,Palustrine Emergent Wetland to Bare Land,PEM_BAR,random,5489,30
-Palustrine Forested Wetland,PFW,Bare Land,BAR,Palustrine Forested Wetland to Bare Land,PFW_BAR,random,5302,20
-Palustrine Forested Wetland,PFW,Water,OW,Palustrine Forested Wetland to Water,PFW_OW,random,4664,21
-Palustrine Emergent Wetland,PEM,Palustrine Aquatic Bed,PAB,Palustrine Emergent Wetland to Palustrine Aquatic Bed,PEM_PAB,random,4614,19
-Palustrine Scrub/Shrub Wetland,PSS,Water,OW,Palustrine Scrub/Shrub Wetland to Water,PSS_OW,random,4533,21
-Estuarine Emergent Wetland,EEM,Estuarine Scrub/Shrub Wetland,ESS,Estuarine Emergent Wetland to Estuarine Scrub/Shrub Wetland,EEM_ESS,fixed,4342,NA
-Estuarine Emergent Wetland,EEM,Medium Intensity Developed,MID,Estuarine Emergent Wetland to Medium Intensity Developed,EEM_MID,fixed,3893,NA
-Estuarine Forested Wetland,EFW,Estuarine Scrub/Shrub Wetland,ESS,Estuarine Forested Wetland to Estuarine Scrub/Shrub Wetland,EFW_ESS,fixed,3736,NA
-Palustrine Emergent Wetland,PEM,Unconsolidated Shore,UCS,Palustrine Emergent Wetland to Unconsolidated Shore,PEM_UCS,random,3598,17
-Pasture/Hay,PAST,Estuarine Emergent Wetland,EEM,Pasture/Hay to Estuarine Emergent Wetland,PAST_EEM,fixed,3560,NA
-Cultivated,CULT,Estuarine Emergent Wetland,EEM,Cultivated to Estuarine Emergent Wetland,CULT_EEM,fixed,2612,NA
-Palustrine Emergent Wetland,PEM,Palustrine Forested Wetland,PFW,Palustrine Emergent Wetland to Palustrine Forested Wetland,PEM_PFW,random,2094,16
-Cultivated,CULT,Palustrine Emergent Wetland,PEM,Cultivated to Palustrine Emergent Wetland,CULT_PEM,random,2033,4
-Estuarine Emergent Wetland,EEM,High Intensity Developed,HID,Estuarine Emergent Wetland to High Intensity Developed,EEM_HID,fixed,2006,NA
-Palustrine Emergent Wetland,PEM,Developed Open Space,OSD,Palustrine Emergent Wetland to Developed Open Space,PEM_OSD,random,1932,16
-Estuarine Scrub/Shrub Wetland,ESS,Estuarine Forested Wetland,EFW,Estuarine Scrub/Shrub Wetland to Estuarine Forested Wetland,ESS_EFW,fixed,1852,NA
-Palustrine Forested Wetland,PFW,Low Intensity Developed,LID,Palustrine Forested Wetland to Low Intensity Developed,PFW_LID,random,1817,17
-Cultivated,CULT,Palustrine Scrub/Shrub Wetland,PSS,Cultivated to Palustrine Scrub/Shrub Wetland,CULT_PSS,random,1800,13
-Estuarine Emergent Wetland,EEM,Grassland,GRS,Estuarine Emergent Wetland to Grassland,EEM_GRS,fixed,1785,NA
-Palustrine Forested Wetland,PFW,Developed Open Space,OSD,Palustrine Forested Wetland to Developed Open Space,PFW_OSD,random,1723,16
-Palustrine Emergent Wetland,PEM,Low Intensity Developed,LID,Palustrine Emergent Wetland to Low Intensity Developed,PEM_LID,random,1673,15
-Estuarine Scrub/Shrub Wetland,ESS,Water,OW,Estuarine Scrub/Shrub Wetland to Water,ESS_OW,fixed,1624,NA
-Bare Land,BAR,Palustrine Emergent Wetland,PEM,Bare Land to Palustrine Emergent Wetland,BAR_PEM,random,1402,14
-Palustrine Forested Wetland,PFW,Estuarine Aquatic Bed,EAB,Palustrine Forested Wetland to Estuarine Aquatic Bed,PFW_EAB,random,1369,6
-Palustrine Aquatic Bed,PAB,Palustrine Scrub/Shrub Wetland,PSS,Palustrine Aquatic Bed to Palustrine Scrub/Shrub Wetland,PAB_PSS,random,1240,11
-Palustrine Forested Wetland,PFW,Grassland,GRS,Palustrine Forested Wetland to Grassland,PFW_GRS,random,1239,7
-Palustrine Forested Wetland,PFW,Medium Intensity Developed,MID,Palustrine Forested Wetland to Medium Intensity Developed,PFW_MID,random,1209,13
-Palustrine Scrub/Shrub Wetland,PSS,Bare Land,BAR,Palustrine Scrub/Shrub Wetland to Bare Land,PSS_BAR,random,1124,11
-Palustrine Emergent Wetland,PEM,Medium Intensity Developed,MID,Palustrine Emergent Wetland to Medium Intensity Developed,PEM_MID,random,1050,11
-Low Intensity Developed,LID,Estuarine Emergent Wetland,EEM,Low Intensity Developed to Estuarine Emergent Wetland,LID_EEM,fixed,979,NA
-Grassland,GRS,Estuarine Emergent Wetland,EEM,Grassland to Estuarine Emergent Wetland,GRS_EEM,fixed,946,NA
-Palustrine Aquatic Bed,PAB,Palustrine Forested Wetland,PFW,Palustrine Aquatic Bed to Palustrine Forested Wetland,PAB_PFW,random,927,8
-Water,OW,Palustrine Forested Wetland,PFW,Water to Palustrine Forested Wetland,OW_PFW,random,883,10
-Estuarine Emergent Wetland,EEM,Cultivated,CULT,Estuarine Emergent Wetland to Cultivated,EEM_CULT,fixed,809,NA
-Estuarine Emergent Wetland,EEM,Estuarine Forested Wetland,EFW,Estuarine Emergent Wetland to Estuarine Forested Wetland,EEM_EFW,fixed,758,NA
-Bare Land,BAR,Estuarine Scrub/Shrub Wetland,ESS,Bare Land to Estuarine Scrub/Shrub Wetland,BAR_ESS,fixed,745,NA
-Estuarine Scrub/Shrub Wetland,ESS,Bare Land,BAR,Estuarine Scrub/Shrub Wetland to Bare Land,ESS_BAR,fixed,726,NA
-Palustrine Scrub/Shrub Wetland,PSS,Developed Open Space,OSD,Palustrine Scrub/Shrub Wetland to Developed Open Space,PSS_OSD,random,685,11
-Estuarine Forested Wetland,EFW,Low Intensity Developed,LID,Estuarine Forested Wetland to Low Intensity Developed,EFW_LID,fixed,676,NA
-Pasture/Hay,PAST,Palustrine Scrub/Shrub Wetland,PSS,Pasture/Hay to Palustrine Scrub/Shrub Wetland,PAST_PSS,random,670,6
-Pasture/Hay,PAST,Palustrine Emergent Wetland,PEM,Pasture/Hay to Palustrine Emergent Wetland,PAST_PEM,random,658,3
-Estuarine Scrub/Shrub Wetland,ESS,Low Intensity Developed,LID,Estuarine Scrub/Shrub Wetland to Low Intensity Developed,ESS_LID,fixed,628,NA
-Water,OW,Estuarine Scrub/Shrub Wetland,ESS,Water to Estuarine Scrub/Shrub Wetland,OW_ESS,fixed,622,NA
-Palustrine Emergent Wetland,PEM,Estuarine Emergent Wetland,EEM,Palustrine Emergent Wetland to Estuarine Emergent Wetland,PEM_EEM,fixed,573,NA
-Bare Land,BAR,Palustrine Scrub/Shrub Wetland,PSS,Bare Land to Palustrine Scrub/Shrub Wetland,BAR_PSS,random,541,6
-Palustrine Scrub/Shrub Wetland,PSS,Low Intensity Developed,LID,Palustrine Scrub/Shrub Wetland to Low Intensity Developed,PSS_LID,random,535,11
-Medium Intensity Developed,MID,Estuarine Emergent Wetland,EEM,Medium Intensity Developed to Estuarine Emergent Wetland,MID_EEM,fixed,529,NA
-Estuarine Scrub/Shrub Wetland,ESS,Developed Open Space,OSD,Estuarine Scrub/Shrub Wetland to Developed Open Space,ESS_OSD,fixed,517,NA
-Unconsolidated Shore,UCS,Palustrine Scrub/Shrub Wetland,PSS,Unconsolidated Shore to Palustrine Scrub/Shrub Wetland,UCS_PSS,random,499,6
-Palustrine Emergent Wetland,PEM,High Intensity Developed,HID,Palustrine Emergent Wetland to High Intensity Developed,PEM_HID,random,462,7
-Palustrine Forested Wetland,PFW,Estuarine Emergent Wetland,EEM,Palustrine Forested Wetland to Estuarine Emergent Wetland,PFW_EEM,fixed,454,NA
-Developed Open Space,OSD,Estuarine Emergent Wetland,EEM,Developed Open Space to Estuarine Emergent Wetland,OSD_EEM,fixed,447,NA
-Unconsolidated Shore,UCS,Palustrine Forested Wetland,PFW,Unconsolidated Shore to Palustrine Forested Wetland,UCS_PFW,random,442,7
-Estuarine Aquatic Bed,EAB,Estuarine Scrub/Shrub Wetland,ESS,Estuarine Aquatic Bed to Estuarine Scrub/Shrub Wetland,EAB_ESS,fixed,431,NA
-Cultivated,CULT,Palustrine Forested Wetland,PFW,Cultivated to Palustrine Forested Wetland,CULT_PFW,random,376,9
-Palustrine Forested Wetland,PFW,High Intensity Developed,HID,Palustrine Forested Wetland to High Intensity Developed,PFW_HID,random,375,6
-Estuarine Forested Wetland,EFW,Medium Intensity Developed,MID,Estuarine Forested Wetland to Medium Intensity Developed,EFW_MID,fixed,371,NA
-High Intensity Developed,HID,Estuarine Emergent Wetland,EEM,High Intensity Developed to Estuarine Emergent Wetland,HID_EEM,fixed,363,NA
-Estuarine Forested Wetland,EFW,Bare Land,BAR,Estuarine Forested Wetland to Bare Land,EFW_BAR,fixed,322,NA
-Palustrine Scrub/Shrub Wetland,PSS,Unconsolidated Shore,UCS,Palustrine Scrub/Shrub Wetland to Unconsolidated Shore,PSS_UCS,random,318,6
-Palustrine Emergent Wetland,PEM,Estuarine Aquatic Bed,EAB,Palustrine Emergent Wetland to Estuarine Aquatic Bed,PEM_EAB,random,318,2
-Estuarine Scrub/Shrub Wetland,ESS,Unconsolidated Shore,UCS,Estuarine Scrub/Shrub Wetland to Unconsolidated Shore,ESS_UCS,fixed,310,NA
-Pasture/Hay,PAST,Estuarine Scrub/Shrub Wetland,ESS,Pasture/Hay to Estuarine Scrub/Shrub Wetland,PAST_ESS,fixed,299,NA
-Palustrine Scrub/Shrub Wetland,PSS,Medium Intensity Developed,MID,Palustrine Scrub/Shrub Wetland to Medium Intensity Developed,PSS_MID,random,296,7
-Estuarine Scrub/Shrub Wetland,ESS,Medium Intensity Developed,MID,Estuarine Scrub/Shrub Wetland to Medium Intensity Developed,ESS_MID,fixed,261,NA
-Palustrine Scrub/Shrub Wetland,PSS,Grassland,GRS,Palustrine Scrub/Shrub Wetland to Grassland,PSS_GRS,random,252,3
-Palustrine Emergent Wetland,PEM,Cultivated,CULT,Palustrine Emergent Wetland to Cultivated,PEM_CULT,random,249,6
-Palustrine Scrub/Shrub Wetland,PSS,Estuarine Aquatic Bed,EAB,Palustrine Scrub/Shrub Wetland to Estuarine Aquatic Bed,PSS_EAB,random,242,2
-Deciduous Forest,DEC,Estuarine Emergent Wetland,EEM,Deciduous Forest to Estuarine Emergent Wetland,DEC_EEM,fixed,236,NA
-Palustrine Forested Wetland,PFW,Scrub/Shrub,SS,Palustrine Forested Wetland to Scrub/Shrub,PFW_SS,random,224,8
-Scrub/Shrub,SS,Estuarine Emergent Wetland,EEM,Scrub/Shrub to Estuarine Emergent Wetland,SS_EEM,fixed,220,NA
-Grassland,GRS,Palustrine Scrub/Shrub Wetland,PSS,Grassland to Palustrine Scrub/Shrub Wetland,GRS_PSS,random,207,3
-Palustrine Forested Wetland,PFW,Palustrine Aquatic Bed,PAB,Palustrine Forested Wetland to Palustrine Aquatic Bed,PFW_PAB,random,192,5
-Estuarine Forested Wetland,EFW,Scrub/Shrub,SS,Estuarine Forested Wetland to Scrub/Shrub,EFW_SS,fixed,190,NA
-Palustrine Forested Wetland,PFW,Estuarine Scrub/Shrub Wetland,ESS,Palustrine Forested Wetland to Estuarine Scrub/Shrub Wetland,PFW_ESS,fixed,187,NA
-Palustrine Forested Wetland,PFW,Cultivated,CULT,Palustrine Forested Wetland to Cultivated,PFW_CULT,random,186,6
-Estuarine Emergent Wetland,EEM,Palustrine Scrub/Shrub Wetland,PSS,Estuarine Emergent Wetland to Palustrine Scrub/Shrub Wetland,EEM_PSS,fixed,161,NA
-Low Intensity Developed,LID,Palustrine Emergent Wetland,PEM,Low Intensity Developed to Palustrine Emergent Wetland,LID_PEM,random,160,4
-Grassland,GRS,Palustrine Emergent Wetland,PEM,Grassland to Palustrine Emergent Wetland,GRS_PEM,random,155,5
-Evergreen Forest,EVR,Palustrine Forested Wetland,PFW,Evergreen Forest to Palustrine Forested Wetland,EVR_PFW,random,153,8
-Grassland,GRS,Estuarine Scrub/Shrub Wetland,ESS,Grassland to Estuarine Scrub/Shrub Wetland,GRS_ESS,fixed,151,NA
-Scrub/Shrub,SS,Estuarine Scrub/Shrub Wetland,ESS,Scrub/Shrub to Estuarine Scrub/Shrub Wetland,SS_ESS,fixed,139,NA
-Estuarine Scrub/Shrub Wetland,ESS,Evergreen Forest,EVR,Estuarine Scrub/Shrub Wetland to Evergreen Forest,ESS_EVR,fixed,139,NA
-Developed Open Space,OSD,Palustrine Scrub/Shrub Wetland,PSS,Developed Open Space to Palustrine Scrub/Shrub Wetland,OSD_PSS,random,134,4
-Estuarine Emergent Wetland,EEM,Palustrine Emergent Wetland,PEM,Estuarine Emergent Wetland to Palustrine Emergent Wetland,EEM_PEM,fixed,131,NA
-Palustrine Forested Wetland,PFW,Unconsolidated Shore,UCS,Palustrine Forested Wetland to Unconsolidated Shore,PFW_UCS,random,131,3
-Estuarine Forested Wetland,EFW,Developed Open Space,OSD,Estuarine Forested Wetland to Developed Open Space,EFW_OSD,fixed,122,NA
-Developed Open Space,OSD,Palustrine Emergent Wetland,PEM,Developed Open Space to Palustrine Emergent Wetland,OSD_PEM,random,122,5
-Estuarine Forested Wetland,EFW,High Intensity Developed,HID,Estuarine Forested Wetland to High Intensity Developed,EFW_HID,fixed,119,NA
-Deciduous Forest,DEC,Palustrine Forested Wetland,PFW,Deciduous Forest to Palustrine Forested Wetland,DEC_PFW,random,118,5
-Cultivated,CULT,Estuarine Scrub/Shrub Wetland,ESS,Cultivated to Estuarine Scrub/Shrub Wetland,CULT_ESS,fixed,115,NA
-Scrub/Shrub,SS,Palustrine Forested Wetland,PFW,Scrub/Shrub to Palustrine Forested Wetland,SS_PFW,random,109,6
-Estuarine Emergent Wetland,EEM,Palustrine Forested Wetland,PFW,Estuarine Emergent Wetland to Palustrine Forested Wetland,EEM_PFW,fixed,108,NA
-Estuarine Forested Wetland,EFW,Grassland,GRS,Estuarine Forested Wetland to Grassland,EFW_GRS,fixed,107,NA
-Palustrine Scrub/Shrub Wetland,PSS,High Intensity Developed,HID,Palustrine Scrub/Shrub Wetland to High Intensity Developed,PSS_HID,random,100,4
-Evergreen Forest,EVR,Palustrine Emergent Wetland,PEM,Evergreen Forest to Palustrine Emergent Wetland,EVR_PEM,random,97,3
-Unconsolidated Shore,UCS,Estuarine Scrub/Shrub Wetland,ESS,Unconsolidated Shore to Estuarine Scrub/Shrub Wetland,UCS_ESS,fixed,93,NA
-Palustrine Scrub/Shrub Wetland,PSS,Estuarine Emergent Wetland,EEM,Palustrine Scrub/Shrub Wetland to Estuarine Emergent Wetland,PSS_EEM,fixed,87,NA
-Bare Land,BAR,Palustrine Forested Wetland,PFW,Bare Land to Palustrine Forested Wetland,BAR_PFW,random,87,4
-Palustrine Emergent Wetland,PEM,Grassland,GRS,Palustrine Emergent Wetland to Grassland,PEM_GRS,random,77,1
-Evergreen Forest,EVR,Palustrine Scrub/Shrub Wetland,PSS,Evergreen Forest to Palustrine Scrub/Shrub Wetland,EVR_PSS,random,75,5
-Estuarine Emergent Wetland,EEM,Scrub/Shrub,SS,Estuarine Emergent Wetland to Scrub/Shrub,EEM_SS,fixed,74,NA
-Palustrine Emergent Wetland,PEM,Estuarine Scrub/Shrub Wetland,ESS,Palustrine Emergent Wetland to Estuarine Scrub/Shrub Wetland,PEM_ESS,fixed,72,NA
-Deciduous Forest,DEC,Palustrine Emergent Wetland,PEM,Deciduous Forest to Palustrine Emergent Wetland,DEC_PEM,random,72,2
-Developed Open Space,OSD,Palustrine Forested Wetland,PFW,Developed Open Space to Palustrine Forested Wetland,OSD_PFW,random,71,3
-Mixed Forest,MIX,Palustrine Scrub/Shrub Wetland,PSS,Mixed Forest to Palustrine Scrub/Shrub Wetland,MIX_PSS,random,71,4
-Grassland,GRS,Estuarine Forested Wetland,EFW,Grassland to Estuarine Forested Wetland,GRS_EFW,fixed,69,NA
-Low Intensity Developed,LID,Palustrine Forested Wetland,PFW,Low Intensity Developed to Palustrine Forested Wetland,LID_PFW,random,65,2
-Scrub/Shrub,SS,Palustrine Emergent Wetland,PEM,Scrub/Shrub to Palustrine Emergent Wetland,SS_PEM,random,64,4
-Estuarine Scrub/Shrub Wetland,ESS,Estuarine Aquatic Bed,EAB,Estuarine Scrub/Shrub Wetland to Estuarine Aquatic Bed,ESS_EAB,fixed,62,NA
-Estuarine Scrub/Shrub Wetland,ESS,High Intensity Developed,HID,Estuarine Scrub/Shrub Wetland to High Intensity Developed,ESS_HID,fixed,60,NA
-Estuarine Emergent Wetland,EEM,Pasture/Hay,PAST,Estuarine Emergent Wetland to Pasture/Hay,EEM_PAST,fixed,59,NA
-Grassland,GRS,Palustrine Forested Wetland,PFW,Grassland to Palustrine Forested Wetland,GRS_PFW,random,57,5
-Mixed Forest,MIX,Palustrine Emergent Wetland,PEM,Mixed Forest to Palustrine Emergent Wetland,MIX_PEM,random,57,3
-Low Intensity Developed,LID,Palustrine Scrub/Shrub Wetland,PSS,Low Intensity Developed to Palustrine Scrub/Shrub Wetland,LID_PSS,random,54,3
-Deciduous Forest,DEC,Palustrine Scrub/Shrub Wetland,PSS,Deciduous Forest to Palustrine Scrub/Shrub Wetland,DEC_PSS,random,52,3
-Palustrine Scrub/Shrub Wetland,PSS,Palustrine Aquatic Bed,PAB,Palustrine Scrub/Shrub Wetland to Palustrine Aquatic Bed,PSS_PAB,random,52,2
-Estuarine Scrub/Shrub Wetland,ESS,Grassland,GRS,Estuarine Scrub/Shrub Wetland to Grassland,ESS_GRS,fixed,46,NA
-Developed Open Space,OSD,Estuarine Scrub/Shrub Wetland,ESS,Developed Open Space to Estuarine Scrub/Shrub Wetland,OSD_ESS,fixed,44,NA
-Medium Intensity Developed,MID,Palustrine Emergent Wetland,PEM,Medium Intensity Developed to Palustrine Emergent Wetland,MID_PEM,random,44,2
-Evergreen Forest,EVR,Estuarine Emergent Wetland,EEM,Evergreen Forest to Estuarine Emergent Wetland,EVR_EEM,fixed,34,NA
-Mixed Forest,MIX,Palustrine Forested Wetland,PFW,Mixed Forest to Palustrine Forested Wetland,MIX_PFW,random,34,3
-Palustrine Scrub/Shrub Wetland,PSS,Cultivated,CULT,Palustrine Scrub/Shrub Wetland to Cultivated,PSS_CULT,random,33,3
-Palustrine Scrub/Shrub Wetland,PSS,Estuarine Scrub/Shrub Wetland,ESS,Palustrine Scrub/Shrub Wetland to Estuarine Scrub/Shrub Wetland,PSS_ESS,fixed,30,NA
-Pasture/Hay,PAST,Palustrine Forested Wetland,PFW,Pasture/Hay to Palustrine Forested Wetland,PAST_PFW,random,30,3
-Scrub/Shrub,SS,Palustrine Scrub/Shrub Wetland,PSS,Scrub/Shrub to Palustrine Scrub/Shrub Wetland,SS_PSS,random,25,2
-Palustrine Emergent Wetland,PEM,Pasture/Hay,PAST,Palustrine Emergent Wetland to Pasture/Hay,PEM_PAST,random,23,1
-Bare Land,BAR,Estuarine Forested Wetland,EFW,Bare Land to Estuarine Forested Wetland,BAR_EFW,fixed,22,NA
-Palustrine Forested Wetland,PFW,Pasture/Hay,PAST,Palustrine Forested Wetland to Pasture/Hay,PFW_PAST,random,22,2
-Low Intensity Developed,LID,Estuarine Scrub/Shrub Wetland,ESS,Low Intensity Developed to Estuarine Scrub/Shrub Wetland,LID_ESS,fixed,21,NA
-Estuarine Emergent Wetland,EEM,Deciduous Forest,DEC,Estuarine Emergent Wetland to Deciduous Forest,EEM_DEC,fixed,19,NA
-Estuarine Scrub/Shrub Wetland,ESS,Palustrine Forested Wetland,PFW,Estuarine Scrub/Shrub Wetland to Palustrine Forested Wetland,ESS_PFW,fixed,16,NA
-Palustrine Aquatic Bed,PAB,Estuarine Emergent Wetland,EEM,Palustrine Aquatic Bed to Estuarine Emergent Wetland,PAB_EEM,fixed,16,NA
-Scrub/Shrub,SS,Estuarine Forested Wetland,EFW,Scrub/Shrub to Estuarine Forested Wetland,SS_EFW,fixed,14,NA
-High Intensity Developed,HID,Palustrine Emergent Wetland,PEM,High Intensity Developed to Palustrine Emergent Wetland,HID_PEM,random,13,0
-Mixed Forest,MIX,Estuarine Scrub/Shrub Wetland,ESS,Mixed Forest to Estuarine Scrub/Shrub Wetland,MIX_ESS,fixed,11,NA
-Mixed Forest,MIX,Estuarine Emergent Wetland,EEM,Mixed Forest to Estuarine Emergent Wetland,MIX_EEM,fixed,11,NA
-Medium Intensity Developed,MID,Palustrine Scrub/Shrub Wetland,PSS,Medium Intensity Developed to Palustrine Scrub/Shrub Wetland,MID_PSS,random,11,0
-Estuarine Forested Wetland,EFW,Estuarine Aquatic Bed,EAB,Estuarine Forested Wetland to Estuarine Aquatic Bed,EFW_EAB,fixed,8,NA
-Palustrine Scrub/Shrub Wetland,PSS,Pasture/Hay,PAST,Palustrine Scrub/Shrub Wetland to Pasture/Hay,PSS_PAST,random,8,1
-Estuarine Scrub/Shrub Wetland,ESS,Palustrine Scrub/Shrub Wetland,PSS,Estuarine Scrub/Shrub Wetland to Palustrine Scrub/Shrub Wetland,ESS_PSS,fixed,7,NA
-Evergreen Forest,EVR,Estuarine Scrub/Shrub Wetland,ESS,Evergreen Forest to Estuarine Scrub/Shrub Wetland,EVR_ESS,fixed,6,NA
-Estuarine Forested Wetland,EFW,Unconsolidated Shore,UCS,Estuarine Forested Wetland to Unconsolidated Shore,EFW_UCS,fixed,6,NA
-Estuarine Scrub/Shrub Wetland,ESS,Cultivated,CULT,Estuarine Scrub/Shrub Wetland to Cultivated,ESS_CULT,fixed,6,NA
-Estuarine Scrub/Shrub Wetland,ESS,Palustrine Emergent Wetland,PEM,Estuarine Scrub/Shrub Wetland to Palustrine Emergent Wetland,ESS_PEM,fixed,6,NA
-Palustrine Emergent Wetland,PEM,Evergreen Forest,EVR,Palustrine Emergent Wetland to Evergreen Forest,PEM_EVR,random,6,1
-Estuarine Aquatic Bed,EAB,Palustrine Emergent Wetland,PEM,Estuarine Aquatic Bed to Palustrine Emergent Wetland,EAB_PEM,random,6,0
-Low Intensity Developed,LID,Estuarine Forested Wetland,EFW,Low Intensity Developed to Estuarine Forested Wetland,LID_EFW,fixed,5,NA
-Developed Open Space,OSD,Estuarine Forested Wetland,EFW,Developed Open Space to Estuarine Forested Wetland,OSD_EFW,fixed,5,NA
-Unconsolidated Shore,UCS,Estuarine Forested Wetland,EFW,Unconsolidated Shore to Estuarine Forested Wetland,UCS_EFW,fixed,4,NA
-Palustrine Forested Wetland,PFW,Evergreen Forest,EVR,Palustrine Forested Wetland to Evergreen Forest,PFW_EVR,random,4,1
-Palustrine Emergent Wetland,PEM,Scrub/Shrub,SS,Palustrine Emergent Wetland to Scrub/Shrub,PEM_SS,random,4,1
-High Intensity Developed,HID,Estuarine Forested Wetland,EFW,High Intensity Developed to Estuarine Forested Wetland,HID_EFW,fixed,3,NA
-Medium Intensity Developed,MID,Estuarine Scrub/Shrub Wetland,ESS,Medium Intensity Developed to Estuarine Scrub/Shrub Wetland,MID_ESS,fixed,3,NA
-Estuarine Forested Wetland,EFW,Palustrine Emergent Wetland,PEM,Estuarine Forested Wetland to Palustrine Emergent Wetland,EFW_PEM,fixed,2,NA
-High Intensity Developed,HID,Palustrine Scrub/Shrub Wetland,PSS,High Intensity Developed to Palustrine Scrub/Shrub Wetland,HID_PSS,random,2,0
-Medium Intensity Developed,MID,Palustrine Forested Wetland,PFW,Medium Intensity Developed to Palustrine Forested Wetland,MID_PFW,random,2,0
-Palustrine Scrub/Shrub Wetland,PSS,Evergreen Forest,EVR,Palustrine Scrub/Shrub Wetland to Evergreen Forest,PSS_EVR,random,2,1
-Palustrine Emergent Wetland,PEM,Deciduous Forest,DEC,Palustrine Emergent Wetland to Deciduous Forest,PEM_DEC,random,2,0
-High Intensity Developed,HID,Estuarine Scrub/Shrub Wetland,ESS,High Intensity Developed to Estuarine Scrub/Shrub Wetland,HID_ESS,fixed,1,NA
-Medium Intensity Developed,MID,Estuarine Forested Wetland,EFW,Medium Intensity Developed to Estuarine Forested Wetland,MID_EFW,fixed,1,NA
-Cultivated,CULT,Estuarine Forested Wetland,EFW,Cultivated to Estuarine Forested Wetland,CULT_EFW,fixed,1,NA
-Estuarine Forested Wetland,EFW,Palustrine Scrub/Shrub Wetland,PSS,Estuarine Forested Wetland to Palustrine Scrub/Shrub Wetland,EFW_PSS,fixed,1,NA
-Estuarine Scrub/Shrub Wetland,ESS,Pasture/Hay,PAST,Estuarine Scrub/Shrub Wetland to Pasture/Hay,ESS_PAST,fixed,1,NA
-Estuarine Emergent Wetland,EEM,Mixed Forest,MIX,Estuarine Emergent Wetland to Mixed Forest,EEM_MIX,fixed,1,NA
-Palustrine Forested Wetland,PFW,Mixed Forest,MIX,Palustrine Forested Wetland to Mixed Forest,PFW_MIX,random,1,1
-Palustrine Scrub/Shrub Wetland,PSS,Scrub/Shrub,SS,Palustrine Scrub/Shrub Wetland to Scrub/Shrub,PSS_SS,random,1,0
-Pasture/Hay,PAST,Estuarine Forested Wetland,EFW,Pasture/Hay to Estuarine Forested Wetland,PAST_EFW,fixed,0,NA
-Deciduous Forest,DEC,Estuarine Forested Wetland,EFW,Deciduous Forest to Estuarine Forested Wetland,DEC_EFW,fixed,0,NA
-Deciduous Forest,DEC,Estuarine Scrub/Shrub Wetland,ESS,Deciduous Forest to Estuarine Scrub/Shrub Wetland,DEC_ESS,fixed,0,NA
-Evergreen Forest,EVR,Estuarine Forested Wetland,EFW,Evergreen Forest to Estuarine Forested Wetland,EVR_EFW,fixed,0,NA
-Mixed Forest,MIX,Estuarine Forested Wetland,EFW,Mixed Forest to Estuarine Forested Wetland,MIX_EFW,fixed,0,NA
-Palustrine Forested Wetland,PFW,Estuarine Forested Wetland,EFW,Palustrine Forested Wetland to Estuarine Forested Wetland,PFW_EFW,fixed,0,NA
-Palustrine Scrub/Shrub Wetland,PSS,Estuarine Forested Wetland,EFW,Palustrine Scrub/Shrub Wetland to Estuarine Forested Wetland,PSS_EFW,fixed,0,NA
-Palustrine Emergent Wetland,PEM,Estuarine Forested Wetland,EFW,Palustrine Emergent Wetland to Estuarine Forested Wetland,PEM_EFW,fixed,0,NA
-Estuarine Forested Wetland,EFW,Cultivated,CULT,Estuarine Forested Wetland to Cultivated,EFW_CULT,fixed,0,NA
-Estuarine Forested Wetland,EFW,Pasture/Hay,PAST,Estuarine Forested Wetland to Pasture/Hay,EFW_PAST,fixed,0,NA
-Estuarine Forested Wetland,EFW,Deciduous Forest,DEC,Estuarine Forested Wetland to Deciduous Forest,EFW_DEC,fixed,0,NA
-Estuarine Forested Wetland,EFW,Mixed Forest,MIX,Estuarine Forested Wetland to Mixed Forest,EFW_MIX,fixed,0,NA
-Estuarine Forested Wetland,EFW,Palustrine Forested Wetland,PFW,Estuarine Forested Wetland to Palustrine Forested Wetland,EFW_PFW,fixed,0,NA
-Estuarine Forested Wetland,EFW,Palustrine Aquatic Bed,PAB,Estuarine Forested Wetland to Palustrine Aquatic Bed,EFW_PAB,fixed,0,NA
-Estuarine Forested Wetland,EFW,Snow/Ice,SNOW,Estuarine Forested Wetland to Snow/Ice,EFW_SNOW,fixed,0,NA
-Estuarine Scrub/Shrub Wetland,ESS,Deciduous Forest,DEC,Estuarine Scrub/Shrub Wetland to Deciduous Forest,ESS_DEC,fixed,0,NA
-Estuarine Scrub/Shrub Wetland,ESS,Mixed Forest,MIX,Estuarine Scrub/Shrub Wetland to Mixed Forest,ESS_MIX,fixed,0,NA
-Estuarine Scrub/Shrub Wetland,ESS,Palustrine Aquatic Bed,PAB,Estuarine Scrub/Shrub Wetland to Palustrine Aquatic Bed,ESS_PAB,fixed,0,NA
-Estuarine Scrub/Shrub Wetland,ESS,Snow/Ice,SNOW,Estuarine Scrub/Shrub Wetland to Snow/Ice,ESS_SNOW,fixed,0,NA
-Estuarine Emergent Wetland,EEM,Palustrine Aquatic Bed,PAB,Estuarine Emergent Wetland to Palustrine Aquatic Bed,EEM_PAB,fixed,0,NA
-Estuarine Emergent Wetland,EEM,Snow/Ice,SNOW,Estuarine Emergent Wetland to Snow/Ice,EEM_SNOW,fixed,0,NA
-Water,OW,Estuarine Forested Wetland,EFW,Water to Estuarine Forested Wetland,OW_EFW,fixed,0,NA
-Palustrine Aquatic Bed,PAB,Estuarine Forested Wetland,EFW,Palustrine Aquatic Bed to Estuarine Forested Wetland,PAB_EFW,fixed,0,NA
-Palustrine Aquatic Bed,PAB,Estuarine Scrub/Shrub Wetland,ESS,Palustrine Aquatic Bed to Estuarine Scrub/Shrub Wetland,PAB_ESS,fixed,0,NA
-Estuarine Aquatic Bed,EAB,Estuarine Forested Wetland,EFW,Estuarine Aquatic Bed to Estuarine Forested Wetland,EAB_EFW,fixed,0,NA
-Snow/Ice,SNOW,Estuarine Forested Wetland,EFW,Snow/Ice to Estuarine Forested Wetland,SNOW_EFW,fixed,0,NA
-Snow/Ice,SNOW,Estuarine Scrub/Shrub Wetland,ESS,Snow/Ice to Estuarine Scrub/Shrub Wetland,SNOW_ESS,fixed,0,NA
-Snow/Ice,SNOW,Estuarine Emergent Wetland,EEM,Snow/Ice to Estuarine Emergent Wetland,SNOW_EEM,fixed,0,NA
-High Intensity Developed,HID,Palustrine Forested Wetland,PFW,High Intensity Developed to Palustrine Forested Wetland,HID_PFW,random,0,0
-Palustrine Forested Wetland,PFW,Deciduous Forest,DEC,Palustrine Forested Wetland to Deciduous Forest,PFW_DEC,random,0,0
-Palustrine Forested Wetland,PFW,Snow/Ice,SNOW,Palustrine Forested Wetland to Snow/Ice,PFW_SNOW,random,0,0
-Palustrine Scrub/Shrub Wetland,PSS,Deciduous Forest,DEC,Palustrine Scrub/Shrub Wetland to Deciduous Forest,PSS_DEC,random,0,0
-Palustrine Scrub/Shrub Wetland,PSS,Mixed Forest,MIX,Palustrine Scrub/Shrub Wetland to Mixed Forest,PSS_MIX,random,0,0
-Palustrine Scrub/Shrub Wetland,PSS,Snow/Ice,SNOW,Palustrine Scrub/Shrub Wetland to Snow/Ice,PSS_SNOW,random,0,0
-Palustrine Emergent Wetland,PEM,Mixed Forest,MIX,Palustrine Emergent Wetland to Mixed Forest,PEM_MIX,random,0,0
-Palustrine Emergent Wetland,PEM,Snow/Ice,SNOW,Palustrine Emergent Wetland to Snow/Ice,PEM_SNOW,random,0,0
-Estuarine Aquatic Bed,EAB,Palustrine Forested Wetland,PFW,Estuarine Aquatic Bed to Palustrine Forested Wetland,EAB_PFW,random,0,0
-Estuarine Aquatic Bed,EAB,Palustrine Scrub/Shrub Wetland,PSS,Estuarine Aquatic Bed to Palustrine Scrub/Shrub Wetland,EAB_PSS,random,0,0
-Snow/Ice,SNOW,Palustrine Forested Wetland,PFW,Snow/Ice to Palustrine Forested Wetland,SNOW_PFW,random,0,0
-Snow/Ice,SNOW,Palustrine Scrub/Shrub Wetland,PSS,Snow/Ice to Palustrine Scrub/Shrub Wetland,SNOW_PSS,random,0,0
-Snow/Ice,SNOW,Palustrine Emergent Wetland,PEM,Snow/Ice to Palustrine Emergent Wetland,SNOW_PEM,random,0,0
+"class_2006","abbrev_2006","class_2010","abbrev_2010","class","abbrev","variableType","mappedPixelCount","mappedPixelCountSD"
+"Estuarine Emergent Wetland","EEM","Estuarine Emergent Wetland","EEM","Estuarine Emergent Wetland to Estuarine Emergent Wetland","EEM_EEM","fixed",21035881,NA
+"Estuarine Forested Wetland","EFW","Estuarine Forested Wetland","EFW","Estuarine Forested Wetland to Estuarine Forested Wetland","EFW_EFW","fixed",2201959,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Estuarine Scrub/Shrub Wetland","ESS","Estuarine Scrub/Shrub Wetland to Estuarine Scrub/Shrub Wetland","ESS_ESS","fixed",1111724,NA
+"Estuarine Emergent Wetland","EEM","Water","OW","Estuarine Emergent Wetland to Water","EEM_OW","fixed",425773,NA
+"Water","OW","Estuarine Emergent Wetland","EEM","Water to Estuarine Emergent Wetland","OW_EEM","fixed",81553,NA
+"Estuarine Emergent Wetland","EEM","Unconsolidated Shore","UCS","Estuarine Emergent Wetland to Unconsolidated Shore","EEM_UCS","fixed",31005,NA
+"Estuarine Emergent Wetland","EEM","Estuarine Aquatic Bed","EAB","Estuarine Emergent Wetland to Estuarine Aquatic Bed","EEM_EAB","fixed",30082,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Scrub/Shrub","SS","Estuarine Scrub/Shrub Wetland to Scrub/Shrub","ESS_SS","fixed",23133,NA
+"Unconsolidated Shore","UCS","Estuarine Emergent Wetland","EEM","Unconsolidated Shore to Estuarine Emergent Wetland","UCS_EEM","fixed",20418,NA
+"Estuarine Forested Wetland","EFW","Estuarine Emergent Wetland","EEM","Estuarine Forested Wetland to Estuarine Emergent Wetland","EFW_EEM","fixed",14982,NA
+"Estuarine Emergent Wetland","EEM","Bare Land","BAR","Estuarine Emergent Wetland to Bare Land","EEM_BAR","fixed",13319,NA
+"Estuarine Forested Wetland","EFW","Evergreen Forest","EVR","Estuarine Forested Wetland to Evergreen Forest","EFW_EVR","fixed",12291,NA
+"Bare Land","BAR","Estuarine Emergent Wetland","EEM","Bare Land to Estuarine Emergent Wetland","BAR_EEM","fixed",8574,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Estuarine Emergent Wetland","EEM","Estuarine Scrub/Shrub Wetland to Estuarine Emergent Wetland","ESS_EEM","fixed",7381,NA
+"Estuarine Emergent Wetland","EEM","Evergreen Forest","EVR","Estuarine Emergent Wetland to Evergreen Forest","EEM_EVR","fixed",7298,NA
+"Estuarine Emergent Wetland","EEM","Low Intensity Developed","LID","Estuarine Emergent Wetland to Low Intensity Developed","EEM_LID","fixed",6362,NA
+"Estuarine Emergent Wetland","EEM","Developed Open Space","OSD","Estuarine Emergent Wetland to Developed Open Space","EEM_OSD","fixed",6182,NA
+"Estuarine Forested Wetland","EFW","Water","OW","Estuarine Forested Wetland to Water","EFW_OW","fixed",5888,NA
+"Estuarine Aquatic Bed","EAB","Estuarine Emergent Wetland","EEM","Estuarine Aquatic Bed to Estuarine Emergent Wetland","EAB_EEM","fixed",5704,NA
+"Estuarine Emergent Wetland","EEM","Estuarine Scrub/Shrub Wetland","ESS","Estuarine Emergent Wetland to Estuarine Scrub/Shrub Wetland","EEM_ESS","fixed",4342,NA
+"Estuarine Emergent Wetland","EEM","Medium Intensity Developed","MID","Estuarine Emergent Wetland to Medium Intensity Developed","EEM_MID","fixed",3893,NA
+"Estuarine Forested Wetland","EFW","Estuarine Scrub/Shrub Wetland","ESS","Estuarine Forested Wetland to Estuarine Scrub/Shrub Wetland","EFW_ESS","fixed",3736,NA
+"Pasture/Hay","PAST","Estuarine Emergent Wetland","EEM","Pasture/Hay to Estuarine Emergent Wetland","PAST_EEM","fixed",3560,NA
+"Cultivated","CULT","Estuarine Emergent Wetland","EEM","Cultivated to Estuarine Emergent Wetland","CULT_EEM","fixed",2612,NA
+"Estuarine Emergent Wetland","EEM","High Intensity Developed","HID","Estuarine Emergent Wetland to High Intensity Developed","EEM_HID","fixed",2006,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Estuarine Forested Wetland","EFW","Estuarine Scrub/Shrub Wetland to Estuarine Forested Wetland","ESS_EFW","fixed",1852,NA
+"Estuarine Emergent Wetland","EEM","Grassland","GRS","Estuarine Emergent Wetland to Grassland","EEM_GRS","fixed",1785,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Water","OW","Estuarine Scrub/Shrub Wetland to Water","ESS_OW","fixed",1624,NA
+"Low Intensity Developed","LID","Estuarine Emergent Wetland","EEM","Low Intensity Developed to Estuarine Emergent Wetland","LID_EEM","fixed",979,NA
+"Grassland","GRS","Estuarine Emergent Wetland","EEM","Grassland to Estuarine Emergent Wetland","GRS_EEM","fixed",946,NA
+"Estuarine Emergent Wetland","EEM","Cultivated","CULT","Estuarine Emergent Wetland to Cultivated","EEM_CULT","fixed",809,NA
+"Estuarine Emergent Wetland","EEM","Estuarine Forested Wetland","EFW","Estuarine Emergent Wetland to Estuarine Forested Wetland","EEM_EFW","fixed",758,NA
+"Bare Land","BAR","Estuarine Scrub/Shrub Wetland","ESS","Bare Land to Estuarine Scrub/Shrub Wetland","BAR_ESS","fixed",745,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Bare Land","BAR","Estuarine Scrub/Shrub Wetland to Bare Land","ESS_BAR","fixed",726,NA
+"Estuarine Forested Wetland","EFW","Low Intensity Developed","LID","Estuarine Forested Wetland to Low Intensity Developed","EFW_LID","fixed",676,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Low Intensity Developed","LID","Estuarine Scrub/Shrub Wetland to Low Intensity Developed","ESS_LID","fixed",628,NA
+"Water","OW","Estuarine Scrub/Shrub Wetland","ESS","Water to Estuarine Scrub/Shrub Wetland","OW_ESS","fixed",622,NA
+"Palustrine Emergent Wetland","PEM","Estuarine Emergent Wetland","EEM","Palustrine Emergent Wetland to Estuarine Emergent Wetland","PEM_EEM","fixed",573,NA
+"Medium Intensity Developed","MID","Estuarine Emergent Wetland","EEM","Medium Intensity Developed to Estuarine Emergent Wetland","MID_EEM","fixed",529,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Developed Open Space","OSD","Estuarine Scrub/Shrub Wetland to Developed Open Space","ESS_OSD","fixed",517,NA
+"Palustrine Forested Wetland","PFW","Estuarine Emergent Wetland","EEM","Palustrine Forested Wetland to Estuarine Emergent Wetland","PFW_EEM","fixed",454,NA
+"Developed Open Space","OSD","Estuarine Emergent Wetland","EEM","Developed Open Space to Estuarine Emergent Wetland","OSD_EEM","fixed",447,NA
+"Estuarine Aquatic Bed","EAB","Estuarine Scrub/Shrub Wetland","ESS","Estuarine Aquatic Bed to Estuarine Scrub/Shrub Wetland","EAB_ESS","fixed",431,NA
+"Estuarine Forested Wetland","EFW","Medium Intensity Developed","MID","Estuarine Forested Wetland to Medium Intensity Developed","EFW_MID","fixed",371,NA
+"High Intensity Developed","HID","Estuarine Emergent Wetland","EEM","High Intensity Developed to Estuarine Emergent Wetland","HID_EEM","fixed",363,NA
+"Estuarine Forested Wetland","EFW","Bare Land","BAR","Estuarine Forested Wetland to Bare Land","EFW_BAR","fixed",322,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Unconsolidated Shore","UCS","Estuarine Scrub/Shrub Wetland to Unconsolidated Shore","ESS_UCS","fixed",310,NA
+"Pasture/Hay","PAST","Estuarine Scrub/Shrub Wetland","ESS","Pasture/Hay to Estuarine Scrub/Shrub Wetland","PAST_ESS","fixed",299,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Medium Intensity Developed","MID","Estuarine Scrub/Shrub Wetland to Medium Intensity Developed","ESS_MID","fixed",261,NA
+"Deciduous Forest","DEC","Estuarine Emergent Wetland","EEM","Deciduous Forest to Estuarine Emergent Wetland","DEC_EEM","fixed",236,NA
+"Scrub/Shrub","SS","Estuarine Emergent Wetland","EEM","Scrub/Shrub to Estuarine Emergent Wetland","SS_EEM","fixed",220,NA
+"Estuarine Forested Wetland","EFW","Scrub/Shrub","SS","Estuarine Forested Wetland to Scrub/Shrub","EFW_SS","fixed",190,NA
+"Palustrine Forested Wetland","PFW","Estuarine Scrub/Shrub Wetland","ESS","Palustrine Forested Wetland to Estuarine Scrub/Shrub Wetland","PFW_ESS","fixed",187,NA
+"Estuarine Emergent Wetland","EEM","Palustrine Scrub/Shrub Wetland","PSS","Estuarine Emergent Wetland to Palustrine Scrub/Shrub Wetland","EEM_PSS","fixed",161,NA
+"Grassland","GRS","Estuarine Scrub/Shrub Wetland","ESS","Grassland to Estuarine Scrub/Shrub Wetland","GRS_ESS","fixed",151,NA
+"Scrub/Shrub","SS","Estuarine Scrub/Shrub Wetland","ESS","Scrub/Shrub to Estuarine Scrub/Shrub Wetland","SS_ESS","fixed",139,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Evergreen Forest","EVR","Estuarine Scrub/Shrub Wetland to Evergreen Forest","ESS_EVR","fixed",139,NA
+"Estuarine Emergent Wetland","EEM","Palustrine Emergent Wetland","PEM","Estuarine Emergent Wetland to Palustrine Emergent Wetland","EEM_PEM","fixed",131,NA
+"Estuarine Forested Wetland","EFW","Developed Open Space","OSD","Estuarine Forested Wetland to Developed Open Space","EFW_OSD","fixed",122,NA
+"Estuarine Forested Wetland","EFW","High Intensity Developed","HID","Estuarine Forested Wetland to High Intensity Developed","EFW_HID","fixed",119,NA
+"Cultivated","CULT","Estuarine Scrub/Shrub Wetland","ESS","Cultivated to Estuarine Scrub/Shrub Wetland","CULT_ESS","fixed",115,NA
+"Estuarine Emergent Wetland","EEM","Palustrine Forested Wetland","PFW","Estuarine Emergent Wetland to Palustrine Forested Wetland","EEM_PFW","fixed",108,NA
+"Estuarine Forested Wetland","EFW","Grassland","GRS","Estuarine Forested Wetland to Grassland","EFW_GRS","fixed",107,NA
+"Unconsolidated Shore","UCS","Estuarine Scrub/Shrub Wetland","ESS","Unconsolidated Shore to Estuarine Scrub/Shrub Wetland","UCS_ESS","fixed",93,NA
+"Palustrine Scrub/Shrub Wetland","PSS","Estuarine Emergent Wetland","EEM","Palustrine Scrub/Shrub Wetland to Estuarine Emergent Wetland","PSS_EEM","fixed",87,NA
+"Estuarine Emergent Wetland","EEM","Scrub/Shrub","SS","Estuarine Emergent Wetland to Scrub/Shrub","EEM_SS","fixed",74,NA
+"Palustrine Emergent Wetland","PEM","Estuarine Scrub/Shrub Wetland","ESS","Palustrine Emergent Wetland to Estuarine Scrub/Shrub Wetland","PEM_ESS","fixed",72,NA
+"Grassland","GRS","Estuarine Forested Wetland","EFW","Grassland to Estuarine Forested Wetland","GRS_EFW","fixed",69,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Estuarine Aquatic Bed","EAB","Estuarine Scrub/Shrub Wetland to Estuarine Aquatic Bed","ESS_EAB","fixed",62,NA
+"Estuarine Scrub/Shrub Wetland","ESS","High Intensity Developed","HID","Estuarine Scrub/Shrub Wetland to High Intensity Developed","ESS_HID","fixed",60,NA
+"Estuarine Emergent Wetland","EEM","Pasture/Hay","PAST","Estuarine Emergent Wetland to Pasture/Hay","EEM_PAST","fixed",59,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Grassland","GRS","Estuarine Scrub/Shrub Wetland to Grassland","ESS_GRS","fixed",46,NA
+"Developed Open Space","OSD","Estuarine Scrub/Shrub Wetland","ESS","Developed Open Space to Estuarine Scrub/Shrub Wetland","OSD_ESS","fixed",44,NA
+"Evergreen Forest","EVR","Estuarine Emergent Wetland","EEM","Evergreen Forest to Estuarine Emergent Wetland","EVR_EEM","fixed",34,NA
+"Palustrine Scrub/Shrub Wetland","PSS","Estuarine Scrub/Shrub Wetland","ESS","Palustrine Scrub/Shrub Wetland to Estuarine Scrub/Shrub Wetland","PSS_ESS","fixed",30,NA
+"Bare Land","BAR","Estuarine Forested Wetland","EFW","Bare Land to Estuarine Forested Wetland","BAR_EFW","fixed",22,NA
+"Low Intensity Developed","LID","Estuarine Scrub/Shrub Wetland","ESS","Low Intensity Developed to Estuarine Scrub/Shrub Wetland","LID_ESS","fixed",21,NA
+"Estuarine Emergent Wetland","EEM","Deciduous Forest","DEC","Estuarine Emergent Wetland to Deciduous Forest","EEM_DEC","fixed",19,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Palustrine Forested Wetland","PFW","Estuarine Scrub/Shrub Wetland to Palustrine Forested Wetland","ESS_PFW","fixed",16,NA
+"Palustrine Aquatic Bed","PAB","Estuarine Emergent Wetland","EEM","Palustrine Aquatic Bed to Estuarine Emergent Wetland","PAB_EEM","fixed",16,NA
+"Scrub/Shrub","SS","Estuarine Forested Wetland","EFW","Scrub/Shrub to Estuarine Forested Wetland","SS_EFW","fixed",14,NA
+"Mixed Forest","MIX","Estuarine Scrub/Shrub Wetland","ESS","Mixed Forest to Estuarine Scrub/Shrub Wetland","MIX_ESS","fixed",11,NA
+"Mixed Forest","MIX","Estuarine Emergent Wetland","EEM","Mixed Forest to Estuarine Emergent Wetland","MIX_EEM","fixed",11,NA
+"Estuarine Forested Wetland","EFW","Estuarine Aquatic Bed","EAB","Estuarine Forested Wetland to Estuarine Aquatic Bed","EFW_EAB","fixed",8,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Palustrine Scrub/Shrub Wetland","PSS","Estuarine Scrub/Shrub Wetland to Palustrine Scrub/Shrub Wetland","ESS_PSS","fixed",7,NA
+"Evergreen Forest","EVR","Estuarine Scrub/Shrub Wetland","ESS","Evergreen Forest to Estuarine Scrub/Shrub Wetland","EVR_ESS","fixed",6,NA
+"Estuarine Forested Wetland","EFW","Unconsolidated Shore","UCS","Estuarine Forested Wetland to Unconsolidated Shore","EFW_UCS","fixed",6,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Cultivated","CULT","Estuarine Scrub/Shrub Wetland to Cultivated","ESS_CULT","fixed",6,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Palustrine Emergent Wetland","PEM","Estuarine Scrub/Shrub Wetland to Palustrine Emergent Wetland","ESS_PEM","fixed",6,NA
+"Low Intensity Developed","LID","Estuarine Forested Wetland","EFW","Low Intensity Developed to Estuarine Forested Wetland","LID_EFW","fixed",5,NA
+"Developed Open Space","OSD","Estuarine Forested Wetland","EFW","Developed Open Space to Estuarine Forested Wetland","OSD_EFW","fixed",5,NA
+"Unconsolidated Shore","UCS","Estuarine Forested Wetland","EFW","Unconsolidated Shore to Estuarine Forested Wetland","UCS_EFW","fixed",4,NA
+"High Intensity Developed","HID","Estuarine Forested Wetland","EFW","High Intensity Developed to Estuarine Forested Wetland","HID_EFW","fixed",3,NA
+"Medium Intensity Developed","MID","Estuarine Scrub/Shrub Wetland","ESS","Medium Intensity Developed to Estuarine Scrub/Shrub Wetland","MID_ESS","fixed",3,NA
+"Estuarine Forested Wetland","EFW","Palustrine Emergent Wetland","PEM","Estuarine Forested Wetland to Palustrine Emergent Wetland","EFW_PEM","fixed",2,NA
+"High Intensity Developed","HID","Estuarine Scrub/Shrub Wetland","ESS","High Intensity Developed to Estuarine Scrub/Shrub Wetland","HID_ESS","fixed",1,NA
+"Medium Intensity Developed","MID","Estuarine Forested Wetland","EFW","Medium Intensity Developed to Estuarine Forested Wetland","MID_EFW","fixed",1,NA
+"Cultivated","CULT","Estuarine Forested Wetland","EFW","Cultivated to Estuarine Forested Wetland","CULT_EFW","fixed",1,NA
+"Estuarine Forested Wetland","EFW","Palustrine Scrub/Shrub Wetland","PSS","Estuarine Forested Wetland to Palustrine Scrub/Shrub Wetland","EFW_PSS","fixed",1,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Pasture/Hay","PAST","Estuarine Scrub/Shrub Wetland to Pasture/Hay","ESS_PAST","fixed",1,NA
+"Estuarine Emergent Wetland","EEM","Mixed Forest","MIX","Estuarine Emergent Wetland to Mixed Forest","EEM_MIX","fixed",1,NA
+"Pasture/Hay","PAST","Estuarine Forested Wetland","EFW","Pasture/Hay to Estuarine Forested Wetland","PAST_EFW","fixed",0,NA
+"Deciduous Forest","DEC","Estuarine Forested Wetland","EFW","Deciduous Forest to Estuarine Forested Wetland","DEC_EFW","fixed",0,NA
+"Deciduous Forest","DEC","Estuarine Scrub/Shrub Wetland","ESS","Deciduous Forest to Estuarine Scrub/Shrub Wetland","DEC_ESS","fixed",0,NA
+"Evergreen Forest","EVR","Estuarine Forested Wetland","EFW","Evergreen Forest to Estuarine Forested Wetland","EVR_EFW","fixed",0,NA
+"Mixed Forest","MIX","Estuarine Forested Wetland","EFW","Mixed Forest to Estuarine Forested Wetland","MIX_EFW","fixed",0,NA
+"Palustrine Forested Wetland","PFW","Estuarine Forested Wetland","EFW","Palustrine Forested Wetland to Estuarine Forested Wetland","PFW_EFW","fixed",0,NA
+"Palustrine Scrub/Shrub Wetland","PSS","Estuarine Forested Wetland","EFW","Palustrine Scrub/Shrub Wetland to Estuarine Forested Wetland","PSS_EFW","fixed",0,NA
+"Palustrine Emergent Wetland","PEM","Estuarine Forested Wetland","EFW","Palustrine Emergent Wetland to Estuarine Forested Wetland","PEM_EFW","fixed",0,NA
+"Estuarine Forested Wetland","EFW","Cultivated","CULT","Estuarine Forested Wetland to Cultivated","EFW_CULT","fixed",0,NA
+"Estuarine Forested Wetland","EFW","Pasture/Hay","PAST","Estuarine Forested Wetland to Pasture/Hay","EFW_PAST","fixed",0,NA
+"Estuarine Forested Wetland","EFW","Deciduous Forest","DEC","Estuarine Forested Wetland to Deciduous Forest","EFW_DEC","fixed",0,NA
+"Estuarine Forested Wetland","EFW","Mixed Forest","MIX","Estuarine Forested Wetland to Mixed Forest","EFW_MIX","fixed",0,NA
+"Estuarine Forested Wetland","EFW","Palustrine Forested Wetland","PFW","Estuarine Forested Wetland to Palustrine Forested Wetland","EFW_PFW","fixed",0,NA
+"Estuarine Forested Wetland","EFW","Palustrine Aquatic Bed","PAB","Estuarine Forested Wetland to Palustrine Aquatic Bed","EFW_PAB","fixed",0,NA
+"Estuarine Forested Wetland","EFW","Snow/Ice","SNOW","Estuarine Forested Wetland to Snow/Ice","EFW_SNOW","fixed",0,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Deciduous Forest","DEC","Estuarine Scrub/Shrub Wetland to Deciduous Forest","ESS_DEC","fixed",0,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Mixed Forest","MIX","Estuarine Scrub/Shrub Wetland to Mixed Forest","ESS_MIX","fixed",0,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Palustrine Aquatic Bed","PAB","Estuarine Scrub/Shrub Wetland to Palustrine Aquatic Bed","ESS_PAB","fixed",0,NA
+"Estuarine Scrub/Shrub Wetland","ESS","Snow/Ice","SNOW","Estuarine Scrub/Shrub Wetland to Snow/Ice","ESS_SNOW","fixed",0,NA
+"Estuarine Emergent Wetland","EEM","Palustrine Aquatic Bed","PAB","Estuarine Emergent Wetland to Palustrine Aquatic Bed","EEM_PAB","fixed",0,NA
+"Estuarine Emergent Wetland","EEM","Snow/Ice","SNOW","Estuarine Emergent Wetland to Snow/Ice","EEM_SNOW","fixed",0,NA
+"Water","OW","Estuarine Forested Wetland","EFW","Water to Estuarine Forested Wetland","OW_EFW","fixed",0,NA
+"Palustrine Aquatic Bed","PAB","Estuarine Forested Wetland","EFW","Palustrine Aquatic Bed to Estuarine Forested Wetland","PAB_EFW","fixed",0,NA
+"Palustrine Aquatic Bed","PAB","Estuarine Scrub/Shrub Wetland","ESS","Palustrine Aquatic Bed to Estuarine Scrub/Shrub Wetland","PAB_ESS","fixed",0,NA
+"Estuarine Aquatic Bed","EAB","Estuarine Forested Wetland","EFW","Estuarine Aquatic Bed to Estuarine Forested Wetland","EAB_EFW","fixed",0,NA
+"Snow/Ice","SNOW","Estuarine Forested Wetland","EFW","Snow/Ice to Estuarine Forested Wetland","SNOW_EFW","fixed",0,NA
+"Snow/Ice","SNOW","Estuarine Scrub/Shrub Wetland","ESS","Snow/Ice to Estuarine Scrub/Shrub Wetland","SNOW_ESS","fixed",0,NA
+"Snow/Ice","SNOW","Estuarine Emergent Wetland","EEM","Snow/Ice to Estuarine Emergent Wetland","SNOW_EEM","fixed",0,NA
+"High Intensity Developed","HID","Palustrine Forested Wetland","PFW","High Intensity Developed to Palustrine Forested Wetland","HID_PFW","random",0,0
+"High Intensity Developed","HID","Palustrine Scrub/Shrub Wetland","PSS","High Intensity Developed to Palustrine Scrub/Shrub Wetland","HID_PSS","random",0,0
+"High Intensity Developed","HID","Palustrine Emergent Wetland","PEM","High Intensity Developed to Palustrine Emergent Wetland","HID_PEM","random",0,0
+"Medium Intensity Developed","MID","Palustrine Forested Wetland","PFW","Medium Intensity Developed to Palustrine Forested Wetland","MID_PFW","random",0,0
+"Medium Intensity Developed","MID","Palustrine Scrub/Shrub Wetland","PSS","Medium Intensity Developed to Palustrine Scrub/Shrub Wetland","MID_PSS","random",0,0
+"Medium Intensity Developed","MID","Palustrine Emergent Wetland","PEM","Medium Intensity Developed to Palustrine Emergent Wetland","MID_PEM","random",0,0
+"Low Intensity Developed","LID","Palustrine Forested Wetland","PFW","Low Intensity Developed to Palustrine Forested Wetland","LID_PFW","random",0,0
+"Low Intensity Developed","LID","Palustrine Scrub/Shrub Wetland","PSS","Low Intensity Developed to Palustrine Scrub/Shrub Wetland","LID_PSS","random",0,0
+"Low Intensity Developed","LID","Palustrine Emergent Wetland","PEM","Low Intensity Developed to Palustrine Emergent Wetland","LID_PEM","random",0,0
+"Developed Open Space","OSD","Palustrine Forested Wetland","PFW","Developed Open Space to Palustrine Forested Wetland","OSD_PFW","random",0,0
+"Developed Open Space","OSD","Palustrine Scrub/Shrub Wetland","PSS","Developed Open Space to Palustrine Scrub/Shrub Wetland","OSD_PSS","random",0,0
+"Developed Open Space","OSD","Palustrine Emergent Wetland","PEM","Developed Open Space to Palustrine Emergent Wetland","OSD_PEM","random",0,0
+"Cultivated","CULT","Palustrine Forested Wetland","PFW","Cultivated to Palustrine Forested Wetland","CULT_PFW","random",0,0
+"Cultivated","CULT","Palustrine Scrub/Shrub Wetland","PSS","Cultivated to Palustrine Scrub/Shrub Wetland","CULT_PSS","random",0,0
+"Cultivated","CULT","Palustrine Emergent Wetland","PEM","Cultivated to Palustrine Emergent Wetland","CULT_PEM","random",0,0
+"Pasture/Hay","PAST","Palustrine Forested Wetland","PFW","Pasture/Hay to Palustrine Forested Wetland","PAST_PFW","random",0,0
+"Pasture/Hay","PAST","Palustrine Scrub/Shrub Wetland","PSS","Pasture/Hay to Palustrine Scrub/Shrub Wetland","PAST_PSS","random",0,0
+"Pasture/Hay","PAST","Palustrine Emergent Wetland","PEM","Pasture/Hay to Palustrine Emergent Wetland","PAST_PEM","random",0,0
+"Grassland","GRS","Palustrine Forested Wetland","PFW","Grassland to Palustrine Forested Wetland","GRS_PFW","random",0,0
+"Grassland","GRS","Palustrine Scrub/Shrub Wetland","PSS","Grassland to Palustrine Scrub/Shrub Wetland","GRS_PSS","random",0,0
+"Grassland","GRS","Palustrine Emergent Wetland","PEM","Grassland to Palustrine Emergent Wetland","GRS_PEM","random",0,0
+"Deciduous Forest","DEC","Palustrine Forested Wetland","PFW","Deciduous Forest to Palustrine Forested Wetland","DEC_PFW","random",0,0
+"Deciduous Forest","DEC","Palustrine Scrub/Shrub Wetland","PSS","Deciduous Forest to Palustrine Scrub/Shrub Wetland","DEC_PSS","random",0,0
+"Deciduous Forest","DEC","Palustrine Emergent Wetland","PEM","Deciduous Forest to Palustrine Emergent Wetland","DEC_PEM","random",0,0
+"Evergreen Forest","EVR","Palustrine Forested Wetland","PFW","Evergreen Forest to Palustrine Forested Wetland","EVR_PFW","random",0,0
+"Evergreen Forest","EVR","Palustrine Scrub/Shrub Wetland","PSS","Evergreen Forest to Palustrine Scrub/Shrub Wetland","EVR_PSS","random",0,0
+"Evergreen Forest","EVR","Palustrine Emergent Wetland","PEM","Evergreen Forest to Palustrine Emergent Wetland","EVR_PEM","random",0,0
+"Mixed Forest","MIX","Palustrine Forested Wetland","PFW","Mixed Forest to Palustrine Forested Wetland","MIX_PFW","random",0,0
+"Mixed Forest","MIX","Palustrine Scrub/Shrub Wetland","PSS","Mixed Forest to Palustrine Scrub/Shrub Wetland","MIX_PSS","random",0,0
+"Mixed Forest","MIX","Palustrine Emergent Wetland","PEM","Mixed Forest to Palustrine Emergent Wetland","MIX_PEM","random",0,0
+"Scrub/Shrub","SS","Palustrine Forested Wetland","PFW","Scrub/Shrub to Palustrine Forested Wetland","SS_PFW","random",0,0
+"Scrub/Shrub","SS","Palustrine Scrub/Shrub Wetland","PSS","Scrub/Shrub to Palustrine Scrub/Shrub Wetland","SS_PSS","random",0,0
+"Scrub/Shrub","SS","Palustrine Emergent Wetland","PEM","Scrub/Shrub to Palustrine Emergent Wetland","SS_PEM","random",0,0
+"Palustrine Forested Wetland","PFW","High Intensity Developed","HID","Palustrine Forested Wetland to High Intensity Developed","PFW_HID","random",0,0
+"Palustrine Forested Wetland","PFW","Medium Intensity Developed","MID","Palustrine Forested Wetland to Medium Intensity Developed","PFW_MID","random",0,0
+"Palustrine Forested Wetland","PFW","Low Intensity Developed","LID","Palustrine Forested Wetland to Low Intensity Developed","PFW_LID","random",0,0
+"Palustrine Forested Wetland","PFW","Developed Open Space","OSD","Palustrine Forested Wetland to Developed Open Space","PFW_OSD","random",0,0
+"Palustrine Forested Wetland","PFW","Cultivated","CULT","Palustrine Forested Wetland to Cultivated","PFW_CULT","random",0,0
+"Palustrine Forested Wetland","PFW","Pasture/Hay","PAST","Palustrine Forested Wetland to Pasture/Hay","PFW_PAST","random",0,0
+"Palustrine Forested Wetland","PFW","Grassland","GRS","Palustrine Forested Wetland to Grassland","PFW_GRS","random",0,0
+"Palustrine Forested Wetland","PFW","Deciduous Forest","DEC","Palustrine Forested Wetland to Deciduous Forest","PFW_DEC","random",0,0
+"Palustrine Forested Wetland","PFW","Evergreen Forest","EVR","Palustrine Forested Wetland to Evergreen Forest","PFW_EVR","random",0,0
+"Palustrine Forested Wetland","PFW","Mixed Forest","MIX","Palustrine Forested Wetland to Mixed Forest","PFW_MIX","random",0,0
+"Palustrine Forested Wetland","PFW","Scrub/Shrub","SS","Palustrine Forested Wetland to Scrub/Shrub","PFW_SS","random",0,0
+"Palustrine Forested Wetland","PFW","Palustrine Forested Wetland","PFW","Palustrine Forested Wetland to Palustrine Forested Wetland","PFW_PFW","random",0,0
+"Palustrine Forested Wetland","PFW","Palustrine Scrub/Shrub Wetland","PSS","Palustrine Forested Wetland to Palustrine Scrub/Shrub Wetland","PFW_PSS","random",0,0
+"Palustrine Forested Wetland","PFW","Palustrine Emergent Wetland","PEM","Palustrine Forested Wetland to Palustrine Emergent Wetland","PFW_PEM","random",0,0
+"Palustrine Forested Wetland","PFW","Unconsolidated Shore","UCS","Palustrine Forested Wetland to Unconsolidated Shore","PFW_UCS","random",0,0
+"Palustrine Forested Wetland","PFW","Bare Land","BAR","Palustrine Forested Wetland to Bare Land","PFW_BAR","random",0,0
+"Palustrine Forested Wetland","PFW","Water","OW","Palustrine Forested Wetland to Water","PFW_OW","random",0,0
+"Palustrine Forested Wetland","PFW","Palustrine Aquatic Bed","PAB","Palustrine Forested Wetland to Palustrine Aquatic Bed","PFW_PAB","random",0,0
+"Palustrine Forested Wetland","PFW","Estuarine Aquatic Bed","EAB","Palustrine Forested Wetland to Estuarine Aquatic Bed","PFW_EAB","random",0,0
+"Palustrine Forested Wetland","PFW","Snow/Ice","SNOW","Palustrine Forested Wetland to Snow/Ice","PFW_SNOW","random",0,0
+"Palustrine Scrub/Shrub Wetland","PSS","High Intensity Developed","HID","Palustrine Scrub/Shrub Wetland to High Intensity Developed","PSS_HID","random",0,0
+"Palustrine Scrub/Shrub Wetland","PSS","Medium Intensity Developed","MID","Palustrine Scrub/Shrub Wetland to Medium Intensity Developed","PSS_MID","random",0,0
+"Palustrine Scrub/Shrub Wetland","PSS","Low Intensity Developed","LID","Palustrine Scrub/Shrub Wetland to Low Intensity Developed","PSS_LID","random",0,0
+"Palustrine Scrub/Shrub Wetland","PSS","Developed Open Space","OSD","Palustrine Scrub/Shrub Wetland to Developed Open Space","PSS_OSD","random",0,0
+"Palustrine Scrub/Shrub Wetland","PSS","Cultivated","CULT","Palustrine Scrub/Shrub Wetland to Cultivated","PSS_CULT","random",0,0
+"Palustrine Scrub/Shrub Wetland","PSS","Pasture/Hay","PAST","Palustrine Scrub/Shrub Wetland to Pasture/Hay","PSS_PAST","random",0,0
+"Palustrine Scrub/Shrub Wetland","PSS","Grassland","GRS","Palustrine Scrub/Shrub Wetland to Grassland","PSS_GRS","random",0,0
+"Palustrine Scrub/Shrub Wetland","PSS","Deciduous Forest","DEC","Palustrine Scrub/Shrub Wetland to Deciduous Forest","PSS_DEC","random",0,0
+"Palustrine Scrub/Shrub Wetland","PSS","Evergreen Forest","EVR","Palustrine Scrub/Shrub Wetland to Evergreen Forest","PSS_EVR","random",0,0
+"Palustrine Scrub/Shrub Wetland","PSS","Mixed Forest","MIX","Palustrine Scrub/Shrub Wetland to Mixed Forest","PSS_MIX","random",0,0
+"Palustrine Scrub/Shrub Wetland","PSS","Scrub/Shrub","SS","Palustrine Scrub/Shrub Wetland to Scrub/Shrub","PSS_SS","random",0,0
+"Palustrine Scrub/Shrub Wetland","PSS","Palustrine Forested Wetland","PFW","Palustrine Scrub/Shrub Wetland to Palustrine Forested Wetland","PSS_PFW","random",0,0
+"Palustrine Scrub/Shrub Wetland","PSS","Palustrine Scrub/Shrub Wetland","PSS","Palustrine Scrub/Shrub Wetland to Palustrine Scrub/Shrub Wetland","PSS_PSS","random",0,0
+"Palustrine Scrub/Shrub Wetland","PSS","Palustrine Emergent Wetland","PEM","Palustrine Scrub/Shrub Wetland to Palustrine Emergent Wetland","PSS_PEM","random",0,0
+"Palustrine Scrub/Shrub Wetland","PSS","Unconsolidated Shore","UCS","Palustrine Scrub/Shrub Wetland to Unconsolidated Shore","PSS_UCS","random",0,0
+"Palustrine Scrub/Shrub Wetland","PSS","Bare Land","BAR","Palustrine Scrub/Shrub Wetland to Bare Land","PSS_BAR","random",0,0
+"Palustrine Scrub/Shrub Wetland","PSS","Water","OW","Palustrine Scrub/Shrub Wetland to Water","PSS_OW","random",0,0
+"Palustrine Scrub/Shrub Wetland","PSS","Palustrine Aquatic Bed","PAB","Palustrine Scrub/Shrub Wetland to Palustrine Aquatic Bed","PSS_PAB","random",0,0
+"Palustrine Scrub/Shrub Wetland","PSS","Estuarine Aquatic Bed","EAB","Palustrine Scrub/Shrub Wetland to Estuarine Aquatic Bed","PSS_EAB","random",0,0
+"Palustrine Scrub/Shrub Wetland","PSS","Snow/Ice","SNOW","Palustrine Scrub/Shrub Wetland to Snow/Ice","PSS_SNOW","random",0,0
+"Palustrine Emergent Wetland","PEM","High Intensity Developed","HID","Palustrine Emergent Wetland to High Intensity Developed","PEM_HID","random",0,0
+"Palustrine Emergent Wetland","PEM","Medium Intensity Developed","MID","Palustrine Emergent Wetland to Medium Intensity Developed","PEM_MID","random",0,0
+"Palustrine Emergent Wetland","PEM","Low Intensity Developed","LID","Palustrine Emergent Wetland to Low Intensity Developed","PEM_LID","random",0,0
+"Palustrine Emergent Wetland","PEM","Developed Open Space","OSD","Palustrine Emergent Wetland to Developed Open Space","PEM_OSD","random",0,0
+"Palustrine Emergent Wetland","PEM","Cultivated","CULT","Palustrine Emergent Wetland to Cultivated","PEM_CULT","random",0,0
+"Palustrine Emergent Wetland","PEM","Pasture/Hay","PAST","Palustrine Emergent Wetland to Pasture/Hay","PEM_PAST","random",0,0
+"Palustrine Emergent Wetland","PEM","Grassland","GRS","Palustrine Emergent Wetland to Grassland","PEM_GRS","random",0,0
+"Palustrine Emergent Wetland","PEM","Deciduous Forest","DEC","Palustrine Emergent Wetland to Deciduous Forest","PEM_DEC","random",0,0
+"Palustrine Emergent Wetland","PEM","Evergreen Forest","EVR","Palustrine Emergent Wetland to Evergreen Forest","PEM_EVR","random",0,0
+"Palustrine Emergent Wetland","PEM","Mixed Forest","MIX","Palustrine Emergent Wetland to Mixed Forest","PEM_MIX","random",0,0
+"Palustrine Emergent Wetland","PEM","Scrub/Shrub","SS","Palustrine Emergent Wetland to Scrub/Shrub","PEM_SS","random",0,0
+"Palustrine Emergent Wetland","PEM","Palustrine Forested Wetland","PFW","Palustrine Emergent Wetland to Palustrine Forested Wetland","PEM_PFW","random",0,0
+"Palustrine Emergent Wetland","PEM","Palustrine Scrub/Shrub Wetland","PSS","Palustrine Emergent Wetland to Palustrine Scrub/Shrub Wetland","PEM_PSS","random",0,0
+"Palustrine Emergent Wetland","PEM","Palustrine Emergent Wetland","PEM","Palustrine Emergent Wetland to Palustrine Emergent Wetland","PEM_PEM","random",0,0
+"Palustrine Emergent Wetland","PEM","Unconsolidated Shore","UCS","Palustrine Emergent Wetland to Unconsolidated Shore","PEM_UCS","random",0,0
+"Palustrine Emergent Wetland","PEM","Bare Land","BAR","Palustrine Emergent Wetland to Bare Land","PEM_BAR","random",0,0
+"Palustrine Emergent Wetland","PEM","Water","OW","Palustrine Emergent Wetland to Water","PEM_OW","random",0,0
+"Palustrine Emergent Wetland","PEM","Palustrine Aquatic Bed","PAB","Palustrine Emergent Wetland to Palustrine Aquatic Bed","PEM_PAB","random",0,0
+"Palustrine Emergent Wetland","PEM","Estuarine Aquatic Bed","EAB","Palustrine Emergent Wetland to Estuarine Aquatic Bed","PEM_EAB","random",0,0
+"Palustrine Emergent Wetland","PEM","Snow/Ice","SNOW","Palustrine Emergent Wetland to Snow/Ice","PEM_SNOW","random",0,0
+"Unconsolidated Shore","UCS","Palustrine Forested Wetland","PFW","Unconsolidated Shore to Palustrine Forested Wetland","UCS_PFW","random",0,0
+"Unconsolidated Shore","UCS","Palustrine Scrub/Shrub Wetland","PSS","Unconsolidated Shore to Palustrine Scrub/Shrub Wetland","UCS_PSS","random",0,0
+"Unconsolidated Shore","UCS","Palustrine Emergent Wetland","PEM","Unconsolidated Shore to Palustrine Emergent Wetland","UCS_PEM","random",0,0
+"Bare Land","BAR","Palustrine Forested Wetland","PFW","Bare Land to Palustrine Forested Wetland","BAR_PFW","random",0,0
+"Bare Land","BAR","Palustrine Scrub/Shrub Wetland","PSS","Bare Land to Palustrine Scrub/Shrub Wetland","BAR_PSS","random",0,0
+"Bare Land","BAR","Palustrine Emergent Wetland","PEM","Bare Land to Palustrine Emergent Wetland","BAR_PEM","random",0,0
+"Water","OW","Palustrine Forested Wetland","PFW","Water to Palustrine Forested Wetland","OW_PFW","random",0,0
+"Water","OW","Palustrine Scrub/Shrub Wetland","PSS","Water to Palustrine Scrub/Shrub Wetland","OW_PSS","random",0,0
+"Water","OW","Palustrine Emergent Wetland","PEM","Water to Palustrine Emergent Wetland","OW_PEM","random",0,0
+"Palustrine Aquatic Bed","PAB","Palustrine Forested Wetland","PFW","Palustrine Aquatic Bed to Palustrine Forested Wetland","PAB_PFW","random",0,0
+"Palustrine Aquatic Bed","PAB","Palustrine Scrub/Shrub Wetland","PSS","Palustrine Aquatic Bed to Palustrine Scrub/Shrub Wetland","PAB_PSS","random",0,0
+"Palustrine Aquatic Bed","PAB","Palustrine Emergent Wetland","PEM","Palustrine Aquatic Bed to Palustrine Emergent Wetland","PAB_PEM","random",0,0
+"Estuarine Aquatic Bed","EAB","Palustrine Forested Wetland","PFW","Estuarine Aquatic Bed to Palustrine Forested Wetland","EAB_PFW","random",0,0
+"Estuarine Aquatic Bed","EAB","Palustrine Scrub/Shrub Wetland","PSS","Estuarine Aquatic Bed to Palustrine Scrub/Shrub Wetland","EAB_PSS","random",0,0
+"Estuarine Aquatic Bed","EAB","Palustrine Emergent Wetland","PEM","Estuarine Aquatic Bed to Palustrine Emergent Wetland","EAB_PEM","random",0,0
+"Snow/Ice","SNOW","Palustrine Forested Wetland","PFW","Snow/Ice to Palustrine Forested Wetland","SNOW_PFW","random",0,0
+"Snow/Ice","SNOW","Palustrine Scrub/Shrub Wetland","PSS","Snow/Ice to Palustrine Scrub/Shrub Wetland","SNOW_PSS","random",0,0
+"Snow/Ice","SNOW","Palustrine Emergent Wetland","PEM","Snow/Ice to Palustrine Emergent Wetland","SNOW_PEM","random",0,0

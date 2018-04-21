@@ -1,0 +1,5 @@
+Manifest file for archive_knb-lter-fce.1113.3_152217261453162253.zip created on Tue Mar 27 11:43:34 MDT 2018
+LT_PP_Rivera_002.txt (417554 bytes)
+knb-lter-fce.1113.3.xml (52494 bytes)
+knb-lter-fce.1113.3.txt (10236 bytes)
+knb-lter-fce.1113.3.report.xml (26175 bytes)
