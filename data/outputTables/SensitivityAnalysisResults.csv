@@ -1,148 +1,148 @@
 "parameter","type","effectTonnesCO2","effectMillionTonnesCO2"
-"depth.lost","burialAndEmissionFactors",48814278.9517256,48.81
-"methane.pal","burialAndEmissionFactors",44286044.1446986,44.29
-"methane.est","burialAndEmissionFactors",43690148.3145204,43.69
-"gwpVsSgwp","assumption",42949749.5878787,42.95
-"soil.burial","burialAndEmissionFactors",21120313.6864715,21.12
-"fraction.loss","burialAndEmissionFactors",19293598.7951079,19.29
-"Change.Accuracy","CCAP",8519397.46355806,8.52
-"areaOfInterest","assumption",3649092.55014265,3.65
-"EAB.Accuracy","CCAP",2206243.36232667,2.21
-"biomass.fo","burialAndEmissionFactors",2195901.91114476,2.2
-"OW.Accuracy","CCAP",1334163.4948925,1.33
-"carbon.density","burialAndEmissionFactors",1013770.84391776,1.01
-"UCS.Accuracy","CCAP",700779.64624162,0.7
-"PAB.Accuracy","CCAP",692111.000474364,0.69
-"biomass.ss","burialAndEmissionFactors",479335.898906939,0.48
-"PSS.Accuracy","CCAP",447589.882590055,0.45
-"PEM.Accuracy","CCAP",316042.859694093,0.32
-"OSD.Accuracy","CCAP",258963.624365799,0.26
-"LID.Accuracy","CCAP",98533.6036070809,0.1
-"BAR.Accuracy","CCAP",94220.9278475717,0.09
-"EEM.Accuracy","CCAP",80264.1672650948,0.08
-"MID.Accuracy","CCAP",74085.1368061081,0.07
-"ESS.Accuracy","CCAP",63202.3267179653,0.06
-"No.Change.Accuracy","CCAP",61975.3768886998,0.06
-"HID.Accuracy","CCAP",45105.0779932961,0.05
-"PFW.Accuracy","CCAP",36201.6945309937,0.04
-"PEM_OW.mappedArea","coastal.lands",33742.919552356,0.03
-"biomass.em","burialAndEmissionFactors",22971.5493338257,0.02
-"PFW_PSS.mappedArea","coastal.lands",18187.4525732398,0.02
-"EVR.Accuracy","CCAP",17286.7385425493,0.02
-"EFW.Accuracy","CCAP",15964.2456284463,0.02
-"PFW_PEM.mappedArea","coastal.lands",15308.5764399767,0.02
-"PFW_OSD.mappedArea","coastal.lands",11743.6015781909,0.01
-"PFW_OW.mappedArea","coastal.lands",10269.7239957303,0.01
-"PEM_PAB.mappedArea","coastal.lands",9587.60925098509,0.01
-"PSS_PFW.mappedArea","coastal.lands",8016.93173146248,0.01
-"PEM_OSD.mappedArea","coastal.lands",7526.80521189421,0.01
-"GRS.Accuracy","CCAP",7290.65355411172,0.01
-"PFW_LID.mappedArea","coastal.lands",7262.43839428574,0.01
-"PSS_OW.mappedArea","coastal.lands",7112.62082778662,0.01
-"CULT.Accuracy","CCAP",6865.37264304608,0.01
-"PFW_MID.mappedArea","coastal.lands",5889.44609441608,0.01
-"PSS_OSD.mappedArea","coastal.lands",5292.67934227735,0.01
-"PFW_BAR.mappedArea","coastal.lands",5251.49219641834,0.01
-"PEM_UCS.mappedArea","coastal.lands",4977.05512918532,0
-"PEM_LID.mappedArea","coastal.lands",4441.0970473364,0
-"PFW_PAB.mappedArea","coastal.lands",3845.66085384041,0
-"PFW_EAB.mappedArea","coastal.lands",3522.90823297948,0
-"PFW_HID.mappedArea","coastal.lands",3470.24470854551,0
-"PEM_MID.mappedArea","coastal.lands",3419.83007346839,0
-"PSS_LID.mappedArea","coastal.lands",3244.93879809231,0
-"PEM_PFW.mappedArea","coastal.lands",3089.90332617611,0
-"PFW_CULT.mappedArea","coastal.lands",2963.63916126639,0
-"PEM_HID.mappedArea","coastal.lands",2954.51570952684,0
-"PSS_MID.mappedArea","coastal.lands",2334.23391384631,0
-"PSS_UCS.mappedArea","coastal.lands",2130.12078467011,0
-"OW_PFW.mappedArea","coastal.lands",1927.25189249963,0
-"PEM_CULT.mappedArea","coastal.lands",1864.39041909575,0
-"PFW_GRS.mappedArea","coastal.lands",1723.51293011755,0
-"CULT_PFW.mappedArea","coastal.lands",1666.82935947925,0
-"PAB_PFW.mappedArea","coastal.lands",1598.20888645947,0
-"PSS_HID.mappedArea","coastal.lands",1594.67035388201,0
-"PFW_UCS.mappedArea","coastal.lands",1552.61988859624,0
-"PSS_PAB.mappedArea","coastal.lands",1397.17994789779,0
-"UCS_PFW.mappedArea","coastal.lands",1364.35332145542,0
-"PFW_SS.mappedArea","coastal.lands",1358.36098055542,0
-"PFW_PFW.mappedArea","coastal.lands",1316.315153189,0
-"SS_PFW.mappedArea","coastal.lands",1107.46671365947,0
-"PEM_PSS.mappedArea","coastal.lands",1058.1126082316,0
-"PEM_PEM.mappedArea","coastal.lands",1037.56231452525,0
-"PSS_CULT.mappedArea","coastal.lands",1015.05495755374,0
-"PSS_PEM.mappedArea","coastal.lands",997.669034808874,0
-"GRS_PFW.mappedArea","coastal.lands",926.016310818493,0
-"EVR_PSS.mappedArea","coastal.lands",892.026520721614,0
-"PSS_EAB.mappedArea","coastal.lands",872.672461569309,0
-"PFW_PAST.mappedArea","coastal.lands",859.240736670792,0
-"PEM_EAB.mappedArea","coastal.lands",833.824874863029,0
-"MIX_PEM.mappedArea","coastal.lands",805.253985784948,0
-"BAR_PFW.mappedArea","coastal.lands",799.104443229735,0
-"PAST.Accuracy","CCAP",796.811542905867,0
-"MIX_PSS.mappedArea","coastal.lands",758.222542613745,0
-"EVR_PEM.mappedArea","coastal.lands",697.886787682772,0
-"SS.Accuracy","CCAP",697.677298404276,0
-"OSD_PFW.mappedArea","coastal.lands",659.2611656636,0
-"DEC_PEM.mappedArea","coastal.lands",590.519589573145,0
-"DEC_PSS.mappedArea","coastal.lands",579.817238472402,0
-"OW_PSS.mappedArea","coastal.lands",562.127384506166,0
-"PAST_PFW.mappedArea","coastal.lands",555.609786495566,0
-"PSS_PSS.mappedArea","coastal.lands",517.244917623699,0
-"LID_PFW.mappedArea","coastal.lands",423.055293478072,0
-"PEM_PAST.mappedArea","coastal.lands",405.403654925525,0
-"PSS_PAST.mappedArea","coastal.lands",353.716862604022,0
-"PSS_BAR.mappedArea","coastal.lands",287.199776060879,0
-"PEM_EVR.mappedArea","coastal.lands",286.358361691236,0
-"PSS_EVR.mappedArea","coastal.lands",219.531738243997,0
-"PAB_PSS.mappedArea","coastal.lands",210.715458460152,0
-"OW_PEM.mappedArea","coastal.lands",196.087674364448,0
-"CULT_PSS.mappedArea","coastal.lands",186.722494542599,0
-"PEM_BAR.mappedArea","coastal.lands",153.954062409699,0
-"UCS_PSS.mappedArea","coastal.lands",118.527445390821,0
-"BAR_PSS.mappedArea","coastal.lands",114.137540005147,0
-"MID_PFW.mappedArea","coastal.lands",94.0122874379158,0
-"PAST_PSS.mappedArea","coastal.lands",87.7833470925689,0
-"UCS_PEM.mappedArea","coastal.lands",79.3366222679615,0
-"SS_PEM.mappedArea","coastal.lands",76.1620429679751,0
-"OSD_PSS.mappedArea","coastal.lands",70.2384861558676,0
-"PSS_GRS.mappedArea","coastal.lands",67.4355476275086,0
-"DEC.Accuracy","CCAP",60.4570992514491,0
-"PAB_PEM.mappedArea","coastal.lands",49.2848714068532,0
-"LID_PSS.mappedArea","coastal.lands",48.3987068682909,0
-"PSS_MIX.mappedArea","coastal.lands",46.3470408767462,0
-"GRS_PSS.mappedArea","coastal.lands",40.3254750669003,0
-"BAR_PEM.mappedArea","coastal.lands",34.2589959800243,0
-"MID_PSS.mappedArea","coastal.lands",17.5596215352416,0
-"PEM_SS.mappedArea","coastal.lands",13.1053732857108,0
-"OSD_PEM.mappedArea","coastal.lands",11.4196653291583,0
-"LID_PEM.mappedArea","coastal.lands",10.2175952866673,0
-"EVR_PFW.mappedArea","coastal.lands",5.85137436538935,0
-"MIX.Accuracy","CCAP",5.00020327419043,0
-"MID_PEM.mappedArea","coastal.lands",4.80828014016151,0
-"GRS_PEM.mappedArea","coastal.lands",4.41736564785242,0
-"HID_PSS.mappedArea","coastal.lands",4.38990538567305,0
-"DEC_PFW.mappedArea","coastal.lands",4.38853077590466,0
-"CULT_PEM.mappedArea","coastal.lands",3.36561191827059,0
-"PAST_PEM.mappedArea","coastal.lands",2.94491042941809,0
-"MIX_PFW.mappedArea","coastal.lands",2.38169222325087,0
-"SS_PSS.mappedArea","coastal.lands",2.27806830406189,0
-"HID_PEM.mappedArea","coastal.lands",1.80310505628586,0
-"PFW_EVR.mappedArea","coastal.lands",1.13091284036636,0
-"PEM_GRS.mappedArea","coastal.lands",1.06048142164946,0
-"EAB_PEM.mappedArea","coastal.lands",0.601035013794899,0
-"PFW_MIX.mappedArea","coastal.lands",0.596889361739159,0
-"PSS_SS.mappedArea","coastal.lands",0.170048967003822,0
-"HID_PFW.mappedArea","coastal.lands",0,0
-"PFW_DEC.mappedArea","coastal.lands",0,0
-"PFW_SNOW.mappedArea","coastal.lands",0,0
-"PSS_DEC.mappedArea","coastal.lands",0,0
-"PSS_SNOW.mappedArea","coastal.lands",0,0
-"PEM_DEC.mappedArea","coastal.lands",0,0
-"PEM_MIX.mappedArea","coastal.lands",0,0
-"PEM_SNOW.mappedArea","coastal.lands",0,0
-"EAB_PFW.mappedArea","coastal.lands",0,0
-"EAB_PSS.mappedArea","coastal.lands",0,0
-"SNOW_PFW.mappedArea","coastal.lands",0,0
-"SNOW_PSS.mappedArea","coastal.lands",0,0
-"SNOW_PEM.mappedArea","coastal.lands",0,0
-"SNOW.Accuracy","CCAP",0,0
+"depth lost to erosion","Assumption",47029377.7929922,47.03
+"palustrine methane","Emissions and Storage Data",45676199.2285715,45.68
+"GWP vs SGW/CP","Assumption",43762486.8108335,43.76
+"estuarine methane","Emissions and Storage Data",42054978.9082127,42.05
+"soil burial","Emissions and Storage Data",20868648.0146742,20.87
+"fraction lost to atmosphere","Assumption",19320176.8230671,19.32
+"Change accuracy","C-CAP Change Detection",8228419.35330084,8.23
+"coastal lands vs NWI","Assumption",4381142.37490772,4.38
+"forested biomass","Emissions and Storage Data",2226366.0794803,2.23
+"EAB accuracy","C-CAP Classification",2201833.65299905,2.2
+"OW accuracy","C-CAP Classification",1379545.70916314,1.38
+"soil carbon density","Emissions and Storage Data",962882.125557005,0.96
+"UCS accuracy","C-CAP Classification",698239.624450423,0.7
+"PAB accuracy","C-CAP Classification",690640.081891276,0.69
+"scrub shrub biomass","Emissions and Storage Data",494375.992797025,0.49
+"PSS accuracy","C-CAP Classification",441856.216874339,0.44
+"PEM accuracy","C-CAP Classification",314126.99346818,0.31
+"OSD accuracy","C-CAP Classification",259711.486012317,0.26
+"LID accuracy","C-CAP Classification",100035.233461834,0.1
+"BAR accuracy","C-CAP Classification",96243.7923685461,0.1
+"EEM accuracy","C-CAP Classification",81224.3541938737,0.08
+"MID accuracy","C-CAP Classification",73284.2951067165,0.07
+"ESS accuracy","C-CAP Classification",67919.6796861291,0.07
+"No Change accuracy","C-CAP Change Detection",61581.025280498,0.06
+"HID accuracy","C-CAP Classification",45267.4043325186,0.05
+"PFW accuracy","C-CAP Classification",35383.395528391,0.04
+"PEM to OW mapped area","Coastal Lands Mapping",32238.130639948,0.03
+"emergent biomass","Emissions and Storage Data",22304.0564114228,0.02
+"PFW to PSS mapped area","Coastal Lands Mapping",18371.2849163115,0.02
+"EVR accuracy","C-CAP Classification",17564.8803974837,0.02
+"EFW accuracy","C-CAP Classification",15982.448837705,0.02
+"PFW to PEM mapped area","Coastal Lands Mapping",14541.326826483,0.01
+"PFW to OSD mapped area","Coastal Lands Mapping",12085.8576911315,0.01
+"PFW to OW mapped area","Coastal Lands Mapping",10256.2981044352,0.01
+"PEM to PAB mapped area","Coastal Lands Mapping",9397.72710345685,0.01
+"PSS to PFW mapped area","Coastal Lands Mapping",7896.68311739713,0.01
+"PEM to OSD mapped area","Coastal Lands Mapping",7501.00914268941,0.01
+"GRS accuracy","C-CAP Classification",7437.42388732731,0.01
+"PFW to LID mapped area","Coastal Lands Mapping",7363.42076642811,0.01
+"PSS to OW mapped area","Coastal Lands Mapping",7095.47082188725,0.01
+"CULT accuracy","C-CAP Classification",6843.55093444139,0.01
+"PFW to MID mapped area","Coastal Lands Mapping",6006.16030620784,0.01
+"PFW to BAR mapped area","Coastal Lands Mapping",5455.98047045618,0.01
+"PSS to OSD mapped area","Coastal Lands Mapping",5398.27701728791,0.01
+"PEM to UCS mapped area","Coastal Lands Mapping",4973.58524293453,0
+"PEM to LID mapped area","Coastal Lands Mapping",4430.49073971063,0
+"PFW to PAB mapped area","Coastal Lands Mapping",4012.66353855282,0
+"PEM to MID mapped area","Coastal Lands Mapping",3563.22775059193,0
+"PFW to EAB mapped area","Coastal Lands Mapping",3524.33560033143,0
+"PFW to HID mapped area","Coastal Lands Mapping",3463.14089891315,0
+"PSS to LID mapped area","Coastal Lands Mapping",3240.95811224729,0
+"PEM to PFW mapped area","Coastal Lands Mapping",3001.28552439064,0
+"PFW to CULT mapped area","Coastal Lands Mapping",2957.87042091787,0
+"PEM to HID mapped area","Coastal Lands Mapping",2752.42772907764,0
+"PSS to MID mapped area","Coastal Lands Mapping",2255.47149468958,0
+"PSS to UCS mapped area","Coastal Lands Mapping",2129.05896597356,0
+"OW to PFW mapped area","Coastal Lands Mapping",1976.89028642327,0
+"PEM to CULT mapped area","Coastal Lands Mapping",1860.169036448,0
+"PFW to GRS mapped area","Coastal Lands Mapping",1671.17301947623,0
+"CULT to PFW mapped area","Coastal Lands Mapping",1668.10510733724,0
+"PAB to PFW mapped area","Coastal Lands Mapping",1646.42855502665,0
+"PSS to HID mapped area","Coastal Lands Mapping",1589.646941863,0
+"PFW to UCS mapped area","Coastal Lands Mapping",1434.05827767402,0
+"PFW to SS mapped area","Coastal Lands Mapping",1399.6763708517,0
+"PSS to PAB mapped area","Coastal Lands Mapping",1386.89795275778,0
+"UCS to PFW mapped area","Coastal Lands Mapping",1364.18365988135,0
+"PFW to PFW mapped area","Coastal Lands Mapping",1352.82193153352,0
+"SS to PFW mapped area","Coastal Lands Mapping",1150.85495845973,0
+"PSS to PEM mapped area","Coastal Lands Mapping",1042.53240702301,0
+"PEM to PSS mapped area","Coastal Lands Mapping",1035.78913739324,0
+"PEM to PEM mapped area","Coastal Lands Mapping",1019.95242956281,0
+"PSS to CULT mapped area","Coastal Lands Mapping",1011.94851076603,0
+"PSS to EAB mapped area","Coastal Lands Mapping",967.948456086218,0
+"GRS to PFW mapped area","Coastal Lands Mapping",926.725059635937,0
+"EVR to PSS mapped area","Coastal Lands Mapping",895.55128993839,0
+"PFW to PAST mapped area","Coastal Lands Mapping",858.914833210409,0
+"PEM to EAB mapped area","Coastal Lands Mapping",832.208162620664,0
+"PAST accuracy","C-CAP Classification",817.100558951497,0
+"MIX to PEM mapped area","Coastal Lands Mapping",807.659467972815,0
+"BAR to PFW mapped area","Coastal Lands Mapping",799.693869583309,0
+"MIX to PSS mapped area","Coastal Lands Mapping",760.268261127174,0
+"OSD to PFW mapped area","Coastal Lands Mapping",705.612237863243,0
+"EVR to PEM mapped area","Coastal Lands Mapping",699.97153890878,0
+"SS accuracy","C-CAP Classification",694.485685743392,0
+"PAST to PFW mapped area","Coastal Lands Mapping",602.371288761497,0
+"DEC to PEM mapped area","Coastal Lands Mapping",592.283609844744,0
+"DEC to PSS mapped area","Coastal Lands Mapping",581.381611444056,0
+"OW to PSS mapped area","Coastal Lands Mapping",559.950315110385,0
+"PSS to PSS mapped area","Coastal Lands Mapping",510.071266032755,0
+"LID to PFW mapped area","Coastal Lands Mapping",423.367342717946,0
+"PEM to PAST mapped area","Coastal Lands Mapping",404.716169051826,0
+"PSS to PAST mapped area","Coastal Lands Mapping",353.188088156283,0
+"PEM to EVR mapped area","Coastal Lands Mapping",286.78477678448,0
+"PSS to BAR mapped area","Coastal Lands Mapping",274.355135597289,0
+"PSS to EVR mapped area","Coastal Lands Mapping",219.842050403357,0
+"PAB to PSS mapped area","Coastal Lands Mapping",211.55147678405,0
+"OW to PEM mapped area","Coastal Lands Mapping",203.700155586004,0
+"CULT to PSS mapped area","Coastal Lands Mapping",202.086195200682,0
+"PEM to BAR mapped area","Coastal Lands Mapping",153.447531618178,0
+"UCS to PSS mapped area","Coastal Lands Mapping",123.405028119683,0
+"BAR to PSS mapped area","Coastal Lands Mapping",114.700566321611,0
+"PAST to PSS mapped area","Coastal Lands Mapping",95.5316559150815,0
+"MID to PFW mapped area","Coastal Lands Mapping",94.0816317126155,0
+"UCS to PEM mapped area","Coastal Lands Mapping",79.7816795110703,0
+"SS to PEM mapped area","Coastal Lands Mapping",76.2977479547262,0
+"PSS to GRS mapped area","Coastal Lands Mapping",71.8381891474128,0
+"OSD to PSS mapped area","Coastal Lands Mapping",70.5171589329839,0
+"DEC accuracy","C-CAP Classification",57.2368119284511,0
+"LID to PSS mapped area","Coastal Lands Mapping",52.8878692016006,0
+"PAB to PEM mapped area","Coastal Lands Mapping",47.1588298752904,0
+"PSS to MIX mapped area","Coastal Lands Mapping",46.3879486396909,0
+"GRS to PSS mapped area","Coastal Lands Mapping",44.0915335044265,0
+"BAR to PEM mapped area","Coastal Lands Mapping",34.4511797949672,0
+"MID to PSS mapped area","Coastal Lands Mapping",17.6292897388339,0
+"PEM to SS mapped area","Coastal Lands Mapping",16.4280346333981,0
+"OSD to PEM mapped area","Coastal Lands Mapping",11.4837265908718,0
+"LID to PEM mapped area","Coastal Lands Mapping",10.2749132663012,0
+"EVR to PFW mapped area","Coastal Lands Mapping",5.5963449627161,0
+"MID to PEM mapped area","Coastal Lands Mapping",4.8352533057332,0
+"MIX accuracy","C-CAP Classification",4.6925305351615,0
+"GRS to PEM mapped area","Coastal Lands Mapping",4.57576026022434,0
+"HID to PSS mapped area","Coastal Lands Mapping",4.40732243657112,0
+"DEC to PFW mapped area","Coastal Lands Mapping",4.32916290313005,0
+"CULT to PEM mapped area","Coastal Lands Mapping",3.3278256431222,0
+"PAST to PEM mapped area","Coastal Lands Mapping",2.91184743493795,0
+"MIX to PFW mapped area","Coastal Lands Mapping",2.34496323764324,0
+"SS to PSS mapped area","Coastal Lands Mapping",2.0643634647131,0
+"HID to PEM mapped area","Coastal Lands Mapping",1.81321999430656,0
+"PEM to GRS mapped area","Coastal Lands Mapping",1.24843066185713,0
+"PFW to EVR mapped area","Coastal Lands Mapping",1.11642067879438,0
+"EAB to PEM mapped area","Coastal Lands Mapping",0.604406662285328,0
+"PFW to MIX mapped area","Coastal Lands Mapping",0.58892810344696,0
+"PSS to SS mapped area","Coastal Lands Mapping",0.167816683650017,0
+"HID to PFW mapped area","Coastal Lands Mapping",0,0
+"PFW to DEC mapped area","Coastal Lands Mapping",0,0
+"PFW to SNOW mapped area","Coastal Lands Mapping",0,0
+"PSS to DEC mapped area","Coastal Lands Mapping",0,0
+"PSS to SNOW mapped area","Coastal Lands Mapping",0,0
+"PEM to DEC mapped area","Coastal Lands Mapping",0,0
+"PEM to MIX mapped area","Coastal Lands Mapping",0,0
+"PEM to SNOW mapped area","Coastal Lands Mapping",0,0
+"EAB to PFW mapped area","Coastal Lands Mapping",0,0
+"EAB to PSS mapped area","Coastal Lands Mapping",0,0
+"SNOW to PFW mapped area","Coastal Lands Mapping",0,0
+"SNOW to PSS mapped area","Coastal Lands Mapping",0,0
+"SNOW to PEM mapped area","Coastal Lands Mapping",0,0
+"SNOW accuracy","C-CAP Classification",0,0
