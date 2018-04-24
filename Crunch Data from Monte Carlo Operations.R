@@ -96,7 +96,7 @@ total_df.saved.iterations <- read_csv("data/outputTables/MonteCarloResults1/tota
               estima_med =  median(estimated_pixel_count, na.rm = T),
               estima_min = quantile(estimated_pixel_count, 0.025, na.rm =T),
               estima_max = quantile(estimated_pixel_count, 0.975, na.rm =T),
-              estima_ci = mapped_max - mapped_min,
+              estima_ci = estima_med - estima_min,
               total_med  = median(total_tonnesCO2perMappedPixel, na.rm = T),
               total_min = quantile(total_tonnesCO2perMappedPixel, 0.025, na.rm = T),
               total_max = quantile(total_tonnesCO2perMappedPixel, 0.975, na.rm = T),
