@@ -71,13 +71,13 @@ pb210_and_methane <- data.frame(co2e_flux = c(pb, -est.ch4$ch4_co2_eq_gwp, -pal.
 palustrine_methane <-  data.frame(co2e_flux = -pal.ch4$ch4_co2_eq_gwp, 
                                   type = rep("palustrine methane", nrow(pal.ch4)))
 
-total.range.1.a <- range(c(pb210_and_methane$co2e_flux[pb210_and_methane$type == "soil carbon burial"], 0.01))
+total.range.1.a <- range(c(pb210_and_methane$co2e_flux[pb210_and_methane$type == "soil carbon burial"], 0.1))
 total.range.1.b <- range(c(pb210_and_methane$co2e_flux[pb210_and_methane$type == "estuarine methane"], 1500))
-total.range.1.c <- range(c(pb210_and_methane$co2e_flux[pb210_and_methane$type == "palustrine methane"], -0.0001))
+total.range.1.c <- range(c(pb210_and_methane$co2e_flux[pb210_and_methane$type == "palustrine methane"], -0.1))
 
-target_x.1a <- seq(total.range.1.a[1], total.range.1.a[2], by=2)
-target_x.1b <- seq(total.range.1.b[1], total.range.1.b[2], by=2)
-target_x.1c <- seq(total.range.1.c[1], total.range.1.c[2], by=2)
+target_x.1a <- seq(total.range.1.a[1], total.range.1.a[2], by=0.1)
+target_x.1b <- seq(total.range.1.b[1], total.range.1.b[2], by=0.1)
+target_x.1c <- seq(total.range.1.c[1], total.range.1.c[2], by=0.1)
 
 target_y.1a <- dlnorm(target_x.1a, mean(log(pb)), sd(log(pb)))
 target_y.1b <- dnorm(-target_x.1b, mean(est.ch4$ch4_co2_eq_gwp), sd(est.ch4$ch4_co2_eq_gwp))
@@ -89,10 +89,8 @@ lines_df <- data.frame(x = c(target_x.1a, target_x.1b, target_x.1c),
 
 
 ggplot(data = pb210_and_methane, aes(x = co2e_flux)) +
-  geom_histogram(alpha = 0.6, aes(fill = type, y = ..density..), color = "black") +
-  geom_line(data = lines_df, aes(x = x, y = y, lty = type, color = type), lwd=0.75) +
+  facet_grid(type~.) +
+  geom_histogram(aes(y = ..density..), fill="white", color = "darkgrey") +
+  geom_line(data = lines_df, aes(x = x, y = y), lwd=1.25) +
   theme_bw() +
-  theme(legend.title=element_blank(), legend.position = c(0.25, 0.75)) +
-  scale_fill_manual(values = c("darkgrey", "navajowhite", "white")) +
-  scale_color_manual(values = c("coral", "darkred", "darkblue")) +
-  xlab(expression(paste("Emissions (-) and/or Storage (+; gCO"["2"],"e m"^"-2", " yr"^"-1",")", sep="")))
+  xlab(expression(paste("Emissions (-) or Storage (+; gCO"["2"],"e m"^"-2", " yr"^"-1",")", sep="")))

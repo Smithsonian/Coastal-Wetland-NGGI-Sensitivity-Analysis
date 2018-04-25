@@ -19,8 +19,6 @@ ggplot(sensitivityAnalysisDF_top10, aes(x=rank, y=effectMillionTonnesCO2)) +
                    yend=0, 
                    x=rank, 
                    xend=rank, color=type)) + 
-  labs(title="Sensitivity Analysis", 
-       subtitle="Coastal Wetland NGGI (2006-2011)") +
   xlab(NULL) +
   ylab(expression(paste("Uncertainty Effect on Total CONUS Accounting (million Tonnes CO"[2], "e)", sep=""))) +
   scale_x_discrete(limits = rev(sensitivityAnalysisDF_top10$parameter)) +
@@ -40,10 +38,8 @@ ggplot(sensitivityAnalysisDF_top15, aes(x=rank, y=effectMillionTonnesCO2)) +
                    yend=0, 
                    x=rank, 
                    xend=rank, color=type)) + 
-  labs(title="Sensitivity Analysis", 
-       subtitle="Coastal Wetland NGGI (2006-2011)") +
   xlab(NULL) +
-  ylab(expression(paste("Effect on net-CONUS Flux (million Tonnes CO"[2], "e)", sep=""))) +
+  ylab(expression(paste("Effect of Uncertainty on Total Flux (million Tonnes CO"[2], "e)", sep=""))) +
   scale_x_discrete(limits = rev(sensitivityAnalysisDF_top15$parameter)) +
   coord_flip() +
   theme_bw() +
