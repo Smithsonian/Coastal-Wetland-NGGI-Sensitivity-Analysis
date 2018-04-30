@@ -203,10 +203,9 @@ set.seed(5) # set seed so that analyses are replicable
 
 # Prep the Soil Carbon Data and convert to gCO2 eq. per m2 per year
 {
-  # convert to gCO2 per m2
-  # convert to gCO2 per cm3
-  cm.mean <- soilCarbonMean_gCcm3 * carbonToCO2 * 100 * 10000 
-  cm.sd <- soilCarbonSd_gCcm3 * carbonToCO2 * 100 * 10000 
+  # convert to gCO2 per m3
+  cm.mean <- soilCarbonMean_gCcm3 * carbonToCO2 * 100 * 10000 # x 100 cm. x 10,000 cm2 per m2 x 1 m
+  cm.sd <- soilCarbonSd_gCcm3 * carbonToCO2 * 100 * 10000 # x 100 cm. x 10,000 cm2 per m2 x 1 m
   cm.n <- soilCarbonN
   
   # Split carbon accumulation rates into methods
@@ -1002,16 +1001,23 @@ set.seed(5) # set seed so that analyses are replicable
                                ccap2010perPixelScalers = ccap2010perPixelScalers.CIs[2,], 
                                cncPerPixelScalers = cncPerPixelScalers.CIs[2,],
                                storageAndEmissions = storageAndEmissions.CIs[2,], 
-                               gwp=T)[[1]]
+                               gwp=T)
     maxEstimate <- coastalNGGI(estuarineMappedPixels = estuarineMappedPixels.1, 
                                palustrineMappedPixels = palustrineMappedPixels.CIs.Med.Table, 
                                ccap2010perPixelScalers = ccap2010perPixelScalers.CIs[2,], 
                                cncPerPixelScalers = cncPerPixelScalers.CIs[2,],
                                storageAndEmissions = storageAndEmissions.CIs[2,], 
-                               gwp=F)[[1]]
+                               gwp=F)
     parameterNameStore <- c(parameterNameStore, "GWP vs SGW/CP")
     parameterTypeStore <- c(parameterTypeStore, "Assumption")
-    parameterEffectStore <- c(parameterEffectStore, abs(maxEstimate - minEstimate))
+    parameterEffectStore <- c(parameterEffectStore, abs(maxEstimate[[1]] - minEstimate[[1]]))
+    
+    # let's make this a special case where we save the resutls
+    minEstimate[[2]]["analysis_type"] <- rep("GWP", nrow(minEstimate[[2]])) 
+    maxEstimate[[2]]["analysis_type"] <- rep("SGW/CP", nrow(maxEstimate[[2]])) 
+    sgwp_gwp_output <- rbind(minEstimate[[2]], maxEstimate[[2]])
+    write_csv(sgwp_gwp_output, "data/outputTables/GWP_vs_SGWP_median_values.csv")
+    
   }
   
   # Third and Forth Compare The Assumptions of depth lost and fraction lost to open water
@@ -1035,6 +1041,7 @@ set.seed(5) # set seed so that analyses are replicable
     parameterEffectStore <- c(parameterEffectStore, abs(maxEstimate - minEstimate))
   }
   
+  # Test the depth lost to erosion
   {
     minEstimate <- coastalNGGI(estuarineMappedPixels = estuarineMappedPixels.1, 
                                palustrineMappedPixels = palustrineMappedPixels.CIs.Med.Table, 

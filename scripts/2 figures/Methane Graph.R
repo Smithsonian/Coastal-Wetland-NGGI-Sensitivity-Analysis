@@ -4,7 +4,7 @@ library(tidyverse)
 methane <- read_csv("data/Methane/derivative/Methane Synthesis Knox.csv")
 names(methane) <- c("Site.Name", "Location", "Region", "Saliniity.class", "year", "Method", "Salinity.ppt", "CH4.flux", "Reference")
 
-salinity_breaks <- data.frame(x = c(15, 5), 
+salinity_breaks <- data.frame(x = c(18, 5), 
                               salinity_class_breaks = c("IPCC", "C-CAP"))
 
 ggplot(data = methane, aes(x = Salinity.ppt, y = CH4.flux)) +
