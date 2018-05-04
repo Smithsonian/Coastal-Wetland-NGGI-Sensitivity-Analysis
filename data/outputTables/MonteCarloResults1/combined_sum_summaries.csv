@@ -1,6 +1,6 @@
-analysis_description,median_sum_total_MillionTonnesCO2,lower_sum_total_MillionTonnesCO2,upper_sum_total_MillionTonnesCO2
-Total NGGI,-50.635951771606294,-97.57559259636527,-8.711595994701243
-Estuarine Losses,-39.84447152753212,-65.30895782895567,-21.236310404074338
-Estuarine Stable and Gains,11.29528301895962,-10.969038370719291,33.679189573499194
-Palustrine Losses,-11.761657468765904,-18.635274190098066,-6.775661470350118
-Palustrine Stable and Gains,-7.849628502115035,-37.871589870037255,7.955535370865139
+analysis_description,median_sum_total_MillionTonnesCO2,lower_sum_total_MillionTonnesCO2,upper_sum_total_MillionTonnesCO2,salinity,stability
+Total NGGI,-50.635951771606294,-97.57559259636527,-8.711595994701243,NA,NA
+Estuarine Losses,-39.84447152753212,-65.30895782895567,-21.236310404074338,Estuarine,Losses
+Estuarine Stable and Gains,11.29528301895962,-10.969038370719291,33.679189573499194,Estuarine,Stable and Gains
+Palustrine Losses,-11.761657468765904,-18.635274190098066,-6.775661470350118,Palustrine,Losses
+Palustrine Stable and Gains,-7.849628502115035,-37.871589870037255,7.955535370865139,Palustrine,Stable and Gains
