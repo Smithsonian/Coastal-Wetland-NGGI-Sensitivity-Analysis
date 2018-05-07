@@ -153,12 +153,9 @@ write_csv(combined_sum_summaries, "data/outputTables/MonteCarloResults1/combined
 
 salinity_stability_summed_iterations["emission_or_storage"] <- ifelse(salinity_stability_summed_iterations$sum_total_MillionTonnesCO2 >= 0, "storage", "emission")
 
-abline_df <- data.frame(x = c(0, 0, 0, 0), 
-                        salinity = c("Estuarine", "Estuarine", "Palustrine", "Palustrine"),
-                        stability = c("Stable and Gains", "Losses", "Stable and Gains", "Losses"))
-
 breakdown_MillionTonnesCO2_histograms <- ggplot(data = salinity_stability_summed_iterations, aes(x = sum_total_MillionTonnesCO2)) +
   facet_wrap(salinity~stability) +
+  geom_vline(aes(xintercept=0), col="darkgrey", lwd=1.25) +
   geom_histogram(aes(fill = emission_or_storage), breaks = seq(-76, 52, by=4)) +
   theme_bw() + 
   xlab(expression(paste("Million Tonnes CO"[2],"e", sep=""))) +
@@ -166,7 +163,7 @@ breakdown_MillionTonnesCO2_histograms <- ggplot(data = salinity_stability_summed
                     labels = c("Emission", "Storage")) + 
   theme(legend.title=element_blank(), legend.position = "top")
 
-y_maxs_for_plot <- ggplot_build(breakdown_MillionTonnesCO2_histograms)$data[[1]] %>%
+y_maxs_for_plot <- ggplot_build(breakdown_MillionTonnesCO2_histograms)$data[[2]] %>%
   group_by(PANEL) %>%
   summarise(maximum_y = max(y))
 
@@ -177,15 +174,15 @@ breakdown_MillionTonnesCO2_histograms <- breakdown_MillionTonnesCO2_histograms +
   
 sum_total_MillionTonnesCO2_histograms <- ggplot(data = total_nggi_summed_iterations, aes(x = sum_total_MillionTonnesCO2)) +
   facet_grid(.~analysis_description) +
+  geom_vline(aes(xintercept=0), col="darkgrey", lwd=1.25) +
   geom_histogram(aes(fill = emission_or_storage), breaks = seq(-128, 20, by=4)) +
-  #geom_vline(data=abline_df, color = "black", aes(xintercept = x)) +
   theme_bw() + 
   xlab(expression(paste("Million Tonnes CO"[2],"e", sep=""))) +
   scale_fill_manual(values=c("#D55E00", "#0072B2"),
                     labels = c("Emission", "Storage")) + 
   theme(legend.title=element_blank(), legend.position = "none")
   
-y_maxs_for_plot_b <- ggplot_build(sum_total_MillionTonnesCO2_histograms)$data[[1]] %>%
+y_maxs_for_plot_b <- ggplot_build(sum_total_MillionTonnesCO2_histograms)$data[[2]] %>%
     group_by(PANEL) %>%
     summarise(maximum_y = max(y))
   
