@@ -178,8 +178,8 @@ ggplot(included_in_chart, aes(x=abbrevs, y = median.ci, fill = analysis_type)) +
   geom_linerange(aes(ymin=upper.ci, ymax=lower.ci), position = position_dodge(width = 0.9)) +
   theme_bw() +
   xlab(NULL) +
-  ylab("Wetland Area (Million Hectares)") +
-  labs(title = "Wetland Area and Change 2006-2011") +
+  ylab("Coastal Wetland Area (Million Hectares)") +
+  labs(title = "2006 to 2011") +
   theme(axis.text.x = element_text(angle = 90, hjust = 1), legend.title=element_blank()) +
   scale_fill_manual(values = c("#999999", "#F0E442", "#CC79A7")) +
   theme(legend.position = c(0.6, 0.6))
