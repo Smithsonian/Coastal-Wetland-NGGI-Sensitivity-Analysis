@@ -1,0 +1,3 @@
+analysis_description,scaled_up_using,median_sum_total_MillionTonnesCO2PerYear,lower_ci_sum_total_MillionTonnesCO2PerYear,upper_ci_sum_total_MillionTonnesCO2PerYear,lower_99_sum_total_MillionTonnesCO2PerYear,upper_99_sum_total_MillionTonnesCO2PerYear,min_sum_total_MillionTonnesCO2PerYear,max_sum_total_MillionTonnesCO2PerYear
+Total NGGI,logmean,-10.340765055122507,-20.930323057166397,-1.551749627101361,-23.557319065212912,-0.1296687835991188,-33.75661464084732,6.2388866967629175
+Total NGGI,mean,-22.016149628952434,-87.83436646652387,-4.503451532892883,-131.7969126776587,-2.262145242822397,-848.6249769191093,7.0798594694834

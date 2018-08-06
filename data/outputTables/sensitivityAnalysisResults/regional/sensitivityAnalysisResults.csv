@@ -1,0 +1,148 @@
+parameter,type,effectTonnesCO2,effectMillionTonnesCO2
+palustrine methane,Emissions and Storage Data,56879668.10141243,56.88
+depth lost to erosion,Assumption,46989434.97499739,46.99
+GWP vs SGW/CP,Assumption,43822661.7919274,43.82
+estuarine methane,Emissions and Storage Data,43411563.749951735,43.41
+soil burial,Emissions and Storage Data,25516198.232085653,25.52
+fraction lost to atmosphere,Assumption,19303767.881620556,19.3
+coastal lands vs NWI,Assumption,9346291.535868071,9.35
+Change accuracy,C-CAP Change Detection,8485063.654558398,8.49
+forested biomass,Emissions and Storage Data,2745110.095404573,2.75
+EAB accuracy,C-CAP Classification,2216569.8326099217,2.22
+OW accuracy,C-CAP Classification,1328775.7328347564,1.33
+soil carbon density,Emissions and Storage Data,974340.0110319257,0.97
+UCS accuracy,C-CAP Classification,684065.6061235443,0.68
+PAB accuracy,C-CAP Classification,670694.0053503141,0.67
+scrub shrub biomass,Emissions and Storage Data,615834.2975132391,0.62
+PSS accuracy,C-CAP Classification,450124.5005089417,0.45
+PEM accuracy,C-CAP Classification,300184.5556514561,0.3
+OSD accuracy,C-CAP Classification,262179.00775320083,0.26
+LID accuracy,C-CAP Classification,104949.3791045919,0.1
+BAR accuracy,C-CAP Classification,102476.35626126081,0.1
+EEM accuracy,C-CAP Classification,86762.74993683398,0.09
+MID accuracy,C-CAP Classification,74117.60525681078,0.07
+No Change accuracy,C-CAP Change Detection,62477.64104048163,0.06
+ESS accuracy,C-CAP Classification,62326.37094823271,0.06
+HID accuracy,C-CAP Classification,43748.96717824042,0.04
+PFW accuracy,C-CAP Classification,36764.03202666342,0.04
+PEM to OW mapped area,Coastal Lands Mapping,33546.38637711853,0.03
+emergent biomass,Emissions and Storage Data,27226.262956865132,0.03
+PFW to PSS mapped area,Coastal Lands Mapping,19026.60392498225,0.02
+EVR accuracy,C-CAP Classification,17744.461382456124,0.02
+EFW accuracy,C-CAP Classification,16039.047942012548,0.02
+PFW to PEM mapped area,Coastal Lands Mapping,15710.011294916272,0.02
+PFW to OSD mapped area,Coastal Lands Mapping,12076.808962017298,0.01
+PFW to OW mapped area,Coastal Lands Mapping,10513.97480995953,0.01
+PEM to PAB mapped area,Coastal Lands Mapping,9099.627203948796,0.01
+PSS to PFW mapped area,Coastal Lands Mapping,8575.748898476362,0.01
+PFW to LID mapped area,Coastal Lands Mapping,7609.723116077483,0.01
+PEM to OSD mapped area,Coastal Lands Mapping,7480.692916929722,0.01
+GRS accuracy,C-CAP Classification,7282.768666699529,0.01
+PSS to OW mapped area,Coastal Lands Mapping,7007.781439937651,0.01
+CULT accuracy,C-CAP Classification,6912.460543476045,0.01
+PFW to MID mapped area,Coastal Lands Mapping,6135.7933526188135,0.01
+PSS to OSD mapped area,Coastal Lands Mapping,5384.749355576932,0.01
+PFW to BAR mapped area,Coastal Lands Mapping,5266.617638766766,0.01
+PEM to UCS mapped area,Coastal Lands Mapping,5082.850826628506,0.01
+PEM to LID mapped area,Coastal Lands Mapping,4294.501817055047,0
+PFW to PAB mapped area,Coastal Lands Mapping,3857.17478594929,0
+PFW to HID mapped area,Coastal Lands Mapping,3613.462444715202,0
+PFW to EAB mapped area,Coastal Lands Mapping,3527.325875788927,0
+PEM to MID mapped area,Coastal Lands Mapping,3488.897836267948,0
+PSS to LID mapped area,Coastal Lands Mapping,3243.2960674613714,0
+PEM to PFW mapped area,Coastal Lands Mapping,3061.706563808024,0
+PFW to CULT mapped area,Coastal Lands Mapping,2960.4885597899556,0
+PEM to HID mapped area,Coastal Lands Mapping,2936.276917114854,0
+PSS to MID mapped area,Coastal Lands Mapping,2331.645987212658,0
+PSS to UCS mapped area,Coastal Lands Mapping,2113.0665671229362,0
+OW to PFW mapped area,Coastal Lands Mapping,1937.2765549272299,0
+PEM to CULT mapped area,Coastal Lands Mapping,1856.284883402288,0
+PAB to PFW mapped area,Coastal Lands Mapping,1653.7726688459516,0
+CULT to PFW mapped area,Coastal Lands Mapping,1629.1350154578686,0
+PFW to GRS mapped area,Coastal Lands Mapping,1622.998595789075,0
+PSS to HID mapped area,Coastal Lands Mapping,1586.7418013885617,0
+PFW to UCS mapped area,Coastal Lands Mapping,1544.6098149046302,0
+UCS to PFW mapped area,Coastal Lands Mapping,1417.519430436194,0
+PSS to PAB mapped area,Coastal Lands Mapping,1397.3525291755795,0
+PFW to SS mapped area,Coastal Lands Mapping,1366.318933494389,0
+PFW to PFW mapped area,Coastal Lands Mapping,1202.6138709560037,0
+PEM to PSS mapped area,Coastal Lands Mapping,1076.978747151792,0
+SS to PFW mapped area,Coastal Lands Mapping,1070.565968543291,0
+PSS to PEM mapped area,Coastal Lands Mapping,1019.006743453443,0
+PSS to CULT mapped area,Coastal Lands Mapping,1011.0525452569127,0
+PFW to PAST mapped area,Coastal Lands Mapping,967.2911366447806,0
+PEM to PEM mapped area,Coastal Lands Mapping,916.1047799885273,0
+GRS to PFW mapped area,Coastal Lands Mapping,884.3875798210502,0
+PSS to EAB mapped area,Coastal Lands Mapping,871.2661245688796,0
+EVR to PSS mapped area,Coastal Lands Mapping,851.5193463563919,0
+PEM to EAB mapped area,Coastal Lands Mapping,832.1466430127621,0
+BAR to PFW mapped area,Coastal Lands Mapping,803.2610105797648,0
+PAST accuracy,C-CAP Classification,797.9131415262818,0
+MIX to PSS mapped area,Coastal Lands Mapping,761.8857309520245,0
+EVR to PEM mapped area,Coastal Lands Mapping,755.8783318400383,0
+MIX to PEM mapped area,Coastal Lands Mapping,755.8783318325877,0
+SS accuracy,C-CAP Classification,734.5879984050989,0
+OSD to PFW mapped area,Coastal Lands Mapping,708.7597152143717,0
+DEC to PEM mapped area,Coastal Lands Mapping,593.9044035896659,0
+DEC to PSS mapped area,Coastal Lands Mapping,582.618500135839,0
+OW to PSS mapped area,Coastal Lands Mapping,559.0732061192393,0
+PAST to PFW mapped area,Coastal Lands Mapping,558.5605767294765,0
+PSS to PSS mapped area,Coastal Lands Mapping,449.4733656346798,0
+LID to PFW mapped area,Coastal Lands Mapping,425.25582913309336,0
+PEM to PAST mapped area,Coastal Lands Mapping,404.34045001864433,0
+PSS to PAST mapped area,Coastal Lands Mapping,352.93253801018,0
+PEM to EVR mapped area,Coastal Lands Mapping,288.18251906335354,0
+PSS to BAR mapped area,Coastal Lands Mapping,279.8842548504472,0
+PSS to EVR mapped area,Coastal Lands Mapping,220.93818324059248,0
+OW to PEM mapped area,Coastal Lands Mapping,209.14136454463005,0
+PAB to PSS mapped area,Coastal Lands Mapping,204.10609112679958,0
+CULT to PSS mapped area,Coastal Lands Mapping,192.69875825941563,0
+PEM to BAR mapped area,Coastal Lands Mapping,144.24867660552263,0
+UCS to PSS mapped area,Coastal Lands Mapping,119.80140130966902,0
+BAR to PSS mapped area,Coastal Lands Mapping,110.9272234365344,0
+MID to PFW mapped area,Coastal Lands Mapping,94.50129536539316,0
+PAST to PSS mapped area,Coastal Lands Mapping,88.93788842856884,0
+UCS to PEM mapped area,Coastal Lands Mapping,81.27238780260086,0
+SS to PEM mapped area,Coastal Lands Mapping,76.02154357731342,0
+OSD to PSS mapped area,Coastal Lands Mapping,70.99342299997807,0
+PSS to GRS mapped area,Coastal Lands Mapping,67.21280963718891,0
+DEC accuracy,C-CAP Classification,57.18690790235996,0
+LID to PSS mapped area,Coastal Lands Mapping,53.24506724625826,0
+PAB to PEM mapped area,Coastal Lands Mapping,51.02161141484976,0
+PSS to MIX mapped area,Coastal Lands Mapping,46.67935054004192,0
+GRS to PSS mapped area,Coastal Lands Mapping,44.46894421428442,0
+BAR to PEM mapped area,Coastal Lands Mapping,35.90409691631794,0
+MID to PSS mapped area,Coastal Lands Mapping,17.748355746269226,0
+PEM to SS mapped area,Coastal Lands Mapping,13.37438152730465,0
+OSD to PEM mapped area,Coastal Lands Mapping,12.597928740084171,0
+LID to PEM mapped area,Coastal Lands Mapping,10.708239436149597,0
+MID to PEM mapped area,Coastal Lands Mapping,5.039171494543552,0
+EVR to PFW mapped area,Coastal Lands Mapping,5.031082771718502,0
+MIX accuracy,C-CAP Classification,4.859885722398758,0
+HID to PSS mapped area,Coastal Lands Mapping,4.4370889365673065,0
+GRS to PEM mapped area,Coastal Lands Mapping,3.985153131186962,0
+DEC to PFW mapped area,Coastal Lands Mapping,3.61609073728323,0
+CULT to PEM mapped area,Coastal Lands Mapping,2.898293189704418,0
+PAST to PEM mapped area,Coastal Lands Mapping,2.5360065400600433,0
+MIX to PFW mapped area,Coastal Lands Mapping,2.3583200499415398,0
+HID to PEM mapped area,Coastal Lands Mapping,1.8896893113851547,0
+SS to PSS mapped area,Coastal Lands Mapping,1.7967776209115982,0
+PEM to GRS mapped area,Coastal Lands Mapping,1.0890469774603844,0
+PFW to EVR mapped area,Coastal Lands Mapping,0.9733971804380417,0
+EAB to PEM mapped area,Coastal Lands Mapping,0.6298964396119118,0
+PFW to MIX mapped area,Coastal Lands Mapping,0.5141432285308838,0
+PSS to SS mapped area,Coastal Lands Mapping,0.1464650109410286,0
+HID to PFW mapped area,Coastal Lands Mapping,0,0
+PFW to DEC mapped area,Coastal Lands Mapping,0,0
+PFW to SNOW mapped area,Coastal Lands Mapping,0,0
+PSS to DEC mapped area,Coastal Lands Mapping,0,0
+PSS to SNOW mapped area,Coastal Lands Mapping,0,0
+PEM to DEC mapped area,Coastal Lands Mapping,0,0
+PEM to MIX mapped area,Coastal Lands Mapping,0,0
+PEM to SNOW mapped area,Coastal Lands Mapping,0,0
+EAB to PFW mapped area,Coastal Lands Mapping,0,0
+EAB to PSS mapped area,Coastal Lands Mapping,0,0
+SNOW to PFW mapped area,Coastal Lands Mapping,0,0
+SNOW to PSS mapped area,Coastal Lands Mapping,0,0
+SNOW to PEM mapped area,Coastal Lands Mapping,0,0
+SNOW accuracy,C-CAP Classification,0,0
