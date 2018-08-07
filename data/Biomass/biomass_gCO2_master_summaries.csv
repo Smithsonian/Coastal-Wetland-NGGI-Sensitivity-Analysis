@@ -1,0 +1,2458 @@
+study_id,site_id,plot_id,mean_agb_g_m2,vegetation_class,mean_tree_height,g_co2_m2,study
+byrd_2018,Sage,1-2,274.32,emergent,NA,482.80758912,Byrd 2018
+byrd_2018,Sage,1-1,262.32,emergent,NA,461.68739711999996,Byrd 2018
+byrd_2018,Sage,1-3,203.68,emergent,NA,358.48005888,Byrd 2018
+byrd_2018,Sage,2-3,206.8,emergent,NA,363.9713088,Byrd 2018
+byrd_2018,Sage,2-1,232.52,emergent,NA,409.23892032000003,Byrd 2018
+byrd_2018,Sage,2-2,210.36,emergent,NA,370.23696576000003,Byrd 2018
+byrd_2018,Sage,3-3,144.64,emergent,NA,254.56871423999996,Byrd 2018
+byrd_2018,Sage,3-1,357.64,emergent,NA,629.45212224,Byrd 2018
+byrd_2018,Sage,3-2,214.2,emergent,NA,376.99542719999994,Byrd 2018
+byrd_2018,Sage,4-3,236.48,emergent,NA,416.20858367999995,Byrd 2018
+byrd_2018,Sage,4-1,248.88,emergent,NA,438.03278207999995,Byrd 2018
+byrd_2018,Sage,4-2,248.24,emergent,NA,436.90637183999996,Byrd 2018
+byrd_2018,Sage,5-3,258.64,emergent,NA,455.21053823999995,Byrd 2018
+byrd_2018,Sage,5-2,268.32,emergent,NA,472.24749312,Byrd 2018
+byrd_2018,Sage,5-1,129.88,emergent,NA,228.59087808,Byrd 2018
+byrd_2018,Sage,6-3,441.76,emergent,NA,777.5046681599999,Byrd 2018
+byrd_2018,Sage,6-1,967.08,emergent,NA,1702.07627328,Byrd 2018
+byrd_2018,Sage,6-2,559.52,emergent,NA,984.76415232,Byrd 2018
+byrd_2018,Sage,7-1,346.92,emergent,NA,610.58475072,Byrd 2018
+byrd_2018,Sage,7-3,644.8,emergent,NA,1134.8583167999998,Byrd 2018
+byrd_2018,Sage,7-2,264.36,emergent,NA,465.27782976000003,Byrd 2018
+byrd_2018,Sage,8-1,280.92,emergent,NA,494.42369472,Byrd 2018
+byrd_2018,Sage,8-3,628.44,emergent,NA,1106.06445504,Byrd 2018
+byrd_2018,Sage,8-2,446.52,emergent,NA,785.8823443199999,Byrd 2018
+byrd_2018,Sage,9-1,287.48,emergent,NA,505.96939968,Byrd 2018
+byrd_2018,Sage,9-3,673.32,emergent,NA,1185.0539731200001,Byrd 2018
+byrd_2018,Sage,9-2,712.84,emergent,NA,1254.6098054400002,Byrd 2018
+byrd_2018,Scusset,11-1,497.36,emergent,NA,875.36155776,Byrd 2018
+byrd_2018,Scusset,11-3,316.08,emergent,NA,556.3058572799999,Byrd 2018
+byrd_2018,Scusset,11-2,591.92,emergent,NA,1041.7886707199998,Byrd 2018
+byrd_2018,Scusset,12-2,868.68,emergent,NA,1528.89069888,Byrd 2018
+byrd_2018,Scusset,12-3,700.28,emergent,NA,1232.5040044799998,Byrd 2018
+byrd_2018,Scusset,12-1,477,emergent,NA,839.5276319999999,Byrd 2018
+byrd_2018,Scusset,13-2,748.8,emergent,NA,1317.8999807999999,Byrd 2018
+byrd_2018,Scusset,13-3,863.4,emergent,NA,1519.5978143999998,Byrd 2018
+byrd_2018,Scusset,13-1,788.4,emergent,NA,1387.5966144,Byrd 2018
+byrd_2018,Scusset,14-1,467.72,emergent,NA,823.1946835200001,Byrd 2018
+byrd_2018,Scusset,14-2,399.12,emergent,NA,702.4575859199999,Byrd 2018
+byrd_2018,Scusset,14-3,566.32,emergent,NA,996.73226112,Byrd 2018
+byrd_2018,Scusset,15-2,839.64,emergent,NA,1477.77983424,Byrd 2018
+byrd_2018,Scusset,15-3,544.16,emergent,NA,957.73030656,Byrd 2018
+byrd_2018,Scusset,15-1,651.4,emergent,NA,1146.4744223999999,Byrd 2018
+byrd_2018,Scusset,16-2,837.88,emergent,NA,1474.68220608,Byrd 2018
+byrd_2018,Scusset,16-1,497.72,emergent,NA,875.99516352,Byrd 2018
+byrd_2018,Scusset,16-3,484.64,emergent,NA,852.97415424,Byrd 2018
+byrd_2018,Scusset,17-1,1317.67,emergent,NA,2319.12028272,Byrd 2018
+byrd_2018,Scusset,17-2,1571.66,emergent,NA,2766.14674656,Byrd 2018
+byrd_2018,Scusset,33-2,1342.5,emergent,NA,2362.82148,Byrd 2018
+byrd_2018,Scusset,33-1,703.85,emergent,NA,1238.7872616,Byrd 2018
+byrd_2018,Scusset,17-3,1052,emergent,NA,1851.536832,Byrd 2018
+byrd_2018,Scusset,33-3,688.63,emergent,NA,1211.99981808,Byrd 2018
+byrd_2018,Scusset,18-2,666.63,emergent,NA,1173.27946608,Byrd 2018
+byrd_2018,Scusset,18-3,1306.94,emergent,NA,2300.23531104,Byrd 2018
+byrd_2018,Scusset,18-1,1653.25,emergent,NA,2909.746452,Byrd 2018
+byrd_2018,Scusset,19-2,1684.44,emergent,NA,2964.6413510400002,Byrd 2018
+byrd_2018,Scusset,19-1,1359.12,emergent,NA,2392.0729459199997,Byrd 2018
+byrd_2018,Scusset,19-3,1766.9,emergent,NA,3109.7722704,Byrd 2018
+byrd_2018,Cheq,20-3,468.96,emergent,NA,825.37710336,Byrd 2018
+byrd_2018,Cheq,20-1,1263.48,emergent,NA,2223.74501568,Byrd 2018
+byrd_2018,Cheq,20-2,860.32,emergent,NA,1514.17696512,Byrd 2018
+byrd_2018,Cheq,21-1,640.28,emergent,NA,1126.9030444799998,Byrd 2018
+byrd_2018,Cheq,21-3,747.32,emergent,NA,1315.2951571199999,Byrd 2018
+byrd_2018,Cheq,21-2,427.04,emergent,NA,751.59723264,Byrd 2018
+byrd_2018,Cheq,22-2,565.44,emergent,NA,995.18344704,Byrd 2018
+byrd_2018,Cheq,22-1,440.84,emergent,NA,775.88545344,Byrd 2018
+byrd_2018,Cheq,22-3,691.12,emergent,NA,1216.38225792,Byrd 2018
+byrd_2018,Cheq,23-1,114.96,emergent,NA,202.33143936,Byrd 2018
+byrd_2018,Cheq,23-3,218.48,emergent,NA,384.52829568,Byrd 2018
+byrd_2018,Cheq,23-2,285.48,emergent,NA,502.4493676800001,Byrd 2018
+byrd_2018,Cheq,24-1,898.56,emergent,NA,1581.47997696,Byrd 2018
+byrd_2018,Cheq,24-2,453.48,emergent,NA,798.13205568,Byrd 2018
+byrd_2018,Cheq,24-3,786.56,emergent,NA,1384.35818496,Byrd 2018
+byrd_2018,Cheq,25-1,1424.24,emergent,NA,2506.68518784,Byrd 2018
+byrd_2018,Cheq,25-3,703.76,emergent,NA,1238.62886016,Byrd 2018
+byrd_2018,Cheq,25-2,601.04,emergent,NA,1057.84001664,Byrd 2018
+byrd_2018,OldCty,28-2,527.84,emergent,NA,929.00684544,Byrd 2018
+byrd_2018,OldCty,28-3,999.4,emergent,NA,1758.9599904,Byrd 2018
+byrd_2018,OldCty,28-1,1118.2,emergent,NA,1968.0498912,Byrd 2018
+byrd_2018,OldCty,29-1,943.4,emergent,NA,1660.3990944,Byrd 2018
+byrd_2018,OldCty,29-2,637.04,emergent,NA,1121.2005926399997,Byrd 2018
+byrd_2018,OldCty,29-3,821.2,emergent,NA,1445.3251392,Byrd 2018
+byrd_2018,OldCty,30-3,1463.24,emergent,NA,2575.32581184,Byrd 2018
+byrd_2018,OldCty,30-2,712.92,emergent,NA,1254.75060672,Byrd 2018
+byrd_2018,OldCty,30-1,814.88,emergent,NA,1434.20183808,Byrd 2018
+byrd_2018,OldCty,31-2,884.52,emergent,NA,1556.76935232,Byrd 2018
+byrd_2018,OldCty,31-3,640.96,emergent,NA,1128.09985536,Byrd 2018
+byrd_2018,OldCty,31-1,904.68,emergent,NA,1592.2512748799998,Byrd 2018
+byrd_2018,OldCty,32-2,601.04,emergent,NA,1057.84001664,Byrd 2018
+byrd_2018,OldCty,32-1,1096.2,emergent,NA,1929.3295392000002,Byrd 2018
+byrd_2018,OldCty,32-3,1260,emergent,NA,2217.62016,Byrd 2018
+byrd_2018,SERC,50,245.57,emergent,NA,432.20712912,Byrd 2018
+byrd_2018,SERC,49,421.98,emergent,NA,742.69155168,Byrd 2018
+byrd_2018,SERC,48,538.62,emergent,NA,947.97981792,Byrd 2018
+byrd_2018,SERC,47,463.01,emergent,NA,814.90500816,Byrd 2018
+byrd_2018,SERC,45,400.13,emergent,NA,704.23520208,Byrd 2018
+byrd_2018,SERC,46,285.34,emergent,NA,502.2029654399999,Byrd 2018
+byrd_2018,SERC,51,382.29,emergent,NA,672.83651664,Byrd 2018
+byrd_2018,SERC,53,486.87,emergent,NA,856.89898992,Byrd 2018
+byrd_2018,SERC,52,321.44,emergent,NA,565.7395430400001,Byrd 2018
+byrd_2018,SERC,43,500.26,emergent,NA,880.46560416,Byrd 2018
+byrd_2018,SERC,44,826.77,emergent,NA,1455.1284283199998,Byrd 2018
+byrd_2018,SERC,56,1116.25,emergent,NA,1964.6178599999998,Byrd 2018
+byrd_2018,SERC,55,1991.57,emergent,NA,3505.19506512,Byrd 2018
+byrd_2018,SERC,54,1550.78,emergent,NA,2729.3976124799997,Byrd 2018
+byrd_2018,SERC,37,333.35,emergent,NA,586.7013336,Byrd 2018
+byrd_2018,SERC,39,455.07,emergent,NA,800.93048112,Byrd 2018
+byrd_2018,SERC,38,519.31,emergent,NA,913.9939089599999,Byrd 2018
+byrd_2018,SERC,40,1470.95,emergent,NA,2588.8955352000003,Byrd 2018
+byrd_2018,SERC,41,1284.96,emergent,NA,2261.55015936,Byrd 2018
+byrd_2018,SERC,42,625.83,emergent,NA,1101.47081328,Byrd 2018
+byrd_2018,SERC,32,2239.22,shrub,NA,3941.0630275199997,Byrd 2018
+byrd_2018,SERC,31,1887.26,shrub,NA,3321.60779616,Byrd 2018
+byrd_2018,SERC,33,4294.37,shrub,NA,7558.159909919999,Byrd 2018
+byrd_2018,SERC,34,2388.68,shrub,NA,4204.11501888,Byrd 2018
+byrd_2018,SERC,36,1425.13,shrub,NA,2508.2516020800003,Byrd 2018
+byrd_2018,SERC,35,4060.89,shrub,NA,7147.231374239999,Byrd 2018
+byrd_2018,SERC,59,782.2,emergent,NA,1376.6845152,Byrd 2018
+byrd_2018,SERC,57,481.43,emergent,NA,847.32450288,Byrd 2018
+byrd_2018,SERC,58,428.32,emergent,NA,753.85005312,Byrd 2018
+byrd_2018,SERC,28,1217.83,emergent,NA,2143.4002852799995,Byrd 2018
+byrd_2018,SERC,30,1717.7,emergent,NA,3023.1794832,Byrd 2018
+byrd_2018,SERC,29,1372.97,emergent,NA,2416.4491675199997,Byrd 2018
+byrd_2018,SERC,26,421.25,emergent,NA,741.40674,Byrd 2018
+byrd_2018,SERC,27,1545.8,emergent,NA,2720.6327327999998,Byrd 2018
+byrd_2018,SERC,25,853.89,emergent,NA,1502.86006224,Byrd 2018
+byrd_2018,SERC,22,1342.29,emergent,NA,2362.4518766399997,Byrd 2018
+byrd_2018,SERC,23,1554.89,emergent,NA,2736.63127824,Byrd 2018
+byrd_2018,SERC,24,2348.75,emergent,NA,4133.837579999999,Byrd 2018
+byrd_2018,SERC,64,665.7,emergent,NA,1171.6426512,Byrd 2018
+byrd_2018,SERC,63,1037.12,emergent,NA,1825.3477939199997,Byrd 2018
+byrd_2018,SERC,65,631.38,emergent,NA,1111.23890208,Byrd 2018
+byrd_2018,SERC,60,1044.6,emergent,NA,1838.5127135999999,Byrd 2018
+byrd_2018,SERC,61,981.18,emergent,NA,1726.89249888,Byrd 2018
+byrd_2018,SERC,62,751.56,emergent,NA,1322.75762496,Byrd 2018
+byrd_2018,SERC,15,1590.78,emergent,NA,2799.79825248,Byrd 2018
+byrd_2018,SERC,17,1643.79,emergent,NA,2893.09670064,Byrd 2018
+byrd_2018,SERC,16,1434.34,emergent,NA,2524.4613494399996,Byrd 2018
+byrd_2018,SERC,19,2655.78,emergent,NA,4674.21529248,Byrd 2018
+byrd_2018,SERC,20,2342.57,shrub,NA,4122.96068112,Byrd 2018
+byrd_2018,SERC,18,2207.69,shrub,NA,3885.56972304,Byrd 2018
+byrd_2018,SERC,12,57.72,emergent,NA,101.58812352,Byrd 2018
+byrd_2018,SERC,14,157.58,emergent,NA,277.34332128,Byrd 2018
+byrd_2018,SERC,13,145.98,emergent,NA,256.92713568,Byrd 2018
+byrd_2018,SERC,11,1288.01,emergent,NA,2266.9182081599997,Byrd 2018
+byrd_2018,SERC,10,1614.43,emergent,NA,2841.4226308800003,Byrd 2018
+byrd_2018,SERC,9,1492.64,emergent,NA,2627.0702822400003,Byrd 2018
+byrd_2018,SERC,7,1850,emergent,NA,3256.0296,Byrd 2018
+byrd_2018,SERC,8,1685.7,emergent,NA,2966.8589712,Byrd 2018
+byrd_2018,SERC,21,1405.73,emergent,NA,2474.10729168,Byrd 2018
+byrd_2018,SERC,3,456.56,emergent,NA,803.55290496,Byrd 2018
+byrd_2018,SERC,1,533.03,emergent,NA,938.1413284799999,Byrd 2018
+byrd_2018,SERC,2,520.54,emergent,NA,916.1587286399999,Byrd 2018
+byrd_2018,SERC,6,1299.54,emergent,NA,2287.21119264,Byrd 2018
+byrd_2018,SERC,4,970.89,emergent,NA,1708.78193424,Byrd 2018
+byrd_2018,SERC,5,1054.73,emergent,NA,1856.34167568,Byrd 2018
+byrd_2018,Everglades,6SS2,174.17,emergent,NA,306.54198671999995,Byrd 2018
+byrd_2018,Everglades,6SS2,159.38,emergent,NA,280.51135008,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,98.61,emergent,NA,173.55517776,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,144.11,emergent,NA,253.63590576000004,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,400.78,emergent,NA,705.37921248,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,253.16,emergent,NA,445.56565056,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,203.63,emergent,NA,358.39205807999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,190.03,emergent,NA,334.45584048,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,235.62,emergent,NA,414.69496992,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,310.83,emergent,NA,547.06577328,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,294.02,emergent,NA,517.47990432,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,118.67,emergent,NA,208.86109872,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,120.75,emergent,NA,212.52193200000002,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,166.51,emergent,NA,293.06026416,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,199.13,emergent,NA,350.47198607999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,158.36,emergent,NA,278.71613376,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,155.03,emergent,NA,272.85528048000003,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,99.75,emergent,NA,175.56159599999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,136.51,emergent,NA,240.25978416,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,145.67,emergent,NA,256.38153072,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,203.18,emergent,NA,357.60005087999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,95.49,emergent,NA,168.06392784,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,209.43,emergent,NA,368.60015088,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,130.47,emergent,NA,229.62928752,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,164.83,emergent,NA,290.10343728000004,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,108.01,emergent,NA,190.09932816,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,219.67,emergent,NA,386.62271472,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,107.56,emergent,NA,189.30732096,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,347.65,emergent,NA,611.8695624,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,143.27,emergent,NA,252.15749232,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,121.55,emergent,NA,213.9299448,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,204.57,emergent,NA,360.04647312,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,212.87,emergent,NA,374.65460592,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,127.5,emergent,NA,224.40204,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,149.11,emergent,NA,262.43598576,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,105.4,emergent,NA,185.5056864,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,215.58,emergent,NA,379.42424928,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,101.06,emergent,NA,177.86721696,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,182.29,emergent,NA,320.83331663999996,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,234.89,emergent,NA,413.41015824,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,163.1,emergent,NA,287.0586096,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,144.9,emergent,NA,255.02631840000004,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,86.66,emergent,NA,152.52298656,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,110.93,emergent,NA,195.23857488000002,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,94.2,emergent,NA,165.7935072,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,104.87,emergent,NA,184.57287792000002,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,220.37,emergent,NA,387.85472591999996,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,278.09,emergent,NA,489.4428494399999,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,112.86,emergent,NA,198.63540576,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,231.24,emergent,NA,406.98609984,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,203.52,emergent,NA,358.19845632,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,108.16,emergent,NA,190.36333055999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,211.1,emergent,NA,371.53937759999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,122.55,emergent,NA,215.6899608,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,321.61,emergent,NA,566.0387457600001,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,118.86,emergent,NA,209.19550175999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,155.3,emergent,NA,273.3304848,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,90.08,emergent,NA,158.54224127999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,165.84,emergent,NA,291.88105344,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,187.79,emergent,NA,330.51340464,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,205.87,emergent,NA,362.33449392,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,285.49,emergent,NA,502.46696784,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,188.56,emergent,NA,331.86861696,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,251.2,emergent,NA,442.1160192,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,303.3,emergent,NA,533.8128528,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,171.97,emergent,NA,302.66995152,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,165.12,emergent,NA,290.61384191999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,146.7,emergent,NA,258.1943472,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,205.77,emergent,NA,362.15849232,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,192.15,emergent,NA,338.18707440000003,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,134.93,emergent,NA,237.47895888000002,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,227.79,emergent,NA,400.91404464,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,330.83,emergent,NA,582.26609328,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,110.89,emergent,NA,195.16817423999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,151.51,emergent,NA,266.66002416,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,137.44,emergent,NA,241.89659903999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,158.34,emergent,NA,278.68093344,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,221.93,emergent,NA,390.60035088,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,146.98,emergent,NA,258.68715168,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,152.48,emergent,NA,268.36723968,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,145.4,emergent,NA,255.9063264,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,157.74,emergent,NA,277.62492384,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,187.19,emergent,NA,329.45739504,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,253.1,emergent,NA,445.4600496,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,157.22,emergent,NA,276.70971552,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,175.27,emergent,NA,308.47800431999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,166.01,emergent,NA,292.18025616,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,212.61,emergent,NA,374.19700176000003,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,206.6,emergent,NA,363.61930559999996,Byrd 2018
+byrd_2018,Everglades,TS_Ph6b,255.48,emergent,NA,449.64888768,Byrd 2018
+byrd_2018,Everglades,1SS2,137.04,emergent,NA,241.19259263999996,Byrd 2018
+byrd_2018,Everglades,1SS2,99.1,emergent,NA,174.4175856,Byrd 2018
+byrd_2018,Everglades,2SS1,17.94,emergent,NA,31.57468704,Byrd 2018
+byrd_2018,Everglades,6S,6.73,emergent,NA,11.84490768,Byrd 2018
+byrd_2018,Everglades,6S,17.06,emergent,NA,30.025872959999997,Byrd 2018
+byrd_2018,Everglades,1SS1,59.97,emergent,NA,105.54815952,Byrd 2018
+byrd_2018,Everglades,1SS1,111.49,emergent,NA,196.22418383999997,Byrd 2018
+byrd_2018,Everglades,2S,4.6,emergent,NA,8.096073599999999,Byrd 2018
+byrd_2018,Everglades,6N,48.03,emergent,NA,84.53356848,Byrd 2018
+byrd_2018,Everglades,6N,19.45,emergent,NA,34.2323112,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,187.05,emergent,NA,329.21099280000004,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,208.14,emergent,NA,366.32973023999995,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,172.01,emergent,NA,302.74035216,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,114.82,emergent,NA,202.08503712,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,90.89,emergent,NA,159.96785424,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,398.09,emergent,NA,700.6447694399999,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,156.88,emergent,NA,276.11131007999995,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,117.16,emergent,NA,206.20347456,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,263.61,emergent,NA,463.95781776000007,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,183.29,emergent,NA,322.59333263999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,168.96,emergent,NA,297.37230336000005,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,126.69,emergent,NA,222.97642704,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,216.2,emergent,NA,380.5154592,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,231.51,emergent,NA,407.46130416,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,165.6,emergent,NA,291.4586496,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,350.37,emergent,NA,616.6568059199999,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,288.04,emergent,NA,506.95500863999996,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,121.2,emergent,NA,213.31393920000002,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,110.93,emergent,NA,195.23857488000002,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,129.13,emergent,NA,227.27086608,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,239.79,emergent,NA,422.03423664,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,122.68,emergent,NA,215.91876288,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,189.53,emergent,NA,333.57583248000003,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,316.59,emergent,NA,557.20346544,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,379.74,emergent,NA,668.34847584,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,160.14,emergent,NA,281.84896224,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,137.33,emergent,NA,241.70299728000003,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,158.06,emergent,NA,278.18812896,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,113.6,emergent,NA,199.9378176,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,385.79,emergent,NA,678.9965726400001,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,147.51,emergent,NA,259.61996015999995,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,189.04,emergent,NA,332.71342463999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,190.23,emergent,NA,334.80784367999996,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,146.34,emergent,NA,257.56074144,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,192.85,emergent,NA,339.4190856,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,95.74,emergent,NA,168.50393184,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,311.79,emergent,NA,548.75538864,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,181.6,emergent,NA,319.6189056,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,73.62,emergent,NA,129.57237792,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,298.63,emergent,NA,525.59357808,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,162.3,emergent,NA,285.6505968,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,225.86,emergent,NA,397.51721376,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,68.45,emergent,NA,120.4730952,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,102.16,emergent,NA,179.80323456,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,132.08,emergent,NA,232.46291328,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,57.4,emergent,NA,101.0249184,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,161.92,emergent,NA,284.98179072,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,96.39,emergent,NA,169.64794224,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,163.62,emergent,NA,287.97381792,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,123.09,emergent,NA,216.64036944,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,252.61,emergent,NA,444.59764176000004,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,74.25,emergent,NA,130.681188,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,183.84,emergent,NA,323.56134144000004,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,164.67,emergent,NA,289.82183471999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,135.72,emergent,NA,238.86937152000002,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,58.02,emergent,NA,102.11612832,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,409.16,emergent,NA,720.1281465600001,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,363.06,emergent,NA,638.9914089600001,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,78.94,emergent,NA,138.93566304,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,131.97,emergent,NA,232.26931152,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,119.61,emergent,NA,210.51551376,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,71.23,emergent,NA,125.36593968000001,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,118.91,emergent,NA,209.28350256,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,53.27,emergent,NA,93.75605232000001,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,63.49,emergent,NA,111.74341584000001,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,53.21,emergent,NA,93.65045136,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,59.91,emergent,NA,105.44255856,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,147.72,emergent,NA,259.98956352,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,147.33,emergent,NA,259.30315728,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,96.22,emergent,NA,169.34873952,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,276.77,emergent,NA,487.11962831999995,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,46.3,emergent,NA,81.48874079999999,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,144.84,emergent,NA,254.92071744,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,61.1,emergent,NA,107.5369776,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,367.33,emergent,NA,646.50667728,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,196.83,emergent,NA,346.42394928000004,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,194.41,emergent,NA,342.16471056,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,153.15,emergent,NA,269.5464504,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,324.79,emergent,NA,571.63559664,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,187.5,emergent,NA,330.003,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,326.72,emergent,NA,575.03242752,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,254.22,emergent,NA,447.43126752,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,162.17,emergent,NA,285.42179472,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,260.38,emergent,NA,458.27296608,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,178.2,emergent,NA,313.63485119999996,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,153.33,emergent,NA,269.86325328,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,59.33,emergent,NA,104.42174927999999,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,191.32,emergent,NA,336.72626111999995,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,171.37,emergent,NA,301.61394192,Byrd 2018
+byrd_2018,Everglades,TS_Ph3,189.84,emergent,NA,334.12143744,Byrd 2018
+byrd_2018,Everglades,4C,14.78,emergent,NA,26.013036479999997,Byrd 2018
+byrd_2018,Everglades,1C,17.86,emergent,NA,31.43388576,Byrd 2018
+byrd_2018,Everglades,1C,1.54,emergent,NA,2.71042464,Byrd 2018
+byrd_2018,Everglades,2N,188.24,emergent,NA,331.30541184,Byrd 2018
+byrd_2018,Everglades,2N,266.63,emergent,NA,469.27306608,Byrd 2018
+byrd_2018,Everglades,4N,160.55,emergent,NA,282.57056880000005,Byrd 2018
+byrd_2018,Everglades,4N,54.55,emergent,NA,96.00887279999999,Byrd 2018
+byrd_2018,Everglades,3N,160.86,emergent,NA,283.11617376000004,Byrd 2018
+byrd_2018,Everglades,3N,164.76,emergent,NA,289.98023615999995,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,333.9,emergent,NA,587.6693424,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,328.48,emergent,NA,578.13005568,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,127.09,emergent,NA,223.68043344,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,148.58,emergent,NA,261.50317728,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,132.59,emergent,NA,233.36052144,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,158.03,emergent,NA,278.13532848,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,124.7,emergent,NA,219.47399520000002,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,294.93,emergent,NA,519.08151888,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,271.27,emergent,NA,477.43954032,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,165.01,emergent,NA,290.42024016,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,131.71,emergent,NA,231.81170736,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,145.69,emergent,NA,256.41673103999995,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,258.64,emergent,NA,455.21053823999995,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,277.38,emergent,NA,488.19323807999996,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,254.18,emergent,NA,447.36086688,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,460.29,emergent,NA,810.11776464,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,153.02,emergent,NA,269.31764832000005,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,342.37,emergent,NA,602.5766779200001,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,159.6,emergent,NA,280.89855359999996,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,153.7,emergent,NA,270.5144592,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,304.92,emergent,NA,536.66407872,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,210.05,emergent,NA,369.6913608,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,118.15,emergent,NA,207.94589040000002,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,280.46,emergent,NA,493.6140873599999,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,87.39,emergent,NA,153.80779824,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,108.08,emergent,NA,190.22252928,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,180.89,emergent,NA,318.36929424,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,125,emergent,NA,220.002,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,151.78,emergent,NA,267.13522848,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,380.07,emergent,NA,668.9292811199999,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,480.21,emergent,NA,845.1772833599999,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,129.95,emergent,NA,228.71407919999996,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,141.32,emergent,NA,248.72546111999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,349.71,emergent,NA,615.4951953599999,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,154.54,emergent,NA,271.99287264,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,174.71,emergent,NA,307.49239536,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,148.12,emergent,NA,260.69356992,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,209.1,emergent,NA,368.0193456,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,131.42,emergent,NA,231.30130272,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,127.65,emergent,NA,224.6660424,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,174.05,emergent,NA,306.3307848,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,297.12,emergent,NA,522.9359539200001,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,163.28,emergent,NA,287.37541247999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,173.45,emergent,NA,305.27477519999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,281.88,emergent,NA,496.11331008,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,336.72,emergent,NA,592.6325875200001,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,124.11,emergent,NA,218.43558576,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,282.65,emergent,NA,497.4685224,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,356.81,emergent,NA,627.99130896,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,295.97,emergent,NA,520.91193552,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,320.67,emergent,NA,564.3843307200001,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,211.78,emergent,NA,372.73618848,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,242.69,emergent,NA,427.13828304,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,312.91,emergent,NA,550.72660656,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,294.8,emergent,NA,518.8527167999999,Byrd 2018
+byrd_2018,Everglades,TS_Ph5,199.94,emergent,NA,351.89759904,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,144.2,emergent,NA,253.7943072,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,346.53,emergent,NA,609.89834448,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,155.94,emergent,NA,274.45689503999995,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,192.04,emergent,NA,337.99347264,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,158.45,emergent,NA,278.87453519999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,164.75,emergent,NA,289.962636,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,161.21,emergent,NA,283.73217936000003,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,190.29,emergent,NA,334.91344463999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,108.58,emergent,NA,191.10253727999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,99.04,emergent,NA,174.31198464000002,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,196.74,emergent,NA,346.26554784,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,156.56,emergent,NA,275.54810496,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,356.28,emergent,NA,627.0585004799999,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,139.2,emergent,NA,244.99422719999995,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,161.38,emergent,NA,284.03138207999996,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,135.46,emergent,NA,238.41176736000003,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,131.06,emergent,NA,230.66769696,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,156.07,emergent,NA,274.68569712,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,129.39,emergent,NA,227.72847023999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,114.88,emergent,NA,202.19063807999999,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,157.93,emergent,NA,277.95932688,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,79.15,emergent,NA,139.30526640000002,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,108.91,emergent,NA,191.68334255999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,122.86,emergent,NA,216.23556576000001,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,137.79,emergent,NA,242.51260463999995,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,144.03,emergent,NA,253.49510448,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,117.82,emergent,NA,207.36508511999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,145.57,emergent,NA,256.20552912,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,126.63,emergent,NA,222.87082608,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,122.4,emergent,NA,215.4259584,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,209.92,emergent,NA,369.46255871999995,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,360.94,emergent,NA,635.2601750399999,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,142.34,emergent,NA,250.52067744000001,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,130.77,emergent,NA,230.15729232,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,171.41,emergent,NA,301.68434256,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,188.54,emergent,NA,331.83341663999994,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,199.87,emergent,NA,351.77439792,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,132.23,emergent,NA,232.72691567999996,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,156.71,emergent,NA,275.81210735999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,178.62,emergent,NA,314.37405792,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,164.55,emergent,NA,289.6106328,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,242.86,emergent,NA,427.43748576,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,125.26,emergent,NA,220.45960416,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,150.38,emergent,NA,264.67120608,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,262.07,emergent,NA,461.24739312,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,140.95,emergent,NA,248.07425519999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,276.69,emergent,NA,486.97882703999994,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,186.84,emergent,NA,328.84138944,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,109.81,emergent,NA,193.26735696,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,182.42,emergent,NA,321.06211871999994,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,139.22,emergent,NA,245.02942751999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,157.05,emergent,NA,276.4105128,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,301.44,emergent,NA,530.5392230399999,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,192.62,emergent,NA,339.01428192000003,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,338.83,emergent,NA,596.34622128,Byrd 2018
+byrd_2018,Everglades,TS_Ph4,134.63,emergent,NA,236.95095408,Byrd 2018
+byrd_2018,Everglades,5W,31.39,emergent,NA,55.24690224,Byrd 2018
+byrd_2018,Everglades,5W,17.95,emergent,NA,31.592287199999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,116.22,emergent,NA,204.54905952,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,59.93,emergent,NA,105.47775888,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,125.01,emergent,NA,220.01960016,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,104.07,emergent,NA,183.16486511999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,89.65,emergent,NA,157.7854344,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,64.48,emergent,NA,113.48583168,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,75.63,emergent,NA,133.11001008,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,77.35,emergent,NA,136.13723759999996,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,81.07,emergent,NA,142.68449711999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,143.72,emergent,NA,252.94949951999996,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,102.43,emergent,NA,180.27843888,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,110.56,emergent,NA,194.58736896,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,81.42,emergent,NA,143.30050272,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,186.99,emergent,NA,329.10539184000004,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,143.04,emergent,NA,251.75268864,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,80.57,emergent,NA,141.80448911999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,139.87,emergent,NA,246.17343792000003,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,94.58,emergent,NA,166.46231328,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,66.23,emergent,NA,116.56585968,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,134.83,emergent,NA,237.30295728000002,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,99.38,emergent,NA,174.91039007999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,98.25,emergent,NA,172.921572,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,106.35,emergent,NA,187.17770159999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,152.73,emergent,NA,268.80724367999994,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,83.75,emergent,NA,147.40133999999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,170.61,emergent,NA,300.27632976,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,75.73,emergent,NA,133.28601168,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,209.65,emergent,NA,368.9873544,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,77.58,emergent,NA,136.54204128,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,65.7,emergent,NA,115.63305120000001,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,70.35,emergent,NA,123.81712559999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,152.2,emergent,NA,267.8744352,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,57.11,emergent,NA,100.51451375999999,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,113.79,emergent,NA,200.27222064,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,107.86,emergent,NA,189.83532576,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,50.66,emergent,NA,89.16241056,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,84.98,emergent,NA,149.56615968,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,67.37,emergent,NA,118.57227792,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,199.88,emergent,NA,351.79199808,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,73.93,emergent,NA,130.11798288000003,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,167.94,emergent,NA,295.57708704,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,62.52,emergent,NA,110.03620031999999,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,176.88,emergent,NA,311.31163008,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,91.46,emergent,NA,160.97106336,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,110.61,emergent,NA,194.67536976,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,89.79,emergent,NA,158.03183664000002,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,83.33,emergent,NA,146.66213327999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,75.6,emergent,NA,133.0572096,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,153.73,emergent,NA,270.56725967999995,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,65.21,emergent,NA,114.77064335999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,165.13,emergent,NA,290.63144208,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,69.24,emergent,NA,121.86350784,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,120.28,emergent,NA,211.69472448000002,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,87.27,emergent,NA,153.59659631999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,193.61,emergent,NA,340.75669776,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,53.48,emergent,NA,94.12565568,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,166.9,emergent,NA,293.74667039999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,152.97,emergent,NA,269.22964752,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,61.98,emergent,NA,109.08579168,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,84.51,emergent,NA,148.73895216,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,93.66,emergent,NA,164.84309856,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,169.35,emergent,NA,298.0587096,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,176.46,emergent,NA,310.57242336,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,221.5,emergent,NA,389.843544,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,269.59,emergent,NA,474.4827134399999,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,102.85,emergent,NA,181.01764559999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,73.48,emergent,NA,129.32597568,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,57.87,emergent,NA,101.85212591999999,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,72.06,emergent,NA,126.82675296,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,213.47,emergent,NA,375.71061552,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,84.2,emergent,NA,148.1933472,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,60.49,emergent,NA,106.46336784,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,137.36,emergent,NA,241.75579776,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,217.93,emergent,NA,383.56028688,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,64.76,emergent,NA,113.97863616000001,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,160.13,emergent,NA,281.83136207999996,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,134.61,emergent,NA,236.91575376000003,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,177.31,emergent,NA,312.06843696000004,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,88.48,emergent,NA,155.72621568,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,180.16,emergent,NA,317.08448255999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,104,emergent,NA,183.041664,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,51.54,emergent,NA,90.71122464,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,126.69,emergent,NA,222.97642704,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,123.07,emergent,NA,216.60516911999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,84.44,emergent,NA,148.61575104,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,183.53,emergent,NA,323.01573648,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,90.47,emergent,NA,159.22864751999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,77.4,emergent,NA,136.2252384,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,160.15,emergent,NA,281.8665624,Byrd 2018
+byrd_2018,Everglades,TS_Ph2,72.21,emergent,NA,127.09075535999999,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,88.68,emergent,NA,156.07821888,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,174.19,emergent,NA,306.57718704,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,109.29,emergent,NA,192.35214864000002,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,161.19,emergent,NA,283.69697904000003,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,231.02,emergent,NA,406.59889632,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,194.65,emergent,NA,342.5871144,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,131.62,emergent,NA,231.65330592,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,155.11,emergent,NA,272.99608176000004,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,147.69,emergent,NA,259.93676304,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,313.96,emergent,NA,552.5746233599999,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,120.18,emergent,NA,211.51872288,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,118.17,emergent,NA,207.98109072000003,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,154.91,emergent,NA,272.64407855999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,119.93,emergent,NA,211.07871888,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,219.03,emergent,NA,385.49630448,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,206.92,emergent,NA,364.18251072,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,154.47,emergent,NA,271.86967152,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,178.93,emergent,NA,314.91966288,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,158.18,emergent,NA,278.39933088000004,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,203.05,emergent,NA,357.3712488,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,132.26,emergent,NA,232.77971615999996,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,152.88,emergent,NA,269.07124608,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,117.65,emergent,NA,207.06588240000002,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,175.88,emergent,NA,309.55161408,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,152.31,emergent,NA,268.06803696000003,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,159.83,emergent,NA,281.30335728,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,228.22,emergent,NA,401.67085152,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,52.99,emergent,NA,93.26324783999999,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,193.65,emergent,NA,340.8270984,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,102.28,emergent,NA,180.01443648,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,154.55,emergent,NA,272.0104728,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,293.65,emergent,NA,516.8286983999999,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,151.24,emergent,NA,266.18481984000005,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,178.93,emergent,NA,314.91966288,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,228.41,emergent,NA,402.00525455999997,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,126.83,emergent,NA,223.22282928,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,208.81,emergent,NA,367.50894095999996,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,46.7,emergent,NA,82.1927472,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,51.87,emergent,NA,91.29202991999999,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,167.98,emergent,NA,295.64748768,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,174.49,emergent,NA,307.10519184000003,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,115.96,emergent,NA,204.09145536,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,141.91,emergent,NA,249.76387056,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,96.25,emergent,NA,169.40153999999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,130.33,emergent,NA,229.38288528000004,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,127.4,emergent,NA,224.22603840000002,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,195.72,emergent,NA,344.47033152,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,203.94,emergent,NA,358.93766304,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,105.39,emergent,NA,185.48808624,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,226.78,emergent,NA,399.13642848,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,180.79,emergent,NA,318.19329264,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,178.17,emergent,NA,313.58205072,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,52.45,emergent,NA,92.31283920000001,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,42.77,emergent,NA,75.27588432,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,54.51,emergent,NA,95.93847216,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,52.74,emergent,NA,92.82324384,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,190.47,emergent,NA,335.23024752000003,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,236.54,emergent,NA,416.31418464,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,153.05,emergent,NA,269.3704488,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,121.45,emergent,NA,213.7539432,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,263.72,emergent,NA,464.15141952000005,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,168.49,emergent,NA,296.54509584000004,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,55.07,emergent,NA,96.92408112,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,173.69,emergent,NA,305.69717904000004,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,193.81,emergent,NA,341.10870096,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,184.4,emergent,NA,324.5469504,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,160.56,emergent,NA,282.58816896,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,181.06,emergent,NA,318.66849696,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,246.39,emergent,NA,433.65034224,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,221.52,emergent,NA,389.87874432,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,97.52,emergent,NA,171.63676031999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,209.07,emergent,NA,367.96654512,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,161.74,emergent,NA,284.66498784,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,258.92,emergent,NA,455.70334272,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,166.05,emergent,NA,292.25065680000006,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,168.43,emergent,NA,296.43949488000004,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,206.42,emergent,NA,363.30250272,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,61.58,emergent,NA,108.38178528,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,48.12,emergent,NA,84.69196991999999,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,116.52,emergent,NA,205.07706431999998,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,198.79,emergent,NA,349.87358063999994,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,117.5,emergent,NA,206.80188,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,181.25,emergent,NA,319.0029,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,136.75,emergent,NA,240.682188,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,253.96,emergent,NA,446.97366336000005,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,237.69,emergent,NA,418.33820304,Byrd 2018
+byrd_2018,Everglades,TS_Ph1b,182.71,emergent,NA,321.57252336,Byrd 2018
+byrd_2018,Everglades,SRS3,380.95,emergent,NA,670.4780952,Byrd 2018
+byrd_2018,Everglades,SRS3,401.49,emergent,NA,706.62882384,Byrd 2018
+byrd_2018,Everglades,SRS3,370.87,emergent,NA,652.73713392,Byrd 2018
+byrd_2018,Everglades,SRS3,284.57,emergent,NA,500.84775311999994,Byrd 2018
+byrd_2018,Everglades,SRS3,189.78,emergent,NA,334.01583647999996,Byrd 2018
+byrd_2018,Everglades,SRS3,402.22,emergent,NA,707.9136355200001,Byrd 2018
+byrd_2018,Everglades,SRS3,357.27,emergent,NA,628.8009163199999,Byrd 2018
+byrd_2018,Everglades,SRS3,234.33,emergent,NA,412.42454928,Byrd 2018
+byrd_2018,Everglades,SRS3,256.8,emergent,NA,451.9721088,Byrd 2018
+byrd_2018,Everglades,SRS3,656.84,emergent,NA,1156.0489094400002,Byrd 2018
+byrd_2018,Everglades,SRS3,377.36,emergent,NA,664.15963776,Byrd 2018
+byrd_2018,Everglades,SRS3,181.46,emergent,NA,319.37250336000005,Byrd 2018
+byrd_2018,Everglades,SRS3,271.54,emergent,NA,477.91474464000004,Byrd 2018
+byrd_2018,Everglades,SRS3,554.88,emergent,NA,976.59767808,Byrd 2018
+byrd_2018,Everglades,SRS3,503.76,emergent,NA,886.62566016,Byrd 2018
+byrd_2018,Everglades,SRS3,376.83,emergent,NA,663.2268292800001,Byrd 2018
+byrd_2018,Everglades,SRS3,263.01,emergent,NA,462.90180816,Byrd 2018
+byrd_2018,Everglades,SRS3,211.82,emergent,NA,372.80658911999996,Byrd 2018
+byrd_2018,Everglades,SRS3,211.37,emergent,NA,372.01458192,Byrd 2018
+byrd_2018,Everglades,SRS3,310.48,emergent,NA,546.44976768,Byrd 2018
+byrd_2018,Everglades,SRS3,436.3,emergent,NA,767.8949808,Byrd 2018
+byrd_2018,Everglades,SRS3,182.84,emergent,NA,321.80132543999997,Byrd 2018
+byrd_2018,Everglades,SRS3,303.76,emergent,NA,534.6224601600001,Byrd 2018
+byrd_2018,Everglades,SRS3,342.32,emergent,NA,602.4886771199999,Byrd 2018
+byrd_2018,Everglades,SRS3,193.65,emergent,NA,340.8270984,Byrd 2018
+byrd_2018,Everglades,SRS3,205.34,emergent,NA,361.40168544,Byrd 2018
+byrd_2018,Everglades,SRS3,317.68,emergent,NA,559.12188288,Byrd 2018
+byrd_2018,Everglades,SRS3,322.86,emergent,NA,568.23876576,Byrd 2018
+byrd_2018,Everglades,SRS3,153.66,emergent,NA,270.44405856,Byrd 2018
+byrd_2018,Everglades,SRS3,355.18,emergent,NA,625.12248288,Byrd 2018
+byrd_2018,Everglades,SRS3,341.72,emergent,NA,601.43266752,Byrd 2018
+byrd_2018,Everglades,SRS3,220.55,emergent,NA,388.17152880000003,Byrd 2018
+byrd_2018,Everglades,SRS3,421.78,emergent,NA,742.33954848,Byrd 2018
+byrd_2018,Everglades,SRS3,415.56,emergent,NA,731.39224896,Byrd 2018
+byrd_2018,Everglades,SRS3,389.68,emergent,NA,685.84303488,Byrd 2018
+byrd_2018,Everglades,SRS3,352.18,emergent,NA,619.84243488,Byrd 2018
+byrd_2018,Everglades,SRS3,186.14,emergent,NA,327.60937823999996,Byrd 2018
+byrd_2018,Everglades,SRS3,360.38,emergent,NA,634.27456608,Byrd 2018
+byrd_2018,Everglades,SRS3,321.33,emergent,NA,565.54594128,Byrd 2018
+byrd_2018,Everglades,SRS3,255.8,emergent,NA,450.21209280000005,Byrd 2018
+byrd_2018,Everglades,SRS3,386.62,emergent,NA,680.45738592,Byrd 2018
+byrd_2018,Everglades,SRS3,236.09,emergent,NA,415.52217744,Byrd 2018
+byrd_2018,Everglades,SRS3,316.45,emergent,NA,556.9570632,Byrd 2018
+byrd_2018,Everglades,SRS3,401.45,emergent,NA,706.5584232,Byrd 2018
+byrd_2018,Everglades,SRS3,283.21,emergent,NA,498.45413136,Byrd 2018
+byrd_2018,Everglades,SRS3,235.32,emergent,NA,414.16696512,Byrd 2018
+byrd_2018,Everglades,SRS3,308.91,emergent,NA,543.68654256,Byrd 2018
+byrd_2018,Everglades,SRS3,345.83,emergent,NA,608.6663332799999,Byrd 2018
+byrd_2018,Everglades,SRS3,253.6,emergent,NA,446.34005759999997,Byrd 2018
+byrd_2018,Everglades,SRS3,536.5,emergent,NA,944.2485839999999,Byrd 2018
+byrd_2018,Everglades,SRS3,398.41,emergent,NA,701.20797456,Byrd 2018
+byrd_2018,Everglades,SRS3,307.04,emergent,NA,540.39531264,Byrd 2018
+byrd_2018,Everglades,SRS3,333.79,emergent,NA,587.47574064,Byrd 2018
+byrd_2018,Everglades,SRS3,351.37,emergent,NA,618.4168219200001,Byrd 2018
+byrd_2018,Everglades,SRS3,548.99,emergent,NA,966.23118384,Byrd 2018
+byrd_2018,Everglades,SRS3,247.09,emergent,NA,434.88235344000003,Byrd 2018
+byrd_2018,Everglades,SRS3,455.81,emergent,NA,802.23289296,Byrd 2018
+byrd_2018,Everglades,SRS3,204.86,emergent,NA,360.55687776,Byrd 2018
+byrd_2018,Everglades,SRS3,199.33,emergent,NA,350.82398928,Byrd 2018
+byrd_2018,Everglades,SRS3,382.71,emergent,NA,673.57572336,Byrd 2018
+byrd_2018,Everglades,SRS3,459.58,emergent,NA,808.86815328,Byrd 2018
+byrd_2018,Everglades,SRS2,371.84,emergent,NA,654.44434944,Byrd 2018
+byrd_2018,Everglades,SRS2,312.3,emergent,NA,549.6529968,Byrd 2018
+byrd_2018,Everglades,SRS2,387.52,emergent,NA,682.04140032,Byrd 2018
+byrd_2018,Everglades,SRS2,300.3,emergent,NA,528.5328048,Byrd 2018
+byrd_2018,Everglades,SRS2,404.98,emergent,NA,712.77127968,Byrd 2018
+byrd_2018,Everglades,SRS2,345.1,emergent,NA,607.3815216,Byrd 2018
+byrd_2018,Everglades,SRS2,362.31,emergent,NA,637.6713969599999,Byrd 2018
+byrd_2018,Everglades,SRS2,264.37,emergent,NA,465.29542992,Byrd 2018
+byrd_2018,Everglades,SRS2,326.28,emergent,NA,574.25802048,Byrd 2018
+byrd_2018,Everglades,SRS2,373.7,emergent,NA,657.7179792,Byrd 2018
+byrd_2018,Everglades,SRS2,436.13,emergent,NA,767.5957780800001,Byrd 2018
+byrd_2018,Everglades,SRS2,424.82,emergent,NA,747.68999712,Byrd 2018
+byrd_2018,Everglades,SRS2,611.63,emergent,NA,1076.47858608,Byrd 2018
+byrd_2018,Everglades,SRS2,240.14,emergent,NA,422.65024223999995,Byrd 2018
+byrd_2018,Everglades,SRS2,225.44,emergent,NA,396.77800704,Byrd 2018
+byrd_2018,Everglades,SRS2,355.83,emergent,NA,626.26649328,Byrd 2018
+byrd_2018,Everglades,SRS2,338.73,emergent,NA,596.1702196800001,Byrd 2018
+byrd_2018,Everglades,SRS2,417.1,emergent,NA,734.1026736,Byrd 2018
+byrd_2018,Everglades,SRS2,279.45,emergent,NA,491.8364712,Byrd 2018
+byrd_2018,Everglades,SRS2,375.83,emergent,NA,661.46681328,Byrd 2018
+byrd_2018,Everglades,SRS2,253.28,emergent,NA,445.77685248,Byrd 2018
+byrd_2018,Everglades,SRS2,444.35,emergent,NA,782.0631096000001,Byrd 2018
+byrd_2018,Everglades,SRS2,370.81,emergent,NA,652.63153296,Byrd 2018
+byrd_2018,Everglades,SRS2,258.96,emergent,NA,455.7737433599999,Byrd 2018
+byrd_2018,Everglades,SRS2,305.19,emergent,NA,537.13928304,Byrd 2018
+byrd_2018,Everglades,SRS2,337.75,emergent,NA,594.445404,Byrd 2018
+byrd_2018,Everglades,SRS2,242.69,emergent,NA,427.13828304,Byrd 2018
+byrd_2018,Everglades,SRS2,359.55,emergent,NA,632.8137528,Byrd 2018
+byrd_2018,Everglades,SRS2,263.71,emergent,NA,464.13381935999996,Byrd 2018
+byrd_2018,Everglades,SRS2,401.71,emergent,NA,707.01602736,Byrd 2018
+byrd_2018,Everglades,SRS2,390.78,emergent,NA,687.7790524799999,Byrd 2018
+byrd_2018,Everglades,SRS2,439.46,emergent,NA,773.45663136,Byrd 2018
+byrd_2018,Everglades,SRS2,338.88,emergent,NA,596.4342220799999,Byrd 2018
+byrd_2018,Everglades,SRS2,304.22,emergent,NA,535.43206752,Byrd 2018
+byrd_2018,Everglades,SRS2,406.74,emergent,NA,715.86890784,Byrd 2018
+byrd_2018,Everglades,SRS2,294.16,emergent,NA,517.72630656,Byrd 2018
+byrd_2018,Everglades,SRS2,430.52,emergent,NA,757.72208832,Byrd 2018
+byrd_2018,Everglades,SRS2,288.44,emergent,NA,507.65901504,Byrd 2018
+byrd_2018,Everglades,SRS2,407.88,emergent,NA,717.87532608,Byrd 2018
+byrd_2018,Everglades,SRS2,288.39,emergent,NA,507.57101424,Byrd 2018
+byrd_2018,Everglades,SRS2,370.35,emergent,NA,651.8219256,Byrd 2018
+byrd_2018,Everglades,SRS2,529.06,emergent,NA,931.1540649599999,Byrd 2018
+byrd_2018,Everglades,SRS2,255.73,emergent,NA,450.08889167999996,Byrd 2018
+byrd_2018,Everglades,SRS2,397.26,emergent,NA,699.18395616,Byrd 2018
+byrd_2018,Everglades,SRS2,274.69,emergent,NA,483.45879504000004,Byrd 2018
+byrd_2018,Everglades,SRS2,282.85,emergent,NA,497.8205256,Byrd 2018
+byrd_2018,Everglades,SRS2,264.47,emergent,NA,465.47143152000007,Byrd 2018
+byrd_2018,Everglades,SRS2,334.16,emergent,NA,588.1269465600001,Byrd 2018
+byrd_2018,Everglades,SRS2,409.65,emergent,NA,720.9905544,Byrd 2018
+byrd_2018,Everglades,SRS2,291.73,emergent,NA,513.4494676800001,Byrd 2018
+byrd_2018,Everglades,SRS2,270.08,emergent,NA,475.34512128,Byrd 2018
+byrd_2018,Everglades,SRS2,237.28,emergent,NA,417.61659648,Byrd 2018
+byrd_2018,Everglades,SRS2,302.05,emergent,NA,531.6128328000001,Byrd 2018
+byrd_2018,Everglades,SRS2,296.82,emergent,NA,522.40794912,Byrd 2018
+byrd_2018,Everglades,SRS2,432.37,emergent,NA,760.97811792,Byrd 2018
+byrd_2018,Everglades,SRS2,307,emergent,NA,540.3249119999999,Byrd 2018
+byrd_2018,Everglades,SRS2,336.91,emergent,NA,592.96699056,Byrd 2018
+byrd_2018,Everglades,SRS2,285.72,emergent,NA,502.87177152000004,Byrd 2018
+byrd_2018,Everglades,SRS2,396.51,emergent,NA,697.86394416,Byrd 2018
+byrd_2018,Everglades,SRS2,487.96,emergent,NA,858.81740736,Byrd 2018
+byrd_2018,Everglades,SRS2,229.44,emergent,NA,403.81807104,Byrd 2018
+byrd_2018,Everglades,SRS2,264.93,emergent,NA,466.28103888,Byrd 2018
+byrd_2018,Everglades,SRS1d,510.08,emergent,NA,897.7489612799999,Byrd 2018
+byrd_2018,Everglades,SRS1d,484.08,emergent,NA,851.9885452799999,Byrd 2018
+byrd_2018,Everglades,SRS1d,601.74,emergent,NA,1059.07202784,Byrd 2018
+byrd_2018,Everglades,SRS1d,501.82,emergent,NA,883.21122912,Byrd 2018
+byrd_2018,Everglades,SRS1d,470.62,emergent,NA,828.2987299199999,Byrd 2018
+byrd_2018,Everglades,SRS1d,439.82,emergent,NA,774.09023712,Byrd 2018
+byrd_2018,Everglades,SRS1d,513.12,emergent,NA,903.09940992,Byrd 2018
+byrd_2018,Everglades,SRS1d,281.51,emergent,NA,495.46210415999997,Byrd 2018
+byrd_2018,Everglades,SRS1d,401.56,emergent,NA,706.75202496,Byrd 2018
+byrd_2018,Everglades,SRS1d,494.12,emergent,NA,869.65910592,Byrd 2018
+byrd_2018,Everglades,SRS1d,266.53,emergent,NA,469.09706448,Byrd 2018
+byrd_2018,Everglades,SRS1d,366.94,emergent,NA,645.82027104,Byrd 2018
+byrd_2018,Everglades,SRS1d,466.2,emergent,NA,820.5194591999999,Byrd 2018
+byrd_2018,Everglades,SRS1d,461.55,emergent,NA,812.3353848,Byrd 2018
+byrd_2018,Everglades,SRS1d,403.48,emergent,NA,710.13125568,Byrd 2018
+byrd_2018,Everglades,SRS1d,585.39,emergent,NA,1030.29576624,Byrd 2018
+byrd_2018,Everglades,SRS1d,500.2,emergent,NA,880.3600031999999,Byrd 2018
+byrd_2018,Everglades,SRS1d,470.06,emergent,NA,827.31312096,Byrd 2018
+byrd_2018,Everglades,SRS1d,434.8,emergent,NA,765.2549568000001,Byrd 2018
+byrd_2018,Everglades,SRS1d,477.23,emergent,NA,839.93243568,Byrd 2018
+byrd_2018,Everglades,SRS1d,446.52,emergent,NA,785.8823443199999,Byrd 2018
+byrd_2018,Everglades,SRS1d,483.28,emergent,NA,850.5805324799999,Byrd 2018
+byrd_2018,Everglades,SRS1d,542.83,emergent,NA,955.38948528,Byrd 2018
+byrd_2018,Everglades,SRS1d,386.2,emergent,NA,679.7181791999999,Byrd 2018
+byrd_2018,Everglades,SRS1d,603.5,emergent,NA,1062.169656,Byrd 2018
+byrd_2018,Everglades,SRS1d,290.19,emergent,NA,510.73904304,Byrd 2018
+byrd_2018,Everglades,SRS1d,383.44,emergent,NA,674.86053504,Byrd 2018
+byrd_2018,Everglades,SRS1d,677.99,emergent,NA,1193.27324784,Byrd 2018
+byrd_2018,Everglades,SRS1d,338.13,emergent,NA,595.11421008,Byrd 2018
+byrd_2018,Everglades,SRS1d,550.27,emergent,NA,968.4840043199999,Byrd 2018
+byrd_2018,Everglades,SRS1d,329.9,emergent,NA,580.6292784,Byrd 2018
+byrd_2018,Everglades,SRS1c,379.92,emergent,NA,668.6652787200001,Byrd 2018
+byrd_2018,Everglades,SRS1c,258.76,emergent,NA,455.42174015999996,Byrd 2018
+byrd_2018,Everglades,SRS1c,310.57,emergent,NA,546.60816912,Byrd 2018
+byrd_2018,Everglades,SRS1c,306.17,emergent,NA,538.86409872,Byrd 2018
+byrd_2018,Everglades,SRS1c,306.9,emergent,NA,540.1489104,Byrd 2018
+byrd_2018,Everglades,SRS1c,292.93,emergent,NA,515.5614868800001,Byrd 2018
+byrd_2018,Everglades,SRS1c,304.03,emergent,NA,535.0976644799999,Byrd 2018
+byrd_2018,Everglades,SRS1b,82.7,emergent,NA,145.5533232,Byrd 2018
+byrd_2018,Everglades,SRS1b,435.7,emergent,NA,766.8389712,Byrd 2018
+byrd_2018,Everglades,SRS1b,448.97,emergent,NA,790.1943835200001,Byrd 2018
+byrd_2018,Everglades,SRS1b,159.98,emergent,NA,281.56735968,Byrd 2018
+byrd_2018,Everglades,SRS1b,177.64,emergent,NA,312.64924224,Byrd 2018
+byrd_2018,Everglades,SRS1b,497.93,emergent,NA,876.3647668799999,Byrd 2018
+byrd_2018,Everglades,SRS1b,394.15,emergent,NA,693.7103063999999,Byrd 2018
+byrd_2018,Everglades,SRS1b,537.71,emergent,NA,946.37820336,Byrd 2018
+byrd_2018,Everglades,SRS1b,139.99,emergent,NA,246.38463984,Byrd 2018
+byrd_2018,Everglades,SRS1b,124.19,emergent,NA,218.57638704,Byrd 2018
+byrd_2018,Everglades,SRS1b,377.33,emergent,NA,664.1068372799999,Byrd 2018
+byrd_2018,Everglades,SRS1b,315.36,emergent,NA,555.03864576,Byrd 2018
+byrd_2018,Everglades,SRS1b,373.13,emergent,NA,656.71477008,Byrd 2018
+byrd_2018,Everglades,SRS1b,121.82,emergent,NA,214.40514912,Byrd 2018
+byrd_2018,Everglades,SRS1b,403.13,emergent,NA,709.51525008,Byrd 2018
+byrd_2018,Everglades,SRS1b,173.71,emergent,NA,305.73237936000004,Byrd 2018
+byrd_2018,Everglades,SRS1b,244.29,emergent,NA,429.95430863999997,Byrd 2018
+byrd_2018,Everglades,SRS1b,149.23,emergent,NA,262.64718768,Byrd 2018
+byrd_2018,Everglades,SRS1b,600.35,emergent,NA,1056.6256056,Byrd 2018
+byrd_2018,Everglades,SRS1b,161,emergent,NA,283.362576,Byrd 2018
+byrd_2018,Everglades,SRS1b,116.85,emergent,NA,205.65786959999997,Byrd 2018
+byrd_2018,Everglades,SRS1b,92.37,emergent,NA,162.57267792000002,Byrd 2018
+byrd_2018,Everglades,SRS1b,318.92,emergent,NA,561.30430272,Byrd 2018
+byrd_2018,Everglades,SRS1b,146.5,emergent,NA,257.84234399999997,Byrd 2018
+byrd_2018,Everglades,SRS1b,134.05,emergent,NA,235.93014480000002,Byrd 2018
+byrd_2018,Everglades,SRS1b,121.02,emergent,NA,212.99713631999998,Byrd 2018
+byrd_2018,.,CRMS0322_3B,672.96,emergent,NA,1184.42036736,Byrd 2018
+byrd_2018,.,CRMS0322_3A,444,emergent,NA,781.4471040000001,Byrd 2018
+byrd_2018,.,CRMS0322_3B,629.64,emergent,NA,1108.17647424,Byrd 2018
+byrd_2018,.,CRMS0322_3A,929.84,emergent,NA,1636.53327744,Byrd 2018
+byrd_2018,.,CRMS0322_2B,660.52,emergent,NA,1162.52576832,Byrd 2018
+byrd_2018,.,CRMS0322_2A,618.16,emergent,NA,1087.97149056,Byrd 2018
+byrd_2018,NA,CRMS0322_2A,439.6,emergent,NA,773.7030336,Byrd 2018
+byrd_2018,NA,CRMS0322_2B,424.1,emergent,NA,746.4227856000001,Byrd 2018
+byrd_2018,.,CRMS0322_1A,570.2,emergent,NA,1003.5611232000001,Byrd 2018
+byrd_2018,NA,CRMS0322_1A,146.5,emergent,NA,257.84234399999997,Byrd 2018
+byrd_2018,NA,CRMS0307_3A,385.56,emergent,NA,678.59176896,Byrd 2018
+byrd_2018,NA,CRMS0307_2A,1014.12,emergent,NA,1784.86742592,Byrd 2018
+byrd_2018,NA,CRMS0307_1A,927.08,emergent,NA,1631.67563328,Byrd 2018
+byrd_2018,NA,CRMS0307_1B,1033.92,emergent,NA,1819.7157427200002,Byrd 2018
+byrd_2018,NA,CRMS0307_3B,813.04,emergent,NA,1430.96340864,Byrd 2018
+byrd_2018,NA,CRMS0307_2B,1317.2,emergent,NA,2318.2930751999997,Byrd 2018
+byrd_2018,.,CRMS0434_3B,646.28,emergent,NA,1137.4631404799998,Byrd 2018
+byrd_2018,NA,CRMS0434_3A,1153.52,emergent,NA,2030.2136563199997,Byrd 2018
+byrd_2018,NA,CRMS0434_2B,1038.64,emergent,NA,1828.02301824,Byrd 2018
+byrd_2018,NA,CRMS0434_2A,995.92,emergent,NA,1752.8351347199998,Byrd 2018
+byrd_2018,NA,CRMS0434_1B,1321.4,emergent,NA,2325.6851424,Byrd 2018
+byrd_2018,NA,CRMS0434_1A,930.64,emergent,NA,1637.94129024,Byrd 2018
+byrd_2018,.,CRMS0294_2B,714,emergent,NA,1256.651424,Byrd 2018
+byrd_2018,.,CRMS0294_3B,451.28,emergent,NA,794.26002048,Byrd 2018
+byrd_2018,.,CRMS0294_3A,338,emergent,NA,594.885408,Byrd 2018
+byrd_2018,.,CRMS0294_1B,621.28,emergent,NA,1093.4627404799999,Byrd 2018
+byrd_2018,.,CRMS0294_1A,421.36,emergent,NA,741.60034176,Byrd 2018
+byrd_2018,.,CRMS0294_2A,206.64,emergent,NA,363.68970623999996,Byrd 2018
+byrd_2018,.,CRMS0294_2B,908.76,emergent,NA,1599.43214016,Byrd 2018
+byrd_2018,.,CRMS0294_2A,622.2,emergent,NA,1095.0819552,Byrd 2018
+byrd_2018,NA,CRMS0294_1B,292.6,emergent,NA,514.9806816,Byrd 2018
+byrd_2018,NA,CRMS0294_1A,466.28,emergent,NA,820.6602604799999,Byrd 2018
+byrd_2018,NA,CRMS6304_1B,1961.84,emergent,NA,3452.8697894399997,Byrd 2018
+byrd_2018,NA,CRMS6304_1A,1704.44,emergent,NA,2999.84167104,Byrd 2018
+byrd_2018,NA,CRMS6304_1B,132.92,emergent,NA,233.94132671999998,Byrd 2018
+byrd_2018,NA,CRMS6304_2A,639,emergent,NA,1124.650224,Byrd 2018
+byrd_2018,NA,CRMS6304_2A,259.5,emergent,NA,456.724152,Byrd 2018
+byrd_2018,NA,CRMS6304_3B,722.2,emergent,NA,1271.0835552,Byrd 2018
+byrd_2018,NA,CRMS6304_3A,830.28,emergent,NA,1461.3060844799998,Byrd 2018
+byrd_2018,NA,CRMS6304_2B,237.04,emergent,NA,417.19419264,Byrd 2018
+byrd_2018,NA,CRMS6304_2B,299.2,emergent,NA,526.5967872,Byrd 2018
+byrd_2018,NA,CRMS6304_3A,519.1,emergent,NA,913.6243056000001,Byrd 2018
+byrd_2018,NA,CRMS6304_1A,244.44,emergent,NA,430.21831104,Byrd 2018
+byrd_2018,NA,CRMS0322_1B,332.3,emergent,NA,584.8533168,Byrd 2018
+byrd_2018,.,CRMS0322_1B,431.8,emergent,NA,759.9749088000001,Byrd 2018
+byrd_2018,NA,CRMS0411_3B,608.08,emergent,NA,1070.23052928,Byrd 2018
+byrd_2018,NA,CRMS0411_3A,570.92,emergent,NA,1004.8283347199998,Byrd 2018
+byrd_2018,NA,CRMS0301_1A,126,emergent,NA,221.762016,Byrd 2018
+byrd_2018,NA,CRMS0301_1B,2185.96,emergent,NA,3847.32457536,Byrd 2018
+byrd_2018,NA,CRMS0301_1A,1216.28,emergent,NA,2140.6722604799997,Byrd 2018
+byrd_2018,NA,CRMS0411_2A,664.32,emergent,NA,1169.2138291200001,Byrd 2018
+byrd_2018,NA,CRMS0411_2B,658.24,emergent,NA,1158.51293184,Byrd 2018
+byrd_2018,NA,Mike Island_3B,474.56,emergent,NA,835.23319296,Byrd 2018
+byrd_2018,NA,Mike Island_3A,326,emergent,NA,573.765216,Byrd 2018
+byrd_2018,NA,Mike Island_3B,419,emergent,NA,737.4467040000001,Byrd 2018
+byrd_2018,NA,Mike Island_3A,390.32,emergent,NA,686.96944512,Byrd 2018
+byrd_2018,NA,CRMS0411_1B,420.72,emergent,NA,740.4739315200001,Byrd 2018
+byrd_2018,NA,CRMS0411_1A,627,emergent,NA,1103.530032,Byrd 2018
+byrd_2018,NA,Mike Island_2B,610.64,emergent,NA,1074.7361702399999,Byrd 2018
+byrd_2018,NA,Mike Island_2A,436.52,emergent,NA,768.2821843199999,Byrd 2018
+byrd_2018,NA,Mike Island_2A,347.04,emergent,NA,610.7959526400001,Byrd 2018
+byrd_2018,NA,Mike Island_2B,238.3,emergent,NA,419.4118128,Byrd 2018
+byrd_2018,NA,Mike Island_1A,387.8,emergent,NA,682.5342048,Byrd 2018
+byrd_2018,NA,Mike Island_1B,790,emergent,NA,1390.41264,Byrd 2018
+byrd_2018,NA,Mike Island_1A,1038.04,emergent,NA,1826.96700864,Byrd 2018
+byrd_2018,NA,Mike Island_1B,300.5,emergent,NA,528.8848079999999,Byrd 2018
+byrd_2018,NA,CRMS0465_1B,684.12,emergent,NA,1204.06214592,Byrd 2018
+byrd_2018,NA,CRMS0465_1A,502.84,emergent,NA,885.0064454399999,Byrd 2018
+byrd_2018,NA,CRMS0465_1A,324.1,emergent,NA,570.4211856000001,Byrd 2018
+byrd_2018,NA,CRMS0465_2A,644.2,emergent,NA,1133.8023072,Byrd 2018
+byrd_2018,NA,CRMS0465_2B,995.92,emergent,NA,1752.8351347199998,Byrd 2018
+byrd_2018,NA,CRMS0465_2A,279.44,emergent,NA,491.81887104000003,Byrd 2018
+byrd_2018,NA,CRMS0465_2B,523.6,emergent,NA,921.5443776000001,Byrd 2018
+byrd_2018,NA,CRMS0465_3A,444.44,emergent,NA,782.22151104,Byrd 2018
+byrd_2018,NA,CRMS0465_3A,508,emergent,NA,894.088128,Byrd 2018
+byrd_2018,NA,CRMS0465_3B,760.52,emergent,NA,1338.52736832,Byrd 2018
+byrd_2018,Nisqually,U3HI-2,843.32,emergent,NA,1484.2566931200001,Byrd 2018
+byrd_2018,Nisqually,U3HI-3,405.62,emergent,NA,713.89768992,Byrd 2018
+byrd_2018,Nisqually,U3HI-1,630.02,emergent,NA,1108.8452803199998,Byrd 2018
+byrd_2018,Nisqually,U3HI-5,99.55,emergent,NA,175.2095928,Byrd 2018
+byrd_2018,Nisqually,U3HI-6,516.68,emergent,NA,909.3650668799999,Byrd 2018
+byrd_2018,Nisqually,U3HI-4,496.48,emergent,NA,873.8127436799999,Byrd 2018
+byrd_2018,Nisqually,U3HI-9,103.09,emergent,NA,181.44004944,Byrd 2018
+byrd_2018,Nisqually,U3HI-8,486.21,emergent,NA,855.73737936,Byrd 2018
+byrd_2018,Nisqually,U3HI-7,206.33,emergent,NA,363.14410128,Byrd 2018
+byrd_2018,Nisqually,P2A-10,791.48,emergent,NA,1393.01746368,Byrd 2018
+byrd_2018,Nisqually,P2A-11,712.78,emergent,NA,1254.50420448,Byrd 2018
+byrd_2018,Nisqually,P2A-12,509.92,emergent,NA,897.46735872,Byrd 2018
+byrd_2018,Nisqually,P2A-13,529.12,emergent,NA,931.25966592,Byrd 2018
+byrd_2018,Nisqually,P2A-15,495.38,emergent,NA,871.87672608,Byrd 2018
+byrd_2018,Nisqually,P2A-14,659.79,emergent,NA,1161.24095664,Byrd 2018
+byrd_2018,Nisqually,P2A-16,435.64,emergent,NA,766.7333702399999,Byrd 2018
+byrd_2018,Nisqually,P2A-18,1137.51,emergent,NA,2002.0358001599998,Byrd 2018
+byrd_2018,Nisqually,P2A-17,717.74,emergent,NA,1263.23388384,Byrd 2018
+byrd_2018,Nisqually,P2D-19,328.21,emergent,NA,577.65485136,Byrd 2018
+byrd_2018,Nisqually,P2D-21,489.19,emergent,NA,860.98222704,Byrd 2018
+byrd_2018,Nisqually,P2D-20,430.93,emergent,NA,758.44369488,Byrd 2018
+byrd_2018,Nisqually,P2D-23,588.03,emergent,NA,1034.9422084799999,Byrd 2018
+byrd_2018,Nisqually,P2D-24,964.21,emergent,NA,1697.0250273600002,Byrd 2018
+byrd_2018,Nisqually,P2D-22,237.16,emergent,NA,417.40539456,Byrd 2018
+byrd_2018,Nisqually,P2D-27,544.89,emergent,NA,959.0151182399999,Byrd 2018
+byrd_2018,Nisqually,P2D-25,361.19,emergent,NA,635.70017904,Byrd 2018
+byrd_2018,Nisqually,P2D-26,905.95,emergent,NA,1594.4864952,Byrd 2018
+byrd_2018,Nisqually,U2HI -28,558.2,emergent,NA,982.4409312000001,Byrd 2018
+byrd_2018,Nisqually,U2HI -29,655.39,emergent,NA,1153.49688624,Byrd 2018
+byrd_2018,Nisqually,U2HI -30,694.12,emergent,NA,1221.6623059199999,Byrd 2018
+byrd_2018,Nisqually,U2HI -33,773.52,emergent,NA,1361.4075763199999,Byrd 2018
+byrd_2018,Nisqually,U2HI -32,178.61,emergent,NA,314.35645776,Byrd 2018
+byrd_2018,Nisqually,U2HI -31,704.86,emergent,NA,1240.5648777600002,Byrd 2018
+byrd_2018,Nisqually,U2HI -34,291.54,emergent,NA,513.11506464,Byrd 2018
+byrd_2018,Nisqually,U2HI -36,386.75,emergent,NA,680.686188,Byrd 2018
+byrd_2018,Nisqually,U2HI -35,145.79,emergent,NA,256.59273263999995,Byrd 2018
+byrd_2018,Nisqually,PIS -38,193.08,emergent,NA,339.82388928,Byrd 2018
+byrd_2018,Nisqually,PIS -39,1029.2,emergent,NA,1811.4084672000001,Byrd 2018
+byrd_2018,Nisqually,PIS -37,375.74,emergent,NA,661.30841184,Byrd 2018
+byrd_2018,Nisqually,PIS -41,56.3,emergent,NA,99.08890079999999,Byrd 2018
+byrd_2018,Nisqually,PIS -42,95.24,emergent,NA,167.62392383999997,Byrd 2018
+byrd_2018,Nisqually,PIS -40,133.66,emergent,NA,235.24373855999997,Byrd 2018
+byrd_2018,Nisqually,PIS -45,68.47,emergent,NA,120.50829552,Byrd 2018
+byrd_2018,Nisqually,PIS -44,614.8,emergent,NA,1082.0578368,Byrd 2018
+byrd_2018,Nisqually,PIS -43,702.16,emergent,NA,1235.8128345599998,Byrd 2018
+byrd_2018,Nisqually,PIN-46,649.68,emergent,NA,1143.4471948799999,Byrd 2018
+byrd_2018,Nisqually,PIN-48,198.23,emergent,NA,348.88797167999996,Byrd 2018
+byrd_2018,Nisqually,PIN-47,323.13,emergent,NA,568.71397008,Byrd 2018
+byrd_2018,Nisqually,PIN-51,281.33,emergent,NA,495.14530128,Byrd 2018
+byrd_2018,Nisqually,PIN-50,363.76,emergent,NA,640.2234201599999,Byrd 2018
+byrd_2018,Nisqually,PIN-49,583.84,emergent,NA,1027.56774144,Byrd 2018
+byrd_2018,Nisqually,P_E-54,437.67,emergent,NA,770.3062027200001,Byrd 2018
+byrd_2018,Nisqually,P_E-52,298.15,emergent,NA,524.7487704,Byrd 2018
+byrd_2018,Nisqually,P_E-53,516.65,emergent,NA,909.3122664,Byrd 2018
+byrd_2018,Nisqually,P_E-57,650.85,emergent,NA,1145.5064136,Byrd 2018
+byrd_2018,Nisqually,P_E-55,579.52,emergent,NA,1019.96447232,Byrd 2018
+byrd_2018,Nisqually,P_E-56,524.31,emergent,NA,922.79398896,Byrd 2018
+byrd_2018,Nisqually,PIN-60,391.52,emergent,NA,689.08146432,Byrd 2018
+byrd_2018,Nisqually,PIN-58,565.61,emergent,NA,995.48264976,Byrd 2018
+byrd_2018,Nisqually,PIN-59,592.67,emergent,NA,1043.10868272,Byrd 2018
+byrd_2018,Nisqually,P_E-62,4.33,emergent,NA,7.620869279999999,Byrd 2018
+byrd_2018,Nisqually,P_E-61,847.83,emergent,NA,1492.19436528,Byrd 2018
+byrd_2018,Nisqually,P_E-63,515.18,emergent,NA,906.7250428799998,Byrd 2018
+byrd_2018,Nisqually,U2M-64,583.03,emergent,NA,1026.14212848,Byrd 2018
+byrd_2018,Nisqually,U2M-66,1063.54,emergent,NA,1871.84741664,Byrd 2018
+byrd_2018,Nisqually,U2M -65+,61.9,emergent,NA,108.9449904,Byrd 2018
+byrd_2018,Nisqually,U2M-67,327.97,emergent,NA,577.23244752,Byrd 2018
+byrd_2018,Nisqually,U2M-68,90.98,emergent,NA,160.12625568,Byrd 2018
+byrd_2018,Nisqually,U2M-69,424.29,emergent,NA,746.75718864,Byrd 2018
+byrd_2018,Nisqually,U2M-71,315.6,emergent,NA,555.4610496,Byrd 2018
+byrd_2018,Nisqually,U2M-72,286.79,emergent,NA,504.75498864,Byrd 2018
+byrd_2018,Nisqually,U2M-70,627.99,emergent,NA,1105.27244784,Byrd 2018
+byrd_2018,Nisqually,U3S-73+,97.4,emergent,NA,171.4255584,Byrd 2018
+byrd_2018,Nisqually,U3S-74+,303.11,emergent,NA,533.47844976,Byrd 2018
+byrd_2018,Nisqually,U3S-75+,138.68,emergent,NA,244.07901888,Byrd 2018
+byrd_2018,Nisqually,U3S-77,46.79,emergent,NA,82.35114864,Byrd 2018
+byrd_2018,Nisqually,U3S-78,99.29,emergent,NA,174.75198864,Byrd 2018
+byrd_2018,Nisqually,U3S-76,173.09,emergent,NA,304.64116944,Byrd 2018
+byrd_2018,Nisqually,U3S-81+,31.44,emergent,NA,55.33490304,Byrd 2018
+byrd_2018,Nisqually,U3S-79+,31.08,emergent,NA,54.70129727999999,Byrd 2018
+byrd_2018,Nisqually,U3S-80+,92.82,emergent,NA,163.36468512,Byrd 2018
+byrd_2018,Nisqually,REFC -83,564.75,emergent,NA,993.969036,Byrd 2018
+byrd_2018,Nisqually,REFC -84,500.56,emergent,NA,880.99360896,Byrd 2018
+byrd_2018,Nisqually,REFC -82,586.69,emergent,NA,1032.58378704,Byrd 2018
+byrd_2018,Nisqually,REFC -87,537.61,emergent,NA,946.20220176,Byrd 2018
+byrd_2018,Nisqually,REFC -85,415.73,emergent,NA,731.69145168,Byrd 2018
+byrd_2018,Nisqually,REFC -86,1017.05,emergent,NA,1790.0242727999998,Byrd 2018
+byrd_2018,Nisqually,REFC -90,677.9,emergent,NA,1193.1148464,Byrd 2018
+byrd_2018,Nisqually,REFC -88,642.34,emergent,NA,1130.52867744,Byrd 2018
+byrd_2018,Nisqually,REFC -89,304.38,emergent,NA,535.7136700799999,Byrd 2018
+byrd_2018,Nisqually,U3N -92,35.03,emergent,NA,61.653360479999996,Byrd 2018
+byrd_2018,Nisqually,U3N-91,46.03,emergent,NA,81.01353648,Byrd 2018
+byrd_2018,Nisqually,U3N -93,72.14,emergent,NA,126.96755424000001,Byrd 2018
+byrd_2018,Nisqually,U3N -96,42.46,emergent,NA,74.73027936,Byrd 2018
+byrd_2018,Nisqually,U3N -94,141.01,emergent,NA,248.17985615999999,Byrd 2018
+byrd_2018,Nisqually,U3N -95,80.69,emergent,NA,142.01569103999998,Byrd 2018
+byrd_2018,Nisqually,U3N -99,127.19,emergent,NA,223.85643503999998,Byrd 2018
+byrd_2018,Nisqually,U3N -98,179.1,emergent,NA,315.21886559999996,Byrd 2018
+byrd_2018,Nisqually,U3N -97,5.13,emergent,NA,9.028882079999999,Byrd 2018
+byrd_2018,Nisqually,REF B -101,791.23,emergent,NA,1392.57745968,Byrd 2018
+byrd_2018,Nisqually,REF B -102,911.43,emergent,NA,1604.1313828799998,Byrd 2018
+byrd_2018,Nisqually,REF B -100,305.66,emergent,NA,537.96649056,Byrd 2018
+byrd_2018,Nisqually,REF B -105,439.01,emergent,NA,772.66462416,Byrd 2018
+byrd_2018,Nisqually,REF B -104,1037.55,emergent,NA,1826.1046007999998,Byrd 2018
+byrd_2018,Nisqually,REF B -103,1281.27,emergent,NA,2255.05570032,Byrd 2018
+byrd_2018,Nisqually,REF B -108+,724.72,emergent,NA,1275.51879552,Byrd 2018
+byrd_2018,Nisqually,REF B -107+,731.34,emergent,NA,1287.17010144,Byrd 2018
+byrd_2018,Nisqually,REF B -106+,649.14,emergent,NA,1142.4967862400001,Byrd 2018
+byrd_2018,Nisqually,Anim-110,295.98,emergent,NA,520.9295356800001,Byrd 2018
+byrd_2018,Nisqually,Anim-109,481.48,emergent,NA,847.41250368,Byrd 2018
+byrd_2018,Nisqually,Anim-111,300.96,emergent,NA,529.6944153599999,Byrd 2018
+byrd_2018,Nisqually,Anim-112,814.03,emergent,NA,1432.70582448,Byrd 2018
+byrd_2018,Nisqually,Anim-113,458.82,emergent,NA,807.53054112,Byrd 2018
+byrd_2018,Nisqually,Anim-114,632.8,emergent,NA,1113.7381248,Byrd 2018
+byrd_2018,Nisqually,Anim-115,126.14,emergent,NA,222.00841824,Byrd 2018
+byrd_2018,Nisqually,Anim-117,280.02,emergent,NA,492.83968031999996,Byrd 2018
+byrd_2018,Nisqually,Anim-116,275,emergent,NA,484.00440000000003,Byrd 2018
+byrd_2018,Sand Mound Slough,19-8,50,emergent,NA,88.0008,Byrd 2018
+byrd_2018,Sand Mound Slough,19-8,65.5,emergent,NA,115.281048,Byrd 2018
+byrd_2018,Sand Mound Slough,19-3,75.4,emergent,NA,132.7052064,Byrd 2018
+byrd_2018,Sand Mound Slough,19-3,168,emergent,NA,295.682688,Byrd 2018
+byrd_2018,Sand Mound Slough,19-6,75.5,emergent,NA,132.88120800000002,Byrd 2018
+byrd_2018,Sand Mound Slough,19-1,47.8,emergent,NA,84.1287648,Byrd 2018
+byrd_2018,Sand Mound Slough,19-1,124.2,emergent,NA,218.59398720000002,Byrd 2018
+byrd_2018,Sand Mound Slough,15-3,65.73,emergent,NA,115.68585168,Byrd 2018
+byrd_2018,Sand Mound Slough,15-3,105.71,emergent,NA,186.05129135999996,Byrd 2018
+byrd_2018,Sand Mound Slough,15-3,174.94,emergent,NA,307.89719904,Byrd 2018
+byrd_2018,Sand Mound Slough,15-1,86,emergent,NA,151.361376,Byrd 2018
+byrd_2018,Sand Mound Slough,15-1,163.5,emergent,NA,287.76261600000004,Byrd 2018
+byrd_2018,Sand Mound Slough,15-3,96.4,emergent,NA,169.6655424,Byrd 2018
+byrd_2018,Sand Mound Slough,15-3,81.8,emergent,NA,143.9693088,Byrd 2018
+byrd_2018,Sand Mound Slough,22-8,213.7,emergent,NA,376.11541919999996,Byrd 2018
+byrd_2018,Sand Mound Slough,22-1,128.1,emergent,NA,225.45804959999998,Byrd 2018
+byrd_2018,Sand Mound Slough,22-2,154.1,emergent,NA,271.21846559999994,Byrd 2018
+byrd_2018,Sand Mound Slough,22-4,23.5,emergent,NA,41.360375999999995,Byrd 2018
+byrd_2018,Sand Mound Slough,22-6,319.6,emergent,NA,562.5011136,Byrd 2018
+byrd_2018,Sand Mound Slough,22-6,92,emergent,NA,161.921472,Byrd 2018
+byrd_2018,ChinaCamp,18,260.62,emergent,NA,458.69536992,Byrd 2018
+byrd_2018,Sand Mound Slough,10-7,516,emergent,NA,908.1682559999999,Byrd 2018
+byrd_2018,Sand Mound Slough,10-7,145.9,emergent,NA,256.7863344,Byrd 2018
+byrd_2018,Sand Mound Slough,10-7,154.66,emergent,NA,272.20407456000004,Byrd 2018
+byrd_2018,Sand Mound Slough,10-6,204.6,emergent,NA,360.0992736,Byrd 2018
+byrd_2018,Sand Mound Slough,10-3,79.2,emergent,NA,139.3932672,Byrd 2018
+byrd_2018,Sand Mound Slough,10-6,177.4,emergent,NA,312.2268384,Byrd 2018
+byrd_2018,Sand Mound Slough,10-3,88.5,emergent,NA,155.761416,Byrd 2018
+byrd_2018,ChinaCamp,17,274.97,emergent,NA,483.95159952,Byrd 2018
+byrd_2018,ChinaCamp,16,344.64,emergent,NA,606.57191424,Byrd 2018
+byrd_2018,ChinaCamp,19,332.39,emergent,NA,585.0117182399999,Byrd 2018
+byrd_2018,ChinaCamp,15,286.49,emergent,NA,504.22698384,Byrd 2018
+byrd_2018,ChinaCamp,20,295.23,emergent,NA,519.6095236799999,Byrd 2018
+byrd_2018,Sand Mound Slough,42-1,245.6,emergent,NA,432.25992959999996,Byrd 2018
+byrd_2018,Sand Mound Slough,42-1,200.7,emergent,NA,353.2352111999999,Byrd 2018
+byrd_2018,Sand Mound Slough,42-1,111,emergent,NA,195.36177600000002,Byrd 2018
+byrd_2018,Sand Mound Slough,42-1,398.6,emergent,NA,701.5423776,Byrd 2018
+byrd_2018,Sand Mound Slough,42-1,583.63,emergent,NA,1027.19813808,Byrd 2018
+byrd_2018,Sand Mound Slough,42-1,209.1,emergent,NA,368.0193456,Byrd 2018
+byrd_2018,ChinaCamp,14,265.28,emergent,NA,466.89704448,Byrd 2018
+byrd_2018,ChinaCamp,13,360.71,emergent,NA,634.8553713599999,Byrd 2018
+byrd_2018,ChinaCamp,11,249.22,emergent,NA,438.63118751999997,Byrd 2018
+byrd_2018,ChinaCamp,12,305.9,emergent,NA,538.3888944,Byrd 2018
+byrd_2018,Sand Mound Slough,37-10,87.8,emergent,NA,154.5294048,Byrd 2018
+byrd_2018,Sand Mound Slough,37-1,42.5,emergent,NA,74.80068,Byrd 2018
+byrd_2018,Sand Mound Slough,37-4,118.2,emergent,NA,208.0338912,Byrd 2018
+byrd_2018,Sand Mound Slough,37-2,168.9,emergent,NA,297.26670240000004,Byrd 2018
+byrd_2018,Sand Mound Slough,37-6,65.7,emergent,NA,115.63305120000001,Byrd 2018
+byrd_2018,Sand Mound Slough,37-1,201.2,emergent,NA,354.11521919999996,Byrd 2018
+byrd_2018,Sand Mound Slough,37-1,130,emergent,NA,228.80208,Byrd 2018
+byrd_2018,ChinaCamp,4,378.04,emergent,NA,665.35644864,Byrd 2018
+byrd_2018,ChinaCamp,5,464.31,emergent,NA,817.19302896,Byrd 2018
+byrd_2018,Sand Mound Slough,25-8,95.03,emergent,NA,167.25432048,Byrd 2018
+byrd_2018,Sand Mound Slough,25-10,87.8,emergent,NA,154.5294048,Byrd 2018
+byrd_2018,Sand Mound Slough,25-7,75.8,emergent,NA,133.4092128,Byrd 2018
+byrd_2018,Sand Mound Slough,25-5,276.06,emergent,NA,485.87001696000004,Byrd 2018
+byrd_2018,Sand Mound Slough,25-6,129.21,emergent,NA,227.41166736,Byrd 2018
+byrd_2018,Sand Mound Slough,25-1,66.6,emergent,NA,117.21706559999998,Byrd 2018
+byrd_2018,Sand Mound Slough,25-1,111,emergent,NA,195.36177600000002,Byrd 2018
+byrd_2018,ChinaCamp,3,668.76,emergent,NA,1177.02830016,Byrd 2018
+byrd_2018,ChinaCamp,1,548.74,emergent,NA,965.7911798399999,Byrd 2018
+byrd_2018,ChinaCamp,2,265.77,emergent,NA,467.7594523199999,Byrd 2018
+byrd_2018,ChinaCamp,6,380.94,emergent,NA,670.4604950400001,Byrd 2018
+byrd_2018,ChinaCamp,9,506.86,emergent,NA,892.08170976,Byrd 2018
+byrd_2018,ChinaCamp,8,736.15,emergent,NA,1295.6357784,Byrd 2018
+byrd_2018,ChinaCamp,7,645.55,emergent,NA,1136.1783288,Byrd 2018
+byrd_2018,ChinaCamp,10,249.47,emergent,NA,439.07119152,Byrd 2018
+byrd_2018,Sand Mound Slough,16-1,142.44,emergent,NA,250.69667904000002,Byrd 2018
+byrd_2018,Sand Mound Slough,16-3,173.8,emergent,NA,305.8907808,Byrd 2018
+byrd_2018,Sand Mound Slough,16-2,207.14,emergent,NA,364.56971423999994,Byrd 2018
+byrd_2018,Sand Mound Slough,16-1,146.36,emergent,NA,257.59594176,Byrd 2018
+byrd_2018,Sand Mound Slough,16-2,16.2,emergent,NA,28.5122592,Byrd 2018
+byrd_2018,Sand Mound Slough,16-1,361.73,emergent,NA,636.6505876800001,Byrd 2018
+byrd_2018,Sand Mound Slough,16-1,178.7,emergent,NA,314.5148592,Byrd 2018
+byrd_2018,Sand Mound Slough,39-7,263,emergent,NA,462.884208,Byrd 2018
+byrd_2018,Sand Mound Slough,39-4,203.3,emergent,NA,357.81125280000003,Byrd 2018
+byrd_2018,Sand Mound Slough,39-7,164,emergent,NA,288.642624,Byrd 2018
+byrd_2018,Sand Mound Slough,39-4,331.5,emergent,NA,583.4453040000001,Byrd 2018
+byrd_2018,Sand Mound Slough,39-2,61.5,emergent,NA,108.240984,Byrd 2018
+byrd_2018,Sand Mound Slough,39-2,45.4,emergent,NA,79.9047264,Byrd 2018
+byrd_2018,Sand Mound Slough,39-2,102.3,emergent,NA,180.0496368,Byrd 2018
+byrd_2018,Sand Mound Slough,34-9,147.3,emergent,NA,259.2503568,Byrd 2018
+byrd_2018,Sand Mound Slough,34-7,110.76,emergent,NA,194.93937216,Byrd 2018
+byrd_2018,Sand Mound Slough,34-5,102.74,emergent,NA,180.82404384,Byrd 2018
+byrd_2018,Sand Mound Slough,34-6,166.85,emergent,NA,293.6586696,Byrd 2018
+byrd_2018,Sand Mound Slough,34-1,123.7,emergent,NA,217.71397919999998,Byrd 2018
+byrd_2018,Sand Mound Slough,34-5,182.9,emergent,NA,321.90692640000003,Byrd 2018
+byrd_2018,Sand Mound Slough,34-1,164.45,emergent,NA,289.43463119999996,Byrd 2018
+byrd_2018,Browns Island,11-9,54.7,emergent,NA,96.2728752,Byrd 2018
+byrd_2018,Browns Island,11-5,66.7,emergent,NA,117.39306719999999,Byrd 2018
+byrd_2018,Browns Island,11-8,58.5,emergent,NA,102.96093599999999,Byrd 2018
+byrd_2018,Browns Island,11-4,65.37,emergent,NA,115.05224592,Byrd 2018
+byrd_2018,Browns Island,11-5,86.06,emergent,NA,151.46697695999998,Byrd 2018
+byrd_2018,Browns Island,11-4,99.2,emergent,NA,174.5935872,Byrd 2018
+byrd_2018,Browns Island,11-1,27.9,emergent,NA,49.1044464,Byrd 2018
+byrd_2018,Browns Island,2-5,70.3,emergent,NA,123.72912480000001,Byrd 2018
+byrd_2018,Browns Island,2-8,57,emergent,NA,100.32091199999999,Byrd 2018
+byrd_2018,Browns Island,2-8,37.5,emergent,NA,66.0006,Byrd 2018
+byrd_2018,Browns Island,2-4,34.8,emergent,NA,61.24855679999999,Byrd 2018
+byrd_2018,Browns Island,2-1,100.9,emergent,NA,177.5856144,Byrd 2018
+byrd_2018,Browns Island,12,384.11,emergent,NA,676.0397457600001,Byrd 2018
+byrd_2018,Browns Island,10,259.24,emergent,NA,456.26654784,Byrd 2018
+byrd_2018,Browns Island,11,430.27,emergent,NA,757.28208432,Byrd 2018
+byrd_2018,Browns Island,6-10,78.2,emergent,NA,137.63325120000002,Byrd 2018
+byrd_2018,Browns Island,6-7,68,emergent,NA,119.681088,Byrd 2018
+byrd_2018,Browns Island,6-9,90.3,emergent,NA,158.92944479999997,Byrd 2018
+byrd_2018,Browns Island,6-5,57.8,emergent,NA,101.72892479999999,Byrd 2018
+byrd_2018,Browns Island,6-5,61.5,emergent,NA,108.240984,Byrd 2018
+byrd_2018,Browns Island,6-2,88.9,emergent,NA,156.46542240000002,Byrd 2018
+byrd_2018,Browns Island,6-2,115.7,emergent,NA,203.6338512,Byrd 2018
+byrd_2018,Browns Island,7,212.53,emergent,NA,374.05620048,Byrd 2018
+byrd_2018,Browns Island,9,145.81,emergent,NA,256.62793296,Byrd 2018
+byrd_2018,Browns Island,8,110.39,emergent,NA,194.28816624,Byrd 2018
+byrd_2018,Browns Island,20,135.3,emergent,NA,238.13016480000002,Byrd 2018
+byrd_2018,Browns Island,19,194.11,emergent,NA,341.63670576000004,Byrd 2018
+byrd_2018,Browns Island,22,159.3,emergent,NA,280.3705488,Byrd 2018
+byrd_2018,Browns Island,21,200.42,emergent,NA,352.74240671999996,Byrd 2018
+byrd_2018,Browns Island,23,131.81,emergent,NA,231.98770896,Byrd 2018
+byrd_2018,Browns Island,18,252.81,emergent,NA,444.94964496,Byrd 2018
+byrd_2018,Browns Island,26,395.59,emergent,NA,696.24472944,Byrd 2018
+byrd_2018,Browns Island,25,324.21,emergent,NA,570.6147873599999,Byrd 2018
+byrd_2018,Browns Island,24,287.5,emergent,NA,506.0046,Byrd 2018
+byrd_2018,Browns Island,17,291.42,emergent,NA,512.90386272,Byrd 2018
+byrd_2018,Browns Island,15,218.65,emergent,NA,384.8274984,Byrd 2018
+byrd_2018,Browns Island,16,268.03,emergent,NA,471.73708847999995,Byrd 2018
+byrd_2018,Browns Island,3,176.53,emergent,NA,310.69562448,Byrd 2018
+byrd_2018,Browns Island,1,270.93,emergent,NA,476.84113488,Byrd 2018
+byrd_2018,Browns Island,2,180.8,emergent,NA,318.2108928,Byrd 2018
+byrd_2018,Browns Island,4,200.53,emergent,NA,352.93600848,Byrd 2018
+byrd_2018,Browns Island,6,162.27,emergent,NA,285.59779632,Byrd 2018
+byrd_2018,Browns Island,5,151.54,emergent,NA,266.71282464,Byrd 2018
+byrd_2018,Browns Island,14,226.86,emergent,NA,399.27722976,Byrd 2018
+byrd_2018,Browns Island,13,261.94,emergent,NA,461.01859104,Byrd 2018
+byrd_2018,Browns Island,54-6,170.9,emergent,NA,300.7867344,Byrd 2018
+byrd_2018,Browns Island,54-8,150.8,emergent,NA,265.4104128,Byrd 2018
+byrd_2018,Browns Island,54-5,22.2,emergent,NA,39.0723552,Byrd 2018
+byrd_2018,Browns Island,54-2,65,emergent,NA,114.40104,Byrd 2018
+byrd_2018,Browns Island,54-1,24.9,emergent,NA,43.82439839999999,Byrd 2018
+byrd_2018,Browns Island,26-7,44.9,emergent,NA,79.0247184,Byrd 2018
+byrd_2018,Browns Island,26-10,140.8,emergent,NA,247.81025280000003,Byrd 2018
+byrd_2018,Browns Island,26-8,205.7,emergent,NA,362.03529119999996,Byrd 2018
+byrd_2018,Browns Island,26-2,58.4,emergent,NA,102.7849344,Byrd 2018
+byrd_2018,Browns Island,26-3,7.4,emergent,NA,13.0241184,Byrd 2018
+byrd_2018,Browns Island,26-5,135.9,emergent,NA,239.1861744,Byrd 2018
+byrd_2018,Browns Island,26-2,62.3,emergent,NA,109.64899679999999,Byrd 2018
+byrd_2018,Browns Island,34-9,69.3,emergent,NA,121.96910879999999,Byrd 2018
+byrd_2018,Browns Island,34-1,70.4,emergent,NA,123.90512640000001,Byrd 2018
+byrd_2018,Browns Island,34-1,54.5,emergent,NA,95.920872,Byrd 2018
+byrd_2018,Browns Island,34-3,51.8,emergent,NA,91.16882879999999,Byrd 2018
+byrd_2018,Browns Island,34-4,77.5,emergent,NA,136.40123999999997,Byrd 2018
+byrd_2018,Browns Island,34-3,13.1,emergent,NA,23.0562096,Byrd 2018
+byrd_2018,Browns Island,45,302.9,emergent,NA,533.1088464,Byrd 2018
+byrd_2018,Browns Island,42,335.46,emergent,NA,590.41496736,Byrd 2018
+byrd_2018,Browns Island,44,289.76,emergent,NA,509.98223616,Byrd 2018
+byrd_2018,Browns Island,41,315.41,emergent,NA,555.12664656,Byrd 2018
+byrd_2018,Browns Island,38,596.75,emergent,NA,1050.289548,Byrd 2018
+byrd_2018,Browns Island,36,393.63,emergent,NA,692.79509808,Byrd 2018
+byrd_2018,Browns Island,40,566.16,emergent,NA,996.45065856,Byrd 2018
+byrd_2018,Browns Island,39,443.16,emergent,NA,779.96869056,Byrd 2018
+byrd_2018,Browns Island,37,281,emergent,NA,494.564496,Byrd 2018
+byrd_2018,Browns Island,34,290.8,emergent,NA,511.8126528,Byrd 2018
+byrd_2018,Browns Island,35,219.77,emergent,NA,386.79871632,Byrd 2018
+byrd_2018,Browns Island,43,366.51,emergent,NA,645.06346416,Byrd 2018
+byrd_2018,Browns Island,50-10,15.4,emergent,NA,27.104246399999997,Byrd 2018
+byrd_2018,Browns Island,50-4,51.6,emergent,NA,90.8168256,Byrd 2018
+byrd_2018,Browns Island,50-9,42.5,emergent,NA,74.80068,Byrd 2018
+byrd_2018,Browns Island,50-6,20.1,emergent,NA,35.3763216,Byrd 2018
+byrd_2018,Browns Island,50-4,32.4,emergent,NA,57.0245184,Byrd 2018
+byrd_2018,Browns Island,50-2,45.3,emergent,NA,79.72872479999998,Byrd 2018
+byrd_2018,Browns Island,50-2,47.9,emergent,NA,84.30476639999999,Byrd 2018
+byrd_2018,Browns Island,32,300.08,emergent,NA,528.14560128,Byrd 2018
+byrd_2018,Browns Island,33,232.72,emergent,NA,409.59092352,Byrd 2018
+byrd_2018,Browns Island,28,219.81,emergent,NA,386.86911696,Byrd 2018
+byrd_2018,Browns Island,31,273.25,emergent,NA,480.924372,Byrd 2018
+byrd_2018,Browns Island,27,190,emergent,NA,334.40304000000003,Byrd 2018
+byrd_2018,Browns Island,30,272.22,emergent,NA,479.1115555200001,Byrd 2018
+byrd_2018,Browns Island,29,251.53,emergent,NA,442.69682448,Byrd 2018
+byrd_2018,Browns Island,40-7,11.4,emergent,NA,20.0641824,Byrd 2018
+byrd_2018,Browns Island,40-8,118.9,emergent,NA,209.26590240000002,Byrd 2018
+byrd_2018,Browns Island,40-1,213.5,emergent,NA,375.76341599999995,Byrd 2018
+byrd_2018,Browns Island,40-4,148.8,emergent,NA,261.8903808,Byrd 2018
+byrd_2018,Browns Island,40-6,176.4,emergent,NA,310.4668224,Byrd 2018
+byrd_2018,Browns Island,40-4,17.3,emergent,NA,30.448276800000002,Byrd 2018
+byrd_2018,Browns Island,48-7,77.7,emergent,NA,136.75324320000001,Byrd 2018
+byrd_2018,Browns Island,48-8,28,emergent,NA,49.280448,Byrd 2018
+byrd_2018,Browns Island,48-8,92.7,emergent,NA,163.1534832,Byrd 2018
+byrd_2018,Browns Island,48-1,61,emergent,NA,107.360976,Byrd 2018
+byrd_2018,Browns Island,48-1,43.3,emergent,NA,76.2086928,Byrd 2018
+byrd_2018,Browns Island,48-5,63.7,emergent,NA,112.11301920000001,Byrd 2018
+byrd_2018,Browns Island,48-5,76.8,emergent,NA,135.16922879999998,Byrd 2018
+byrd_2018,Browns Island,43-9,25.2,emergent,NA,44.3524032,Byrd 2018
+byrd_2018,Browns Island,43-10,118.67,emergent,NA,208.86109872,Byrd 2018
+byrd_2018,Browns Island,43-10,78,emergent,NA,137.281248,Byrd 2018
+byrd_2018,Browns Island,43-1,83.8,emergent,NA,147.48934079999998,Byrd 2018
+byrd_2018,Browns Island,43-3,82.9,emergent,NA,145.9053264,Byrd 2018
+byrd_2018,Browns Island,43-1,51.6,emergent,NA,90.8168256,Byrd 2018
+byrd_2018,Browns Island,43-5,58.14,emergent,NA,102.32733024,Byrd 2018
+byrd_2018,ShermanLake,18,925.39,emergent,NA,1628.70120624,Byrd 2018
+byrd_2018,ShermanLake,16,498,emergent,NA,876.487968,Byrd 2018
+byrd_2018,ShermanLake,17,524.24,emergent,NA,922.67078784,Byrd 2018
+byrd_2018,Mayberry,s11_072412,1472.89,emergent,NA,2592.30996624,Byrd 2018
+byrd_2018,Mayberry,s11_081512,1233.28,emergent,NA,2170.59253248,Byrd 2018
+byrd_2018,Mayberry,s11_092412,70.83,emergent,NA,124.66193327999999,Byrd 2018
+byrd_2018,Mayberry,s10_072412,1802.39,emergent,NA,3172.23523824,Byrd 2018
+byrd_2018,Mayberry,s10_081512,2171.66,emergent,NA,3822.15634656,Byrd 2018
+byrd_2018,Mayberry,s10_092412,1556.13,emergent,NA,2738.81369808,Byrd 2018
+byrd_2018,Mayberry,s12_081512,2890.99,emergent,NA,5088.18865584,Byrd 2018
+byrd_2018,Mayberry,s13_081512,2084.85,emergent,NA,3669.3693576,Byrd 2018
+byrd_2018,Mayberry,s9_081512,690.81,emergent,NA,1215.8366529599998,Byrd 2018
+byrd_2018,Mayberry,s13_092412,1164.15,emergent,NA,2048.9226264000004,Byrd 2018
+byrd_2018,Mayberry,s9_092412,1834.12,emergent,NA,3228.0805459199996,Byrd 2018
+byrd_2018,Mayberry,s12_092412,365.74,emergent,NA,643.70825184,Byrd 2018
+byrd_2018,ShermanLake,20,627.43,emergent,NA,1104.2868388799998,Byrd 2018
+byrd_2018,ShermanLake,19,682.07,emergent,NA,1200.45411312,Byrd 2018
+byrd_2018,Mayberry,s14_072412,2835.31,emergent,NA,4990.190964959999,Byrd 2018
+byrd_2018,Mayberry,s14_081512,1731.55,emergent,NA,3047.5557047999996,Byrd 2018
+byrd_2018,Mayberry,s15_081512,1829.65,emergent,NA,3220.2132744,Byrd 2018
+byrd_2018,Mayberry,s15_092412,1037.53,emergent,NA,1826.06940048,Byrd 2018
+byrd_2018,Mayberry,s14_092412,1124.43,emergent,NA,1979.0147908800002,Byrd 2018
+byrd_2018,Mayberry,s7_072412,3243.91,emergent,NA,5709.333502559999,Byrd 2018
+byrd_2018,Mayberry,s8_072412,1242.79,emergent,NA,2187.3302846399997,Byrd 2018
+byrd_2018,Mayberry,s7_081512,2278.22,emergent,NA,4009.7036515199998,Byrd 2018
+byrd_2018,Mayberry,s8_081512,1804.61,emergent,NA,3176.1424737599996,Byrd 2018
+byrd_2018,Mayberry,s7_092412,2475.22,emergent,NA,4356.426803519999,Byrd 2018
+byrd_2018,Mayberry,s8_092412,641.15,emergent,NA,1128.4342583999999,Byrd 2018
+byrd_2018,ShermanLake,21,326.29,emergent,NA,574.27562064,Byrd 2018
+byrd_2018,ShermanLake,22,1036.01,emergent,NA,1823.39417616,Byrd 2018
+byrd_2018,ShermanLake,26,997.31,emergent,NA,1755.2815569599998,Byrd 2018
+byrd_2018,ShermanLake,25,514.45,emergent,NA,905.4402312000001,Byrd 2018
+byrd_2018,Mayberry,s5_081512,3018.14,emergent,NA,5311.974690239999,Byrd 2018
+byrd_2018,Mayberry,s6_081512,3059.33,emergent,NA,5384.46974928,Byrd 2018
+byrd_2018,Mayberry,s6_092412,2446.11,emergent,NA,4305.1927377600005,Byrd 2018
+byrd_2018,Mayberry,s5_092412,2143.18,emergent,NA,3772.0310908799993,Byrd 2018
+byrd_2018,ShermanLake,23,510.15,emergent,NA,897.8721624,Byrd 2018
+byrd_2018,ShermanLake,27,427.19,emergent,NA,751.86123504,Byrd 2018
+byrd_2018,ShermanLake,24,375.97,emergent,NA,661.71321552,Byrd 2018
+byrd_2018,ShermanLake,29,548.31,emergent,NA,965.0343729599998,Byrd 2018
+byrd_2018,ShermanLake,28,545.8,emergent,NA,960.6167327999999,Byrd 2018
+byrd_2018,Mayberry,s4_081512,2598.59,emergent,NA,4573.559977440001,Byrd 2018
+byrd_2018,Mayberry,s4_092412,1171.68,emergent,NA,2062.1755468799997,Byrd 2018
+byrd_2018,ShermanLake,36,392.96,emergent,NA,691.6158873599999,Byrd 2018
+byrd_2018,ShermanLake,37,457.42,emergent,NA,805.06651872,Byrd 2018
+byrd_2018,ShermanLake,34,398.1,emergent,NA,700.6623696,Byrd 2018
+byrd_2018,ShermanLake,31,427.71,emergent,NA,752.7764433599999,Byrd 2018
+byrd_2018,ShermanLake,32,353.8,emergent,NA,622.6936608000001,Byrd 2018
+byrd_2018,ShermanLake,30,488.16,emergent,NA,859.1694105600001,Byrd 2018
+byrd_2018,ShermanLake,33,446.58,emergent,NA,785.98794528,Byrd 2018
+byrd_2018,ShermanLake,35,365.5,emergent,NA,643.285848,Byrd 2018
+byrd_2018,Mayberry,w5_081512,1190.81,emergent,NA,2095.84465296,Byrd 2018
+byrd_2018,Mayberry,w5_092412,665.61,emergent,NA,1171.48424976,Byrd 2018
+byrd_2018,Mayberry,w6_092412,1061.29,emergent,NA,1867.88738064,Byrd 2018
+byrd_2018,Mayberry,w4_081512,1897.81,emergent,NA,3340.17596496,Byrd 2018
+byrd_2018,Mayberry,w7_081512,1855.87,emergent,NA,3266.36089392,Byrd 2018
+byrd_2018,Mayberry,w8_081512,1920.79,emergent,NA,3380.62113264,Byrd 2018
+byrd_2018,Mayberry,w7_092412,2644.02,emergent,NA,4653.51750432,Byrd 2018
+byrd_2018,Mayberry,w8_092412,2081.92,emergent,NA,3664.21251072,Byrd 2018
+byrd_2018,Mayberry,w4_092412,437.22,emergent,NA,769.51419552,Byrd 2018
+byrd_2018,Mayberry,w10_081512,992.06,emergent,NA,1746.04147296,Byrd 2018
+byrd_2018,Mayberry,w9_081512,1279.54,emergent,NA,2252.01087264,Byrd 2018
+byrd_2018,Mayberry,w9_092412,636.25,emergent,NA,1119.81018,Byrd 2018
+byrd_2018,Mayberry,w10_092412,988.75,emergent,NA,1740.21582,Byrd 2018
+byrd_2018,Mayberry,s3_072412,2918.99,emergent,NA,5137.469103839999,Byrd 2018
+byrd_2018,Mayberry,s2_072412,782.4,emergent,NA,1377.0365184,Byrd 2018
+byrd_2018,Mayberry,s2_081512,2432.42,emergent,NA,4281.0981187200005,Byrd 2018
+byrd_2018,Mayberry,s3_081512,2850.36,emergent,NA,5016.6792057600005,Byrd 2018
+byrd_2018,Mayberry,s3_092412,1527.98,emergent,NA,2689.26924768,Byrd 2018
+byrd_2018,Mayberry,s2_092412,1400.58,emergent,NA,2465.0432092799997,Byrd 2018
+byrd_2018,Mayberry,w3_081512,3268.61,emergent,NA,5752.80589776,Byrd 2018
+byrd_2018,Mayberry,w3_092412,1034.61,emergent,NA,1820.9301537599997,Byrd 2018
+byrd_2018,Mayberry,w1_072412,3054.6,emergent,NA,5376.144873599999,Byrd 2018
+byrd_2018,Mayberry,w1_081512,4749.08,emergent,NA,8358.45678528,Byrd 2018
+byrd_2018,Mayberry,w2_081512,2579.88,emergent,NA,4540.63007808,Byrd 2018
+byrd_2018,Mayberry,w2_092412,478.8,emergent,NA,842.6956607999999,Byrd 2018
+byrd_2018,Mayberry,w1_092412,1735.82,emergent,NA,3055.07097312,Byrd 2018
+byrd_2018,Mayberry,n6_072412,1082.72,emergent,NA,1905.6045235200002,Byrd 2018
+byrd_2018,Mayberry,n6_081512,3123.69,emergent,NA,5497.74437904,Byrd 2018
+byrd_2018,Mayberry,n6_092412,2424.41,emergent,NA,4267.00039056,Byrd 2018
+byrd_2018,Mayberry,s1_072412,1416.6,emergent,NA,2493.2386656,Byrd 2018
+byrd_2018,Mayberry,s1_081512,1943.97,emergent,NA,3421.41830352,Byrd 2018
+byrd_2018,Mayberry,s1_092412,2262.55,emergent,NA,3982.1242008000004,Byrd 2018
+byrd_2018,Mayberry,me1_072412,851.71,emergent,NA,1499.0232273600002,Byrd 2018
+byrd_2018,Mayberry,me1_081512,181.69,emergent,NA,319.77730704,Byrd 2018
+byrd_2018,Mayberry,me1_092412,1288.33,emergent,NA,2267.4814132799997,Byrd 2018
+byrd_2018,Mayberry,n5_072412,1465.31,emergent,NA,2578.96904496,Byrd 2018
+byrd_2018,Mayberry,n5_081512,763.52,emergent,NA,1343.80741632,Byrd 2018
+byrd_2018,Mayberry,n8_092412,376.79,emergent,NA,663.1564286400001,Byrd 2018
+byrd_2018,Mayberry,n5_092412,631.75,emergent,NA,1111.890108,Byrd 2018
+byrd_2018,Mayberry,me2_072412,3563.68,emergent,NA,6272.13381888,Byrd 2018
+byrd_2018,Mayberry,me2_081512,1950.21,emergent,NA,3432.40080336,Byrd 2018
+byrd_2018,Mayberry,me2_092412,1065.32,emergent,NA,1874.9802451199998,Byrd 2018
+byrd_2018,Mayberry,n3_072412,1347.57,emergent,NA,2371.74476112,Byrd 2018
+byrd_2018,Mayberry,n9_081512,1463.79,emergent,NA,2576.29382064,Byrd 2018
+byrd_2018,Mayberry,n10_081512,1995.29,emergent,NA,3511.74232464,Byrd 2018
+byrd_2018,Mayberry,n9_092412,1547.86,emergent,NA,2724.25836576,Byrd 2018
+byrd_2018,Mayberry,n10_092412,588.74,emergent,NA,1036.1918198399999,Byrd 2018
+byrd_2018,Mayberry,n4_092412,1776.05,emergent,NA,3125.8764168,Byrd 2018
+byrd_2018,Mayberry,n2_072412,745.99,emergent,NA,1312.95433584,Byrd 2018
+byrd_2018,Mayberry,n1_072412,738.76,emergent,NA,1300.2294201599998,Byrd 2018
+byrd_2018,Mayberry,n2_081512,5233.82,emergent,NA,9211.606941119999,Byrd 2018
+byrd_2018,Mayberry,n1_081512,2199.56,emergent,NA,3871.2607929600003,Byrd 2018
+byrd_2018,Mayberry,n2_092412,806.03,emergent,NA,1418.62569648,Byrd 2018
+byrd_2018,Mayberry,n12_072412,1010.03,emergent,NA,1777.66896048,Byrd 2018
+byrd_2018,Mayberry,n11_072412,2400.2,emergent,NA,4224.390403199999,Byrd 2018
+byrd_2018,Mayberry,n11_081512,2925.63,emergent,NA,5149.15561008,Byrd 2018
+byrd_2018,Mayberry,n12_081512,3335.99,emergent,NA,5871.395775839999,Byrd 2018
+byrd_2018,Mayberry,n12_092412,1516.82,emergent,NA,2669.6274691199997,Byrd 2018
+byrd_2018,Mayberry,n11_092412,1935.53,emergent,NA,3406.56376848,Byrd 2018
+byrd_2018,Mayberry,n13_072412,2102.49,emergent,NA,3700.4160398399995,Byrd 2018
+byrd_2018,Mayberry,n13_081512,1557.69,emergent,NA,2741.55932304,Byrd 2018
+byrd_2018,Mayberry,n13_092412,1309.59,emergent,NA,2304.8993534399997,Byrd 2018
+byrd_2018,ShermanLake,3,700.55,emergent,NA,1232.9792088,Byrd 2018
+byrd_2018,ShermanLake,1,959.14,emergent,NA,1688.1017462399998,Byrd 2018
+byrd_2018,ShermanLake,15,331.88,emergent,NA,584.11411008,Byrd 2018
+byrd_2018,ShermanLake,2,667.86,emergent,NA,1175.44428576,Byrd 2018
+byrd_2018,ShermanLake,5,682.27,emergent,NA,1200.80611632,Byrd 2018
+byrd_2018,ShermanLake,4,187.11,emergent,NA,329.31659376000005,Byrd 2018
+byrd_2018,ShermanLake,6,195.32,emergent,NA,343.76632512,Byrd 2018
+byrd_2018,ShermanLake,9,210.92,emergent,NA,371.22257471999995,Byrd 2018
+byrd_2018,ShermanLake,8,230.47,emergent,NA,405.63088752,Byrd 2018
+byrd_2018,ShermanLake,7,311.64,emergent,NA,548.49138624,Byrd 2018
+byrd_2018,ShermanLake,11,389.92,emergent,NA,686.26543872,Byrd 2018
+byrd_2018,ShermanLake,10,341.37,emergent,NA,600.81666192,Byrd 2018
+byrd_2018,ShermanLake,13,251.45,emergent,NA,442.55602319999997,Byrd 2018
+byrd_2018,ShermanLake,12,528.2,emergent,NA,929.6404512,Byrd 2018
+byrd_2018,ShermanLake,14,353.77,emergent,NA,622.64086032,Byrd 2018
+byrd_2018,Twitchell,e1-1,78.43,emergent,NA,138.03805488,Byrd 2018
+byrd_2018,Twitchell,e1-1.5,52.5,emergent,NA,92.40084,Byrd 2018
+byrd_2018,Twitchell,e1-1,196.11,emergent,NA,345.15673776,Byrd 2018
+byrd_2018,Twitchell,e1-1,672.75,emergent,NA,1184.050764,Byrd 2018
+byrd_2018,Twitchell,e1-1.5,301.93,emergent,NA,531.40163088,Byrd 2018
+byrd_2018,Twitchell,e1-1,504.9,emergent,NA,888.6320784,Byrd 2018
+byrd_2018,Twitchell,e1-1.5,463.62,emergent,NA,815.97861792,Byrd 2018
+byrd_2018,Twitchell,e1-1.5,97.77,emergent,NA,172.07676431999997,Byrd 2018
+byrd_2018,Twitchell,e1-1,497.4,emergent,NA,875.4319584,Byrd 2018
+byrd_2018,Twitchell,e1-1,549.07,emergent,NA,966.3719851200001,Byrd 2018
+byrd_2018,Twitchell,e1-1w_061312,352.88,emergent,NA,621.07444608,Byrd 2018
+byrd_2018,Twitchell,e1-1w_090712,1328,emergent,NA,2337.3012479999998,Byrd 2018
+byrd_2018,Twitchell,e2-2,50.24,emergent,NA,88.42320384000001,Byrd 2018
+byrd_2018,Twitchell,e2-3,11.93,emergent,NA,20.99699088,Byrd 2018
+byrd_2018,Twitchell,e2-2,11.29,emergent,NA,19.870580639999996,Byrd 2018
+byrd_2018,Twitchell,e2-3,17.02,emergent,NA,29.95547232,Byrd 2018
+byrd_2018,Twitchell,e2-2,2.74,emergent,NA,4.822443840000001,Byrd 2018
+byrd_2018,Twitchell,e2-3,162.68,emergent,NA,286.31940288,Byrd 2018
+byrd_2018,Twitchell,e2-3,570.98,emergent,NA,1004.93393568,Byrd 2018
+byrd_2018,Twitchell,e2-3,229.79,emergent,NA,404.43407664,Byrd 2018
+byrd_2018,Twitchell,e2-2,15.21,emergent,NA,26.76984336,Byrd 2018
+byrd_2018,Twitchell,e2-3,107.24,emergent,NA,188.74411583999998,Byrd 2018
+byrd_2018,Twitchell,e2-1w_061312,556.04,emergent,NA,978.6392966399999,Byrd 2018
+byrd_2018,Twitchell,e2-1w_090712,731.04,emergent,NA,1286.6420966399999,Byrd 2018
+byrd_2018,Twitchell,ep-5,447.35,emergent,NA,787.3431576,Byrd 2018
+byrd_2018,Twitchell,ep-5,469.66,emergent,NA,826.6091145600001,Byrd 2018
+byrd_2018,Twitchell,ep-5,364.27,emergent,NA,641.1210283199999,Byrd 2018
+byrd_2018,Twitchell,ep-5,227.58,emergent,NA,400.54444128,Byrd 2018
+byrd_2018,Twitchell,k1_090712,638.26,emergent,NA,1123.34781216,Byrd 2018
+byrd_2018,Twitchell,k2_090712,759.41,emergent,NA,1336.57375056,Byrd 2018
+byrd_2018,Twitchell,k3_090712,722.42,emergent,NA,1271.47075872,Byrd 2018
+byrd_2018,Twitchell,k4_090712,890.52,emergent,NA,1567.32944832,Byrd 2018
+byrd_2018,Twitchell,e3-1,226.81,emergent,NA,399.18922896,Byrd 2018
+byrd_2018,Twitchell,e3-2,908.2,emergent,NA,1598.4465312,Byrd 2018
+byrd_2018,Twitchell,e3-1,172.91,emergent,NA,304.32436656,Byrd 2018
+byrd_2018,Twitchell,e3-2,687.97,emergent,NA,1210.83820752,Byrd 2018
+byrd_2018,Twitchell,e3-2,3352.16,emergent,NA,5899.855234559999,Byrd 2018
+byrd_2018,Twitchell,e3-1,335.29,emergent,NA,590.1157646400001,Byrd 2018
+byrd_2018,Twitchell,e3-2,454.19,emergent,NA,799.38166704,Byrd 2018
+byrd_2018,Twitchell,e3-1,606.43,emergent,NA,1067.32650288,Byrd 2018
+byrd_2018,Twitchell,e3-2,130.13,emergent,NA,229.03088208,Byrd 2018
+byrd_2018,Twitchell,e3-1,17.32,emergent,NA,30.483477119999996,Byrd 2018
+byrd_2018,Twitchell,e3-1,180.68,emergent,NA,317.99969088,Byrd 2018
+byrd_2018,Twitchell,e3-2,437.24,emergent,NA,769.54939584,Byrd 2018
+byrd_2018,Twitchell,e3-2w_061312,923.24,emergent,NA,1624.91717184,Byrd 2018
+byrd_2018,Twitchell,e4-1,107.31,emergent,NA,188.86731696,Byrd 2018
+byrd_2018,Twitchell,e4-1,249.96,emergent,NA,439.93359936,Byrd 2018
+byrd_2018,Twitchell,e4-2,753.03,emergent,NA,1325.3448484799999,Byrd 2018
+byrd_2018,Twitchell,e4-2,1284.21,emergent,NA,2260.23014736,Byrd 2018
+byrd_2018,Twitchell,e4-1,381.57,emergent,NA,671.56930512,Byrd 2018
+byrd_2018,Twitchell,e4-1,741.44,emergent,NA,1304.94626304,Byrd 2018
+byrd_2018,Twitchell,e4-2,798.32,emergent,NA,1405.05597312,Byrd 2018
+byrd_2018,Twitchell,e4-1,637.1,emergent,NA,1121.3061936,Byrd 2018
+byrd_2018,Twitchell,e4-2,1164.78,emergent,NA,2050.0314364799997,Byrd 2018
+byrd_2018,Twitchell,e4-1e_061312,487.1,emergent,NA,857.3037936,Byrd 2018
+byrd_2018,Twitchell,e3-1e_061312,938.34,emergent,NA,1651.49341344,Byrd 2018
+byrd_2018,Twitchell,e3-1e_090712,1748.6,emergent,NA,3077.5639776,Byrd 2018
+byrd_2018,Twitchell,w4-2,1548.97,emergent,NA,2726.21198352,Byrd 2018
+byrd_2018,Twitchell,w4-1,285.89,emergent,NA,503.17097423999996,Byrd 2018
+byrd_2018,Twitchell,w4-1,306.67,emergent,NA,539.7441067200001,Byrd 2018
+byrd_2018,Twitchell,w4-2,1482.26,emergent,NA,2608.8013161599997,Byrd 2018
+byrd_2018,Twitchell,w4-2,2745.06,emergent,NA,4831.34952096,Byrd 2018
+byrd_2018,Twitchell,w4-1,331.78,emergent,NA,583.9381084799999,Byrd 2018
+byrd_2018,Twitchell,w4-3,167.44,emergent,NA,294.69707904,Byrd 2018
+byrd_2018,Twitchell,w4-2,1725.65,emergent,NA,3037.1716104,Byrd 2018
+byrd_2018,Twitchell,w4-1,426.66,emergent,NA,750.9284265599999,Byrd 2018
+byrd_2018,Twitchell,w4-3,111.62,emergent,NA,196.45298592,Byrd 2018
+byrd_2018,Twitchell,w4-3,779.05,emergent,NA,1371.1404647999998,Byrd 2018
+byrd_2018,Twitchell,w4-2,1362.61,emergent,NA,2398.2154017599996,Byrd 2018
+byrd_2018,Twitchell,w4-1,350.03,emergent,NA,616.05840048,Byrd 2018
+byrd_2018,Twitchell,w4-1,543.71,emergent,NA,956.93829936,Byrd 2018
+byrd_2018,Twitchell,w4-2,1219.7,emergent,NA,2146.6915152,Byrd 2018
+byrd_2018,Twitchell,w4-1n_052412,1850.38,emergent,NA,3256.69840608,Byrd 2018
+byrd_2018,Twitchell,w4-1n_070212,880.54,emergent,NA,1549.7644886399999,Byrd 2018
+byrd_2018,Twitchell,w4-1n_090712,1383.52,emergent,NA,2435.01733632,Byrd 2018
+byrd_2018,Twitchell,l2_090712,2197.69,emergent,NA,3867.96956304,Byrd 2018
+byrd_2018,Twitchell,l1_090712,535.51,emergent,NA,942.50616816,Byrd 2018
+byrd_2018,Twitchell,e1-6,831.86,emergent,NA,1464.08690976,Byrd 2018
+byrd_2018,Twitchell,e1-5,383.57,emergent,NA,675.08933712,Byrd 2018
+byrd_2018,Twitchell,e1-4,384.65,emergent,NA,676.9901543999999,Byrd 2018
+byrd_2018,Twitchell,e1-3.5,481.92,emergent,NA,848.18691072,Byrd 2018
+byrd_2018,Twitchell,e1-5.5,1049,emergent,NA,1846.256784,Byrd 2018
+byrd_2018,Twitchell,e1-5,289.35,emergent,NA,509.2606296,Byrd 2018
+byrd_2018,Twitchell,e1-6,717.95,emergent,NA,1263.6034872,Byrd 2018
+byrd_2018,Twitchell,e1-3.5,331.19,emergent,NA,582.89969904,Byrd 2018
+byrd_2018,Twitchell,e1-5,478.56,emergent,NA,842.27325696,Byrd 2018
+byrd_2018,Twitchell,e1-5.5,1269.64,emergent,NA,2234.5867142399998,Byrd 2018
+byrd_2018,Twitchell,e1-4,657.33,emergent,NA,1156.91131728,Byrd 2018
+byrd_2018,Twitchell,e1-6,850.76,emergent,NA,1497.35121216,Byrd 2018
+byrd_2018,Twitchell,e1-3.5,267.16,emergent,NA,470.2058745600001,Byrd 2018
+byrd_2018,Twitchell,e1-6,906.93,emergent,NA,1596.21131088,Byrd 2018
+byrd_2018,Twitchell,e1-4,539,emergent,NA,948.6486239999999,Byrd 2018
+byrd_2018,Twitchell,e1-5.5,839.73,emergent,NA,1477.9382356800002,Byrd 2018
+byrd_2018,Twitchell,e1-5,591.37,emergent,NA,1040.82066192,Byrd 2018
+byrd_2018,Twitchell,e1-6,365.82,emergent,NA,643.8490531199999,Byrd 2018
+byrd_2018,Twitchell,e1-5,628.05,emergent,NA,1105.3780487999998,Byrd 2018
+byrd_2018,Twitchell,e1-5.5,231.93,emergent,NA,408.20051087999997,Byrd 2018
+byrd_2018,Twitchell,e1-3.5,190.32,emergent,NA,334.96624512,Byrd 2018
+byrd_2018,Twitchell,e1-4,1354.13,emergent,NA,2383.29046608,Byrd 2018
+byrd_2018,Twitchell,e1-3.5,193.29,emergent,NA,340.19349264,Byrd 2018
+byrd_2018,Twitchell,e1-4,1372.06,emergent,NA,2414.84755296,Byrd 2018
+byrd_2018,Twitchell,e1-6,369.72,emergent,NA,650.71311552,Byrd 2018
+byrd_2018,Twitchell,e1-5.5,528.92,emergent,NA,930.9076627199998,Byrd 2018
+byrd_2018,Twitchell,e1-5,683.21,emergent,NA,1202.46053136,Byrd 2018
+byrd_2018,Twitchell,e1-3w_061312,303.98,emergent,NA,535.00966368,Byrd 2018
+byrd_2018,Twitchell,e1-2e_061312,413.95,emergent,NA,728.5586232,Byrd 2018
+byrd_2018,Twitchell,e2-4,4.06,emergent,NA,7.145664959999999,Byrd 2018
+byrd_2018,Twitchell,e2-4,8.92,emergent,NA,15.69934272,Byrd 2018
+byrd_2018,Twitchell,e2-4,224.49,emergent,NA,395.10599184,Byrd 2018
+byrd_2018,Twitchell,e2-5,61.49,emergent,NA,108.22338384,Byrd 2018
+byrd_2018,Twitchell,e2-4,70.33,emergent,NA,123.78192527999998,Byrd 2018
+byrd_2018,Twitchell,e2-5,25.54,emergent,NA,44.95080864,Byrd 2018
+byrd_2018,Twitchell,e2-2e_061312,348.91,emergent,NA,614.08718256,Byrd 2018
+byrd_2018,Twitchell,e2-8,62.87,emergent,NA,110.65220592,Byrd 2018
+byrd_2018,Twitchell,e2-6,522.08,emergent,NA,918.86915328,Byrd 2018
+byrd_2018,Twitchell,e2-7,463.22,emergent,NA,815.2746115200001,Byrd 2018
+byrd_2018,Twitchell,e2-8,282.43,emergent,NA,497.08131887999997,Byrd 2018
+byrd_2018,Twitchell,e2-6,1289.45,emergent,NA,2269.4526312000003,Byrd 2018
+byrd_2018,Twitchell,e2-7,728.67,emergent,NA,1282.47085872,Byrd 2018
+byrd_2018,Twitchell,e2-6,1615.72,emergent,NA,2843.69305152,Byrd 2018
+byrd_2018,Twitchell,e2-8,101.98,emergent,NA,179.48643168,Byrd 2018
+byrd_2018,Twitchell,e2-6,1486.5,emergent,NA,2616.2637839999998,Byrd 2018
+byrd_2018,Twitchell,e2-7,980.59,emergent,NA,1725.85408944,Byrd 2018
+byrd_2018,Twitchell,e2-8,184.16,emergent,NA,324.12454656,Byrd 2018
+byrd_2018,Twitchell,e2-6,1227.03,emergent,NA,2159.59243248,Byrd 2018
+byrd_2018,Twitchell,e2-8,271.46,emergent,NA,477.7739433599999,Byrd 2018
+byrd_2018,Twitchell,e2-7,965.59,emergent,NA,1699.45384944,Byrd 2018
+byrd_2018,Twitchell,e2-6,1948.54,emergent,NA,3429.4615766399997,Byrd 2018
+byrd_2018,Twitchell,e2-8,320.75,emergent,NA,564.525132,Byrd 2018
+byrd_2018,Twitchell,e2-7,1258.16,emergent,NA,2214.38173056,Byrd 2018
+byrd_2018,Twitchell,e2-4w_061312,295.61,emergent,NA,520.27832976,Byrd 2018
+byrd_2018,Twitchell,e2-3w_061312,352.14,emergent,NA,619.77203424,Byrd 2018
+byrd_2018,Twitchell,e2-9,64.79,emergent,NA,114.03143664000001,Byrd 2018
+byrd_2018,Twitchell,e2-9,555.97,emergent,NA,978.5160955200001,Byrd 2018
+byrd_2018,Twitchell,e2-9,611.24,emergent,NA,1075.79217984,Byrd 2018
+byrd_2018,Twitchell,e2-9,965.32,emergent,NA,1698.9786451200002,Byrd 2018
+byrd_2018,Twitchell,e2-9,397.34,emergent,NA,699.32475744,Byrd 2018
+byrd_2018,Twitchell,e2-9,642.82,emergent,NA,1131.3734851200002,Byrd 2018
+byrd_2018,Twitchell,e3-4,309.23,emergent,NA,544.2497476799999,Byrd 2018
+byrd_2018,Twitchell,e3-4,280.48,emergent,NA,493.64928768000004,Byrd 2018
+byrd_2018,Twitchell,e3-4,1047.68,emergent,NA,1843.9335628800002,Byrd 2018
+byrd_2018,Twitchell,e3-4,535.67,emergent,NA,942.7877707199998,Byrd 2018
+byrd_2018,Twitchell,e3-4,527.49,emergent,NA,928.39083984,Byrd 2018
+byrd_2018,Twitchell,e3-4,568.87,emergent,NA,1001.22030192,Byrd 2018
+byrd_2018,Twitchell,e3-4w_061312,309.67,emergent,NA,545.0241547200001,Byrd 2018
+byrd_2018,Twitchell,e3-3,248.42,emergent,NA,437.22317472,Byrd 2018
+byrd_2018,Twitchell,e3-3,390.16,emergent,NA,686.68784256,Byrd 2018
+byrd_2018,Twitchell,e3-3,1120.74,emergent,NA,1972.52033184,Byrd 2018
+byrd_2018,Twitchell,e3-3,1017.47,emergent,NA,1790.7634795200001,Byrd 2018
+byrd_2018,Twitchell,e3-3,760.43,emergent,NA,1338.36896688,Byrd 2018
+byrd_2018,Twitchell,e3-3w_061312,227.88,emergent,NA,401.07244607999996,Byrd 2018
+byrd_2018,Twitchell,e4-4,158.01,emergent,NA,278.10012816,Byrd 2018
+byrd_2018,Twitchell,e4-4,963.45,emergent,NA,1695.6874152,Byrd 2018
+byrd_2018,Twitchell,e4-4,1162.3,emergent,NA,2045.6665968,Byrd 2018
+byrd_2018,Twitchell,e4-4,1167.16,emergent,NA,2054.2202745600002,Byrd 2018
+byrd_2018,Twitchell,e4-2w_061312,587.65,emergent,NA,1034.2734024000001,Byrd 2018
+byrd_2018,Twitchell,j1_090712,1466.27,emergent,NA,2580.65866032,Byrd 2018
+byrd_2018,Twitchell,j2_090712,3064.9,emergent,NA,5394.273038400001,Byrd 2018
+byrd_2018,Twitchell,e4-5,408.7,emergent,NA,719.3185391999999,Byrd 2018
+byrd_2018,Twitchell,e4-5,521.09,emergent,NA,917.12673744,Byrd 2018
+byrd_2018,Twitchell,e4-5,1144.53,emergent,NA,2014.3911124799997,Byrd 2018
+byrd_2018,Twitchell,e4-3e_061312,698.48,emergent,NA,1229.33597568,Byrd 2018
+byrd_2018,Twitchell,e4-4e_061312,244.63,emergent,NA,430.55271408,Byrd 2018
+byrd_2018,Twitchell,b1_061312,957.08,emergent,NA,1684.47611328,Byrd 2018
+byrd_2018,Twitchell,b2_061312,599.76,emergent,NA,1055.58719616,Byrd 2018
+byrd_2018,Twitchell,b1_090712,1328.79,emergent,NA,2338.6916606399996,Byrd 2018
+byrd_2018,Twitchell,b2_090712,865.98,emergent,NA,1524.1386556799998,Byrd 2018
+byrd_2018,Twitchell,w4-6,1050.95,emergent,NA,1849.6888152000001,Byrd 2018
+byrd_2018,Twitchell,w4-7,1448.42,emergent,NA,2549.2423747200005,Byrd 2018
+byrd_2018,Twitchell,w4-8,793,emergent,NA,1395.692688,Byrd 2018
+byrd_2018,Twitchell,w4-6,1202.2,emergent,NA,2115.8912352,Byrd 2018
+byrd_2018,Twitchell,w4-8,1051.82,emergent,NA,1851.22002912,Byrd 2018
+byrd_2018,Twitchell,w4-7,2148.68,emergent,NA,3781.71117888,Byrd 2018
+byrd_2018,Twitchell,w4-8,1490.46,emergent,NA,2623.23344736,Byrd 2018
+byrd_2018,Twitchell,w4-6,1346.87,emergent,NA,2370.51274992,Byrd 2018
+byrd_2018,Twitchell,w4-7,2518.55,emergent,NA,4432.6882968,Byrd 2018
+byrd_2018,Twitchell,w4-6,832.17,emergent,NA,1464.6325147199998,Byrd 2018
+byrd_2018,Twitchell,w4-8,1489.97,emergent,NA,2622.37103952,Byrd 2018
+byrd_2018,Twitchell,w4-7,2465.01,emergent,NA,4338.45704016,Byrd 2018
+byrd_2018,Twitchell,w4-6,410.31,emergent,NA,722.15216496,Byrd 2018
+byrd_2018,Twitchell,w4-8,913.55,emergent,NA,1607.8626167999998,Byrd 2018
+byrd_2018,Twitchell,w4-7,2379.88,emergent,NA,4188.62687808,Byrd 2018
+byrd_2018,Twitchell,w4-8,1238.97,emergent,NA,2180.60702352,Byrd 2018
+byrd_2018,Twitchell,w4-5n_052412,979.29,emergent,NA,1723.56606864,Byrd 2018
+byrd_2018,Twitchell,w4-6n_052412,536.81,emergent,NA,944.7941889599999,Byrd 2018
+byrd_2018,Twitchell,w4-6n_070212,1118.87,emergent,NA,1969.22910192,Byrd 2018
+byrd_2018,Twitchell,w4-5n_070212,1785.37,emergent,NA,3142.27976592,Byrd 2018
+byrd_2018,Twitchell,w4-4,1264.5,emergent,NA,2225.540232,Byrd 2018
+byrd_2018,Twitchell,w4-5,914.39,emergent,NA,1609.34103024,Byrd 2018
+byrd_2018,Twitchell,w4-5,1202.72,emergent,NA,2116.8064435200004,Byrd 2018
+byrd_2018,Twitchell,w4-4,1139.68,emergent,NA,2005.8550348800002,Byrd 2018
+byrd_2018,Twitchell,w4-5,1918.26,emergent,NA,3376.16829216,Byrd 2018
+byrd_2018,Twitchell,w4-4,2368.66,emergent,NA,4168.87949856,Byrd 2018
+byrd_2018,Twitchell,w4-5,1907.36,emergent,NA,3356.9841177599997,Byrd 2018
+byrd_2018,Twitchell,w4-4,1415.48,emergent,NA,2491.26744768,Byrd 2018
+byrd_2018,Twitchell,w4-4,3249.92,emergent,NA,5719.91119872,Byrd 2018
+byrd_2018,Twitchell,w4-5,1448.03,emergent,NA,2548.55596848,Byrd 2018
+byrd_2018,Twitchell,w4-4,3160.8,emergent,NA,5563.0585728,Byrd 2018
+byrd_2018,Twitchell,w4-4n_052412,571.7,emergent,NA,1006.2011472,Byrd 2018
+byrd_2018,Twitchell,w4-3n_052412,546.15,emergent,NA,961.2327384,Byrd 2018
+byrd_2018,Twitchell,a1_061312,2112.73,emergent,NA,3718.43860368,Byrd 2018
+byrd_2018,Twitchell,a2_061312,1622,emergent,NA,2854.7459519999998,Byrd 2018
+byrd_2018,Twitchell,w4-4n_070212,487.2,emergent,NA,857.4797952,Byrd 2018
+byrd_2018,Twitchell,w4-3n_070212,193.07,emergent,NA,339.80628912,Byrd 2018
+byrd_2018,Twitchell,a1_090712,1609.93,emergent,NA,2833.50255888,Byrd 2018
+byrd_2018,Twitchell,a2_090712,1035.62,emergent,NA,1822.70776992,Byrd 2018
+byrd_2018,Twitchell,w4-2n_052412,641.46,emergent,NA,1128.97986336,Byrd 2018
+byrd_2018,Twitchell,w4-2n_070212,885.53,emergent,NA,1558.54696848,Byrd 2018
+byrd_2018,Twitchell,w4-2n_090712,1665.38,emergent,NA,2931.0954460800003,Byrd 2018
+byrd_2018,Twitchell,ep-9,562.28,emergent,NA,989.6217964799998,Byrd 2018
+byrd_2018,Twitchell,ep-9,1106.37,emergent,NA,1947.22890192,Byrd 2018
+byrd_2018,Twitchell,ep-9,596.39,emergent,NA,1049.65594224,Byrd 2018
+byrd_2018,Twitchell,ep-9,1318.76,emergent,NA,2321.0387001599997,Byrd 2018
+byrd_2018,Twitchell,g1_090712,186.47,emergent,NA,328.19018352,Byrd 2018
+byrd_2018,Twitchell,g2_090712,540.55,emergent,NA,951.3766487999998,Byrd 2018
+byrd_2018,Twitchell,e2-5w_061312,521.88,emergent,NA,918.51715008,Byrd 2018
+byrd_2018,Twitchell,e3-5,908.49,emergent,NA,1598.95693584,Byrd 2018
+byrd_2018,Twitchell,e3-5,2218.61,emergent,NA,3904.7890977600005,Byrd 2018
+byrd_2018,Twitchell,e3-5,829.81,emergent,NA,1460.47887696,Byrd 2018
+byrd_2018,Twitchell,e3-5e_061312,789.97,emergent,NA,1390.3598395200002,Byrd 2018
+byrd_2018,Twitchell,h2_090712,637.29,emergent,NA,1121.6405966399998,Byrd 2018
+byrd_2018,Twitchell,h1_090712,528.39,emergent,NA,929.97485424,Byrd 2018
+byrd_2018,Twitchell,drain7_061312,1375.93,emergent,NA,2421.65881488,Byrd 2018
+byrd_2018,Twitchell,e4-5e_061312,1968.11,emergent,NA,3463.9050897599996,Byrd 2018
+byrd_2018,Twitchell,i2_090712,1056.03,emergent,NA,1858.62969648,Byrd 2018
+byrd_2018,Twitchell,i1_090712,953.21,emergent,NA,1677.66485136,Byrd 2018
+byrd_2018,Twitchell,w2-2,341.91,emergent,NA,601.7670705600001,Byrd 2018
+byrd_2018,Twitchell,w2-1,193.53,emergent,NA,340.61589647999995,Byrd 2018
+byrd_2018,Twitchell,w2-1,635.09,emergent,NA,1117.7685614400002,Byrd 2018
+byrd_2018,Twitchell,w2-2,413.5,emergent,NA,727.766616,Byrd 2018
+byrd_2018,Twitchell,w2-2,765.46,emergent,NA,1347.22184736,Byrd 2018
+byrd_2018,Twitchell,w2-1,590.07,emergent,NA,1038.53264112,Byrd 2018
+byrd_2018,Twitchell,w2-2,361.64,emergent,NA,636.49218624,Byrd 2018
+byrd_2018,Twitchell,w2-1,488.31,emergent,NA,859.43341296,Byrd 2018
+byrd_2018,Twitchell,w2-1,839.31,emergent,NA,1477.1990289599999,Byrd 2018
+byrd_2018,Twitchell,w2-2,365.34,emergent,NA,643.00424544,Byrd 2018
+byrd_2018,Twitchell,w2-2,601.21,emergent,NA,1058.13921936,Byrd 2018
+byrd_2018,Twitchell,w2-1,882.29,emergent,NA,1552.84451664,Byrd 2018
+byrd_2018,Twitchell,w2-1n_052412,685.37,emergent,NA,1206.26216592,Byrd 2018
+byrd_2018,Twitchell,w2-1n_090712,676.28,emergent,NA,1190.2636204799999,Byrd 2018
+byrd_2018,Twitchell,w2-3,372.19,emergent,NA,655.06035504,Byrd 2018
+byrd_2018,Twitchell,w2-4,115.56,emergent,NA,203.38744896,Byrd 2018
+byrd_2018,Twitchell,w2-3,493.5,emergent,NA,868.567896,Byrd 2018
+byrd_2018,Twitchell,w2-4,77.16,emergent,NA,135.80283456,Byrd 2018
+byrd_2018,Twitchell,w2-4,127.61,emergent,NA,224.59564176,Byrd 2018
+byrd_2018,Twitchell,w2-3,481.9,emergent,NA,848.1517104,Byrd 2018
+byrd_2018,Twitchell,w2-3,353.53,emergent,NA,622.2184564799999,Byrd 2018
+byrd_2018,Twitchell,w2-4,190.06,emergent,NA,334.50864096,Byrd 2018
+byrd_2018,Twitchell,w2-4,144.85,emergent,NA,254.93831759999998,Byrd 2018
+byrd_2018,Twitchell,w2-3,129.06,emergent,NA,227.14766496,Byrd 2018
+byrd_2018,Twitchell,w2-4,149.57,emergent,NA,263.24559312,Byrd 2018
+byrd_2018,Twitchell,w2-3,443.48,emergent,NA,780.5318956799999,Byrd 2018
+byrd_2018,Twitchell,w2-2n_052412,415.42,emergent,NA,731.14584672,Byrd 2018
+byrd_2018,Twitchell,w2-3n_052412,707.03,emergent,NA,1244.3841124799999,Byrd 2018
+byrd_2018,Twitchell,w2-2n_070212,913.86,emergent,NA,1608.40822176,Byrd 2018
+byrd_2018,Twitchell,w2-3n_070212,1054.47,emergent,NA,1855.8840715200001,Byrd 2018
+byrd_2018,Twitchell,w2-2n_090712,1641.17,emergent,NA,2888.48545872,Byrd 2018
+byrd_2018,Twitchell,w2-5,699.79,emergent,NA,1231.6415966399998,Byrd 2018
+byrd_2018,Twitchell,w2-6,645.81,emergent,NA,1136.63593296,Byrd 2018
+byrd_2018,Twitchell,w2-7,31.58,emergent,NA,55.581305279999995,Byrd 2018
+byrd_2018,Twitchell,w2-7,404.45,emergent,NA,711.8384712,Byrd 2018
+byrd_2018,Twitchell,w2-6,411.65,emergent,NA,724.5105864,Byrd 2018
+byrd_2018,Twitchell,w2-5,736.75,emergent,NA,1296.691788,Byrd 2018
+byrd_2018,Twitchell,w2-5,1817.91,emergent,NA,3199.55068656,Byrd 2018
+byrd_2018,Twitchell,w2-7,931.35,emergent,NA,1639.1909016,Byrd 2018
+byrd_2018,Twitchell,w2-6,964.12,emergent,NA,1696.8666259200002,Byrd 2018
+byrd_2018,Twitchell,w2-7,893.23,emergent,NA,1572.0990916800001,Byrd 2018
+byrd_2018,Twitchell,w2-5,1207.09,emergent,NA,2124.49771344,Byrd 2018
+byrd_2018,Twitchell,w2-6,496.7,emergent,NA,874.1999472,Byrd 2018
+byrd_2018,Twitchell,w2-7,1069.65,emergent,NA,1882.6011144000001,Byrd 2018
+byrd_2018,Twitchell,w2-6,354.66,emergent,NA,624.2072745600001,Byrd 2018
+byrd_2018,Twitchell,w2-5,971.16,emergent,NA,1709.25713856,Byrd 2018
+byrd_2018,Twitchell,w2-6,784.15,emergent,NA,1380.1165464,Byrd 2018
+byrd_2018,Twitchell,w2-7,1231.26,emergent,NA,2167.0373001599996,Byrd 2018
+byrd_2018,Twitchell,w2-4n_052412,407.94,emergent,NA,717.98092704,Byrd 2018
+byrd_2018,Twitchell,w2-5n_052412,1287.41,emergent,NA,2265.8621985600003,Byrd 2018
+byrd_2018,Twitchell,c1_061312,820.49,emergent,NA,1444.07552784,Byrd 2018
+byrd_2018,Twitchell,c2_061312,910.08,emergent,NA,1601.75536128,Byrd 2018
+byrd_2018,Twitchell,w2-4n_070212,1231.51,emergent,NA,2167.4773041599997,Byrd 2018
+byrd_2018,Twitchell,w2-5n_070212,864.61,emergent,NA,1521.72743376,Byrd 2018
+byrd_2018,Twitchell,c1_090712,1976.8,emergent,NA,3479.1996287999996,Byrd 2018
+byrd_2018,Twitchell,c2_090712,2098.07,emergent,NA,3692.6367691200003,Byrd 2018
+byrd_2018,Twitchell,w2-9,467.33,emergent,NA,822.50827728,Byrd 2018
+byrd_2018,Twitchell,w2-8,89.24,emergent,NA,157.06382784,Byrd 2018
+byrd_2018,Twitchell,w2-8,288.75,emergent,NA,508.20462,Byrd 2018
+byrd_2018,Twitchell,w2-9,400.61,emergent,NA,705.08000976,Byrd 2018
+byrd_2018,Twitchell,w2-9,603.13,emergent,NA,1061.5184500799999,Byrd 2018
+byrd_2018,Twitchell,w2-8,704.06,emergent,NA,1239.15686496,Byrd 2018
+byrd_2018,Twitchell,w2-8,295.28,emergent,NA,519.69752448,Byrd 2018
+byrd_2018,Twitchell,w2-9,559.62,emergent,NA,984.94015392,Byrd 2018
+byrd_2018,Twitchell,w2-8,685.39,emergent,NA,1206.29736624,Byrd 2018
+byrd_2018,Twitchell,w2-9,184.85,emergent,NA,325.33895759999996,Byrd 2018
+byrd_2018,Twitchell,w2-9,368.61,emergent,NA,648.7594977599999,Byrd 2018
+byrd_2018,Twitchell,w2-8,700.51,emergent,NA,1232.90880816,Byrd 2018
+byrd_2018,Twitchell,w2-7n_052412,1300.05,emergent,NA,2288.1088008,Byrd 2018
+byrd_2018,Twitchell,w2-6n_052412,1382.15,emergent,NA,2432.6061144,Byrd 2018
+byrd_2018,Twitchell,w2-7n_070212,721.16,emergent,NA,1269.25313856,Byrd 2018
+byrd_2018,Twitchell,w2-6n_070212,524.87,emergent,NA,923.77959792,Byrd 2018
+byrd_2018,Twitchell,w2-10,900.9,emergent,NA,1585.5984144,Byrd 2018
+byrd_2018,Twitchell,w2-10,713.66,emergent,NA,1256.0530185599998,Byrd 2018
+byrd_2018,Twitchell,w2-10,1385.83,emergent,NA,2439.08297328,Byrd 2018
+byrd_2018,Twitchell,w2-10,1238.23,emergent,NA,2179.30461168,Byrd 2018
+byrd_2018,Twitchell,w2-10,962.23,emergent,NA,1693.5401956800001,Byrd 2018
+byrd_2018,Twitchell,w4-9,230.08,emergent,NA,404.94448128,Byrd 2018
+byrd_2018,Twitchell,w4-10,15.28,emergent,NA,26.89304448,Byrd 2018
+byrd_2018,Twitchell,w4-10,38.42,emergent,NA,67.61981472000001,Byrd 2018
+byrd_2018,Twitchell,w4-9,304.6,emergent,NA,536.1008736,Byrd 2018
+byrd_2018,Twitchell,w4-10,480.27,emergent,NA,845.28288432,Byrd 2018
+byrd_2018,Twitchell,w4-9,149.83,emergent,NA,263.70319728000004,Byrd 2018
+byrd_2018,Twitchell,w4-9,178.37,emergent,NA,313.93405392,Byrd 2018
+byrd_2018,Twitchell,w4-9,60.61,emergent,NA,106.67456976,Byrd 2018
+byrd_2018,Twitchell,w4-9,68.88,emergent,NA,121.22990207999999,Byrd 2018
+byrd_2018,Twitchell,w4-7n_052412,925.7,emergent,NA,1629.2468112000001,Byrd 2018
+byrd_2018,Twitchell,w4-7n_070212,1427.64,emergent,NA,2512.66924224,Byrd 2018
+byrd_2018,Twitchell,w3-3,486.91,emergent,NA,856.9693905600001,Byrd 2018
+byrd_2018,Twitchell,w3-4,252.86,emergent,NA,445.03764576,Byrd 2018
+byrd_2018,Twitchell,w3-4,155.59,emergent,NA,273.84088944,Byrd 2018
+byrd_2018,Twitchell,w3-3,605.01,emergent,NA,1064.8272801599999,Byrd 2018
+byrd_2018,Twitchell,w3-3,1671.5,emergent,NA,2941.866744,Byrd 2018
+byrd_2018,Twitchell,w3-4,292.37,emergent,NA,514.57587792,Byrd 2018
+byrd_2018,Twitchell,w3-3,500.03,emergent,NA,880.0608004799999,Byrd 2018
+byrd_2018,Twitchell,w3-3,1301.15,emergent,NA,2290.0448184,Byrd 2018
+byrd_2018,Twitchell,w3-3,643.97,emergent,NA,1133.3975035199999,Byrd 2018
+byrd_2018,Twitchell,w3-4n_052412,598.91,emergent,NA,1054.0911825599999,Byrd 2018
+byrd_2018,Twitchell,w3-4n_070212,640.33,emergent,NA,1126.99104528,Byrd 2018
+byrd_2018,Twitchell,w3-2,1231.62,emergent,NA,2167.6709059199998,Byrd 2018
+byrd_2018,Twitchell,w3-2,980.2,emergent,NA,1725.1676832,Byrd 2018
+byrd_2018,Twitchell,w3-2,2002.06,emergent,NA,3523.65763296,Byrd 2018
+byrd_2018,Twitchell,w3-2,1401.95,emergent,NA,2467.4544312000003,Byrd 2018
+byrd_2018,Twitchell,w3-2,1882.23,emergent,NA,3312.7549156799996,Byrd 2018
+byrd_2018,Twitchell,w3-3n_052412,1065.71,emergent,NA,1875.66665136,Byrd 2018
+byrd_2018,Twitchell,w3-2n_052412,732.17,emergent,NA,1288.63091472,Byrd 2018
+byrd_2018,Twitchell,w3-3n_070212,221.56,emergent,NA,389.94914496,Byrd 2018
+byrd_2018,Twitchell,w3-2n_070212,1353.35,emergent,NA,2381.9176536,Byrd 2018
+byrd_2018,Twitchell,w3-2n_090712,1662.16,emergent,NA,2925.42819456,Byrd 2018
+byrd_2018,Twitchell,w3-1,199.86,emergent,NA,351.75679776,Byrd 2018
+byrd_2018,Twitchell,w3-1,110.35,emergent,NA,194.21776559999998,Byrd 2018
+byrd_2018,Twitchell,w3-1s_052412,620.17,emergent,NA,1091.5091227199998,Byrd 2018
+byrd_2018,Twitchell,w3-1s_070212,590.73,emergent,NA,1039.6942516800002,Byrd 2018
+byrd_2018,Twitchell,e1-7,1935.39,emergent,NA,3406.31736624,Byrd 2018
+byrd_2018,Twitchell,e1-7,805.82,emergent,NA,1418.25609312,Byrd 2018
+byrd_2018,Twitchell,e1-7,1120.04,emergent,NA,1971.28832064,Byrd 2018
+byrd_2018,Twitchell,e1-7,1432.89,emergent,NA,2521.90932624,Byrd 2018
+byrd_2018,Twitchell,e1-7,1209.11,emergent,NA,2128.05294576,Byrd 2018
+byrd_2018,Twitchell,e1-4e_061312,396.48,emergent,NA,697.8111436800001,Byrd 2018
+byrd_2018,Twitchell,e1-4e_090712,2345.6,emergent,NA,4128.2935296,Byrd 2018
+byrd_2018,Twitchell,drain8_061312,942.05,emergent,NA,1658.0230728,Byrd 2018
+byrd_2018,Twitchell,ce1_061312,699.71,emergent,NA,1231.50079536,Byrd 2018
+byrd_2018,Twitchell,ce2_061312,913.8,emergent,NA,1608.3026207999999,Byrd 2018
+byrd_2018,Twitchell,w1-8,668.54,emergent,NA,1176.64109664,Byrd 2018
+byrd_2018,Twitchell,w1-7,491.4,emergent,NA,864.8718623999999,Byrd 2018
+byrd_2018,Twitchell,w1-8,788.63,emergent,NA,1388.00141808,Byrd 2018
+byrd_2018,Twitchell,w1-7,725.06,emergent,NA,1276.1172009599998,Byrd 2018
+byrd_2018,Twitchell,w1-8,1501.15,emergent,NA,2642.0480184000003,Byrd 2018
+byrd_2018,Twitchell,w1-7,806.1,emergent,NA,1418.7488976,Byrd 2018
+byrd_2018,Twitchell,w1-8,1777.48,emergent,NA,3128.39323968,Byrd 2018
+byrd_2018,Twitchell,w1-7,412.87,emergent,NA,726.65780592,Byrd 2018
+byrd_2018,Twitchell,w1-8,1324.44,emergent,NA,2331.0355910400003,Byrd 2018
+byrd_2018,Twitchell,w1-7,357.19,emergent,NA,628.66011504,Byrd 2018
+byrd_2018,Twitchell,w1-7,319.56,emergent,NA,562.43071296,Byrd 2018
+byrd_2018,Twitchell,w1-8,1463.43,emergent,NA,2575.6602148800002,Byrd 2018
+byrd_2018,Twitchell,w1-7n_052412,586.93,emergent,NA,1033.0061908799998,Byrd 2018
+byrd_2018,Twitchell,w1-7n_070212,888.83,emergent,NA,1564.35502128,Byrd 2018
+byrd_2018,Twitchell,drain4_061312,287.47,emergent,NA,505.95179952,Byrd 2018
+byrd_2018,Twitchell,f2_061312,1121.49,emergent,NA,1973.84034384,Byrd 2018
+byrd_2018,Twitchell,f1_061312,801.29,emergent,NA,1410.2832206399999,Byrd 2018
+byrd_2018,Twitchell,f1_090712,4113.69,emergent,NA,7240.160219039999,Byrd 2018
+byrd_2018,Twitchell,f2_090712,1905.96,emergent,NA,3354.52009536,Byrd 2018
+byrd_2018,Twitchell,drain5_061312,363.3,emergent,NA,639.4138128,Byrd 2018
+byrd_2018,Twitchell,drain6_061312,462.08,emergent,NA,813.26819328,Byrd 2018
+byrd_2018,Twitchell,w1-4,311.6,emergent,NA,548.4209856000001,Byrd 2018
+byrd_2018,Twitchell,w1-4,499.94,emergent,NA,879.90239904,Byrd 2018
+byrd_2018,Twitchell,w1-4,768.47,emergent,NA,1352.51949552,Byrd 2018
+byrd_2018,Twitchell,w1-4,821.09,emergent,NA,1445.13153744,Byrd 2018
+byrd_2018,Twitchell,w1-4,849.67,emergent,NA,1495.43279472,Byrd 2018
+byrd_2018,Twitchell,w1-4,907.23,emergent,NA,1596.73931568,Byrd 2018
+byrd_2018,Twitchell,w1-3n_052412,537.03,emergent,NA,945.1813924799999,Byrd 2018
+byrd_2018,Twitchell,w1-4n_052412,739.21,emergent,NA,1301.0214273600002,Byrd 2018
+byrd_2018,Twitchell,w1-3n_070212,1144.66,emergent,NA,2014.6199145600003,Byrd 2018
+byrd_2018,Twitchell,w1-4n_070212,820.38,emergent,NA,1443.88192608,Byrd 2018
+byrd_2018,Twitchell,w1-6,874.29,emergent,NA,1538.7643886399999,Byrd 2018
+byrd_2018,Twitchell,w1-5,368.2,emergent,NA,648.0378912,Byrd 2018
+byrd_2018,Twitchell,w1-5,705.83,emergent,NA,1242.27209328,Byrd 2018
+byrd_2018,Twitchell,w1-6,863.83,emergent,NA,1520.35462128,Byrd 2018
+byrd_2018,Twitchell,w1-5,1267.23,emergent,NA,2230.34507568,Byrd 2018
+byrd_2018,Twitchell,w1-6,1056.17,emergent,NA,1858.87609872,Byrd 2018
+byrd_2018,Twitchell,w1-5,1196.3,emergent,NA,2105.5071408,Byrd 2018
+byrd_2018,Twitchell,w1-6,449.8,emergent,NA,791.6551968,Byrd 2018
+byrd_2018,Twitchell,w1-6,268.71,emergent,NA,472.93389935999994,Byrd 2018
+byrd_2018,Twitchell,w1-5,1414.85,emergent,NA,2490.1586375999996,Byrd 2018
+byrd_2018,Twitchell,w1-5,1381.73,emergent,NA,2431.86690768,Byrd 2018
+byrd_2018,Twitchell,w1-6,369.43,emergent,NA,650.20271088,Byrd 2018
+byrd_2018,Twitchell,w1-6n_052412,1044.02,emergent,NA,1837.49190432,Byrd 2018
+byrd_2018,Twitchell,w1-5n_052412,438.34,emergent,NA,771.4854134399999,Byrd 2018
+byrd_2018,Twitchell,w1-6n_070212,546.8,emergent,NA,962.3767487999999,Byrd 2018
+byrd_2018,Twitchell,w1-5n_070212,754.67,emergent,NA,1328.2312747199999,Byrd 2018
+byrd_2018,Twitchell,e1_061312,984.67,emergent,NA,1733.0349547199999,Byrd 2018
+byrd_2018,Twitchell,e2_061312,590.51,emergent,NA,1039.30704816,Byrd 2018
+byrd_2018,Twitchell,e2_090712,1123.98,emergent,NA,1978.22278368,Byrd 2018
+byrd_2018,Twitchell,e1_090712,1679.86,emergent,NA,2956.5804777599997,Byrd 2018
+byrd_2018,Twitchell,drain3_061312,442.4,emergent,NA,778.6310784,Byrd 2018
+byrd_2018,Twitchell,w1-1,902.36,emergent,NA,1588.1680377599998,Byrd 2018
+byrd_2018,Twitchell,w1-2,728.64,emergent,NA,1282.41805824,Byrd 2018
+byrd_2018,Twitchell,w1-3,951.18,emergent,NA,1674.09201888,Byrd 2018
+byrd_2018,Twitchell,w1-2,816.37,emergent,NA,1436.82426192,Byrd 2018
+byrd_2018,Twitchell,w1-3,941.93,emergent,NA,1657.8118708799998,Byrd 2018
+byrd_2018,Twitchell,w1-1,804.58,emergent,NA,1416.07367328,Byrd 2018
+byrd_2018,Twitchell,w1-1,901.46,emergent,NA,1586.5840233600002,Byrd 2018
+byrd_2018,Twitchell,w1-2,1235.26,emergent,NA,2174.07736416,Byrd 2018
+byrd_2018,Twitchell,w1-3,1035.87,emergent,NA,1823.1477739199997,Byrd 2018
+byrd_2018,Twitchell,w1-2,918.34,emergent,NA,1616.2930934400001,Byrd 2018
+byrd_2018,Twitchell,w1-3,616.52,emergent,NA,1085.08506432,Byrd 2018
+byrd_2018,Twitchell,w1-1,1055.05,emergent,NA,1856.9048808,Byrd 2018
+byrd_2018,Twitchell,w1-2,1222.67,emergent,NA,2151.9187627200004,Byrd 2018
+byrd_2018,Twitchell,w1-1,762.23,emergent,NA,1341.53699568,Byrd 2018
+byrd_2018,Twitchell,w1-3,434.22,emergent,NA,764.2341475200001,Byrd 2018
+byrd_2018,Twitchell,w1-3,828.6,emergent,NA,1458.3492576,Byrd 2018
+byrd_2018,Twitchell,w1-1,969.03,emergent,NA,1705.5083044799999,Byrd 2018
+byrd_2018,Twitchell,w1-2,1105.88,emergent,NA,1946.3664940800002,Byrd 2018
+byrd_2018,Twitchell,w1-2n_052412,836.86,emergent,NA,1472.88698976,Byrd 2018
+byrd_2018,Twitchell,w1-1s_052412,590.44,emergent,NA,1039.18384704,Byrd 2018
+byrd_2018,Twitchell,w1-1s_070212,338.07,emergent,NA,595.00860912,Byrd 2018
+byrd_2018,Twitchell,w1-2n_070212,1316.62,emergent,NA,2317.27226592,Byrd 2018
+byrd_2018,Twitchell,w1-2n_090712,1755.14,emergent,NA,3089.07448224,Byrd 2018
+byrd_2018,Twitchell,w1-1s_090712,767.56,emergent,NA,1350.9178809599998,Byrd 2018
+byrd_2018,Twitchell,d1_061312,479.77,emergent,NA,844.4028763199999,Byrd 2018
+byrd_2018,Twitchell,d2_061312,687.58,emergent,NA,1210.1518012800002,Byrd 2018
+byrd_2018,Twitchell,d1_090712,810.08,emergent,NA,1425.75376128,Byrd 2018
+byrd_2018,Twitchell,d2_090712,1792.79,emergent,NA,3155.33908464,Byrd 2018
+byrd_2018,Twitchell,drain1_061312,245.23,emergent,NA,431.60872367999997,Byrd 2018
+byrd_2018,Twitchell,drain2_061312,439.01,emergent,NA,772.66462416,Byrd 2018
+byrd_2018,CarlsMarsh,22,77.75,emergent,NA,136.84124400000002,Byrd 2018
+byrd_2018,CarlsMarsh,24,153.81,emergent,NA,270.70806096,Byrd 2018
+byrd_2018,CarlsMarsh,23,153.3,emergent,NA,269.8104528,Byrd 2018
+byrd_2018,CarlsMarsh,28,146.1,emergent,NA,257.1383376,Byrd 2018
+byrd_2018,CarlsMarsh,25,102.1,emergent,NA,179.6976336,Byrd 2018
+byrd_2018,CarlsMarsh,27,178.76,emergent,NA,314.62046015999994,Byrd 2018
+byrd_2018,CarlsMarsh,26,238.72,emergent,NA,420.15101952000003,Byrd 2018
+byrd_2018,CarlsMarsh,21,326.09,emergent,NA,573.9236174399999,Byrd 2018
+byrd_2018,CarlsMarsh,20,293.17,emergent,NA,515.98389072,Byrd 2018
+byrd_2018,CarlsMarsh,11,278.69,emergent,NA,490.49885903999996,Byrd 2018
+byrd_2018,CarlsMarsh,17,288.84,emergent,NA,508.36302143999995,Byrd 2018
+byrd_2018,CarlsMarsh,19,188.53,emergent,NA,331.81581648,Byrd 2018
+byrd_2018,CarlsMarsh,18,227.73,emergent,NA,400.80844368,Byrd 2018
+byrd_2018,CarlsMarsh,5,373.26,emergent,NA,656.9435721599999,Byrd 2018
+byrd_2018,CarlsMarsh,15,113.83,emergent,NA,200.34262128,Byrd 2018
+byrd_2018,CarlsMarsh,12,167.72,emergent,NA,295.18988352,Byrd 2018
+byrd_2018,CarlsMarsh,16,133.95,emergent,NA,235.7541432,Byrd 2018
+byrd_2018,CarlsMarsh,13,69.26,emergent,NA,121.89870816,Byrd 2018
+byrd_2018,CarlsMarsh,7,143.41,emergent,NA,252.40389456,Byrd 2018
+byrd_2018,CarlsMarsh,4,449.11,emergent,NA,790.44078576,Byrd 2018
+byrd_2018,CarlsMarsh,10,274.91,emergent,NA,483.84599856000006,Byrd 2018
+byrd_2018,CarlsMarsh,6,237.84,emergent,NA,418.60220544000003,Byrd 2018
+byrd_2018,CarlsMarsh,14,121.22,emergent,NA,213.34913952,Byrd 2018
+byrd_2018,CarlsMarsh,9,665.28,emergent,NA,1170.90344448,Byrd 2018
+byrd_2018,CarlsMarsh,8,302.54,emergent,NA,532.47524064,Byrd 2018
+byrd_2018,CarlsMarsh,2,460.51,emergent,NA,810.50496816,Byrd 2018
+byrd_2018,CarlsMarsh,3,336.96,emergent,NA,593.0549913599999,Byrd 2018
+byrd_2018,CarlsMarsh,1,346.12,emergent,NA,609.1767379199999,Byrd 2018
+byrd_2018,Pond2A,1,640.03,emergent,NA,1126.4630404799998,Byrd 2018
+byrd_2018,Pond2A,2,331.92,emergent,NA,584.1845107199999,Byrd 2018
+byrd_2018,Pond2A,8,217.22,emergent,NA,382.31067551999996,Byrd 2018
+byrd_2018,Pond2A,6,173.72,emergent,NA,305.74997952,Byrd 2018
+byrd_2018,Pond2A,3,743,emergent,NA,1307.691888,Byrd 2018
+byrd_2018,Pond2A,13,100.74,emergent,NA,177.30401184,Byrd 2018
+byrd_2018,Pond2A,11,124.39,emergent,NA,218.92839024,Byrd 2018
+byrd_2018,Pond2A,5,303.57,emergent,NA,534.28805712,Byrd 2018
+byrd_2018,Pond2A,12,96.02,emergent,NA,168.99673632,Byrd 2018
+byrd_2018,Pond2A,7,186.49,emergent,NA,328.22538384,Byrd 2018
+byrd_2018,Pond2A,4,262.02,emergent,NA,461.15939231999994,Byrd 2018
+byrd_2018,Pond2A,10,586.46,emergent,NA,1032.17898336,Byrd 2018
+byrd_2018,Pond2A,9,239.45,emergent,NA,421.4358312,Byrd 2018
+byrd_2018,Pond2A,32,652.72,emergent,NA,1148.79764352,Byrd 2018
+byrd_2018,Pond2A,14,389.76,emergent,NA,685.98383616,Byrd 2018
+byrd_2018,Pond2A,15,184.86,emergent,NA,325.35655776,Byrd 2018
+byrd_2018,Pond2A,33,584.55,emergent,NA,1028.8173527999998,Byrd 2018
+byrd_2018,Pond2A,34,595.82,emergent,NA,1048.65273312,Byrd 2018
+byrd_2018,Pond2A,35,548.32,emergent,NA,965.0519731200001,Byrd 2018
+byrd_2018,Pond2A,37,539.21,emergent,NA,949.0182273600001,Byrd 2018
+byrd_2018,Pond2A,17,424.35,emergent,NA,746.8627896,Byrd 2018
+byrd_2018,Pond2A,18,247.95,emergent,NA,436.3959672,Byrd 2018
+byrd_2018,Pond2A,20,396.12,emergent,NA,697.17753792,Byrd 2018
+byrd_2018,Pond2A,19,264.18,emergent,NA,464.96102688,Byrd 2018
+byrd_2018,Pond2A,16,368.69,emergent,NA,648.9002990399999,Byrd 2018
+byrd_2018,Pond2A,31,600.35,emergent,NA,1056.6256056,Byrd 2018
+byrd_2018,Pond2A,30,472.99,emergent,NA,832.46996784,Byrd 2018
+byrd_2018,Pond2A,36,424.75,emergent,NA,747.566796,Byrd 2018
+byrd_2018,Pond2A,38,479.16,emergent,NA,843.3292665600001,Byrd 2018
+byrd_2018,Pond2A,39,406.62,emergent,NA,715.6577059199999,Byrd 2018
+byrd_2018,Pond2A,44,309.58,emergent,NA,544.86575328,Byrd 2018
+byrd_2018,Pond2A,29,82.99,emergent,NA,146.06372783999998,Byrd 2018
+byrd_2018,Pond2A,45,531.61,emergent,NA,935.64210576,Byrd 2018
+byrd_2018,Pond2A,46,680.74,emergent,NA,1198.11329184,Byrd 2018
+byrd_2018,Pond2A,47,505.52,emergent,NA,889.7232883199999,Byrd 2018
+byrd_2018,Pond2A,48,565.76,emergent,NA,995.7466521599999,Byrd 2018
+byrd_2018,Pond2A,49,518.63,emergent,NA,912.79709808,Byrd 2018
+byrd_2018,Pond2A,40,553.23,emergent,NA,973.6936516800001,Byrd 2018
+byrd_2018,Pond2A,41,669.66,emergent,NA,1178.6123145599997,Byrd 2018
+byrd_2018,Pond2A,43,631.14,emergent,NA,1110.81649824,Byrd 2018
+byrd_2018,Pond2A,42,666.72,emergent,NA,1173.43786752,Byrd 2018
+byrd_2018,Coon Island,78,681.64,emergent,NA,1199.69730624,Byrd 2018
+byrd_2018,Coon Island,77,856.22,emergent,NA,1506.9608995199999,Byrd 2018
+byrd_2018,Coon Island,76,514.28,emergent,NA,905.1410284799999,Byrd 2018
+byrd_2018,Coon Island,75,454.61,emergent,NA,800.12087376,Byrd 2018
+byrd_2018,Coon Island,72,539.86,emergent,NA,950.1622377599999,Byrd 2018
+byrd_2018,Coon Island,73,483.12,emergent,NA,850.29892992,Byrd 2018
+byrd_2018,Coon Island,74,591.29,emergent,NA,1040.6798606399998,Byrd 2018
+byrd_2018,Coon Island,71,309.07,emergent,NA,543.96814512,Byrd 2018
+byrd_2018,Coon Island,79,279.23,emergent,NA,491.44926768000005,Byrd 2018
+byrd_2018,Coon Island,80,269.83,emergent,NA,474.90511727999996,Byrd 2018
+byrd_2018,Coon Island,48,271.83,emergent,NA,478.42514927999997,Byrd 2018
+byrd_2018,Coon Island,47,243.36,emergent,NA,428.31749376,Byrd 2018
+byrd_2018,Coon Island,46,179.89,emergent,NA,316.60927824,Byrd 2018
+byrd_2018,Coon Island,45,218.95,emergent,NA,385.3555032,Byrd 2018
+byrd_2018,Coon Island,44,197.13,emergent,NA,346.95195408,Byrd 2018
+byrd_2018,Coon Island,43,159.21,emergent,NA,280.21214736,Byrd 2018
+byrd_2018,Coon Island,41,164.03,emergent,NA,288.69542448,Byrd 2018
+byrd_2018,Coon Island,42,168.93,emergent,NA,297.31950288,Byrd 2018
+byrd_2018,Rush Ranch,r7-6-4,684.95,emergent,NA,1205.5229592,Byrd 2018
+byrd_2018,Rush Ranch,r7-6-1,1270.73,emergent,NA,2236.50513168,Byrd 2018
+byrd_2018,Rush Ranch,r7-6-6,476.44,emergent,NA,838.5420230399999,Byrd 2018
+byrd_2018,Rush Ranch,r7-6-3,1052,emergent,NA,1851.536832,Byrd 2018
+byrd_2018,Rush Ranch,r7-6-2,766.82,emergent,NA,1349.61546912,Byrd 2018
+byrd_2018,Rush Ranch,r7-6-5,291.02,emergent,NA,512.19985632,Byrd 2018
+byrd_2018,Rush Ranch,r7-5-1,1479.74,emergent,NA,2604.3660758399997,Byrd 2018
+byrd_2018,Rush Ranch,r7-5-4,502.55,emergent,NA,884.4960408,Byrd 2018
+byrd_2018,Rush Ranch,r7-5-6,598.75,emergent,NA,1053.8095799999999,Byrd 2018
+byrd_2018,Rush Ranch,r7-5-2,393.16,emergent,NA,691.96789056,Byrd 2018
+byrd_2018,Rush Ranch,r7-5-5,801.99,emergent,NA,1411.51523184,Byrd 2018
+byrd_2018,Rush Ranch,r7-5-3,726.74,emergent,NA,1279.0740278399999,Byrd 2018
+byrd_2018,Coon Island,70,743.35,emergent,NA,1308.3078936,Byrd 2018
+byrd_2018,Rush Ranch,r7-4-4,659.74,emergent,NA,1161.15295584,Byrd 2018
+byrd_2018,Rush Ranch,r7-4-5,680.5,emergent,NA,1197.690888,Byrd 2018
+byrd_2018,Rush Ranch,r7-4-1,948.91,emergent,NA,1670.0967825599998,Byrd 2018
+byrd_2018,Rush Ranch,r7-4-2,866.57,emergent,NA,1525.17706512,Byrd 2018
+byrd_2018,Rush Ranch,r7-4-6,593.81,emergent,NA,1045.11510096,Byrd 2018
+byrd_2018,Rush Ranch,r7-4-3,832.69,emergent,NA,1465.5477230400002,Byrd 2018
+byrd_2018,Coon Island,69,449.21,emergent,NA,790.6167873599999,Byrd 2018
+byrd_2018,Coon Island,50,284.09,emergent,NA,500.0029454399999,Byrd 2018
+byrd_2018,Coon Island,51,155.16,emergent,NA,273.08408256,Byrd 2018
+byrd_2018,Coon Island,49,194.7,emergent,NA,342.6751152,Byrd 2018
+byrd_2018,Rush Ranch,r7-3-4,530.51,emergent,NA,933.7060881599999,Byrd 2018
+byrd_2018,Rush Ranch,r7-3-3,824.48,emergent,NA,1451.0979916800002,Byrd 2018
+byrd_2018,Rush Ranch,r7-3-2,817.57,emergent,NA,1438.93628112,Byrd 2018
+byrd_2018,Rush Ranch,r7-3-1,1202.26,emergent,NA,2115.99683616,Byrd 2018
+byrd_2018,Rush Ranch,r7-3-6,936.57,emergent,NA,1648.3781851200001,Byrd 2018
+byrd_2018,Rush Ranch,r7-3-5,2566,emergent,NA,4516.201056,Byrd 2018
+byrd_2018,Coon Island,32,390.45,emergent,NA,687.1982472,Byrd 2018
+byrd_2018,Coon Island,31,427.54,emergent,NA,752.47724064,Byrd 2018
+byrd_2018,Coon Island,39,223.07,emergent,NA,392.60676912,Byrd 2018
+byrd_2018,Coon Island,33,425.15,emergent,NA,748.2708023999999,Byrd 2018
+byrd_2018,Coon Island,40,250.87,emergent,NA,441.53521392,Byrd 2018
+byrd_2018,Coon Island,53,197.85,emergent,NA,348.21916559999994,Byrd 2018
+byrd_2018,Coon Island,52,94.94,emergent,NA,167.09591903999998,Byrd 2018
+byrd_2018,Coon Island,54,89.97,emergent,NA,158.34863952,Byrd 2018
+byrd_2018,Coon Island,56,150.02,emergent,NA,264.03760032,Byrd 2018
+byrd_2018,Coon Island,55,119.34,emergent,NA,210.04030944000002,Byrd 2018
+byrd_2018,Coon Island,58,87.38,emergent,NA,153.79019808,Byrd 2018
+byrd_2018,Coon Island,57,174.28,emergent,NA,306.73558848,Byrd 2018
+byrd_2018,Coon Island,34,215.55,emergent,NA,379.3714488,Byrd 2018
+byrd_2018,Coon Island,36,252.24,emergent,NA,443.94643584,Byrd 2018
+byrd_2018,Coon Island,68,498.58,emergent,NA,877.50877728,Byrd 2018
+byrd_2018,Coon Island,37,232.67,emergent,NA,409.50292271999996,Byrd 2018
+byrd_2018,Coon Island,35,302.17,emergent,NA,531.82403472,Byrd 2018
+byrd_2018,Coon Island,38,293.33,emergent,NA,516.26549328,Byrd 2018
+byrd_2018,Coon Island,67,534.39,emergent,NA,940.5349502400001,Byrd 2018
+byrd_2018,Rush Ranch,r5-5-4,609.79,emergent,NA,1073.24015664,Byrd 2018
+byrd_2018,Rush Ranch,r5-5-3,212.89,emergent,NA,374.68980624,Byrd 2018
+byrd_2018,Rush Ranch,r5-5-1,477.67,emergent,NA,840.70684272,Byrd 2018
+byrd_2018,Rush Ranch,r5-5-2,920.41,emergent,NA,1619.93632656,Byrd 2018
+byrd_2018,Rush Ranch,r5-5-5,345.18,emergent,NA,607.5223228799999,Byrd 2018
+byrd_2018,Rush Ranch,r5-5-6,561.2,emergent,NA,987.7209792000001,Byrd 2018
+byrd_2018,Rush Ranch,r5-6-6,803,emergent,NA,1413.292848,Byrd 2018
+byrd_2018,Rush Ranch,r5-6-4,493.2,emergent,NA,868.0398911999999,Byrd 2018
+byrd_2018,Rush Ranch,r5-6-5,427.23,emergent,NA,751.93163568,Byrd 2018
+byrd_2018,Rush Ranch,r5-6-1,476.22,emergent,NA,838.15481952,Byrd 2018
+byrd_2018,Rush Ranch,r5-6-2,320.92,emergent,NA,564.82433472,Byrd 2018
+byrd_2018,Rush Ranch,r5-6-3,339.89,emergent,NA,598.21183824,Byrd 2018
+byrd_2018,Rush Ranch,r5-4-5,850,emergent,NA,1496.0136,Byrd 2018
+byrd_2018,Rush Ranch,r5-4-2,281.5,emergent,NA,495.44450400000005,Byrd 2018
+byrd_2018,Rush Ranch,r5-4-3,785,emergent,NA,1381.61256,Byrd 2018
+byrd_2018,Rush Ranch,r5-4-1,728.34,emergent,NA,1281.89005344,Byrd 2018
+byrd_2018,Rush Ranch,r5-4-4,1062.48,emergent,NA,1869.98179968,Byrd 2018
+byrd_2018,Rush Ranch,r5-3-4,843,emergent,NA,1483.693488,Byrd 2018
+byrd_2018,Rush Ranch,r5-3-3,724.87,emergent,NA,1275.78279792,Byrd 2018
+byrd_2018,Rush Ranch,r5-3-2,1716,emergent,NA,3020.1874559999997,Byrd 2018
+byrd_2018,Rush Ranch,r5-3-6,774.61,emergent,NA,1363.3259937599998,Byrd 2018
+byrd_2018,Rush Ranch,r5-3-1,682,emergent,NA,1200.3309120000001,Byrd 2018
+byrd_2018,Rush Ranch,j4-5-6,755,emergent,NA,1328.81208,Byrd 2018
+byrd_2018,Rush Ranch,j4-5-1,770,emergent,NA,1355.2123199999999,Byrd 2018
+byrd_2018,Rush Ranch,j4-5-3,526,emergent,NA,925.768416,Byrd 2018
+byrd_2018,Rush Ranch,j4-5-2,613,emergent,NA,1078.8898080000001,Byrd 2018
+byrd_2018,Rush Ranch,j4-5-4,91,emergent,NA,160.16145600000002,Byrd 2018
+byrd_2018,Rush Ranch,j3-3-4,43.5,emergent,NA,76.560696,Byrd 2018
+byrd_2018,Rush Ranch,j3-3-3,423.2,emergent,NA,744.8387712,Byrd 2018
+byrd_2018,Rush Ranch,j4-4-3,1136,emergent,NA,1999.378176,Byrd 2018
+byrd_2018,Rush Ranch,j4-4-1,416,emergent,NA,732.166656,Byrd 2018
+byrd_2018,Rush Ranch,j4-4-6,688,emergent,NA,1210.891008,Byrd 2018
+byrd_2018,Rush Ranch,j4-4-2,1005,emergent,NA,1768.81608,Byrd 2018
+byrd_2018,Rush Ranch,j4-4-4,675,emergent,NA,1188.0108,Byrd 2018
+byrd_2018,Rush Ranch,j4-4-5,2055,emergent,NA,3616.83288,Byrd 2018
+byrd_2018,Coon Island,66,447.61,emergent,NA,787.80076176,Byrd 2018
+byrd_2018,Rush Ranch,34-10,32.55,emergent,NA,57.28852079999999,Byrd 2018
+byrd_2018,Rush Ranch,34-9,45.6,emergent,NA,80.2567296,Byrd 2018
+byrd_2018,Rush Ranch,34-10,68.8,emergent,NA,121.08910080000001,Byrd 2018
+byrd_2018,Rush Ranch,34-5,238.09,emergent,NA,419.04220943999997,Byrd 2018
+byrd_2018,Rush Ranch,34-2,88.34,emergent,NA,155.47981344,Byrd 2018
+byrd_2018,Rush Ranch,34-3,106.15,emergent,NA,186.8256984,Byrd 2018
+byrd_2018,Rush Ranch,34-2,62.8,emergent,NA,110.5290048,Byrd 2018
+byrd_2018,Rush Ranch,j3-3-1,1145,emergent,NA,2015.2183200000002,Byrd 2018
+byrd_2018,Rush Ranch,j3-3-5,396.3,emergent,NA,697.4943408,Byrd 2018
+byrd_2018,Rush Ranch,j3-3-2,853.6,emergent,NA,1502.3496576,Byrd 2018
+byrd_2018,Rush Ranch,j3-2-6,385.2,emergent,NA,677.9581632,Byrd 2018
+byrd_2018,Rush Ranch,j4-3-4,812,emergent,NA,1429.132992,Byrd 2018
+byrd_2018,Rush Ranch,j4-3-6,95,emergent,NA,167.20152000000002,Byrd 2018
+byrd_2018,Rush Ranch,j4-3-2,681,emergent,NA,1198.570896,Byrd 2018
+byrd_2018,Rush Ranch,j4-3-3,539,emergent,NA,948.6486239999999,Byrd 2018
+byrd_2018,Rush Ranch,j4-3-5,1439,emergent,NA,2532.663024,Byrd 2018
+byrd_2018,Rush Ranch,j4-3-1,944,emergent,NA,1661.4551040000001,Byrd 2018
+byrd_2018,Rush Ranch,j2-5-3,327,emergent,NA,575.5252320000001,Byrd 2018
+byrd_2018,Rush Ranch,j2-5-2,348,emergent,NA,612.485568,Byrd 2018
+byrd_2018,Rush Ranch,j2-5-1,385,emergent,NA,677.6061599999999,Byrd 2018
+byrd_2018,Rush Ranch,j2-5-5,511,emergent,NA,899.3681760000001,Byrd 2018
+byrd_2018,Rush Ranch,j2-5-4,588,emergent,NA,1034.889408,Byrd 2018
+byrd_2018,Rush Ranch,j3-2-5,688.6,emergent,NA,1211.9470176000002,Byrd 2018
+byrd_2018,Rush Ranch,j3-2-2,205.8,emergent,NA,362.2112928,Byrd 2018
+byrd_2018,Rush Ranch,j3-2-4,676.4,emergent,NA,1190.4748224,Byrd 2018
+byrd_2018,Rush Ranch,j3-1-3,688.9,emergent,NA,1212.4750224,Byrd 2018
+byrd_2018,Rush Ranch,j3-2-1,729,emergent,NA,1283.0516639999998,Byrd 2018
+byrd_2018,Rush Ranch,j4-2-2,276,emergent,NA,485.764416,Byrd 2018
+byrd_2018,Rush Ranch,j4-2-6,473,emergent,NA,832.487568,Byrd 2018
+byrd_2018,Rush Ranch,j4-2-1,625,emergent,NA,1100.01,Byrd 2018
+byrd_2018,Rush Ranch,j4-2-5,1401,emergent,NA,2465.782416,Byrd 2018
+byrd_2018,Rush Ranch,j4-2-4,684,emergent,NA,1203.850944,Byrd 2018
+byrd_2018,Rush Ranch,j4-2-3,249,emergent,NA,438.243984,Byrd 2018
+byrd_2018,Coon Island,65,669.89,emergent,NA,1179.01711824,Byrd 2018
+byrd_2018,Rush Ranch,18-10,94.1,emergent,NA,165.6175056,Byrd 2018
+byrd_2018,Rush Ranch,18-2,170.8,emergent,NA,300.61073280000005,Byrd 2018
+byrd_2018,Rush Ranch,18-5,239.1,emergent,NA,420.81982559999994,Byrd 2018
+byrd_2018,Rush Ranch,18-2,96.5,emergent,NA,169.841544,Byrd 2018
+byrd_2018,Rush Ranch,18-8,180.7,emergent,NA,318.03489119999995,Byrd 2018
+byrd_2018,Rush Ranch,18-1,76,emergent,NA,133.761216,Byrd 2018
+byrd_2018,Rush Ranch,18-1,118.6,emergent,NA,208.7378976,Byrd 2018
+byrd_2018,Rush Ranch,j2-4-3,454,emergent,NA,799.0472639999999,Byrd 2018
+byrd_2018,Rush Ranch,j2-4-5,298,emergent,NA,524.484768,Byrd 2018
+byrd_2018,Rush Ranch,j2-4-6,727,emergent,NA,1279.531632,Byrd 2018
+byrd_2018,Rush Ranch,j2-4-4,311,emergent,NA,547.3649760000001,Byrd 2018
+byrd_2018,Rush Ranch,j2-4-2,410,emergent,NA,721.60656,Byrd 2018
+byrd_2018,Rush Ranch,j2-4-1,747,emergent,NA,1314.731952,Byrd 2018
+byrd_2018,Rush Ranch,j3-1-1,404.5,emergent,NA,711.926472,Byrd 2018
+byrd_2018,Rush Ranch,j3-1-4,521.1,emergent,NA,917.1443376000001,Byrd 2018
+byrd_2018,Rush Ranch,j3-1-2,110.4,emergent,NA,194.30576639999998,Byrd 2018
+byrd_2018,Rush Ranch,j3-1-5,1170.3,emergent,NA,2059.7467248,Byrd 2018
+byrd_2018,Rush Ranch,j4-1-1,232,emergent,NA,408.323712,Byrd 2018
+byrd_2018,Rush Ranch,j4-1-4,1054,emergent,NA,1855.056864,Byrd 2018
+byrd_2018,Rush Ranch,j4-1-5,453,emergent,NA,797.287248,Byrd 2018
+byrd_2018,Rush Ranch,j4-1-6,497,emergent,NA,874.7279520000001,Byrd 2018
+byrd_2018,Rush Ranch,j4-1-3,325.24,emergent,NA,572.42760384,Byrd 2018
+byrd_2018,Rush Ranch,j4-1-2,287,emergent,NA,505.12459199999995,Byrd 2018
+byrd_2018,Rush Ranch,j2-3-2,270.2,emergent,NA,475.5563232,Byrd 2018
+byrd_2018,Rush Ranch,j2-3-5,398,emergent,NA,700.486368,Byrd 2018
+byrd_2018,Rush Ranch,j2-3-3,564,emergent,NA,992.6490239999999,Byrd 2018
+byrd_2018,Rush Ranch,j2-3-6,715,emergent,NA,1258.41144,Byrd 2018
+byrd_2018,Rush Ranch,j2-3-1,210,emergent,NA,369.60336,Byrd 2018
+byrd_2018,Rush Ranch,j2-3-4,731,emergent,NA,1286.571696,Byrd 2018
+byrd_2018,Coon Island,64,477.35,emergent,NA,840.1436376,Byrd 2018
+byrd_2018,Rush Ranch,j1-3-3,400,emergent,NA,704.0064,Byrd 2018
+byrd_2018,Rush Ranch,j1-3-4,632,emergent,NA,1112.330112,Byrd 2018
+byrd_2018,Rush Ranch,j2-2-5,543,emergent,NA,955.688688,Byrd 2018
+byrd_2018,Rush Ranch,j2-2-4,935,emergent,NA,1645.61496,Byrd 2018
+byrd_2018,Rush Ranch,j2-2-3,364,emergent,NA,640.6458240000001,Byrd 2018
+byrd_2018,Rush Ranch,j2-2-1,328,emergent,NA,577.285248,Byrd 2018
+byrd_2018,Rush Ranch,j2-2-2,384,emergent,NA,675.846144,Byrd 2018
+byrd_2018,Rush Ranch,j2-2-6,832,emergent,NA,1464.333312,Byrd 2018
+byrd_2018,Coon Island,63,448.23,emergent,NA,788.89197168,Byrd 2018
+byrd_2018,Rush Ranch,j1-2-3,405,emergent,NA,712.8064800000001,Byrd 2018
+byrd_2018,Rush Ranch,j1-3-2,363,emergent,NA,638.885808,Byrd 2018
+byrd_2018,Rush Ranch,j1-3-5,533,emergent,NA,938.088528,Byrd 2018
+byrd_2018,Rush Ranch,j1-3-1,537,emergent,NA,945.128592,Byrd 2018
+byrd_2018,Rush Ranch,j1-2-4,692,emergent,NA,1217.9310719999999,Byrd 2018
+byrd_2018,Rush Ranch,j1-3-6,454,emergent,NA,799.0472639999999,Byrd 2018
+byrd_2018,Rush Ranch,j2-1-4,320,emergent,NA,563.20512,Byrd 2018
+byrd_2018,Rush Ranch,j2-1-1,628,emergent,NA,1105.290048,Byrd 2018
+byrd_2018,Rush Ranch,j2-1-3,377,emergent,NA,663.526032,Byrd 2018
+byrd_2018,Rush Ranch,j2-1-2,168,emergent,NA,295.682688,Byrd 2018
+byrd_2018,Rush Ranch,j2-1-6,949,emergent,NA,1670.2551839999999,Byrd 2018
+byrd_2018,Rush Ranch,j2-1-5,464,emergent,NA,816.647424,Byrd 2018
+byrd_2018,Rush Ranch,j1-2-2,457,emergent,NA,804.327312,Byrd 2018
+byrd_2018,Rush Ranch,j1-2-1,303,emergent,NA,533.284848,Byrd 2018
+byrd_2018,Rush Ranch,j1-1-4,191,emergent,NA,336.163056,Byrd 2018
+byrd_2018,Rush Ranch,j1-1-3,690,emergent,NA,1214.41104,Byrd 2018
+byrd_2018,Rush Ranch,j1-2-5,547,emergent,NA,962.728752,Byrd 2018
+byrd_2018,Rush Ranch,j1-1-5,719.26,emergent,NA,1265.90910816,Byrd 2018
+byrd_2018,Rush Ranch,j1-1-6,586.34,emergent,NA,1031.96778144,Byrd 2018
+byrd_2018,Rush Ranch,j1-1-2,377.75,emergent,NA,664.846044,Byrd 2018
+byrd_2018,Rush Ranch,j1-1-1,229,emergent,NA,403.04366400000004,Byrd 2018
+byrd_2018,Coon Island,62,641.04,emergent,NA,1128.2406566399998,Byrd 2018
+byrd_2018,Coon Island,61,481.48,emergent,NA,847.41250368,Byrd 2018
+byrd_2018,Rush Ranch,r3-3-2,624,emergent,NA,1098.249984,Byrd 2018
+byrd_2018,Rush Ranch,r3-3-4,1070,emergent,NA,1883.21712,Byrd 2018
+byrd_2018,Rush Ranch,r3-3-5,707,emergent,NA,1244.331312,Byrd 2018
+byrd_2018,Rush Ranch,r3-3-3,1190,emergent,NA,2094.4190399999998,Byrd 2018
+byrd_2018,Rush Ranch,r3-3-1,679,emergent,NA,1195.050864,Byrd 2018
+byrd_2018,Rush Ranch,r3-2-5,381.76,emergent,NA,671.90370816,Byrd 2018
+byrd_2018,Rush Ranch,r3-2-1,587,emergent,NA,1033.129392,Byrd 2018
+byrd_2018,Rush Ranch,r3-2-4,470,emergent,NA,827.20752,Byrd 2018
+byrd_2018,Rush Ranch,r3-2-2,578,emergent,NA,1017.289248,Byrd 2018
+byrd_2018,Rush Ranch,r3-2-3,400,emergent,NA,704.0064,Byrd 2018
+byrd_2018,Rush Ranch,r3-1-2,1600,emergent,NA,2816.0256,Byrd 2018
+byrd_2018,Rush Ranch,r3-1-6,1451.06,emergent,NA,2553.88881696,Byrd 2018
+byrd_2018,Rush Ranch,r3-1-5,809.53,emergent,NA,1424.78575248,Byrd 2018
+byrd_2018,Rush Ranch,r3-1-4,692,emergent,NA,1217.9310719999999,Byrd 2018
+byrd_2018,Rush Ranch,r3-1-3,1508,emergent,NA,2654.104128,Byrd 2018
+byrd_2018,Rush Ranch,r3-1-1,743.22,emergent,NA,1308.07909152,Byrd 2018
+byrd_2018,Coon Island,60,215.31,emergent,NA,378.94904496,Byrd 2018
+byrd_2018,Coon Island,59,89.83,emergent,NA,158.10223727999997,Byrd 2018
+byrd_2018,Rush Ranch,26-10,42.4,emergent,NA,74.62467840000001,Byrd 2018
+byrd_2018,Rush Ranch,26-4,42.6,emergent,NA,74.9766816,Byrd 2018
+byrd_2018,Rush Ranch,26-1,20,emergent,NA,35.20032,Byrd 2018
+byrd_2018,Rush Ranch,26-1,50.7,emergent,NA,89.23281120000001,Byrd 2018
+byrd_2018,Rush Ranch,26-3,58.9,emergent,NA,103.6649424,Byrd 2018
+byrd_2018,Rush Ranch,26-4,31.8,emergent,NA,55.9685088,Byrd 2018
+byrd_2018,Coon Island,28,119.56,emergent,NA,210.42751296,Byrd 2018
+byrd_2018,Coon Island,30,139.32,emergent,NA,245.20542912,Byrd 2018
+byrd_2018,Coon Island,26,95.34,emergent,NA,167.79992543999998,Byrd 2018
+byrd_2018,Coon Island,29,134.1,emergent,NA,236.0181456,Byrd 2018
+byrd_2018,Coon Island,27,129.09,emergent,NA,227.20046544000002,Byrd 2018
+byrd_2018,Coon Island,25,264.7,emergent,NA,465.87623519999994,Byrd 2018
+byrd_2018,Coon Island,24,116.74,emergent,NA,205.46426784,Byrd 2018
+byrd_2018,Coon Island,22,251.33,emergent,NA,442.34482128,Byrd 2018
+byrd_2018,Coon Island,23,113.6,emergent,NA,199.9378176,Byrd 2018
+byrd_2018,Coon Island,20,218.44,emergent,NA,384.45789504,Byrd 2018
+byrd_2018,Coon Island,19,209.23,emergent,NA,368.24814768,Byrd 2018
+byrd_2018,Coon Island,21,129.27,emergent,NA,227.51726832000003,Byrd 2018
+byrd_2018,Coon Island,18,382.67,emergent,NA,673.50532272,Byrd 2018
+byrd_2018,Coon Island,17,453.91,emergent,NA,798.88886256,Byrd 2018
+byrd_2018,Coon Island,15,378.53,emergent,NA,666.2188564799999,Byrd 2018
+byrd_2018,Coon Island,16,385.01,emergent,NA,677.62376016,Byrd 2018
+byrd_2018,Coon Island,13,236.04,emergent,NA,415.43417664000003,Byrd 2018
+byrd_2018,Coon Island,14,230.23,emergent,NA,405.20848368,Byrd 2018
+byrd_2018,Coon Island,12,337.52,emergent,NA,594.04060032,Byrd 2018
+byrd_2018,Coon Island,3,153.08,emergent,NA,269.42324928000005,Byrd 2018
+byrd_2018,Coon Island,1,263.37,emergent,NA,463.53541392,Byrd 2018
+byrd_2018,Coon Island,2,166.03,emergent,NA,292.21545648,Byrd 2018
+byrd_2018,Coon Island,11,451.76,emergent,NA,795.10482816,Byrd 2018
+byrd_2018,Coon Island,10,281.63,emergent,NA,495.67330608000003,Byrd 2018
+byrd_2018,Coon Island,6,263.97,emergent,NA,464.59142352000003,Byrd 2018
+byrd_2018,Coon Island,4,253.76,emergent,NA,446.62166016,Byrd 2018
+byrd_2018,Coon Island,5,236.5,emergent,NA,416.243784,Byrd 2018
+byrd_2018,Coon Island,8,349.16,emergent,NA,614.52718656,Byrd 2018
+byrd_2018,Coon Island,7,178,emergent,NA,313.282848,Byrd 2018
+byrd_2018,Coon Island,9,375.82,emergent,NA,661.44921312,Byrd 2018
+byrd_2018,Rush Ranch,r4-2-1,544.21,emergent,NA,957.8183073600001,Byrd 2018
+byrd_2018,Rush Ranch,r4-2-3,288.02,emergent,NA,506.91980831999996,Byrd 2018
+byrd_2018,Rush Ranch,r4-2-2,993.81,emergent,NA,1749.1215009599998,Byrd 2018
+byrd_2018,Rush Ranch,r4-2-5,612.33,emergent,NA,1077.71059728,Byrd 2018
+byrd_2018,Rush Ranch,r4-2-4,870.76,emergent,NA,1532.5515321599999,Byrd 2018
+byrd_2018,Rush Ranch,r4-2-6,543.61,emergent,NA,956.76229776,Byrd 2018
+byrd_2018,Rush Ranch,r4-5-6,417,emergent,NA,733.926672,Byrd 2018
+byrd_2018,Rush Ranch,r4-5-3,1007.78,emergent,NA,1773.70892448,Byrd 2018
+byrd_2018,Rush Ranch,r4-5-4,769,emergent,NA,1353.4523040000001,Byrd 2018
+byrd_2018,Rush Ranch,r4-5-5,1038.36,emergent,NA,1827.53021376,Byrd 2018
+byrd_2018,Rush Ranch,r4-5-2,2373,emergent,NA,4176.517968,Byrd 2018
+byrd_2018,Rush Ranch,r4-5-1,932.15,emergent,NA,1640.5989143999998,Byrd 2018
+byrd_2018,Rush Ranch,r4-1-1,2485,emergent,NA,4373.63976,Byrd 2018
+byrd_2018,Rush Ranch,r4-1-5,1334.65,emergent,NA,2349.0053544,Byrd 2018
+byrd_2018,Rush Ranch,r4-1-3,587.5,emergent,NA,1034.0094,Byrd 2018
+byrd_2018,Rush Ranch,r4-1-2,980,emergent,NA,1724.81568,Byrd 2018
+byrd_2018,Rush Ranch,r4-1-6,2485,emergent,NA,4373.63976,Byrd 2018
+byrd_2018,Rush Ranch,r4-1-4,845,emergent,NA,1487.21352,Byrd 2018
+byrd_2018,Rush Ranch,r4-4-1,647.74,emergent,NA,1140.03276384,Byrd 2018
+byrd_2018,Rush Ranch,r4-4-6,663,emergent,NA,1166.8906080000002,Byrd 2018
+byrd_2018,Rush Ranch,r4-4-5,359.61,emergent,NA,632.91935376,Byrd 2018
+byrd_2018,Rush Ranch,r4-4-4,1921,emergent,NA,3380.9907359999997,Byrd 2018
+byrd_2018,Rush Ranch,r4-4-3,546,emergent,NA,960.9687359999999,Byrd 2018
+byrd_2018,Rush Ranch,r4-4-2,325.91,emergent,NA,573.60681456,Byrd 2018
+byrd_2018,Rush Ranch,r1-7-5,1559,emergent,NA,2743.864944,Byrd 2018
+byrd_2018,Rush Ranch,r1-7-6,416,emergent,NA,732.166656,Byrd 2018
+byrd_2018,Rush Ranch,r1-7-2,1566,emergent,NA,2756.185056,Byrd 2018
+byrd_2018,Rush Ranch,r1-7-3,3021,emergent,NA,5317.008336,Byrd 2018
+byrd_2018,Rush Ranch,r1-7-1,454.11,emergent,NA,799.24086576,Byrd 2018
+byrd_2018,Rush Ranch,r1-7-4,786,emergent,NA,1383.372576,Byrd 2018
+byrd_2018,Rush Ranch,r1-3-3,576,emergent,NA,1013.7692160000001,Byrd 2018
+byrd_2018,Rush Ranch,r1-3-2,428,emergent,NA,753.286848,Byrd 2018
+byrd_2018,Rush Ranch,r1-3-4,988,emergent,NA,1738.895808,Byrd 2018
+byrd_2018,Rush Ranch,r1-3-5,134,emergent,NA,235.842144,Byrd 2018
+byrd_2018,Rush Ranch,r1-3-1,532,emergent,NA,936.3285119999999,Byrd 2018
+byrd_2018,Rush Ranch,r1-2-1,291,emergent,NA,512.164656,Byrd 2018
+byrd_2018,Rush Ranch,r1-2-2,675,emergent,NA,1188.0108,Byrd 2018
+byrd_2018,Rush Ranch,r1-2-3,399,emergent,NA,702.2463839999999,Byrd 2018
+byrd_2018,Rush Ranch,r1-2-4,915,emergent,NA,1610.41464,Byrd 2018
+byrd_2018,Rush Ranch,r1-2-5,701,emergent,NA,1233.7712159999999,Byrd 2018
+byrd_2018,Rush Ranch,r1-1-3,579,emergent,NA,1019.0492640000001,Byrd 2018
+byrd_2018,Rush Ranch,r1-1-1,1537,emergent,NA,2705.144592,Byrd 2018
+byrd_2018,Rush Ranch,r1-1-4,513,emergent,NA,902.888208,Byrd 2018
+byrd_2018,Rush Ranch,r1-1-5,1025,emergent,NA,1804.0164,Byrd 2018
+byrd_2018,Rush Ranch,r1-1-2,857,emergent,NA,1508.3337119999999,Byrd 2018
+byrd_2018,Rush Ranch,5-7,48.35,emergent,NA,85.09677359999999,Byrd 2018
+byrd_2018,Rush Ranch,5-8,51.46,emergent,NA,90.57042336,Byrd 2018
+byrd_2018,Rush Ranch,5-5,86.26,emergent,NA,151.81898016,Byrd 2018
+byrd_2018,Rush Ranch,5-8,82.29,emergent,NA,144.83171664,Byrd 2018
+byrd_2018,Rush Ranch,5-2,35.32,emergent,NA,62.163765119999994,Byrd 2018
+byrd_2018,Rush Ranch,5-1,41.08,emergent,NA,72.30145728,Byrd 2018
+byrd_2018,Rush Ranch,5-4,2.94,emergent,NA,5.17444704,Byrd 2018
+byrd_2018,Rush Ranch,r1-9-2,428.06,emergent,NA,753.39244896,Byrd 2018
+byrd_2018,Rush Ranch,r1-9-3,1303.22,emergent,NA,2293.68805152,Byrd 2018
+byrd_2018,Rush Ranch,r1-9-1,999.36,emergent,NA,1758.88958976,Byrd 2018
+byrd_2018,Rush Ranch,r1-8-6,314,emergent,NA,552.645024,Byrd 2018
+byrd_2018,Rush Ranch,r1-8-2,663,emergent,NA,1166.8906080000002,Byrd 2018
+byrd_2018,Rush Ranch,r1-8-5,574,emergent,NA,1010.2491839999999,Byrd 2018
+byrd_2018,Rush Ranch,r1-8-3,522.69,emergent,NA,919.9427630400002,Byrd 2018
+byrd_2018,Rush Ranch,r1-8-1,1089,emergent,NA,1916.6574240000002,Byrd 2018
+byrd_2018,Rush Ranch,r1-8-4,625,emergent,NA,1100.01,Byrd 2018
+byrd_2018,Rush Ranch,r2-5-6,700,emergent,NA,1232.0112,Byrd 2018
+byrd_2018,Rush Ranch,r2-5-5,719,emergent,NA,1265.4515040000001,Byrd 2018
+byrd_2018,Rush Ranch,r2-5-3,319,emergent,NA,561.445104,Byrd 2018
+byrd_2018,Rush Ranch,r2-5-1,1481,emergent,NA,2606.583696,Byrd 2018
+byrd_2018,Rush Ranch,r2-5-2,346,emergent,NA,608.9655359999999,Byrd 2018
+byrd_2018,Rush Ranch,r2-5-4,175,emergent,NA,308.0028,Byrd 2018
+byrd_2018,Rush Ranch,r2-3-4,298.42,emergent,NA,525.22397472,Byrd 2018
+byrd_2018,Rush Ranch,r2-3-3,100.55,emergent,NA,176.96960879999997,Byrd 2018
+byrd_2018,Rush Ranch,r2-3-1,436,emergent,NA,767.366976,Byrd 2018
+byrd_2018,Rush Ranch,r2-3-5,150.28,emergent,NA,264.49520448,Byrd 2018
+byrd_2018,Rush Ranch,r2-3-6,547,emergent,NA,962.728752,Byrd 2018
+byrd_2018,Rush Ranch,r2-3-2,249.09,emergent,NA,438.40238544,Byrd 2018
+byrd_2018,Rush Ranch,r2-4-3,562,emergent,NA,989.128992,Byrd 2018
+byrd_2018,Rush Ranch,r2-4-2,732,emergent,NA,1288.3317120000002,Byrd 2018
+byrd_2018,Rush Ranch,r2-4-5,666,emergent,NA,1172.170656,Byrd 2018
+byrd_2018,Rush Ranch,r2-4-6,245,emergent,NA,431.20392,Byrd 2018
+byrd_2018,Rush Ranch,r2-4-4,289,emergent,NA,508.644624,Byrd 2018
+byrd_2018,Rush Ranch,r2-4-1,315,emergent,NA,554.40504,Byrd 2018
+byrd_2018,Rush Ranch,r2-2-1,751,emergent,NA,1321.772016,Byrd 2018
+byrd_2018,Rush Ranch,r2-2-4,647,emergent,NA,1138.730352,Byrd 2018
+byrd_2018,Rush Ranch,r2-2-5,446,emergent,NA,784.967136,Byrd 2018
+byrd_2018,Rush Ranch,r2-2-2,929,emergent,NA,1635.054864,Byrd 2018
+byrd_2018,Rush Ranch,r2-2-6,995,emergent,NA,1751.2159199999999,Byrd 2018
+byrd_2018,Rush Ranch,r2-2-3,531,emergent,NA,934.568496,Byrd 2018
+byrd_2018,Rush Ranch,r2-1-5,115,emergent,NA,202.40184,Byrd 2018
+byrd_2018,Rush Ranch,r2-1-1,872,emergent,NA,1534.733952,Byrd 2018
+byrd_2018,Rush Ranch,r2-1-4,513,emergent,NA,902.888208,Byrd 2018
+byrd_2018,Rush Ranch,r2-1-2,366,emergent,NA,644.1658560000001,Byrd 2018
+byrd_2018,Rush Ranch,r2-1-6,226,emergent,NA,397.76361599999996,Byrd 2018
+byrd_2018,Rush Ranch,r2-1-3,394,emergent,NA,693.446304,Byrd 2018
+byrd_2018,Rush Ranch,r6-5-2,700,emergent,NA,1232.0112,Byrd 2018
+byrd_2018,Rush Ranch,r6-5-1,392,emergent,NA,689.926272,Byrd 2018
+byrd_2018,Rush Ranch,r6-5-6,277,emergent,NA,487.52443200000005,Byrd 2018
+byrd_2018,Rush Ranch,r6-5-4,707,emergent,NA,1244.331312,Byrd 2018
+byrd_2018,Rush Ranch,r6-5-5,317,emergent,NA,557.925072,Byrd 2018
+byrd_2018,Rush Ranch,r6-5-3,246,emergent,NA,432.963936,Byrd 2018
+byrd_2018,Rush Ranch,r6-4-6,1585,emergent,NA,2789.62536,Byrd 2018
+byrd_2018,Rush Ranch,r6-4-3,2077,emergent,NA,3655.5532319999998,Byrd 2018
+byrd_2018,Rush Ranch,r6-4-1,753,emergent,NA,1325.292048,Byrd 2018
+byrd_2018,Rush Ranch,r6-4-2,1999,emergent,NA,3518.271984,Byrd 2018
+byrd_2018,Rush Ranch,r6-4-4,866,emergent,NA,1524.1738560000001,Byrd 2018
+byrd_2018,Rush Ranch,r6-4-5,2075,emergent,NA,3652.0332,Byrd 2018
+byrd_2018,Rush Ranch,r6-3-1,807,emergent,NA,1420.332912,Byrd 2018
+byrd_2018,Rush Ranch,r6-3-2,526,emergent,NA,925.768416,Byrd 2018
+byrd_2018,Rush Ranch,r6-3-4,460,emergent,NA,809.60736,Byrd 2018
+byrd_2018,Rush Ranch,r6-3-6,2433,emergent,NA,4282.118928,Byrd 2018
+byrd_2018,Rush Ranch,r6-3-3,721,emergent,NA,1268.971536,Byrd 2018
+byrd_2018,Rush Ranch,r6-3-5,301,emergent,NA,529.764816,Byrd 2018
+byrd_2018,Rush Ranch,r6-2-3,483,emergent,NA,850.0877280000001,Byrd 2018
+byrd_2018,Rush Ranch,r6-2-4,506,emergent,NA,890.568096,Byrd 2018
+byrd_2018,Rush Ranch,r6-2-6,634,emergent,NA,1115.850144,Byrd 2018
+byrd_2018,Rush Ranch,r6-2-5,1253,emergent,NA,2205.3000479999996,Byrd 2018
+byrd_2018,Rush Ranch,r6-2-2,2827,emergent,NA,4975.565232,Byrd 2018
+byrd_2018,Rush Ranch,r6-2-1,1095,emergent,NA,1927.2175200000001,Byrd 2018
+byrd_2018,Rush Ranch,r6-1-6,733,emergent,NA,1290.0917279999999,Byrd 2018
+byrd_2018,Rush Ranch,r6-1-1,282,emergent,NA,496.32451199999997,Byrd 2018
+byrd_2018,Rush Ranch,r6-1-5,144,emergent,NA,253.44230400000004,Byrd 2018
+byrd_2018,Rush Ranch,r6-1-3,552,emergent,NA,971.528832,Byrd 2018
+byrd_2018,Rush Ranch,r6-1-2,446,emergent,NA,784.967136,Byrd 2018
+byrd_2018,Rush Ranch,r6-1-4,829,emergent,NA,1459.053264,Byrd 2018
+byrd_2018,Rush Ranch,g6-1-1,583,emergent,NA,1026.089328,Byrd 2018
+byrd_2018,Rush Ranch,g6-1-5,279.98,emergent,NA,492.76927968,Byrd 2018
+byrd_2018,Rush Ranch,g6-1-2,632,emergent,NA,1112.330112,Byrd 2018
+byrd_2018,Rush Ranch,g6-1-3,107.87,emergent,NA,189.85292592,Byrd 2018
+byrd_2018,Rush Ranch,g6-1-4,615.86,emergent,NA,1083.92345376,Byrd 2018
+byrd_2018,Rush Ranch,g6-1-6,911.05,emergent,NA,1603.4625767999999,Byrd 2018
+byrd_2018,Rush Ranch,g5-3-3,2218.59,emergent,NA,3904.75389744,Byrd 2018
+byrd_2018,Rush Ranch,g5-3-1,409.91,emergent,NA,721.44815856,Byrd 2018
+byrd_2018,Rush Ranch,g5-3-5,2670.56,emergent,NA,4700.22832896,Byrd 2018
+byrd_2018,Rush Ranch,g5-3-4,475.95,emergent,NA,837.6796152,Byrd 2018
+byrd_2018,Rush Ranch,g5-3-6,764.19,emergent,NA,1344.98662704,Byrd 2018
+byrd_2018,Rush Ranch,g5-3-2,679,emergent,NA,1195.050864,Byrd 2018
+byrd_2018,Rush Ranch,g5-2-2,697.72,emergent,NA,1227.9983635199999,Byrd 2018
+byrd_2018,Rush Ranch,g5-2-3,239.53,emergent,NA,421.57663248,Byrd 2018
+byrd_2018,Rush Ranch,g5-2-5,169.66,emergent,NA,298.60431456,Byrd 2018
+byrd_2018,Rush Ranch,g5-2-6,183.81,emergent,NA,323.50854096,Byrd 2018
+byrd_2018,Rush Ranch,g5-2-1,329.94,emergent,NA,580.69967904,Byrd 2018
+byrd_2018,Rush Ranch,g5-1-6,337.13,emergent,NA,593.35419408,Byrd 2018
+byrd_2018,Rush Ranch,g5-1-4,836.01,emergent,NA,1471.3909761599998,Byrd 2018
+byrd_2018,Rush Ranch,g5-1-2,253.02,emergent,NA,445.31924832000004,Byrd 2018
+byrd_2018,Rush Ranch,g5-1-3,198.25,emergent,NA,348.923172,Byrd 2018
+byrd_2018,Rush Ranch,g5-1-1,645.66,emergent,NA,1136.37193056,Byrd 2018
+byrd_2018,Rush Ranch,g4-1-6,217,emergent,NA,381.923472,Byrd 2018
+byrd_2018,Rush Ranch,g4-1-2,349,emergent,NA,614.2455839999999,Byrd 2018
+byrd_2018,Rush Ranch,g4-1-5,674,emergent,NA,1186.250784,Byrd 2018
+byrd_2018,Rush Ranch,g4-1-1,648.65,emergent,NA,1141.6343783999998,Byrd 2018
+byrd_2018,Rush Ranch,g4-1-4,1066,emergent,NA,1876.177056,Byrd 2018
+byrd_2018,Rush Ranch,g4-1-3,554,emergent,NA,975.0488640000001,Byrd 2018
+byrd_2018,Rush Ranch,g4-2-1,725.94,emergent,NA,1277.66601504,Byrd 2018
+byrd_2018,Rush Ranch,g4-2-6,1259.03,emergent,NA,2215.91294448,Byrd 2018
+byrd_2018,Rush Ranch,g4-2-2,457.88,emergent,NA,805.87612608,Byrd 2018
+byrd_2018,Rush Ranch,g4-2-5,455.98,emergent,NA,802.53209568,Byrd 2018
+byrd_2018,Rush Ranch,g4-2-4,638,emergent,NA,1122.890208,Byrd 2018
+byrd_2018,Rush Ranch,g4-2-3,1775.95,emergent,NA,3125.7004152,Byrd 2018
+byrd_2018,Rush Ranch,g3-1-4,1386.07,emergent,NA,2439.50537712,Byrd 2018
+byrd_2018,Rush Ranch,g3-1-6,234,emergent,NA,411.84374399999996,Byrd 2018
+byrd_2018,Rush Ranch,g3-1-3,383,emergent,NA,674.086128,Byrd 2018
+byrd_2018,Rush Ranch,g3-1-1,436.93,emergent,NA,769.00379088,Byrd 2018
+byrd_2018,Rush Ranch,g3-1-2,149.06,emergent,NA,262.34798496,Byrd 2018
+byrd_2018,Rush Ranch,g3-1-5,433,emergent,NA,762.0869280000001,Byrd 2018
+byrd_2018,Rush Ranch,g3-2-2,897.4,emergent,NA,1579.4383584,Byrd 2018
+byrd_2018,Rush Ranch,g3-2-5,1065.36,emergent,NA,1875.0506457599997,Byrd 2018
+byrd_2018,Rush Ranch,g3-2-4,786,emergent,NA,1383.372576,Byrd 2018
+byrd_2018,Rush Ranch,g3-2-3,1486,emergent,NA,2615.383776,Byrd 2018
+byrd_2018,Rush Ranch,g3-2-6,948,emergent,NA,1668.495168,Byrd 2018
+byrd_2018,Rush Ranch,g2-1-2,173,emergent,NA,304.48276799999996,Byrd 2018
+byrd_2018,Rush Ranch,g2-1-3,1385.69,emergent,NA,2438.8365710400003,Byrd 2018
+byrd_2018,Rush Ranch,g2-1-6,190.21,emergent,NA,334.77264335999996,Byrd 2018
+byrd_2018,Rush Ranch,g2-1-5,1258,emergent,NA,2214.100128,Byrd 2018
+byrd_2018,Rush Ranch,g2-1-4,603,emergent,NA,1061.289648,Byrd 2018
+byrd_2018,Rush Ranch,g2-1-1,811,emergent,NA,1427.3729759999999,Byrd 2018
+byrd_2018,Rush Ranch,g2-2-3,1381.65,emergent,NA,2431.7261064,Byrd 2018
+byrd_2018,Rush Ranch,g2-2-6,638.25,emergent,NA,1123.330212,Byrd 2018
+byrd_2018,Rush Ranch,g2-2-2,878.06,emergent,NA,1545.3996489599997,Byrd 2018
+byrd_2018,Rush Ranch,g2-2-1,182.24,emergent,NA,320.74531584,Byrd 2018
+byrd_2018,Rush Ranch,g2-2-5,1141.58,emergent,NA,2009.19906528,Byrd 2018
+byrd_2018,Rush Ranch,g2-2-4,644.9,emergent,NA,1135.0343183999998,Byrd 2018
+byrd_2018,Rush Ranch,g1-1-2,516.46,emergent,NA,908.97786336,Byrd 2018
+byrd_2018,Rush Ranch,g1-1-1,212.47,emergent,NA,373.95059951999997,Byrd 2018
+byrd_2018,Rush Ranch,g1-1-6,270.69,emergent,NA,476.41873103999995,Byrd 2018
+byrd_2018,Rush Ranch,g1-1-4,757.06,emergent,NA,1332.4377129599998,Byrd 2018
+byrd_2018,Rush Ranch,g1-1-3,85.79,emergent,NA,150.99177264000002,Byrd 2018
+byrd_2018,Rush Ranch,g1-1-5,797.74,emergent,NA,1404.03516384,Byrd 2018
+byrd_2018,Rush Ranch,g1-2-2,410,emergent,NA,721.60656,Byrd 2018
+byrd_2018,Rush Ranch,g1-2-6,555.65,emergent,NA,977.9528904,Byrd 2018
+byrd_2018,Rush Ranch,g1-2-5,747.92,emergent,NA,1316.3511667199998,Byrd 2018
+byrd_2018,Rush Ranch,g1-2-3,1955,emergent,NA,3440.83128,Byrd 2018
+byrd_2018,Rush Ranch,g1-2-4,1196.85,emergent,NA,2106.4751496,Byrd 2018
+byrd_2018,Rush Ranch,g1-2-1,527.92,emergent,NA,929.1476467199999,Byrd 2018
+byrd_2018,Bull Island,14,219.86,emergent,NA,386.95711776,Byrd 2018
+byrd_2018,Bull Island,13,267.37,emergent,NA,470.57547792,Byrd 2018
+byrd_2018,Bull Island,15,213.96,emergent,NA,376.57302336000004,Byrd 2018
+byrd_2018,Bull Island,12,390.42,emergent,NA,687.14544672,Byrd 2018
+byrd_2018,Bull Island,11,343.66,emergent,NA,604.8470985600001,Byrd 2018
+byrd_2018,Bull Island,10,579.26,emergent,NA,1019.5068681600001,Byrd 2018
+byrd_2018,Bull Island,8,503.55,emergent,NA,886.2560568,Byrd 2018
+byrd_2018,Bull Island,9,492.33,emergent,NA,866.50867728,Byrd 2018
+byrd_2018,Bull Island,17,224.12,emergent,NA,394.45478592,Byrd 2018
+byrd_2018,Bull Island,7,208.24,emergent,NA,366.50573184,Byrd 2018
+byrd_2018,Bull Island,6,213.98,emergent,NA,376.60822368,Byrd 2018
+byrd_2018,Bull Island,16,334.2,emergent,NA,588.1973472,Byrd 2018
+byrd_2018,Bull Island,2,390.19,emergent,NA,686.74064304,Byrd 2018
+byrd_2018,Bull Island,5,244.1,emergent,NA,429.6199056,Byrd 2018
+byrd_2018,Bull Island,3,198.05,emergent,NA,348.5711688,Byrd 2018
+byrd_2018,Bull Island,4,171.35,emergent,NA,301.57874159999994,Byrd 2018
+byrd_2018,Bull Island,1,339.94,emergent,NA,598.29983904,Byrd 2018
+byrd_2018,Bull Island,26,536.98,emergent,NA,945.0933916800001,Byrd 2018
+byrd_2018,Bull Island,29,246.35,emergent,NA,433.5799416,Byrd 2018
+byrd_2018,Bull Island,27,169.45,emergent,NA,298.2347112,Byrd 2018
+byrd_2018,Bull Island,28,338.6,emergent,NA,595.9414176,Byrd 2018
+byrd_2018,Bull Island,34,274.74,emergent,NA,483.54679584,Byrd 2018
+byrd_2018,Bull Island,32,368.94,emergent,NA,649.34030304,Byrd 2018
+byrd_2018,Bull Island,30,510.34,emergent,NA,898.20656544,Byrd 2018
+byrd_2018,Bull Island,31,533.29,emergent,NA,938.5989326399999,Byrd 2018
+byrd_2018,Bull Island,33,394.38,emergent,NA,694.1151100799999,Byrd 2018
+byrd_2018,Bull Island,35,214.27,emergent,NA,377.11862831999997,Byrd 2018
+byrd_2018,Bull Island,18,196.13,emergent,NA,345.19193808,Byrd 2018
+byrd_2018,Bull Island,21,195.41,emergent,NA,343.92472655999995,Byrd 2018
+byrd_2018,Bull Island,19,223.68,emergent,NA,393.68037888,Byrd 2018
+byrd_2018,Bull Island,37,279.24,emergent,NA,491.46686784,Byrd 2018
+byrd_2018,Bull Island,36,224.21,emergent,NA,394.61318736000004,Byrd 2018
+byrd_2018,Bull Island,23,415.16,emergent,NA,730.68824256,Byrd 2018
+byrd_2018,Bull Island,25,250.25,emergent,NA,440.44400399999995,Byrd 2018
+byrd_2018,Bull Island,22,304.96,emergent,NA,536.73447936,Byrd 2018
+byrd_2018,Bull Island,20,190.61,emergent,NA,335.47664976000004,Byrd 2018
+byrd_2018,Bull Island,24,446.46,emergent,NA,785.77674336,Byrd 2018
+byrd_2018,Rush Ranch,h2-5-1,9,emergent,NA,15.840144000000002,Byrd 2018
+byrd_2018,Rush Ranch,h2-5-5,28,emergent,NA,49.280448,Byrd 2018
+byrd_2018,Rush Ranch,h2-5-4,959,emergent,NA,1687.855344,Byrd 2018
+byrd_2018,Rush Ranch,h2-5-6,14,emergent,NA,24.640224,Byrd 2018
+byrd_2018,Rush Ranch,h2-5-2,46,emergent,NA,80.960736,Byrd 2018
+byrd_2018,Rush Ranch,h2-4-1,817,emergent,NA,1437.9330719999998,Byrd 2018
+byrd_2018,Rush Ranch,h2-4-6,265,emergent,NA,466.40423999999996,Byrd 2018
+byrd_2018,Rush Ranch,h2-4-4,66,emergent,NA,116.161056,Byrd 2018
+byrd_2018,Rush Ranch,h2-4-5,1098,emergent,NA,1932.497568,Byrd 2018
+byrd_2018,Rush Ranch,h2-3-1,56,emergent,NA,98.560896,Byrd 2018
+byrd_2018,Rush Ranch,h2-3-2,1173,emergent,NA,2064.498768,Byrd 2018
+byrd_2018,Rush Ranch,h2-3-4,24,emergent,NA,42.240384,Byrd 2018
+byrd_2018,Rush Ranch,h2-3-3,1132,emergent,NA,1992.3381120000001,Byrd 2018
+byrd_2018,Rush Ranch,h2-3-5,143,emergent,NA,251.682288,Byrd 2018
+byrd_2018,Rush Ranch,h2-3-6,3,emergent,NA,5.280048,Byrd 2018
+byrd_2018,Rush Ranch,h2-2-1,24,emergent,NA,42.240384,Byrd 2018
+byrd_2018,Rush Ranch,h2-2-2,6,emergent,NA,10.560096,Byrd 2018
+byrd_2018,Rush Ranch,h2-2-6,443,emergent,NA,779.687088,Byrd 2018
+byrd_2018,Rush Ranch,h2-2-3,117,emergent,NA,205.92187199999998,Byrd 2018
+byrd_2018,Rush Ranch,h2-1-3,163,emergent,NA,286.882608,Byrd 2018
+byrd_2018,Rush Ranch,h2-1-5,13,emergent,NA,22.880208,Byrd 2018
+byrd_2018,Rush Ranch,h2-1-6,60,emergent,NA,105.60095999999999,Byrd 2018
+byrd_2018,Rush Ranch,h2-1-2,221,emergent,NA,388.963536,Byrd 2018
+byrd_2018,Rush Ranch,h2-1-1,605,emergent,NA,1064.8096799999998,Byrd 2018
+megonigal_1997,BARAT,01-A,9817.91850305726,forest,NA,17279.69365207683,Megonigal 1997
+megonigal_1997,BARAT,02-A,8654.900421921573,forest,NA,15232.763220988718,Megonigal 1997
+megonigal_1997,BARAT,N1,25209.12918034888,forest,NA,44368.47070348091,Megonigal 1997
+megonigal_1997,BARAT,N2,23160.773410537124,forest,NA,40763.331774919905,Megonigal 1997
+megonigal_1997,BARAT,O1,12961.291518860453,forest,NA,22812.080453858696,Megonigal 1997
+megonigal_1997,BARAT,O2,6467.484679779326,forest,NA,11382.876516166489,Megonigal 1997
+megonigal_1997,BARAT,P1,14054.642406065857,forest,NA,24736.395508954403,Megonigal 1997
+megonigal_1997,BARAT,P1-2,14403.748203763878,forest,NA,25350.827298595686,Megonigal 1997
+megonigal_1997,BARAT,P2,20580.839004923957,forest,NA,36222.60594209024,Megonigal 1997
+megonigal_1997,BARAT,P2-2,21588.454096886926,forest,NA,37996.024625786544,Megonigal 1997
+megonigal_1997,MB,1,16390.72884733977,forest,NA,28847.945022979555,Megonigal 1997
+megonigal_1997,MB,2,17236.367770429555,forest,NA,30336.283057840345,Megonigal 1997
+megonigal_1997,MB,3,24100.970258765396,forest,NA,42418.093270951234,Megonigal 1997
+megonigal_1997,MB,4,24945.65850046432,forest,NA,43904.75809135321,Megonigal 1997
+megonigal_1997,MB,5,14967.262646849551,forest,NA,26342.621734657558,Megonigal 1997
+megonigal_1997,MB,6,18889.538794720305,forest,NA,33245.890511328456,Megonigal 1997
+megonigal_1997,PEARL,A1,19477.835728428618,forest,NA,34281.30252740602,Megonigal 1997
+megonigal_1997,PEARL,A2,11769.841068046242,forest,NA,20715.108597218474,Megonigal 1997
+megonigal_1997,PEARL,B1,25973.543034486625,forest,NA,45713.851317385015,Megonigal 1997
+megonigal_1997,PEARL,B2,23787.795832748907,forest,NA,41866.9012703714,Megonigal 1997
+megonigal_1997,PEARL,C1,22058.58109382794,forest,NA,38823.45566243467,Megonigal 1997
+megonigal_1997,PEARL,C2,26445.02037963416,forest,NA,46543.658988482195,Megonigal 1997
+megonigal_1997,SR,1,17658.97463844407,forest,NA,31080.077907255774,Megonigal 1997
+megonigal_1997,SR,2,20517.181848308075,forest,NA,36110.56832793179,Megonigal 1997
+megonigal_1997,SR,3,26006.076062427466,forest,NA,45771.10996708934,Megonigal 1997
+megonigal_1997,SR,4,19757.033354109324,forest,NA,34772.69481576607,Megonigal 1997
+megonigal_1997,SR,5,18328.607489111902,forest,NA,32258.642438556777,Megonigal 1997
+megonigal_1997,SR,6,25878.455050417615,forest,NA,45546.49494401581,Megonigal 1997
+megonigal_1997,UTR,1,31375.59288439215,forest,NA,55221.54548601634,Megonigal 1997
+megonigal_1997,UTR,2,23639.278175350297,forest,NA,41605.50781706733,Megonigal 1997
+megonigal_1997,UTR,3,11508.644965661191,forest,NA,20255.39927788315,Megonigal 1997
+megonigal_1997,UTR,4,22615.18770875091,forest,NA,39803.09221040494,Megonigal 1997
+megonigal_1997,VERRET,F1,14276.980511491132,forest,NA,25127.714131912577,Megonigal 1997
+megonigal_1997,VERRET,F2,14207.572702376652,forest,NA,25005.555277346142,Megonigal 1997
+megonigal_1997,VERRET,R1,18402.925615079468,forest,NA,32389.443529349704,Megonigal 1997
+megonigal_1997,VERRET,R2,18615.1998102802,forest,NA,32763.049509290115,Megonigal 1997
+megonigal_1997,VERRET,T1,17818.478145452096,forest,NA,31360.806631646017,Megonigal 1997
+megonigal_1997,VERRET,T2,13267.35958517861,forest,NA,23350.765147667717,Megonigal 1997
+krauss_2018,Savannah_Lower,1,7427.814149947135,forest,NA,13073.071748933357,Krauss 2018
+krauss_2018,Savannah_Lower,2,3560.2718773253227,forest,NA,6266.135468442605,Krauss 2018
+krauss_2018,Savannah_Middle,1,23887.785252498048,forest,NA,42042.8842489606,Krauss 2018
+krauss_2018,Savannah_Middle,2,25977.944080841018,forest,NA,45721.59722938549,Krauss 2018
+krauss_2018,Savannah_Upper,1,33340.92569513073,forest,NA,58680.56267824121,Krauss 2018
+krauss_2018,Savannah_Upper,2,40710.466642378335,forest,NA,71651.07265805214,Krauss 2018
+krauss_2018,Waccamaw_Lower,1,7192.900087855868,forest,NA,12659.619241027733,Krauss 2018
+krauss_2018,Waccamaw_Lower,2,9708.805107343467,forest,NA,17087.65232980622,Krauss 2018
+krauss_2018,Waccamaw_Middle,1,19330.54140233578,forest,NA,34022.06215677341,Krauss 2018
+krauss_2018,Waccamaw_Middle,2,19479.99074695629,forest,NA,34285.09539449502,Krauss 2018
+krauss_2018,Waccamaw_Upper,1,32684.467854467515,forest,NA,57525.186375348494,Krauss 2018
+krauss_2018,Waccamaw_Upper,2,23641.052097028576,forest,NA,41608.62994760385,Krauss 2018
+twilley_2016,SRS4,1,4391.42869672464,forest,9.591937821857714,7728.9847690945135,Twilley 2016
+twilley_2016,SRS4,2,4923.637095511372,forest,5.9761121553884715,8665.680066293542,Twilley 2016
+twilley_2016,SRS5,1,8961.830226562439,forest,7.381237136871582,15772.964588033516,Twilley 2016
+twilley_2016,SRS5,2,9643.905709287086,forest,7.565167939265744,16973.42835083662,Twilley 2016
+twilley_2016,SRS6,1,13151.00969821788,forest,12.61860453272218,23145.987485018642,Twilley 2016
+twilley_2016,SRS6,2,12843.196235918515,forest,12.057528325592465,22604.23086635636,Twilley 2016
+twilley_2016,TS/Ph8,1,290.51118888837675,shrub,3.6721180555555555,511.3043406225653,Twilley 2016
+craft_2013,GCE11,1,43739.158764652784,forest,NA,76981.61925232912,Craft 2013
+craft_2013,GCE11,2,32885.0904122867,forest,NA,57878.28528707119,Craft 2013
+simard_2006,Flamingo1,100,58549.232839605334,forest,15.17611111111111,103047.58658543082,Simard 2006
+simard_2006,Flamingo1,250,38118.60772263945,forest,13.855555555555556,67089.35948956899,Simard 2006
+simard_2006,Flamingo1,400,72626.96905365546,forest,15.103,127824.62756593846,Simard 2006
+simard_2006,Flamingo1,500,41530.17047433947,forest,11.587142857142858,73093.76451756505,Simard 2006
+simard_2006,Flamingo1,600,52593.34479037068,forest,13.9895,92565.12832456903,Simard 2006
+simard_2006,Flamingo1,700,21486.912745851863,forest,11.500909090909092,37817.31022330321,Simard 2006
+simard_2006,Flamingo2,100,95960.71697592856,forest,14.161071428571429,168892.39724910588,Simard 2006
+simard_2006,Flamingo2,250,65062.73967854386,forest,15.14,114511.46283807205,Simard 2006
+simard_2006,Flamingo2,550,67262.71254439926,forest,13.725555555555555,118383.4502815434,Simard 2006
+simard_2006,Flamingo2,650,65601.90038636277,forest,15.5625,115460.39431040466,Simard 2006
+simard_2006,Flamingo2,950,50027.805965750085,forest,11.716363636363637,88049.7389446156,Simard 2006
+simard_2006,Flamingo5B,133,153353.77314726022,forest,19.275545454545455,269905.0943995483,Simard 2006
+simard_2006,Flamingo5B,233,94625.8897640379,forest,17.67,166543.07999894294,Simard 2006
+simard_2006,Flamingo5B,33,62877.83280894591,forest,14.585,110665.99178906974,Simard 2006
+simard_2006,Flamingo5B,333,70962.7860503116,forest,19.086428571428574,124895.63885312523,Simard 2006
+simard_2006,Flamingo5B,433,77744.1640543924,forest,19.915625,136830.97264235548,Simard 2006
+simard_2006,Flamingo5B,633,46255.87674506452,forest,12.191818181818181,81411.08316534146,Simard 2006
+simard_2006,Flamingo5B,733,43075.03943332699,forest,12.765,75812.75860328643,Simard 2006
+doughty_2015,MC-05,A,15320.522012457472,shrub,3.025,26964.36387027735,Doughty 2015
+doughty_2015,MC-05,B,15438.079584619156,shrub,2.9466666666666668,27171.26707820307,Doughty 2015
+doughty_2015,MC-05,C,7865.467670500631,shrub,2.2625,13843.34894756384,Doughty 2015
+doughty_2015,MC-08,A,24084.351241110875,shrub,2.783333333333333,42388.84353397499,Doughty 2015
+doughty_2015,MC-08,B,9214.162061928517,forest,5.1,16217.07265558718,Doughty 2015
+doughty_2015,MC-08,C,10681.285872233324,shrub,3.475,18799.234035704605,Doughty 2015
+doughty_2015,MC-10,A,17056.482814311763,shrub,2.94125,30019.682656913734,Doughty 2015
+doughty_2015,MC-10,B,21125.62574550488,shrub,2.6392857142857142,37181.439322100516,Doughty 2015
+doughty_2015,MC-10,C,12198.87018557633,shrub,2.4611111111111112,21470.20670853731,Doughty 2015
+doughty_2015,MC-11,A,10400.558100667264,shrub,1.4781818181818183,18305.148666103993,Doughty 2015
+doughty_2015,MC-11,B,7642.754028467451,shrub,1.7804545454545455,13451.369374167169,Doughty 2015
+doughty_2015,MC-11,C,9093.570388159675,shrub,1.479642857142857,16004.829380287236,Doughty 2015
+doughty_2015,MC-12,A,40.685904761968196,shrub,1.2,71.60784335554021,Doughty 2015
+doughty_2015,MC-12,B,29.066240931548023,shrub,1.12625,51.15704909937943,Doughty 2015
+doughty_2015,MC-12,C,54.93398239775923,shrub,1.3666666666666667,96.6846879637746,Doughty 2015
+doughty_2015,MC-15,A,2590.9280278675815,shrub,1.1109090909090908,4560.074783895389,Doughty 2015
+doughty_2015,MC-15,B,1749.4390868527053,shrub,1.2642857142857142,3079.0407838861506,Doughty 2015
+doughty_2015,MC-15,C,1584.285144321846,shrub,1.3246153846153845,2788.367202568758,Doughty 2015
+doughty_2015,MC-16,A,447.0123835297492,shrub,1.0324137931034483,786.748947210495,Doughty 2015
+doughty_2015,MC-16,B,78.68087805179036,shrub,1.3204166666666666,138.47960426519984,Doughty 2015
+doughty_2015,MC-16,C,32.3357533574804,shrub,1.24,56.91144328121922,Doughty 2015
+doughty_2015,MC-19,A,11638.535514117732,shrub,4.7214285714285715,20484.008721415434,Doughty 2015
+doughty_2015,MC-19,B,9032.080341578308,forest,5.572727272727272,15896.605914463287,Doughty 2015
+doughty_2015,MC-19,C,19246.86551776434,forest,5.347058823529411,33874.79126111352,Doughty 2015
+doughty_2015,MC-22,A,1194.0170242456106,shrub,1.7875,2101.4890669446627,Doughty 2015
+doughty_2015,MC-22,B,2029.270529307767,shrub,1.8033333333333332,3571.548599910139,Doughty 2015
+doughty_2015,MC-22,C,3693.731664626012,shrub,1.6833333333333333,6501.026829448415,Doughty 2015

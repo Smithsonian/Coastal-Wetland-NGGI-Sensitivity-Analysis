@@ -33,33 +33,8 @@ sensitivityAnalysisPlot_top15_regional <- ggplot(sensitivityAnalysisDF_regional_
   theme_bw() +
   scale_colour_manual(values=cbbPalette) +
   theme(legend.title=element_blank())
+(sensitivityAnalysisPlot_top15_regional)
 
-sensitivityAnalysisPlot_top15_regional_noLab <- sensitivityAnalysisPlot_top15_regional +
-  guides(color=FALSE,
-         pch = FALSE) +
-  ggtitle("Logmeans")
-
-sensitivityAnalysisPlot_top15_national <- ggplot(sensitivityAnalysisDF_national_top15, aes(x=rank, y=effectMillionTonnesCO2PerYear)) +
-  geom_point(stat="identity", size=3, aes(color = type, pch = type)) + 
-  geom_segment(aes(y=effectMillionTonnesCO2PerYear, 
-                   yend=0, 
-                   x=rank, 
-                   xend=rank, color=type)) + 
-  xlab(NULL) +
-  ylab(expression(paste("Effect of Uncertainty on Total Flux (million Tonnes CO"[2], "e yr"^-1, ")", sep=""))) +
-  scale_x_discrete(limits = rev(sensitivityAnalysisDF_national_top15$parameter)) +
-  coord_flip() +
-  theme_bw() +
-  scale_colour_manual(values=cbbPalette) +
-  theme(legend.title=element_blank()) +
-  ggtitle("Means")
-
-compare_plots <- grid.arrange(sensitivityAnalysisPlot_top15_regional_noLab,
-                              sensitivityAnalysisPlot_top15_national,
-                              ncol = 2,
-                              widths = c(1,1.75))
-
-compare_plots
 
 sensitivityAnalysisDF_national_top15_combine <- mutate(sensitivityAnalysisDF_national_top15,
                                                        scaleOfAnalysis = "A Mean")
@@ -77,10 +52,11 @@ sensitivityAnalysisPlot_top15_combo <- ggplot(sensitivityAnalysisDF_regional_top
                    xend=rank, color=type)) +
   xlab(NULL) +
   ylab(expression(paste("Effect of Uncertainty on Total Flux (million Tonnes CO"[2], "e yr"^-1, ")", sep=""))) +
-  scale_x_discrete(limits = rev(sensitivityAnalysisDF_regional_top15_combo$rank)) +
-  geom_text(aes(label=sensitivityAnalysisDF_regional_top15_combo$parameter), nudge_x=.2, nudge_y = c(-55, rep(2.5,29)), 
+  scale_x_discrete(limits = rev(as.character(1:15))) +
+  geom_text(aes(label=sensitivityAnalysisDF_regional_top15_combo$parameter), nudge_x=.15, nudge_y = c(-55, rep(2,29)), 
             vjust = 0, hjust=0) +
   coord_flip() +
   theme_bw() +
   scale_colour_manual(values=cbbPalette) +
   theme(legend.title=element_blank())
+(sensitivityAnalysisPlot_top15_combo)

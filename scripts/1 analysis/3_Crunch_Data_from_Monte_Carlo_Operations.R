@@ -169,7 +169,7 @@ write_csv(salinity_stability_summed_iterations, "data/outputTables/MonteCarloRes
 
 
 salinity_stability_summed_summaries <- salinity_stability_summed_iterations %>% 
-  group_by(analysis_description, scaled_up_using) %>%
+  group_by(analysis_description, salinity, stability, scaled_up_using) %>%
   summarise(median_sum_total_MillionTonnesCO2PerYear = median(sum_total_MillionTonnesCO2PerYear),
             lower_ci_sum_total_MillionTonnesCO2PerYear = quantile(sum_total_MillionTonnesCO2PerYear, 0.025),
             upper_ci_sum_total_MillionTonnesCO2PerYear = quantile(sum_total_MillionTonnesCO2PerYear, 0.975),

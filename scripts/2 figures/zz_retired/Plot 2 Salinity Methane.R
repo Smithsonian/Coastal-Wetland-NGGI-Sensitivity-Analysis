@@ -20,8 +20,8 @@ methane["ch4_co2_eq_gwp"] <- ch4_co2_eq_gwp # add to the dataframe so they can b
 # Estuarine Emissions Factors are Normally Distributed
 # Units are in gCO2 equivalent per m2 per year
 methane["salinity_class"] <- ifelse(methane$Salinity.ppt >= 5, "estuarine", "palustrine")
-methane["salinity_class_proposed"] <- ifelse(methane$Salinity.ppt >= 0.5, ifelse(methane$Salinity.ppt >= 14, "brackish to saline", "intermediate")
-                                             , "fresh")
+methane["salinity_class_proposed"] <- ifelse(methane$Salinity.ppt >= 0.5, ifelse(methane$Salinity.ppt >= 18, "1 brackish to saline", "2 intermediate")
+                                             , "3 fresh")
 
 ggplot(data = methane, aes(x = salinity_class, y = ch4_co2_eq_gwp)) +
   geom_violin(aes(color = salinity_class)) +
