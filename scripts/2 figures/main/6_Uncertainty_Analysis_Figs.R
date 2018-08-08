@@ -16,10 +16,17 @@ salinity_stability_summed_iterations <- read_csv("data/outputTables/MonteCarloRe
 #salinity_stability_summed_summaries - summary statistics used to draw  95% CI's and determine the range of the graphs
 salinity_stability_summed_summaries <- read_csv("data/outputTables/MonteCarloResults/salinity_stability_summed_summaries_bothLmeanAndMean.csv")
 
-# Create Split Histogram where two panels show total emissions and removals separated by how they were scaled up
+# Rename for consistency with other figure
+total_nggi_summed_iterations_B <- total_nggi_summed_iterations %>%
+  mutate(scaled_up_using = ifelse(scaled_up_using == "mean", "A Mean", "B Logmean"))
+# Rename for consistency
+total_nggi_summed_summaries_B <- total_nggi_summed_summaries %>%
+  mutate(scaled_up_using = ifelse(scaled_up_using == "mean", "A Mean", "B Logmean"))
 
+
+# Create Split Histogram where two panels show total emissions and removals separated by how they were scaled up
 # make a histogram with both uncertainty analyses iterations summarised
-sum_total_MillionTonnesCO2_histograms_meansLogmeans <- ggplot(data = total_nggi_summed_iterations, aes(x = sum_total_MillionTonnesCO2PerYear)) +
+sum_total_MillionTonnesCO2_histograms_meansLogmeans <- ggplot(data = total_nggi_summed_iterations_B, aes(x = sum_total_MillionTonnesCO2PerYear)) +
   facet_grid(.~scaled_up_using) +
   geom_vline(aes(xintercept=0), col="darkgrey", lwd=1.25) +
   geom_histogram(aes(fill = emission_or_storage), binwidth = 2) +
@@ -28,16 +35,16 @@ sum_total_MillionTonnesCO2_histograms_meansLogmeans <- ggplot(data = total_nggi_
   scale_fill_manual(values=c("#D55E00", "#0072B2"),
                     labels = c("Emission", "Storage")) + 
   theme(legend.title=element_blank(), legend.position = "top") +
-  xlim(round(range(total_nggi_summed_summaries$lower_99_sum_total_MillionTonnesCO2PerYear - 10, 
-       total_nggi_summed_summaries$upper_99_sum_total_MillionTonnesCO2PerYear + 10)))
+  xlim(round(range(total_nggi_summed_summaries_B$lower_99_sum_total_MillionTonnesCO2PerYear - 10, 
+                   total_nggi_summed_summaries_B$upper_99_sum_total_MillionTonnesCO2PerYear + 10)))
 
 y_maxs_for_plot_b <- ggplot_build(sum_total_MillionTonnesCO2_histograms_meansLogmeans)$data[[2]] %>%
   group_by(PANEL) %>%
   summarise(maximum_y = max(y))
 
 sum_total_MillionTonnesCO2_histograms_meansLogmeans <- sum_total_MillionTonnesCO2_histograms_meansLogmeans + 
-  geom_point(data = total_nggi_summed_summaries, aes(x=median_sum_total_MillionTonnesCO2PerYear, y_maxs_for_plot_b$maximum_y + 25), pch = 16, color = "black") +
-  geom_segment(data = total_nggi_summed_summaries, aes(x=lower_ci_sum_total_MillionTonnesCO2PerYear, xend = upper_ci_sum_total_MillionTonnesCO2PerYear,
+  geom_point(data = total_nggi_summed_summaries_B, aes(x=median_sum_total_MillionTonnesCO2PerYear, y_maxs_for_plot_b$maximum_y + 25), pch = 16, color = "black") +
+  geom_segment(data = total_nggi_summed_summaries_B, aes(x=lower_ci_sum_total_MillionTonnesCO2PerYear, xend = upper_ci_sum_total_MillionTonnesCO2PerYear,
                                                        y = y_maxs_for_plot_b$maximum_y + 25, yend = y_maxs_for_plot_b$maximum_y + 25), color = "black")
 
 (sum_total_MillionTonnesCO2_histograms_meansLogmeans)

@@ -53,10 +53,11 @@ sensitivityAnalysisPlot_top15_combo <- ggplot(sensitivityAnalysisDF_regional_top
   xlab(NULL) +
   ylab(expression(paste("Effect of Uncertainty on Total Flux (million Tonnes CO"[2], "e yr"^-1, ")", sep=""))) +
   scale_x_discrete(limits = rev(as.character(1:15))) +
-  geom_text(aes(label=sensitivityAnalysisDF_regional_top15_combo$parameter), nudge_x=.15, nudge_y = c(-55, rep(2,29)), 
+  geom_text(aes(label=sensitivityAnalysisDF_regional_top15_combo$parameter), nudge_x=.25, nudge_y = c(-50, rep(2,29)), 
             vjust = 0, hjust=0) +
   coord_flip() +
   theme_bw() +
   scale_colour_manual(values=cbbPalette) +
-  theme(legend.title=element_blank())
+  theme(legend.title=element_blank()) +
+  theme(legend.position = "top")
 (sensitivityAnalysisPlot_top15_combo)
