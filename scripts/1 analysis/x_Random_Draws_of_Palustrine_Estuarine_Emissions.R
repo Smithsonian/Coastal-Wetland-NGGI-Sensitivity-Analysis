@@ -77,7 +77,7 @@ all_iterations_summary_10000 <- all_iterations_df_10000 %>%
             median_estimate = median(emissions),
             upper_95 = quantile(emissions, 0.975)) 
 
-# cox method according to OOlsson 2005
+# cox method according to Olsson 2005
 #http://ww2.amstat.org/publications/jse/v13n1/olsson.html
 log.se <- sqrt((palustrine.methane.log.sd.gwp^2/palustrine.methane.n) + 
                  (palustrine.methane.log.sd.gwp^4/(2*(palustrine.methane.n-1))))
@@ -86,6 +86,9 @@ log_ci <- log.se * 1.96
 mean_of_logdist <- exp(palustrine.methane.log.mean.gwp + palustrine.methane.log.sd.gwp^2*0.5)
 mean_upper <- exp((palustrine.methane.log.mean.gwp + palustrine.methane.log.sd.gwp^2*0.5)  + log_ci)
 mean_lower <- exp((palustrine.methane.log.mean.gwp + palustrine.methane.log.sd.gwp^2*0.5)  - log_ci)
+
+# View Max Empirical Data
+(max(methane["ch4_co2_eq_gwp"]))
 
 # View Simulated CI's
 (all_iterations_summary_10000)

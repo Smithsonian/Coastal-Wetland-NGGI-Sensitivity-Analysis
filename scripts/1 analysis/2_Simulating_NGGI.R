@@ -30,19 +30,18 @@ set.seed(5) # set seed so that analyses are replicable
   ccap_fullTab <- read.dbf("data/WetlandArea/CCAP/AllStates2006to2010wGreatLakes_170720B.dbf")
   
   # load ccap accuracy assesment data so we can simulate uncertainty due to accuracy
-  ccap_aa <- read_csv("data/WetlandArea/CCAP/2010Classes/CCAP2010AccuracyAssessment.csv")
-  ccap_aa <- as.matrix(ccap_aa[, 2:ncol(ccap_aa)])
-  rownames(ccap_aa) <- colnames(ccap_aa)
-  ccap_tab <- read.csv("data/WetlandArea/CCAP/2010Classes/ccapPixelCounts.csv")
-  ccap_area <- ccap_tab$pixels
+  ccap_aa <- read_csv("data/WetlandArea/CCAP/2010Classes/CCAP2010AccuracyAssessment.csv") # load accuracy assesment csv file
+  ccap_aa <- as.matrix(ccap_aa[, 2:ncol(ccap_aa)]) # transform to matrix
+  rownames(ccap_aa) <- colnames(ccap_aa) # match rownames to header names
+  ccap_tab <- read.csv("data/WetlandArea/CCAP/2010Classes/ccapPixelCounts.csv") # load area data
+  ccap_area <- ccap_tab$pixels # turn pixel counts into a vector
   
   # same as above for change no change
-  cnc_aa <- read_csv("data/WetlandArea/CCAP/CNC/CCAP06to10ChangeNoChangeAccuracyAssesment.csv")
-  cnc_aa <- as.matrix(cnc_aa[, 2:ncol(cnc_aa)])
-  rownames(cnc_aa) <- colnames(cnc_aa)
-  
-  cnc_tab <- read.csv("data/WetlandArea/CCAP/CNC/cncPixelCounts.csv")
-  cnc_area <- cnc_tab$pixels
+  cnc_aa <- read_csv("data/WetlandArea/CCAP/CNC/CCAP06to10ChangeNoChangeAccuracyAssesment.csv") # load accuracy assesment csv file
+  cnc_aa <- as.matrix(cnc_aa[, 2:ncol(cnc_aa)])  # transform to matrix
+  rownames(cnc_aa) <- colnames(cnc_aa) # match rownames to header names
+  cnc_tab <- read.csv("data/WetlandArea/CCAP/CNC/cncPixelCounts.csv") # load area data
+  cnc_area <- cnc_tab$pixels  # turn pixel counts column into a vector
   
   # input table from raster dataset of palustrine under NWI assumption
   palustrineNwi <- read.dbf("data/WetlandArea/Palustrine/nwi/CCAP2006to2010_wTab_PalMaskedByNwi.dbf")
@@ -50,10 +49,10 @@ set.seed(5) # set seed so that analyses are replicable
   # define file path for the palustrine under coastal lands assumption
   palustrineFilePath <- "data/WetlandArea/Palustrine/coastalLands/PalustrinePixelCounts/_AllCONUS/tables"
   
-  # Soils Data Summary from Holmquist et al., In Review
-  soilCarbonMean_gCcm3 <- 0.027 
-  soilCarbonSd_gCcm3 <- 0.013
-  soilCarbonN <- 8280
+  # Soils Data Summary from Holmquist et al., 2018 Scientific Reports
+  soilCarbonMean_gCcm3 <- 0.027  # mean is in grams carbon per cubic centimeter
+  soilCarbonSd_gCcm3 <- 0.013 # standard deviation in grams carbon per cubic centimeter
+  soilCarbonN <- 8280 # number of depth intervals
   
   # load CAR data
   car <- read.csv("data/MengReview/PbandcsData_170926.csv")
@@ -69,6 +68,7 @@ set.seed(5) # set seed so that analyses are replicable
 
 # Define assumptions re: land cover classes
 {
+  # C-CAP Classes
   classOrder <-c('High Intensity Developed', 'Medium Intensity Developed', 'Low Intensity Developed', 'Developed Open Space', 
                  'Cultivated', 'Pasture/Hay', 
                  'Grassland', 'Deciduous Forest', 'Evergreen Forest', 'Mixed Forest', 'Scrub/Shrub', 
@@ -78,36 +78,42 @@ set.seed(5) # set seed so that analyses are replicable
                  'Palustrine Aquatic Bed', 'Estuarine Aquatic Bed',
                  'Snow/Ice')
   
+  # Define Palustrine and Estuarine Wetlands
   palustrineWetlands <- c('Palustrine Forested Wetland', 'Palustrine Scrub/Shrub Wetland', 'Palustrine Emergent Wetland')
   estuarineWetlands <- c('Estuarine Forested Wetland', 'Estuarine Scrub/Shrub Wetland', 'Estuarine Emergent Wetland')
   
+  # devine abbreviations
   abbrevs <- c('HID', 'MID', 'LID', 'OSD',
                'CULT', 'PAST',
                'GRS', 'DEC', 'EVR', 'MIX', 'SS',
                'PFW', 'PSS', 'PEM', 'EFW', 'ESS', 'EEM',
                'UCS', 'BAR', 'OW', 'PAB', 'EAB', 'SNOW')
   
+  # Define what counts as a soil loss event when a wetland converts to another class
   soilLossEvents <- c('High Intensity Developed', 'Medium Intensity Developed', 'Low Intensity Developed', 'Developed Open Space',
                       'Cultivated', 'Pasture/Hay',
                       'Unconsolidated Shore', 'Water',
                       'Palustrine Aquatic Bed', 'Estuarine Aquatic Bed')
   
+  # Define classes that count as forested vegetation
   forestVeg <- c('Deciduous Forest', 'Evergreen Forest', 'Mixed Forest', 
                  'Palustrine Forested Wetland',
                  'Estuarine Forested Wetland'
                  )
   
+  # Define classes that are scrub/shrub vegetation
   scrubShrubVeg <- c('Scrub/Shrub',
              'Palustrine Scrub/Shrub Wetland',
              'Estuarine Scrub/Shrub Wetland'
              )
   
+  # Define classes that are emergent vegetation
   emergentVeg <- c('Cultivated', 'Pasture/Hay', 
              'Grassland',
              'Palustrine Emergent Wetland',
              'Estuarine Emergent Wetland'
              )
-  
+  # Define non vegetated classes
   nonVeg <-c('High Intensity Developed', 'Medium Intensity Developed', 'Low Intensity Developed', 'Developed Open Space',
              'Unconsolidated Shore', 'Bare Land', 'Water', 
              'Palustrine Aquatic Bed', 'Estuarine Aquatic Bed',
@@ -115,6 +121,7 @@ set.seed(5) # set seed so that analyses are replicable
              'Snow/Ice'
              )
   
+  # This function takes class at t1 and t2 and outputs a general salinity class Estuarine, Palustrine or Neither
   classify_by_salinity <- function(class_time1 = "Estuarine Emergent Wetland", class_time2 = "Open Water") {
     if (class_time1 %in% estuarineWetlands | class_time2 %in% estuarineWetlands) {
       salinity_class <- "Estuarine"
@@ -126,6 +133,7 @@ set.seed(5) # set seed so that analyses are replicable
     return(salinity_class)
   }
   
+  # This function takes class at t1 and t2 and outputs a stability class: stable and gains, losses, or NA
   classify_by_stability <- function(class_time1 = "Estuarine Emergent Wetland", class_time2 = "Open Water") {
     if (class_time1 %in%  estuarineWetlands | class_time1  %in%  palustrineWetlands | class_time2 %in% estuarineWetlands | class_time2 %in% palustrineWetlands) {
       if (class_time2 %in% estuarineWetlands | class_time2 %in% palustrineWetlands) {
@@ -435,13 +443,13 @@ set.seed(5) # set seed so that analyses are replicable
   
   # simulate data by category
   simulateAA <- function(aa) {
-    for (i in 1:ncol(aa)){
-      class_i <- aa[,i]
+    for (i in 1:nrow(aa)){
+      class_i <- aa[i,]
       simmClass_i <- rmultinom(1, sum(class_i), class_i)
       if (i ==1){
-        temp_df <- as.data.frame(simmClass_i)
+        temp_df <- as.data.frame(t(simmClass_i))
       } else {
-        temp_df <- cbind(temp_df, simmClass_i) 
+        temp_df <- rbind(temp_df, t(simmClass_i)) 
       }
     } 
     row.names(temp_df) <- row.names(aa)

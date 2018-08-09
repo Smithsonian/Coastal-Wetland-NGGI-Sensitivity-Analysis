@@ -190,6 +190,8 @@ included_in_chart_coastal_lands <- subset(included_in_chart, analysis_type == "E
 included_in_chart_nwi <- subset(included_in_chart, analysis_type == "Estuarine" | analysis_type == "Palustrine: NWI")
 (sum(included_in_chart_nwi$median.ci))
 
+(included_in_chart_nwi)
+
 # how much OW to EM compared to EM to OW?
 included_in_chart_coastal_lands[6,]$median.ci - included_in_chart_coastal_lands[1,]$median.ci / 
   included_in_chart_coastal_lands[6,]$median.ci + included_in_chart_coastal_lands[1,]$median.ci * 100
