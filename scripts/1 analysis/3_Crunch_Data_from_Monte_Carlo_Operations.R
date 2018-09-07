@@ -191,9 +191,14 @@ write_csv(salinity_stability_summed_summaries, "data/outputTables/MonteCarloResu
                                                    class_time1 = as.character(GWP_vs_SGWP_median_values$class_2006),
                                                    class_time2 = as.character(GWP_vs_SGWP_median_values$class_2010))
   
-  GWP_vs_SGWP_median_values_summed_iterations <- GWP_vs_SGWP_median_values %>%
+  GWP_vs_SGWP_median_values_salinity_stability_summaries <- GWP_vs_SGWP_median_values %>%
     mutate(total_MillionTonnesCO2perMappedPixel = total_gCO2perM2 * estimated_pixel_count * 900 / 1E6 / 1E6) %>%
     group_by(salinity, stability, analysis_type) %>%
+    summarise(sum_total_MillionTonnesCO2PerYear = sum(total_MillionTonnesCO2perMappedPixel, na.rm=T) / 5)
+  
+  GWP_vs_SGWP_median_values_total_sum_summaries <- GWP_vs_SGWP_median_values %>%
+    mutate(total_MillionTonnesCO2perMappedPixel = total_gCO2perM2 * estimated_pixel_count * 900 / 1E6 / 1E6) %>%
+    group_by(analysis_type) %>%
     summarise(sum_total_MillionTonnesCO2PerYear = sum(total_MillionTonnesCO2perMappedPixel, na.rm=T) / 5)
   
   GWP_vs_SGWP_median_values_summed_iterations <- GWP_vs_SGWP_median_values_summed_iterations[order(GWP_vs_SGWP_median_values_summed_iterations$analysis_type),]
@@ -201,3 +206,4 @@ write_csv(salinity_stability_summed_summaries, "data/outputTables/MonteCarloResu
   write_csv(GWP_vs_SGWP_median_values_summed_iterations, "data/outputTables/GWP_vs_SGWP_median_values_summed_iterations.csv")
   
 }
+
