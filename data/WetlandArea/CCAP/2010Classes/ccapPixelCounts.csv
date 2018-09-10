@@ -1,0 +1,24 @@
+"classes","abbrevs","pixels"
+"High Intensity Developed","HID",11972473
+"Medium Intensity Developed","MID",31568295
+"Low Intensity Developed","LID",69128619
+"Developed Open Space","OSD",36000555
+"Cultivated","CULT",241031842
+"Pasture/Hay","PAST",161591750
+"Grassland","GRS",110176311
+"Deciduous Forest","DEC",271623231
+"Evergreen Forest","EVR",336791175
+"Mixed Forest","MIX",134711568
+"Scrub/Shrub","SS",230972631
+"Palustrine Forested Wetland","PFW",204752637
+"Palustrine Scrub/Shrub Wetland","PSS",55229429
+"Palustrine Emergent Wetland","PEM",47505151
+"Estuarine Forested Wetland","EFW",2240780
+"Estuarine Scrub/Shrub Wetland","ESS",1148499
+"Estuarine Emergent Wetland","EEM",21570048
+"Unconsolidated Shore","UCS",5014860
+"Bare Land","BAR",16436336
+"Water","OW",281929486
+"Palustrine Aquatic Bed","PAB",487236
+"Estuarine Aquatic Bed","EAB",2114697
+"Snow/Ice","SNOW",824798

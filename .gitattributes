@@ -1,0 +1,4 @@
+*total.savedIterations.csv filter=lfs diff=lfs merge=lfs -text
+*/total.savedIterations.csv filter=lfs diff=lfs merge=lfs -text
+data/outputTables/MonteCarloResults/national/total.savedIterations.csv filter=lfs diff=lfs merge=lfs -text
+data/outputTables/MonteCarloResults/regional/total.savedIterations.csv filter=lfs diff=lfs merge=lfs -text

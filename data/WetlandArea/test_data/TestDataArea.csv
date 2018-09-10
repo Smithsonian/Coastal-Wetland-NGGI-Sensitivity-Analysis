@@ -1,0 +1,5 @@
+Class,Area
+Deforestation,200000
+Forest.gain,150000
+Stable.forest,3200000
+Stable.non-forest,6450000

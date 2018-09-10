@@ -1,0 +1,1303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-fce.1195.4"
+  system="https://pasta.edirepository.org"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/eml/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=FCE,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>read</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="LT_PP_Castaneda_001">
+    <alternateIdentifier>LT_PP_Castaneda_001</alternateIdentifier>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/3652feeb67338a8b9c9f5080d77dbfe0</alternateIdentifier>
+    <title>Mangrove Litterfall from the Shark River Slough and Taylor Slough, Everglades National Park (FCE), South Florida from January 2001 to Present</title>
+    <creator>
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Victor</givenName>
+        <surName>Rivera-Monroy</surName>
+      </individualName>
+      <organizationName>Wetland Biogeochemistry Institute</organizationName>
+      <positionName>LTER Project Collaborator</positionName>
+      <address>
+        <deliveryPoint>Department of Oceanography and Coastal Sciences</deliveryPoint>
+        <deliveryPoint> Louisiana State University</deliveryPoint>
+        <deliveryPoint> 3209 Energy, Coast, and Environment Building</deliveryPoint>
+        <city>Baton Rouge</city>
+        <administrativeArea>LA</administrativeArea>
+        <postalCode>70803</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(225) 578-2773</phone>
+      <phone phonetype="fax">(225) 578-6423</phone>
+      <electronicMailAddress>vhrivera@lsu.edu</electronicMailAddress>
+      <onlineUrl>http://www.gulfbase.org/</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Edward</givenName>
+        <surName>Castaneda</surName>
+      </individualName>
+      <organizationName>Southeast Environmental Research Center</organizationName>
+      <positionName>LTER Research Associate</positionName>
+      <address>
+        <deliveryPoint>Southeast Environmental Research Center</deliveryPoint>
+        <deliveryPoint> Florida International University</deliveryPoint>
+        <deliveryPoint>11200 SW 8th Street, OE 148</deliveryPoint>
+        <city>Miami</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>33199</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(305) 348-1576</phone>
+      <phone phonetype="fax">(305) 348-4096</phone>
+      <electronicMailAddress>edward.castaneda@fiu.edu</electronicMailAddress>
+      <onlineUrl>https://sercweb.fiu.edu</onlineUrl>
+    </creator>
+    <creator>
+      <individualName>
+        <salutation>Dr.</salutation>
+        <givenName>Robert</givenName>
+        <surName>Twilley</surName>
+      </individualName>
+      <organizationName>Louisiana Sea Grant Program</organizationName>
+      <positionName>LTER Project Collaborator</positionName>
+      <address>
+        <deliveryPoint>239 Sea Grant Building</deliveryPoint>
+        <deliveryPoint> Louisiana State University</deliveryPoint>
+        <city>Baton Rouge</city>
+        <administrativeArea>LA</administrativeArea>
+        <postalCode>70803</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(225) 578-6445</phone>
+      <phone phonetype="fax">(225) 578-6331</phone>
+      <electronicMailAddress>rtwilley@lsu.edu</electronicMailAddress>
+      <onlineUrl>http://www.gulfbase.org/</onlineUrl>
+      <userId directory="http://orchid.org">http://orchid.org/0000-0002-6173-6033</userId>
+    </creator>
+    <metadataProvider>
+      <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+      <address>
+        <deliveryPoint>Florida International University</deliveryPoint>
+        <deliveryPoint> University Park</deliveryPoint>
+        <deliveryPoint> OE 148</deliveryPoint>
+        <city>Miami</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>33199</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">305-348-6054</phone>
+      <electronicMailAddress>fcelter@fiu.edu  </electronicMailAddress>
+      <onlineUrl>http://fcelter.fiu.edu  </onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Edward</givenName>
+        <surName>Castaneda</surName>
+      </individualName>
+      <organizationName>Southeast Environmental Research Center</organizationName>
+      <address>
+        <deliveryPoint>Florida International University</deliveryPoint>
+        <deliveryPoint>11200 SW 8th Street, OE 148</deliveryPoint>
+        <city>Miami</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>33199</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(305) 348-1576</phone>
+      <phone phonetype="fax">(305) 348-4096</phone>
+      <electronicMailAddress>edward.castaneda@fiu.edu</electronicMailAddress>
+      <onlineUrl>https://sercweb.fiu.edu</onlineUrl>
+      <role>Research Associate</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Robert</givenName>
+        <surName>Twilley</surName>
+      </individualName>
+      <organizationName>Louisiana Sea Grant Program</organizationName>
+      <address>
+        <deliveryPoint>239 Sea Grant Building</deliveryPoint>
+        <deliveryPoint> Louisiana State University</deliveryPoint>
+        <city>Baton Rouge</city>
+        <administrativeArea>LA</administrativeArea>
+        <postalCode>70803</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(225) 578-6445</phone>
+      <phone phonetype="fax">(225) 578-6331</phone>
+      <electronicMailAddress>rtwilley@lsu.edu</electronicMailAddress>
+      <onlineUrl>http://www.gulfbase.org/</onlineUrl>
+      <role>Project Collaborator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Victor</givenName>
+        <surName>Rivera-Monroy</surName>
+      </individualName>
+      <organizationName>Wetland Biogeochemistry Institute</organizationName>
+      <address>
+        <deliveryPoint>Department of Oceanography and Coastal Sciences</deliveryPoint>
+        <deliveryPoint> Louisiana State University</deliveryPoint>
+        <deliveryPoint> 3209 Energy, Coast, and Environment Building</deliveryPoint>
+        <city>Baton Rouge</city>
+        <administrativeArea>LA</administrativeArea>
+        <postalCode>70803</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(225) 578-2773</phone>
+      <phone phonetype="fax">(225) 578-6423</phone>
+      <electronicMailAddress>vhrivera@lsu.edu</electronicMailAddress>
+      <onlineUrl>http://www.gulfbase.org/</onlineUrl>
+      <role>Project Collaborator</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>Daniel</givenName>
+        <surName>Childers</surName>
+      </individualName>
+      <organizationName>Global Institute of Sustainability| School of Sustainability</organizationName>
+      <address>
+        <deliveryPoint>Associate Director for Research</deliveryPoint>
+        <deliveryPoint> Professor</deliveryPoint>
+        <city>Arizona State University|PO Box 875402</city>
+        <administrativeArea>Tempe</administrativeArea>
+        <postalCode>AZ</postalCode>
+        <country>85287</country>
+      </address>
+      <phone phonetype="voice">USA</phone>
+      <phone phonetype="fax">480-965-2320</phone>
+      <electronicMailAddress>480-965-8087</electronicMailAddress>
+      <role>dan.childers@asu.edu</role>
+    </associatedParty>
+    <pubDate>2018-02-13</pubDate>
+    <abstract>
+      <para>Monthly litterfall data is being collected in two mangrove-dominated regions (Shark River and Taylor Slough) in South Florida. Three sites (SRS4, SRS5, SRS6) in the Shark River region and one site (TS/Ph8) in the Taylor Slough region were used to characterize patterns of litterfall production. At each mangrove site 10 litter baskets (0.5 x 0.5 m) were placed in two 20 x 20 m plots (five baskets per plot). Data has been collected since January 2001. Statistical analysis is being performed.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>primary production</keyword>
+      <keyword>mangroves</keyword>
+      <keyword>plant growth</keyword>
+      <keyword>Rhizophora mangle</keyword>
+      <keyword>Laguncularia racemosa</keyword>
+      <keyword>Avicennia germinans</keyword>
+      <keyword>Conacarpus erectus</keyword>
+      <keyword>mangrove litterfall</keyword>
+      <keyword>Taylor Slough</keyword>
+      <keyword>flowering</keyword>
+      <keyword>wetlands</keyword>
+      <keyword>wood</keyword>
+      <keyword>plant species</keyword>
+      <keyword>mangrove litterfall</keyword>
+      <keyword>Taylor Slough</keyword>
+      <keyword>flowers</keyword>
+      <keyword>wetlands</keyword>
+      <keyword>propagules</keyword>
+      <keyword>wood</keyword>
+      <keyword>stipules</keyword>
+      <keyword>species</keyword>
+      <keyword>mangroves</keyword>
+      <keywordThesaurus>LTER Keyword Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>FCE</keyword>
+      <keyword>Florida Coastal Everglades LTER</keyword>
+      <keyword>ecological research</keyword>
+      <keyword>long-term monitoring</keyword>
+      <keyword>productivity</keyword>
+      <keyword>primary production</keyword>
+      <keyword>Shark River Slough</keyword>
+      <keyword>mangrove forest</keyword>
+      <keyword>growth</keyword>
+      <keyword>Rhizophora mangle</keyword>
+      <keyword>Laguncularia racemosa</keyword>
+      <keyword>Avicennia germinans</keyword>
+      <keyword>Conacarpus erectus</keyword>
+      <keyword>mangrove litterfall</keyword>
+      <keyword>Taylor Slough</keyword>
+      <keyword>flowers</keyword>
+      <keyword>wetlands</keyword>
+      <keyword>propagules</keyword>
+      <keyword>wood</keyword>
+      <keyword>stipules</keyword>
+      <keyword>species</keyword>
+      <keyword>mangroves</keyword>
+      <keywordThesaurus>FCE Keywords</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>This dataset is released under the Creative Commons license - Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/). The consumer of these data ("Data User" herein) is required to cite it appropriately in any publication that results from its use. The Data User should realize that these data may be actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the authors of these data if any questions about methodology or results occur. Where appropriate, the Data User is encouraged to consider collaboration or co-authorship with the authors. The Data User should realize that misinterpretation of data may occur if used out of context of the original study. While substantial efforts are made to ensure the accuracy of data and associated documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is." The Data User should be aware, however, that data are updated periodically and it is the responsibility of the Data User to check for new versions of the data. The data authors and the repository where these data were obtained shall not be liable for damages resulting from any use or misinterpretation of the data. Thank you.</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url>http://fcelter.fiu.edu/perl/public_data_download.pl?datasetid=LT_PP_Castaneda_001.txt</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Data were collected in the Shark River Slough and Taylor Slough, within Everglades National Park, South Florida</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-81.078</westBoundingCoordinate>
+          <eastBoundingCoordinate>-80.525</eastBoundingCoordinate>
+          <northBoundingCoordinate>25.410</northBoundingCoordinate>
+          <southBoundingCoordinate>25.233</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Florida Coastal Everglades LTER Study Area: South Florida, Everglades National Park, and Florida Bay</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-81.078</westBoundingCoordinate>
+          <eastBoundingCoordinate>-80.490</eastBoundingCoordinate>
+          <northBoundingCoordinate>25.761</northBoundingCoordinate>
+          <southBoundingCoordinate>24.913</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2001-01-25</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2015-08-12</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+      <taxonomicCoverage>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Rhizophora mangle</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Laguncularia racemosa</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Avicennia germinans</taxonRankValue>
+        </taxonomicClassification>
+        <taxonomicClassification>
+          <taxonRankName>Species</taxonRankName>
+          <taxonRankValue>Conacarpus erectus</taxonRankValue>
+        </taxonomicClassification>
+      </taxonomicCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>This is a long-term primary production dataset and subsequent data wil be appended. LT_PP_Rivera_001 will be taken offline because it was resubmitted under LT_PP_Castaneda_001 (v1-v3).  The new PASTA file is LT_PP_Castaneda_001. The FCE program is discontinuing its practice of versioning data as of March 2013.</para>
+      </description>
+      <changeHistory>
+        <changeScope>Made data through 2015 public</changeScope>
+        <oldValue>Made data through 2013 made public</oldValue>
+        <changeDate>2018-02-13</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <individualName>
+        <givenName>Victor</givenName>
+        <surName>Rivera-Monroy</surName>
+      </individualName>
+      <organizationName>Wetland Biogeochemistry Institute</organizationName>
+      <positionName>LTER Project Collaborator</positionName>
+      <address>
+        <deliveryPoint>Department of Oceanography and Coastal Sciences</deliveryPoint>
+        <deliveryPoint> Louisiana State University</deliveryPoint>
+        <deliveryPoint> 3209 Energy, Coast, and Environment Building</deliveryPoint>
+        <city>Baton Rouge</city>
+        <administrativeArea>LA</administrativeArea>
+        <postalCode>70803</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">(225) 578-2773</phone>
+      <phone phonetype="fax">(225) 578-6423</phone>
+      <electronicMailAddress>vhrivera@lsu.edu</electronicMailAddress>
+      <onlineUrl>http://www.gulfbase.org/</onlineUrl>
+    </contact>
+    <contact>
+      <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Florida International University</deliveryPoint>
+        <deliveryPoint> University Park</deliveryPoint>
+        <deliveryPoint> OE 148</deliveryPoint>
+        <city>Miami</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>33199</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">305-348-6054</phone>
+      <phone phonetype="fax">305-348-4096</phone>
+      <electronicMailAddress>fcelter@fiu.edu</electronicMailAddress>
+      <onlineUrl>http://fcelter.fiu.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+      <address>
+        <deliveryPoint>Florida International University</deliveryPoint>
+        <deliveryPoint> University Park</deliveryPoint>
+        <deliveryPoint> OE 148</deliveryPoint>
+        <city>Miami</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>33199</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">305-348-6054</phone>
+      <electronicMailAddress>fcelter@fiu.edu  </electronicMailAddress>
+      <onlineUrl>http://fcelter.fiu.edu  </onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Litter is collected, dried at 60 degrees celcius, and separated in different categories (e.g., leaves, propagules, wood) per species and weighted. Total carbon, nitrogen, and phosphorus is determined for each category.</para>
+        </description>
+        <instrumentation>Standard laboratory drying ovens</instrumentation>
+        <instrumentation> furnaces</instrumentation>
+        <instrumentation> balances. </instrumentation>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>The Study Extent of this dataset includes the FCE Shark River Slough and Taylor Slough research sites within Everglades National Park, South Florida. After December 2006, this study is only focused on Shark River Slough sites</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Monthly litterfall data is being collected in two mangrove dominated regions (Shark River and Taylor Slough) in South Florida. Ten litter baskets ( 0.5 x 0.5 m) were placed in two 20 x 20 m plot (five baskets per plot) in each mangrove site. Experimental  design is a split-plot repeated measures ANOVA.</para>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <coverage>
+            <geographicDescription>FCE LTER Site SRS4</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-80.964</westBoundingCoordinate>
+              <eastBoundingCoordinate>-80.964</eastBoundingCoordinate>
+              <northBoundingCoordinate>25.410</northBoundingCoordinate>
+              <southBoundingCoordinate>25.410</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>FCE LTER Site SRS5</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-81.032</westBoundingCoordinate>
+              <eastBoundingCoordinate>-81.032</eastBoundingCoordinate>
+              <northBoundingCoordinate>25.377</northBoundingCoordinate>
+              <southBoundingCoordinate>25.377</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>FCE LTER Site SRS6</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-81.078</westBoundingCoordinate>
+              <eastBoundingCoordinate>-81.078</eastBoundingCoordinate>
+              <northBoundingCoordinate>25.365</northBoundingCoordinate>
+              <southBoundingCoordinate>25.365</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+          <coverage>
+            <geographicDescription>FCE LTER Site TS/Ph8</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-80.525</westBoundingCoordinate>
+              <eastBoundingCoordinate>-80.525</eastBoundingCoordinate>
+              <northBoundingCoordinate>25.233</northBoundingCoordinate>
+              <southBoundingCoordinate>25.233</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+        </spatialSamplingUnits>
+      </sampling>
+      <qualityControl>
+        <description>
+          <para>Dataset is inspected by PI for QA/QC; descriptive statistics, normal distribution plots, standard validation checks for negative numbers, graphs to detect potential outliers </para>
+        </description>
+      </qualityControl>
+    </methods>
+    <project id="1">
+      <title>Florida Coastal Everglades LTER: Coastal Oligotrophic Ecosystems Research-the Coastal Everglades</title>
+      <personnel>
+        <individualName>
+          <givenName>Daniel</givenName>
+          <surName>Childers</surName>
+        </individualName>
+        <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences</deliveryPoint>
+          <deliveryPoint>Florida International University</deliveryPoint>
+          <deliveryPoint>University Park</deliveryPoint>
+          <deliveryPoint>OE 167</deliveryPoint>
+          <city>Miami</city>
+          <administrativeArea>FL</administrativeArea>
+          <postalCode>33199</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">305-348-3101</phone>
+        <phone phonetype="fax">305-348-1986</phone>
+        <electronicMailAddress>childers@fiu.edu</electronicMailAddress>
+        <role>Lead Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Joseph</givenName>
+          <surName>Boyer</surName>
+        </individualName>
+        <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+        <address>
+          <deliveryPoint>Southeast Environmental Research Center</deliveryPoint>
+          <deliveryPoint>Florida International University</deliveryPoint>
+          <deliveryPoint> University Park</deliveryPoint>
+          <deliveryPoint> OE 148</deliveryPoint>
+          <city>Miami</city>
+          <administrativeArea>FL</administrativeArea>
+          <postalCode>33199</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">305-348-4076</phone>
+        <phone phonetype="fax">305-348-4096</phone>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>James</givenName>
+          <surName>Fourqurean</surName>
+        </individualName>
+        <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences</deliveryPoint>
+          <deliveryPoint>Florida International University</deliveryPoint>
+          <deliveryPoint>University Park</deliveryPoint>
+          <deliveryPoint>OE 167</deliveryPoint>
+          <city>Miami</city>
+          <administrativeArea>FL</administrativeArea>
+          <postalCode>33199</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">305-348-4084</phone>
+        <phone phonetype="fax">305-348-4096</phone>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Rudolf</givenName>
+          <surName>Jaffe</surName>
+        </individualName>
+        <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+        <address>
+          <deliveryPoint>Department of Chemistry</deliveryPoint>
+          <deliveryPoint>Florida International University</deliveryPoint>
+          <deliveryPoint>University Park</deliveryPoint>
+          <deliveryPoint>CP 304</deliveryPoint>
+          <city>Miami</city>
+          <administrativeArea>FL</administrativeArea>
+          <postalCode>33199</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">305-348-2456</phone>
+        <phone phonetype="fax">305-348-4096</phone>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Joel</givenName>
+          <surName>Trexler</surName>
+        </individualName>
+        <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences</deliveryPoint>
+          <deliveryPoint>Florida International University</deliveryPoint>
+          <deliveryPoint>University Park</deliveryPoint>
+          <deliveryPoint>OE 167</deliveryPoint>
+          <city>Miami</city>
+          <administrativeArea>FL</administrativeArea>
+          <postalCode>33199</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">305-348-1966</phone>
+        <phone phonetype="fax">305-348-1986</phone>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>We are investigating how variability in regional climate, freshwater inputs, disturbance, and perturbations affect the coastal Everglades ecosystem. Our long term research program focuses on testing the following central idea and hypotheses:  Regional processes mediated by water flow control population and ecosystem level dynamics at any location within the coastal Everglades landscape. This phenomenon is best exemplified in the dynamics of an estuarine oligohaline zone where fresh water draining phosphorus-limited Everglades marshes mixes with water from the more nitrogen-limited coastal ocean. Hypothesis 1: In nutrient-poor coastal systems, long-term changes in the quantity or quality of organic matter inputs will exert strong and direct controls on estuarine productivity, because inorganic nutrients are at such low levels. Hypothesis 2: Interannual and long-term changes in freshwater flow controls the magnitude of nutrients and organic matter inputs to the estuarine zone, while ecological processes in the freshwater marsh and coastal ocean control the quality and characteristics of those inputs. Hypothesis 3: Long-term changes in freshwater flow (primarily manifest through management and Everglades restoration) will interact with long-term changes in the climatic and disturbance (sea level rise, hurricanes, fires) regimes to modify ecological pattern and process across coastal landscapes.</para>
+      </abstract>
+      <funding>
+        <para>National Science Foundation under Grant # 9910514</para>
+      </funding>
+      <studyAreaDescription>
+        <coverage>
+          <geographicCoverage>
+            <geographicDescription>The FCE LTER Project Study area is located in South Florida, mostly in Everglades National Park. There are a total of 21 sampling sites located in two major regions: 1) Shark River Slough and 2) Taylor Slough/Panhandle.</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-81.078</westBoundingCoordinate>
+              <eastBoundingCoordinate>-80.490</eastBoundingCoordinate>
+              <northBoundingCoordinate>25.761</northBoundingCoordinate>
+              <southBoundingCoordinate>24.913</southBoundingCoordinate>
+            </boundingCoordinates>
+          </geographicCoverage>
+          <temporalCoverage>
+            <rangeOfDates>
+              <beginDate>
+                <calendarDate>2000-05-01</calendarDate>
+              </beginDate>
+              <endDate>
+                <calendarDate> 2006-04-30</calendarDate>
+              </endDate>
+            </rangeOfDates>
+          </temporalCoverage>
+        </coverage>
+      </studyAreaDescription>
+      <relatedProject id="26">
+        <title>FCE LTER II:  Coastal Oligotrophic Ecosystems Research</title>
+        <personnel>
+          <individualName>
+            <givenName>Evelyn </givenName>
+            <surName>Gaiser</surName>
+          </individualName>
+          <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+          <address>
+            <deliveryPoint>Florida International University</deliveryPoint>
+            <deliveryPoint> University Park</deliveryPoint>
+            <deliveryPoint> OE 148</deliveryPoint>
+            <city>Miami</city>
+            <administrativeArea>FL</administrativeArea>
+            <postalCode>33199</postalCode>
+            <country>USA</country>
+          </address>
+          <phone phonetype="voice">305-348-6145</phone>
+          <phone phonetype="fax">305-348-4096</phone>
+          <electronicMailAddress>gaisere@fiu.edu</electronicMailAddress>
+          <role>Lead Principal Investigator</role>
+        </personnel>
+        <personnel>
+          <individualName>
+            <givenName>Mike</givenName>
+            <surName>Heithaus</surName>
+          </individualName>
+          <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+          <address>
+            <deliveryPoint>Department of Biological Sciences</deliveryPoint>
+            <deliveryPoint>Marine Biology Program</deliveryPoint>
+            <deliveryPoint>Florida International University</deliveryPoint>
+            <deliveryPoint>Biscayne Bay Campus</deliveryPoint>
+            <city>Miami</city>
+            <administrativeArea>FL </administrativeArea>
+            <postalCode>33181</postalCode>
+            <country>USA</country>
+          </address>
+          <phone phonetype="voice">(305) 919-5234</phone>
+          <phone phonetype="fax">(305) 919-4030</phone>
+          <electronicMailAddress>heithaus@fiu.edu</electronicMailAddress>
+          <role>Principal Investigator</role>
+        </personnel>
+        <personnel>
+          <individualName>
+            <givenName>Rudolf</givenName>
+            <surName>Jaffe</surName>
+          </individualName>
+          <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+          <address>
+            <deliveryPoint>Department of Chemistry</deliveryPoint>
+            <deliveryPoint>Florida International University</deliveryPoint>
+            <deliveryPoint>University Park</deliveryPoint>
+            <deliveryPoint>CP 304</deliveryPoint>
+            <city>Miami</city>
+            <administrativeArea>FL</administrativeArea>
+            <postalCode>33199</postalCode>
+            <country>USA</country>
+          </address>
+          <phone phonetype="voice">305-348-2456</phone>
+          <phone phonetype="fax">305-348-4096</phone>
+          <electronicMailAddress>jaffer@fiu.edu </electronicMailAddress>
+          <role>Principal Investigator</role>
+        </personnel>
+        <personnel>
+          <individualName>
+            <givenName>Rene</givenName>
+            <surName>Price </surName>
+          </individualName>
+          <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+          <address>
+            <deliveryPoint>Department of Earth Sciences</deliveryPoint>
+            <deliveryPoint> Florida International University</deliveryPoint>
+            <deliveryPoint> University Park</deliveryPoint>
+            <deliveryPoint> PC 344</deliveryPoint>
+            <deliveryPoint> 11200 SW 8th Street</deliveryPoint>
+            <city>Miami</city>
+            <administrativeArea>FL</administrativeArea>
+            <postalCode>33199</postalCode>
+            <country>USA</country>
+          </address>
+          <phone phonetype="voice">305-348-3119</phone>
+          <phone phonetype="fax">305-348-3877</phone>
+          <electronicMailAddress>pricer@fiu.edu</electronicMailAddress>
+          <role>Principal Investigator</role>
+        </personnel>
+        <abstract>
+          <para>Our FCE I research focused on understanding how dissolved organic matter from upstream oligotrophic marshes interacts with a marine source of phosphorus (P), the limiting nutrient, to control estuarine productivity where these two influences meet-in the oligohaline ecotone. This dynamic is affected by the interaction of local ecological processes and landscape-scale drivers (hydrologic, climatological, and human). During FCE I, our ideas about how these "upside-down" estuaries (Childers et al. 2006) function has evolved, and we have modified our central theme to reflect this new understanding. Our focus in FCE II will be even more strongly on the oligohaline ecotone region of our experimental transects. For FCE II, our overarching theme is:  In the coastal Everglades landscape, population and ecosystem-level dynamics are controlled by the relative importance of water source, water residence time, and local biotic processes. This phenomenon is best exemplified in the oligohaline ecotone, where these 3 factors interact most strongly and vary over many [temporal and spatial] scales.Hypothesis 1: Increasing inputs of fresh water will enhance oligotrophy in nutrient-poor coastal systems, as long as the inflowing water has low nutrient content; this dynamic will be most pronounced in the oligohaline ecotone.  Hypothesis 2: An increase in freshwater inflow will increase the physical transport of detrital organic matter to the oligohaline ecotone, which will enhance estuarine productivity. The quality of these allochthonous detrital inputs will be controlled by upstream ecological processes. Hypothesis 3: Water residence time, groundwater inputs, and tidal energy interact with climatic and disturbance regimes to modify ecological pattern and process in oligotrophic estuaries; this dynamic will be most pronounced in the oligohaline ecotone. Childers, D.L., J.N. Boyer, S.E. Davis, C.J. Madden, D.T. Rudnick, and F.H. Sklar, 2006. Relating precipitation and water management to nutrient concentration patterns in the oligotrophic "upside down" estuaries of the Florida Everglades. Limnology and Oceanography, 51(1): 602-616. </para>
+        </abstract>
+        <funding>
+          <para>National Science Foundation under Grant # 9910514 and #0620409</para>
+        </funding>
+        <studyAreaDescription>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>The FCE LTER Project Study area is located in South Florida, mostly in Everglades National Park. There are a total of 20 sampling sites located in two major regions: 1) Shark River Slough and 2) Taylor Slough/Panhandle.</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-81.078</westBoundingCoordinate>
+                <eastBoundingCoordinate>-80.490</eastBoundingCoordinate>
+                <northBoundingCoordinate>25.761</northBoundingCoordinate>
+                <southBoundingCoordinate>24.913</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2006-12-01</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2012-12-01</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </studyAreaDescription>
+      </relatedProject>
+      <relatedProject id="64">
+        <title>FCE LTER III:  Coastal Oligotrophic Ecosystems Research</title>
+        <personnel>
+          <individualName>
+            <givenName>Evelyn </givenName>
+            <surName>Gaiser</surName>
+          </individualName>
+          <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+          <address>
+            <deliveryPoint>Florida International University</deliveryPoint>
+            <deliveryPoint> University Park</deliveryPoint>
+            <deliveryPoint> OE 148</deliveryPoint>
+            <city>Miami</city>
+            <administrativeArea>FL</administrativeArea>
+            <postalCode>33199</postalCode>
+            <country>USA</country>
+          </address>
+          <phone phonetype="voice">305-348-6145</phone>
+          <phone phonetype="fax">305-348-4096</phone>
+          <electronicMailAddress>gaisere@fiu.edu</electronicMailAddress>
+          <role>Lead Principal Investigator</role>
+        </personnel>
+        <personnel>
+          <individualName>
+            <givenName>Mike</givenName>
+            <surName>Heithaus</surName>
+          </individualName>
+          <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+          <address>
+            <deliveryPoint>Department of Biological Sciences</deliveryPoint>
+            <deliveryPoint>Marine Biology Program</deliveryPoint>
+            <deliveryPoint>Florida International University</deliveryPoint>
+            <deliveryPoint>Biscayne Bay Campus</deliveryPoint>
+            <city>Miami</city>
+            <administrativeArea>FL </administrativeArea>
+            <postalCode>33181</postalCode>
+            <country>USA</country>
+          </address>
+          <phone phonetype="voice">(305) 919-5234</phone>
+          <phone phonetype="fax">(305) 919-4030</phone>
+          <electronicMailAddress>heithaus@fiu.edu</electronicMailAddress>
+          <role>Principal Investigator</role>
+        </personnel>
+        <personnel>
+          <individualName>
+            <givenName>Rudolf</givenName>
+            <surName>Jaffe</surName>
+          </individualName>
+          <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+          <address>
+            <deliveryPoint>Department of Chemistry</deliveryPoint>
+            <deliveryPoint>Florida International University</deliveryPoint>
+            <deliveryPoint>University Park</deliveryPoint>
+            <deliveryPoint>CP 304</deliveryPoint>
+            <city>Miami</city>
+            <administrativeArea>FL</administrativeArea>
+            <postalCode>33199</postalCode>
+            <country>USA</country>
+          </address>
+          <phone phonetype="voice">305-348-2456</phone>
+          <phone phonetype="fax">305-348-4096</phone>
+          <electronicMailAddress>jaffer@fiu.edu </electronicMailAddress>
+          <role>Principal Investigator</role>
+        </personnel>
+        <personnel>
+          <individualName>
+            <givenName>Rene</givenName>
+            <surName>Price </surName>
+          </individualName>
+          <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+          <address>
+            <deliveryPoint>Department of Earth Sciences</deliveryPoint>
+            <deliveryPoint> Florida International University</deliveryPoint>
+            <deliveryPoint> University Park</deliveryPoint>
+            <deliveryPoint> PC 344</deliveryPoint>
+            <deliveryPoint> 11200 SW 8th Street</deliveryPoint>
+            <city>Miami</city>
+            <administrativeArea>FL</administrativeArea>
+            <postalCode>33199</postalCode>
+            <country>USA</country>
+          </address>
+          <phone phonetype="voice">305-348-3119</phone>
+          <phone phonetype="fax">305-348-3877</phone>
+          <electronicMailAddress>pricer@fiu.edu</electronicMailAddress>
+          <role>Principal Investigator</role>
+        </personnel>
+        <personnel>
+          <individualName>
+            <givenName>Laura</givenName>
+            <surName>Ogden</surName>
+          </individualName>
+          <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+          <address>
+            <deliveryPoint>Department of Global &amp; Sociocultural Studies</deliveryPoint>
+            <deliveryPoint> Florida International University</deliveryPoint>
+            <deliveryPoint> University Park</deliveryPoint>
+            <deliveryPoint> DM341C</deliveryPoint>
+            <deliveryPoint> 11200 SW 8th Street</deliveryPoint>
+            <city>Miami</city>
+            <administrativeArea>FL</administrativeArea>
+            <postalCode>33199</postalCode>
+            <country>USA</country>
+          </address>
+          <phone phonetype="voice">305-348-6663</phone>
+          <phone phonetype="fax">305-348-3605</phone>
+          <electronicMailAddress>Laura.Ogden@fiu.edu</electronicMailAddress>
+          <role>Principal Investigator</role>
+        </personnel>
+        <abstract>
+          <para>Coastal ecosystems are being modified at unprecedented rates through interacting
+
+pressures of global climate change and rapid human population growth, impacting natural coastal
+
+resources and the services they provide. Located at the base of the shallow-sloping Florida peninsula, the Everglades wilderness and 6 million human residents are exceptionally exposed to both pressures. Further, freshwater drainage has accelerated saltwater intrusion over land and into the porous limestone aquifer, resulting in coastal ecosystem transgression and seasonal residential freshwater shortages. The unprecedented landscape-scale Everglades restoration process is expected to reverse some of these trends. However, it is not clear how uncertainties about climate change prognoses and their impacts (e.g., sea level rise (SLR), changes in storm activity or severity, and climate drivers of freshwater availability) may influence human activities (e.g., population growth, resource use, land-use change), and how their interaction will affect the restoration process that is already steeped in conflict. The Florida Coastal Everglades Long-Term Ecological Research (FCE LTER) program is dedicated to long-term coupled biophysical and cultural studies that expose and unravel complex feedbacks that generate distinctive patterns and processes in vulnerable coastal ecosystems. The overarching theme of FCE research is: In the coastal Everglades, climate change and resource management decisions interact to influence
+
+freshwater availability, ecosystem dynamics, and the value and utilization of ecosystem services by people. Because they are highly sensitive to the balance of freshwater and marine influences,
+
+coastal wetlands of the Florida Everglades provide an ideal system to examine how socio-ecological systems respond to and mitigate the effects of climate change and freshwater allocation decisions. The trans-disciplinary science conducted by the large FCE research team is revealing how estuary hydrodynamics and biogeochemistry may tilt on a fulcrum defined by the magnitude by which coastal pressures (SRL, storms) are mitigated by freshwater flows. We employ a socio-ecological framework to address how climate change interacts with political decisions to determine the sustainability of interconnected human-natural systems. In FCE I, we discovered how coastal nutrient supplies create an unusual “upside-down” productivity gradient in karstic estuaries. FCE II research used growing long-term datasets to reveal the sensitivity of this gradient to changes in hydrodynamics, nutrient availability, and salinity. In FCE III, we will use South Florida as an exemplary system for understanding how and why socio-ecological systems resist, adapt to, or mitigate the effects of climate change on ecosystem sustainability. We will examine how decisions about freshwater delivery to the Everglades influence -and are influenced by - the impact of SLR in this especially vulnerable landscape. Biophysical studies will focus on how this balance of fresh and marine sources influences biogeochemical cycling, primary production, organic matter dynamics, and trophic dynamics, to drive carbon gains and losses. We expand our spatio-temporal domain by employing powerful long-term datasets and experiments to determine legacies of past interactions, and to constrain models that will help guide a sustainable future for the FCE.
+
+</para>
+        </abstract>
+        <funding>
+          <para>National Science Foundation under Grant # 9910514, #0620409 and DEB-1237517</para>
+        </funding>
+        <studyAreaDescription>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>The FCE LTER Project Study area is located in South Florida, mostly in Everglades National Park. There are a total of 20 sampling sites located in two major regions: 1) Shark River Slough and 2) Taylor Slough/Panhandle.</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-81.078</westBoundingCoordinate>
+                <eastBoundingCoordinate>-80.490</eastBoundingCoordinate>
+                <northBoundingCoordinate>25.761</northBoundingCoordinate>
+                <southBoundingCoordinate>24.913</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2012-12-01</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2018-12-01</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </studyAreaDescription>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>LT_PP_Castaneda_001.txt</entityName>
+      <entityDescription>Mangrove Litterfall from the Shark River Slough and Taylor Slough, Everglades National Park, South Florida</entityDescription>
+      <physical>
+        <objectName>LT_PP_Castaneda_001.txt</objectName>
+        <size unit="KB">653</size>
+        <authentication method="MD5">e530e47d0ed11d62cc1b23e10979f760</authentication>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-fce/1195/4/4d05e67361546f0ecbba494ed5d50ff9</url>
+          </online>
+          <access
+            authSystem="https://pasta.edirepository.org/authentication"
+            order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+            <allow>
+              <principal>uid=FCE,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>read</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="att.1">
+          <attributeName>SITENAME</attributeName>
+          <attributeLabel>sitename</attributeLabel>
+          <attributeDefinition>Name of LTER site</attributeDefinition>
+          <storageType>text</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of LTER site</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="att.2">
+          <attributeName>Date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>Collection date</attributeDefinition>
+          <storageType>datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">2001-01-25</minimum>
+                  <maximum exclusive="false">2014-12-15</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="att.3">
+          <attributeName>Plot_ID</attributeName>
+          <attributeLabel>ID number</attributeLabel>
+          <attributeDefinition>Plot ID Number</attributeDefinition>
+          <storageType>ordinal</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Plot ID Number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.4">
+          <attributeName>Basket_ID</attributeName>
+          <attributeLabel>ID number</attributeLabel>
+          <attributeDefinition>Basket ID Number</attributeDefinition>
+          <storageType>ordinal</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Basket ID Number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.5">
+          <attributeName>Ag_Leaves</attributeName>
+          <attributeLabel>dry weight</attributeLabel>
+          <attributeDefinition>Mangrove Species Avicennia germinans Leaf Dry Weight</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.6">
+          <attributeName>Rm_Leaves</attributeName>
+          <attributeLabel>dry weight</attributeLabel>
+          <attributeDefinition>Mangrove Species Rhizophora mangle Leaf Dry Weight</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.7">
+          <attributeName>Lr_Leaves</attributeName>
+          <attributeLabel>dry weight</attributeLabel>
+          <attributeDefinition>Mangrove Species Laguncularia racemosa Leaf Dry Weight</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.8">
+          <attributeName>Ce_Leaves</attributeName>
+          <attributeLabel>dry weight</attributeLabel>
+          <attributeDefinition>Mangrove Species Conocarpus erectus Leaf Dry Weight</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.9">
+          <attributeName>Rm_Stipules</attributeName>
+          <attributeLabel>dry weight</attributeLabel>
+          <attributeDefinition>Mangrove Species Rhizophora mangle Stipules Dry Weight</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.10">
+          <attributeName>Ag_Flower</attributeName>
+          <attributeLabel>dry weight</attributeLabel>
+          <attributeDefinition>Mangrove Species Avicennia germinans Flower Dry Weight</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.11">
+          <attributeName>Rm_Flower</attributeName>
+          <attributeLabel>dry weight</attributeLabel>
+          <attributeDefinition>Mangrove Species Rhizophora mangle Flower Dry Weight</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.12">
+          <attributeName>Lr_Flower</attributeName>
+          <attributeLabel>dry weight</attributeLabel>
+          <attributeDefinition>Mangrove Species Laguncularia racemosa Flower Dry Weight</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.13">
+          <attributeName>Ce_Flower</attributeName>
+          <attributeLabel>dry weight</attributeLabel>
+          <attributeDefinition>Mangrove Species Conocarpus erectus Flower Dry Weight</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.14">
+          <attributeName>Ag_Propagules</attributeName>
+          <attributeLabel>dry weight</attributeLabel>
+          <attributeDefinition>Mangrove Species Avicennia germinans Propagules Dry Weight</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.15">
+          <attributeName>Rm_Propagules</attributeName>
+          <attributeLabel>dry weight</attributeLabel>
+          <attributeDefinition>Mangrove Species Rhizophora mangle Propagules Dry Weight</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.16">
+          <attributeName>Lr_Propagules</attributeName>
+          <attributeLabel>dry weight</attributeLabel>
+          <attributeDefinition>Mangrove Species Laguncularia racemosa Propagules Dry Weight</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.17">
+          <attributeName>Ce_Propagules</attributeName>
+          <attributeLabel>dry weight</attributeLabel>
+          <attributeDefinition>Mangrove Species Conocarpus erectus Propagules Dry Weight</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.18">
+          <attributeName>Wood</attributeName>
+          <attributeLabel>dry weight</attributeLabel>
+          <attributeDefinition>Wood Dry Weight</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.19">
+          <attributeName>Miscellaneous</attributeName>
+          <attributeLabel>dry weight</attributeLabel>
+          <attributeDefinition>Miscellaneous Materials Dry Weight</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.20">
+          <attributeName>Rm_fruit_embryo</attributeName>
+          <attributeLabel>dry weight</attributeLabel>
+          <attributeDefinition>Mangrove Species Rhizophora mangle Fruit Embryo Dry Weight</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.21">
+          <attributeName>Total_Weight </attributeName>
+          <attributeLabel>dry weight</attributeLabel>
+          <attributeDefinition>Total Dry Weight</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>-9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>5870</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <additionalDataset>
+        <researchType>Long-term</researchType>
+        <addDistribution>
+          <submissionDate>2016-11-11</submissionDate>
+        </addDistribution>
+        <LTERsites>
+          <sitename>SRS4,SRS5,SRS6,TS/Ph8</sitename>
+        </LTERsites>
+        <datasetSubmissionNotes>
+          <notes>Sampling on site TS/Ph8 has been cancelled since January 2007. During 2008 and 2009, the miscellaneous component is a composite of all other components, except leaves. Beginning on January 2010 all litterfall components are registered.</notes>
+        </datasetSubmissionNotes>
+        <datasetInfoManagementNotes>
+          <notes>Data from 2016 onward are currently not available due to Type II Data Restrictions (Dissertation Data). This is a long-term primary production dataset and subsequent data wil be appended. </notes>
+        </datasetInfoManagementNotes>
+      </additionalDataset>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>
