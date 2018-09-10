@@ -1,6 +1,0 @@
-Manifest file for archive_knb-lter-gce.628.3_152217315875931004.zip created on Tue Mar 27 11:52:38 MDT 2018
-PLT-GCED-1711b_1_0.CSV (6646 bytes)
-PLT-GCED-1711b.kml (10678 bytes)
-knb-lter-gce.628.3.xml (31004 bytes)
-knb-lter-gce.628.3.txt (6040 bytes)
-knb-lter-gce.628.3.report.xml (33834 bytes)
