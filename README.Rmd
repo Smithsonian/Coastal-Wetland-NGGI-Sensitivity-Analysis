@@ -1,5 +1,13 @@
-# Coastal-Wetland-NGGI-Sensitivity-Analysis
-Files for value added uncertainty analysis supporting EPA coastal wetland NGGI.
+---
+title: "README"
+author: "James R Holmquist"
+output:
+  html_document:
+    fig_cap: true
+---
+
+# Overview
+Files and code used to generate analyses in the Environmental Research Letters paper _Uncertainty in United States coastal wetland greenhouse gas inventorying_. 
 
 #### Contact: holmquistj@si.edu
 
@@ -8,24 +16,19 @@ Files for value added uncertainty analysis supporting EPA coastal wetland NGGI.
 ### Manuscript Abstract
 Coastal wetlands store carbon dioxide (CO2) and emit CO2 and methane (CH4) making them an important part of greenhouse gas (GHG) inventorying. In the contiguous United States (CONUS), a coastal wetland inventory was recently calculated by combining maps of wetland type and change with soil, biomass, and CH4 flux data from a literature review. We assess uncertainty in this developing carbon monitoring system to quantify confidence in the inventory process itself and to prioritize future research. We provide a value-added analysis by defining types and scales of uncertainty for assumptions, burial and emissions datasets, and wetland maps, simulating 10,000 iterations of a simplified version of the inventory, and performing a sensitivity analysis. Coastal wetlands were likely a source of net-CO2-equivalent (CO2e) emissions from 2006 to 2011. Although stable estuarine wetlands were likely a CO2e sink, this effect was counteracted by catastrophic soil losses in the Gulf Coast, and CH4 emissions from tidal freshwater wetlands. The direction and magnitude of total CONUS CO2e flux were most sensitive to uncertainty in emissions and burial data, and assumptions about how to calculate the inventory. Critical data uncertainties included CH4 emissions for stable freshwater wetlands and carbon burial rates for all coastal wetlands. Critical assumptions included the average depth of soil affected by erosion events, the method used to convert CH4 fluxes to CO2e, and the fraction of carbon lost to the atmosphere following an erosion event. The inventory was relatively insensitive to mapping uncertainties. Future versions could be improved by collecting additional data, especially the depth affected by loss events, and by better mapping salinity and inundation gradients relevant to key GHG fluxes.
 
-![](https://github.com/Smithsonian/Coastal-Wetland-NGGI-Sensitivity-Analysis/blob/master/figs/main/1%20NGGI%20Mapping%20Slide.jpg "NGGI Mapping")
+<br>
 
-Figure 1: The three mapping layers used in our coastal wetland greenhouse gas inventory viewed for San Francisco Bay. A. 2011 Coastal Change Analysis Program (C-CAP) Land Cover Classifications. B. 2006 to 2011 C-CAP Change Map (Basemap © ESRI, permission pending). C. A probabilistic coastal lands map, showing the probability elevation is below twice highest monthly tide level, mean higher high water for spring tides (MHHWS).
+![Fig. 1: The three mapping layers used in our coastal wetland greenhouse gas inventory viewed for San Francisco Bay. A. 2011 Coastal Change Analysis Program (C-CAP) Land Cover Classifications. B. 2006 to 2011 C-CAP Change Map (Basemap © ESRI, used with permission). C. A probabilistic coastal lands map, showing the probability elevation is below twice highest monthly tide level, mean higher high water for spring tides (MHHWS).](figs/main/1 NGGI Mapping Slide.jpg)
 
 <br>
 <br>
 
-![](https://github.com/Smithsonian/Coastal-Wetland-NGGI-Sensitivity-Analysis/blob/master/figs/main/7%20Sensitivity%20Analysis%203%20by%206%20180808.jpg "Effect of Uncertainty on Total Flux")
+![Fig. 7: These fifteen inputs introduced the most uncertainty into the Coastal Wetland National Greenhouse Gas Inventory according to a one-at-a-time sensitivity analysis. GWP: Global Warming Potential, SGWP: Sustained GWP, SGCP: Sustained Global Cooling Potential, NWI: National Wetlands Inventory, EAB: Estuarine Aquatic Bed, OW: Open Water, UCS: Unconsolidated Shore, PAB: Palustrine Aquatic Bed.](figs/main/7 Sensitivity Analysis 3 by 6 180808.jpg)
 
+<br>
 
-Figure 7: These fifteen inputs introduced the most uncertainty into the Coastal Wetland National Greenhouse Gas Inventory (NGGI) according to a one-at-a-time sensitivity analysis. GWP: Global Warming Potential, SGWP: Sustained GWP, SGCP: Sustained Global Cooling Potential, NWI: National Wetlands Inventory, EAB: Estuarine Aquatic Bed, OW: Open Water, UCS: Unconsolidated Shore, PAB: Palustrine Aquatic Bed.
-
-
+## Citation Information
 Please cite as:
 
-## Update to citation needed
-
-Holmquist, J.R., Windham-Myers, L., Bernal, B., Byrd, K. B., Crooks, S., Gonneea, M. E., Herold, N., Knox, S. H., Kroeger, K., McCombs, J., Megonigal, J. P., Meng, L., Morris, J. T., Sutton-Grier, A. E., Troxler, T. G., Weller, D. E. Uncertainty in United States coastal wetland greenhouse gas inventorying. 
-
-
+Holmquist, J.R., Windham-Myers, L., Bernal, B., Byrd, K. B., Crooks, S., Gonneea, M. E., Herold, N., Knox, S. H., Kroeger, K., McCombs, J., Megonigal, J. P., Meng, L., Morris, J. T., Sutton-Grier, A. E., Troxler, T. G., Weller, D. E. Uncertainty in United States coastal wetland greenhouse gas inventorying. Environmental Research Letters.  https://doi.org/10.1088/1748-9326/aae157.
 
