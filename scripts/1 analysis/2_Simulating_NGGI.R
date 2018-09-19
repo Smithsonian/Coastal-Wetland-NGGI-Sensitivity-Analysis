@@ -18,7 +18,7 @@ set.seed(5) # set seed so that analyses are replicable
   gramsPerKg <- 1000 #1000 grams per kg
   m2PerHa <- 10000 # 10,000 meters squared per hectare
   millionHaPerHa <- 1E6 # 1 million hectare per hectare
-  carbonPerBiomass <- 0.441 # carbon per biomass according to Byrd et al., 2018 synthesis
+  carbonPerBiomass <- 0.441 # carbon per biomass according to Byrd et al., 2018
   gramsPerPetagram <-1E15 # grams per petagram
   m2perPixel <- 900 # meters sequred per 30 x 30 meter pixel
   carbonToCO2 <- 3.666667 # moles carbon coverts to moles CO2
@@ -30,14 +30,17 @@ set.seed(5) # set seed so that analyses are replicable
   ccap_fullTab <- read.dbf("data/WetlandArea/CCAP/AllStates2006to2010wGreatLakes_170720B.dbf")
   
   # load ccap accuracy assesment data so we can simulate uncertainty due to accuracy
-  ccap_aa <- read_csv("data/WetlandArea/CCAP/2010Classes/CCAP2010AccuracyAssessment.csv") # load accuracy assesment csv file
+  # load accuracy assesment csv file
+  ccap_aa <- read_csv("data/WetlandArea/CCAP/2010Classes/CCAP2010AccuracyAssessment.csv")
   ccap_aa <- as.matrix(ccap_aa[, 2:ncol(ccap_aa)]) # transform to matrix
   rownames(ccap_aa) <- colnames(ccap_aa) # match rownames to header names
-  ccap_tab <- read.csv("data/WetlandArea/CCAP/2010Classes/ccapPixelCounts.csv") # load area data
+  # load area data
+  ccap_tab <- read.csv("data/WetlandArea/CCAP/2010Classes/ccapPixelCounts.csv")
   ccap_area <- ccap_tab$pixels # turn pixel counts into a vector
   
   # same as above for change no change
-  cnc_aa <- read_csv("data/WetlandArea/CCAP/CNC/CCAP06to10ChangeNoChangeAccuracyAssesment.csv") # load accuracy assesment csv file
+  # load accuracy assesment csv file
+  cnc_aa <- read_csv("data/WetlandArea/CCAP/CNC/CCAP06to10ChangeNoChangeAccuracyAssesment.csv")
   cnc_aa <- as.matrix(cnc_aa[, 2:ncol(cnc_aa)])  # transform to matrix
   rownames(cnc_aa) <- colnames(cnc_aa) # match rownames to header names
   cnc_tab <- read.csv("data/WetlandArea/CCAP/CNC/cncPixelCounts.csv") # load area data
@@ -51,7 +54,8 @@ set.seed(5) # set seed so that analyses are replicable
   
   # Soils Data Summary from Holmquist et al., 2018 Scientific Reports
   soilCarbonMean_gCcm3 <- 0.027  # mean is in grams carbon per cubic centimeter
-  soilCarbonSd_gCcm3 <- 0.013 # standard deviation in grams carbon per cubic centimeter
+  # standard deviation in grams carbon per cubic centimeter
+  soilCarbonSd_gCcm3 <- 0.013
   soilCarbonN <- 8280 # number of depth intervals
   
   # load CAR data
@@ -63,24 +67,33 @@ set.seed(5) # set seed so that analyses are replicable
   
   # Load Sara's Methane Data
   methane <- read.csv("data/Methane/derivative/Methane Synthesis Knox.csv")
-  names(methane) <- c("Site.Name", "Location", "Region", "Saliniity.class", "year", "Method", "Salinity.ppt", "CH4.flux", "Reference")
+  names(methane) <- c("Site.Name", "Location", "Region", "Saliniity.class", 
+                      "year", "Method", "Salinity.ppt", "CH4.flux", "Reference")
 }
 
 # Define assumptions re: land cover classes
 {
   # C-CAP Classes
-  classOrder <-c('High Intensity Developed', 'Medium Intensity Developed', 'Low Intensity Developed', 'Developed Open Space', 
+  classOrder <-c('High Intensity Developed', 'Medium Intensity Developed', 
+                 'Low Intensity Developed', 'Developed Open Space', 
                  'Cultivated', 'Pasture/Hay', 
-                 'Grassland', 'Deciduous Forest', 'Evergreen Forest', 'Mixed Forest', 'Scrub/Shrub', 
-                 'Palustrine Forested Wetland', 'Palustrine Scrub/Shrub Wetland', 'Palustrine Emergent Wetland', 
-                 'Estuarine Forested Wetland', 'Estuarine Scrub/Shrub Wetland', 'Estuarine Emergent Wetland', 
+                 'Grassland', 'Deciduous Forest', 'Evergreen Forest', 
+                 'Mixed Forest', 'Scrub/Shrub', 
+                 'Palustrine Forested Wetland', 'Palustrine Scrub/Shrub Wetland', 
+                 'Palustrine Emergent Wetland', 
+                 'Estuarine Forested Wetland', 'Estuarine Scrub/Shrub Wetland', 
+                 'Estuarine Emergent Wetland', 
                  'Unconsolidated Shore', 'Bare Land', 'Water', 
                  'Palustrine Aquatic Bed', 'Estuarine Aquatic Bed',
                  'Snow/Ice')
   
   # Define Palustrine and Estuarine Wetlands
-  palustrineWetlands <- c('Palustrine Forested Wetland', 'Palustrine Scrub/Shrub Wetland', 'Palustrine Emergent Wetland')
-  estuarineWetlands <- c('Estuarine Forested Wetland', 'Estuarine Scrub/Shrub Wetland', 'Estuarine Emergent Wetland')
+  palustrineWetlands <- c('Palustrine Forested Wetland', 
+                          'Palustrine Scrub/Shrub Wetland', 
+                          'Palustrine Emergent Wetland')
+  estuarineWetlands <- c('Estuarine Forested Wetland', 
+                         'Estuarine Scrub/Shrub Wetland', 
+                         'Estuarine Emergent Wetland')
   
   # devine abbreviations
   abbrevs <- c('HID', 'MID', 'LID', 'OSD',
@@ -89,8 +102,9 @@ set.seed(5) # set seed so that analyses are replicable
                'PFW', 'PSS', 'PEM', 'EFW', 'ESS', 'EEM',
                'UCS', 'BAR', 'OW', 'PAB', 'EAB', 'SNOW')
   
-  # Define what counts as a soil loss event when a wetland converts to another class
-  soilLossEvents <- c('High Intensity Developed', 'Medium Intensity Developed', 'Low Intensity Developed', 'Developed Open Space',
+  # Define what counts as a soil loss event when a wetland converts
+  soilLossEvents <- c('High Intensity Developed', 'Medium Intensity Developed', 
+                      'Low Intensity Developed', 'Developed Open Space',
                       'Cultivated', 'Pasture/Hay',
                       'Unconsolidated Shore', 'Water',
                       'Palustrine Aquatic Bed', 'Estuarine Aquatic Bed')
@@ -114,18 +128,23 @@ set.seed(5) # set seed so that analyses are replicable
              'Estuarine Emergent Wetland'
              )
   # Define non vegetated classes
-  nonVeg <-c('High Intensity Developed', 'Medium Intensity Developed', 'Low Intensity Developed', 'Developed Open Space',
+  nonVeg <-c('High Intensity Developed', 'Medium Intensity Developed', 
+             'Low Intensity Developed', 'Developed Open Space',
              'Unconsolidated Shore', 'Bare Land', 'Water', 
              'Palustrine Aquatic Bed', 'Estuarine Aquatic Bed',
              'Tundra',
              'Snow/Ice'
              )
   
-  # This function takes class at t1 and t2 and outputs a general salinity class Estuarine, Palustrine or Neither
-  classify_by_salinity <- function(class_time1 = "Estuarine Emergent Wetland", class_time2 = "Open Water") {
-    if (class_time1 %in% estuarineWetlands | class_time2 %in% estuarineWetlands) {
+  # This function takes class at t1 and t2 and 
+  # outputs a general salinity class Estuarine, Palustrine or Neither
+  classify_by_salinity <- function(class_time1 = "Estuarine Emergent Wetland", 
+                                   class_time2 = "Open Water") {
+    if (class_time1 %in% estuarineWetlands | 
+        class_time2 %in% estuarineWetlands) {
       salinity_class <- "Estuarine"
-    } else if (class_time1 %in% palustrineWetlands | class_time2 %in% palustrineWetlands) {
+    } else if (class_time1 %in% palustrineWetlands | 
+               class_time2 %in% palustrineWetlands) {
       salinity_class <- "Palustrine"
     } else {
       salinity_class <- NA
@@ -163,21 +182,30 @@ set.seed(5) # set seed so that analyses are replicable
   areaVariableType <- c()
   for (m in 1:length(classOrder)) {
     for (n in 1:length(classOrder)) {
-      if ((classOrder[m] %in% c(palustrineWetlands, estuarineWetlands)) | (classOrder[n] %in% c(palustrineWetlands, estuarineWetlands))) {
+      if ((classOrder[m] %in% c(palustrineWetlands, estuarineWetlands)) | 
+          (classOrder[n] %in% c(palustrineWetlands, estuarineWetlands))) {
         class2006ToAnalyse <- c(class2006ToAnalyse, classOrder[m])
         abbrev2006ToAnalyse <- c(abbrev2006ToAnalyse, abbrevs[m])
         class2010ToAnalyse <- c(class2010ToAnalyse, classOrder[n])
         abbrev2010ToAnalyse <- c(abbrev2010ToAnalyse, abbrevs[n])
-        classesToAnalyse <- c(classesToAnalyse, paste(classOrder[m], " to ", classOrder[n], sep=""))
-        abbreviationsToAnalyse <- c(abbreviationsToAnalyse, paste(abbrevs[m], "_", abbrevs[n], sep=""))
-        if ((classOrder[m] %in% estuarineWetlands) | (classOrder[n] %in% estuarineWetlands)) { areaVariableType <- c(areaVariableType, "fixed") }
-        else { areaVariableType <- c(areaVariableType, "random") } 
+        classesToAnalyse <- c(classesToAnalyse, 
+                              paste(classOrder[m], " to ", classOrder[n], sep=""))
+        abbreviationsToAnalyse <- c(abbreviationsToAnalyse, 
+                                    paste(abbrevs[m], "_", abbrevs[n], sep=""))
+        if ((classOrder[m] %in% estuarineWetlands) | 
+            (classOrder[n] %in% estuarineWetlands)) { 
+          areaVariableType <- c(areaVariableType, "fixed") 
+          } else { areaVariableType <- c(areaVariableType, "random") } 
       }
     }
   }
-  ccapClassDf <- data.frame(class_2006 = class2006ToAnalyse, abbrev_2006 = abbrev2006ToAnalyse,
-                            class_2010 = class2010ToAnalyse, abbrev_2010 = abbrev2010ToAnalyse,
-                            class = classesToAnalyse, abbrev = abbreviationsToAnalyse, variableType = areaVariableType)
+  ccapClassDf <- data.frame(class_2006 = class2006ToAnalyse, 
+                            abbrev_2006 = abbrev2006ToAnalyse,
+                            class_2010 = class2010ToAnalyse, 
+                            abbrev_2010 = abbrev2010ToAnalyse,
+                            class = classesToAnalyse, 
+                            abbrev = abbreviationsToAnalyse, 
+                            variableType = areaVariableType)
   
   # Compile a table of all of the Fixed Mapped Areas (Estuarine)
   estCcapClassDf <- subset(ccapClassDf, variableType == "fixed")
@@ -206,7 +234,8 @@ set.seed(5) # set seed so that analyses are replicable
     } else {
       classPixelCount <- 0
     }
-    palustrineNWIClassPixelCounts <- c(palustrineNWIClassPixelCounts, classPixelCount)
+    palustrineNWIClassPixelCounts <- c(palustrineNWIClassPixelCounts, 
+                                       classPixelCount)
   }
   palCcapClassDf_NWI["mappedPixelCount"] <- palustrineNWIClassPixelCounts
   palCcapClassDf_NWI["variableType"] <- rep("fixed", nrow(palCcapClassDf_NWI))
@@ -215,8 +244,10 @@ set.seed(5) # set seed so that analyses are replicable
 # Prep the Soil Carbon Data and convert to gCO2 eq. per m2 per year
 {
   # convert to gCO2 per m3
-  cm.mean <- soilCarbonMean_gCcm3 * carbonToCO2 * 100 * 10000 # x 100 cm. x 10,000 cm2 per m2 x 1 m
-  cm.sd <- soilCarbonSd_gCcm3 * carbonToCO2 * 100 * 10000 # x 100 cm. x 10,000 cm2 per m2 x 1 m
+  # x 100 cm. x 10,000 cm2 per m2 x 1 m
+  cm.mean <- soilCarbonMean_gCcm3 * carbonToCO2 * 100 * 10000
+  # x 100 cm. x 10,000 cm2 per m2 x 1 m
+  cm.sd <- soilCarbonSd_gCcm3 * carbonToCO2 * 100 * 10000
   cm.n <- soilCarbonN
   
   # Split carbon accumulation rates into methods
@@ -229,7 +260,7 @@ set.seed(5) # set seed so that analyses are replicable
   pb <- pb * carbonToCO2
   
   # in this case we're going with Cesium dated cores
-  # CAR is log normally distrbuted because it can't be negative and has a long tail
+  # CAR is log normally distrbuted because it can't be negative and has a tail
   cs.n <- length(cs) 
   cs.log.mean <- mean(log(cs))
   cs.log.sd <- sd(log(cs))
@@ -270,11 +301,15 @@ set.seed(5) # set seed so that analyses are replicable
   generateMethaneGPs <- function(ch4) { return(ch4 * 25) }
   
   # Units are in gCH4 per m2 per year
-  ch4_co2_eq_sgwp <- mapply(generateMethaneSGPs, methane$CH4.flux) # Calculate CO2 equivalents
-  methane["ch4_co2_eq_sgwp"] <- ch4_co2_eq_sgwp # add to the dataframe so they can be sorted
+  # Calculate CO2 equivalents
+  ch4_co2_eq_sgwp <- mapply(generateMethaneSGPs, methane$CH4.flux)
+  # add to the dataframe so they can be sorted
+  methane["ch4_co2_eq_sgwp"] <- ch4_co2_eq_sgwp
   
-  ch4_co2_eq_gwp <- mapply(generateMethaneGPs, methane$CH4.flux) # Calculate CO2 equivalents
-  methane["ch4_co2_eq_gwp"] <- ch4_co2_eq_gwp # add to the dataframe so they can be sorted
+  # Calculate CO2 equivalents
+  ch4_co2_eq_gwp <- mapply(generateMethaneGPs, methane$CH4.flux)
+  # add to the dataframe so they can be sorted
+  methane["ch4_co2_eq_gwp"] <- ch4_co2_eq_gwp
   
   # Estuarine Emissions Factors are Normally Distributed
   # Units are in gCO2 equivalent per m2 per year
@@ -300,29 +335,41 @@ set.seed(5) # set seed so that analyses are replicable
   palustrine.methane.mean.gwp <- mean(pal.ch4$ch4_co2_eq_gwp)
 }
 
-# Functions for Accuracy Assesment and Unbiased Area Estimation from Oloffson et al., 2014
+# Functions for Accuracy Assesment and Unbiased Area Estimation 
+# from Oloffson et al., 2014
 {
-  propAreaCalc <- function(input_area) {return(input_area / sum(as.numeric(input_area))) } # simply calculates proportional area
+  propAreaCalc <- function(input_area) {
+    # simply calculates proportional area
+    return(input_area / sum(as.numeric(input_area))) 
+    }
   
-  propAreaMatrix <-function(input_matrix, input_areas) { # makes a matrix the proportional area matrix Eq. 4
-    input_pAreas <- propAreaCalc(input_areas) # proportional area instead of raw area
+  # makes a matrix the proportional area matrix Eq. 4
+  propAreaMatrix <-function(input_matrix, input_areas) {
+    # proportional area instead of raw area
+    input_pAreas <- propAreaCalc(input_areas) 
     n_rowSums <- rowSums(input_matrix) # counts per map class
-    areaPropMatrix <- (input_matrix / n_rowSums) * input_pAreas # proportional counts multiplied by proportional area of the mapped class
+    # proportional counts multiplied by proportional area of the mapped class
+    areaPropMatrix <- (input_matrix / n_rowSums) * input_pAreas
     return(areaPropMatrix)
   }
   
-  u_accuracy <- function(input_matrix, input_areas) { # function for user's accuracy given a confusion matrix. Eq. 2.
+  # function for user's accuracy given a confusion matrix. Eq. 2.
+  u_accuracy <- function(input_matrix, input_areas) {
     # create proportional area matrix
-    tempPropAreaMatrix <- propAreaMatrix(input_matrix, input_areas) # calculate confusion matrix as proportional area rather than n
+    # calculate confusion matrix as proportional area rather than n
+    tempPropAreaMatrix <- propAreaMatrix(input_matrix, input_areas) 
     ua_output <- c()
     q <- nrow(tempPropAreaMatrix) # number of classes
     for (i in 1:q) { # for each class
-      ua_temp <- tempPropAreaMatrix[i,i] / sum(as.numeric(tempPropAreaMatrix[i,])) # correct classifications divided by row sum
+      # correct classifications divided by row sum
+      ua_temp <- tempPropAreaMatrix[i,i] / sum(as.numeric(tempPropAreaMatrix[i,]))
       ua_output <-c(ua_output, ua_temp)
     }
     var <- c()
     for (i in 1:length(ua_output)) { # for each map class
-      temp_var <- (ua_output[i] * (1-ua_output[i])) / (sum(as.numeric(input_matrix[i,])) - 1) # Eq. 6
+      # Eq. 6
+      temp_var <- (ua_output[i] * (1-ua_output[i])) / 
+        (sum(as.numeric(input_matrix[i,])) - 1) 
       var <- c(var, temp_var)
     }
     se <- sqrt(var)
@@ -332,27 +379,38 @@ set.seed(5) # set seed so that analyses are replicable
     return(out_df)
   }
   
-  p_accuracy <- function(input_matrix, input_areas) { # function for producer's accuracy given a confusion matrix. Eq. 3.
+  # function for producer's accuracy given a confusion matrix. Eq. 3.
+  p_accuracy <- function(input_matrix, input_areas) {
     # create proportional area matrix
-    tempPropAreaMatrix <- propAreaMatrix(input_matrix, input_areas) # calculate confusion matrix as proportional area rather than n
+    # calculate confusion matrix as proportional area rather than n
+    tempPropAreaMatrix <- propAreaMatrix(input_matrix, input_areas)
     pa_output <- c()
     q <- nrow(tempPropAreaMatrix)
     for (j in 1:q) { # for each reference class in q classes
-      pa_temp <- tempPropAreaMatrix[j,j] / sum(as.numeric(tempPropAreaMatrix[,j])) # correct classifications divided by column summary
+      # correct classifications divided by column sum
+      pa_temp <- tempPropAreaMatrix[j,j] / sum(as.numeric(tempPropAreaMatrix[,j]))
       pa_output <-c(pa_output, pa_temp)
     }
     
     # variance from Eq. 7.
-    user_accuracies <- u_accuracy(input_matrix, input_areas)$user_accuracy # need UA to calculate variance in PA
-    pixel_matrix <- tempPropAreaMatrix * sum(as.numeric(input_areas)) # matrix of n pixels in confusion matrix
+    # need UA to calculate variance in PA
+    user_accuracies <- u_accuracy(input_matrix, input_areas)$user_accuracy
+    # matrix of n pixels in confusion matrix
+    pixel_matrix <- tempPropAreaMatrix * sum(as.numeric(input_areas))
     var <- c()
     for (j in 1:length(pa_output)) { # for each reference class
       
-      Ndotj <- sum(as.numeric(pixel_matrix[,j])) # Ndotj : the estimated number of pixels in reference class j. (column sum of the 'pixel matrix')
-      Njdot <- input_areas[j] # number of pixels in map class j : from input areas data
-      njdot <- sum(as.numeric(input_matrix[j,])) # number of sampling units in map class j : from input matrix
+      # Ndotj : the estimated number of pixels in reference class j. 
+      #  (column sum of the 'pixel matrix')
+      Ndotj <- sum(as.numeric(pixel_matrix[,j]))
+      # number of pixels in map class j : from input areas data
+      Njdot <- input_areas[j] 
+      # number of sampling units in map class j : from input matrix
+      njdot <- sum(as.numeric(input_matrix[j,]))
       
-      exp1 <-  (input_areas[j]^2) * ((1 - pa_output[j]) ^2) * user_accuracies[j] * (1 - user_accuracies[j]) / (sum(as.numeric(input_matrix[,j])) - 1)
+      exp1 <- (input_areas[j]^2) * ((1 - pa_output[j]) ^2) * user_accuracies[j] * 
+        (1 - user_accuracies[j]) / (sum(as.numeric(input_matrix[,j])) - 1)
+      
       # it's a big equation so I break it down into 3 parts
       exp2_store <- c() # storing part 1
       for (i in 1:q) { # for i map classes in q total
@@ -380,60 +438,89 @@ set.seed(5) # set seed so that analyses are replicable
     return(out_df)
   }
   
-  o_accuracy <- function(input_matrix, input_areas) { # function for total agreement given a confusion matrix. Eq. 1.
-    input_pAreas <- propAreaCalc(input_areas) # calculate the proportional areas
-    tempPropAreaMatrix <- propAreaMatrix(input_matrix, input_areas) # calculate confusion matrix as proportional area rather than n
-    overall_accuracy = (sum(as.numeric(diag(tempPropAreaMatrix)))) # overall accuracy
+  # function for total agreement given a confusion matrix. Eq. 1.
+  o_accuracy <- function(input_matrix, input_areas) { 
+    # calculate the proportional areas
+    input_pAreas <- propAreaCalc(input_areas)
+    # calculate confusion matrix as proportional area rather than n
+    tempPropAreaMatrix <- propAreaMatrix(input_matrix, input_areas)
+    # overall accuracy
+    overall_accuracy = (sum(as.numeric(diag(tempPropAreaMatrix)))) 
     
     # variance
-    user_accuracies <- u_accuracy(input_matrix, input_areas)$user_accuracy # calculate users accuracies
+    # calculate users accuracies
+    user_accuracies <- u_accuracy(input_matrix, input_areas)$user_accuracy
     q <- nrow(tempPropAreaMatrix) # number of classes
     step2s <- c() # empty vector for storing results from classes
     for (i in 1:q) { # for each class
-      step1 <- input_pAreas[i]^2 * user_accuracies[i] * (1 - user_accuracies[i]) # eq. 5 TOP Wi^2 * Ui * (1-Ui)
-      step2 <- step1 / (sum(as.numeric(input_matrix[i,])) - 1) # eq. 5 BOTTOM: step1 / (ni. - 1) row sum
+      # eq. 5 TOP Wi^2 * Ui * (1-Ui)
+      step1 <- input_pAreas[i]^2 * user_accuracies[i] * (1 - user_accuracies[i])
+      # eq. 5 BOTTOM: step1 / (ni. - 1) row sum
+      step2 <- step1 / (sum(as.numeric(input_matrix[i,])) - 1) 
       step2s <- c(step2s, step2)
     }
     var <- sum(step2s) # eq. 5 outer Sum for variance
     se <- sqrt(var) # se = sqrt(var)
     ci <- 1.96 * se # ci = 1.96 * se
     
-    return(data.frame(overall_accuracy = overall_accuracy, se = se, ci = ci)) # the sum of the diagonal for a proportional area confusion matrix
+    # the sum of the diagonal for a proportional area confusion matrix
+    return(data.frame(overall_accuracy = overall_accuracy, se = se, ci = ci))
   }
   
   areaCorrections <- function(input_matrix, input_areas) {
     
-    input_pAreas <- propAreaCalc(input_areas) # calculate the proportional areas
-    tempPropAreaMatrix <- propAreaMatrix(input_matrix, input_areas) # calculate confusion matrix as proportional area rather than n
-    correctedAreaProps <- colSums(tempPropAreaMatrix) # Eq. 9: the column sums are the estimated area proportions, as opposed to the row sums which are the mapped area proportions
+    # calculate the proportional areas
+    input_pAreas <- propAreaCalc(input_areas) 
+    # calculate confusion matrix as proportional area rather than n
+    tempPropAreaMatrix <- propAreaMatrix(input_matrix, input_areas)
+    # Eq. 9: the column sums are the estimated area proportions, 
+    #  as opposed to the row sums which are the mapped area proportions
+    correctedAreaProps <- colSums(tempPropAreaMatrix)
     
     se <-c() # empty vector for se
     for (k in 1:nrow(input_matrix)) { # for each class
       step2s <- c()
       for (i in 1:nrow(input_matrix)) { # for each row in the confusion matrix
-        se_step1 = (input_pAreas[i] * tempPropAreaMatrix[i,k]) - (tempPropAreaMatrix[i,k] ^ 2) # (Wi * pik) - pik^2: Eq. 10 TOP
-        se_step2 = se_step1 / (sum(as.numeric(input_matrix[i,])) - 1 ) # step 1 / (ni. - 1): Eq. 10 BOTTOM
+        # (Wi * pik) - pik^2: Eq. 10 TOP
+        se_step1 = (input_pAreas[i] * tempPropAreaMatrix[i,k]) - 
+          (tempPropAreaMatrix[i,k] ^ 2)
+        # step 1 / (ni. - 1): Eq. 10 BOTTOM
+        se_step2 = se_step1 / (sum(as.numeric(input_matrix[i,])) - 1 )
         step2s <- c(step2s, se_step2) # store row output
       }
-      se_step3 <- sqrt(sum(as.numeric(step2s))) # square root of the sum of the rows: Eq. 10: OUTER
+      # square root of the sum of the rows: Eq. 10: OUTER
+      se_step3 <- sqrt(sum(as.numeric(step2s)))
       se <-c(se, se_step3)
     }
     ci = se * 1.96 # CI from SE standard estimation formula
     
-    # In Eq. 11 Oloffson et al. apply the estimated area proportions and the CI by to the total map area to calculate estimated area
+    # In Eq. 11 Oloffson et al. apply the estimated area proportions and the CI 
+    #  by to the total map area to calculate estimated area
     # We do something slightly different that works out to be the same in the end
-    # Because we are interested in propegating uncertainty at the pixel level we need to know two things
-    # 1. If a pixel is present do we need to scale up or scale down based on inclusion / exclusion probabilities of the mapped class
+    # Because we are interested in propegating uncertainty at the pixel level
+    #  we need to know two things
+    # 1. If a pixel is present do we need to scale up or scale down based on 
+    #  inclusion / exclusion probabilities of the mapped class
     # 2. We need to know what the CIs are on that 'scaler'
-    perPixelScaler <- (correctedAreaProps / rowSums(tempPropAreaMatrix)) # per pixel scaler is the ratio of the estimated occurence to the mapped occurence
+    
+    # per pixel scaler is the ratio of the estimated occurence 
+    #  to the mapped occurence
+    perPixelScaler <- (correctedAreaProps / rowSums(tempPropAreaMatrix))
     scalerSE <- se / rowSums(tempPropAreaMatrix) # se calculated for scaler
     scalerCI <- ci / rowSums(tempPropAreaMatrix) # ci calculated for scaler
     
-    estimatedArea <- perPixelScaler * input_areas # calculate estimated area using input class area and pixel based scaler
+    # calculate estimated area using input class area and pixel based scaler
+    estimatedArea <- perPixelScaler * input_areas
     estimatedAreaSE <- input_areas * scalerSE # se
     estimatedAreaCI <- input_areas * scalerCI # ci
     
-    return(data.frame(perPixelScaler = perPixelScaler, scalerSE = scalerSE, scalerCI = scalerCI, originalArea = input_areas, estimatedArea = estimatedArea, estimatedAreaSE = estimatedAreaSE, estimatedAreaCI = estimatedAreaCI))
+    return(data.frame(perPixelScaler = perPixelScaler, 
+                      scalerSE = scalerSE, 
+                      scalerCI = scalerCI, 
+                      originalArea = input_areas, 
+                      estimatedArea = estimatedArea, 
+                      estimatedAreaSE = estimatedAreaSE, 
+                      estimatedAreaCI = estimatedAreaCI))
   }
 }
 
@@ -546,13 +633,17 @@ set.seed(5) # set seed so that analyses are replicable
       palustrineNormalApproximations <- rbind(palustrineNormalApproximations, normalApproxTableRow)
   }
   
-  # Function for randomly generating table of palustrine wetland pixle counts based on binomial distribution normal approximation
-  generatePalustrineAreaTableBNA <- function (normalApproxTable=palustrineNormalApproximations,
+  # Function for randomly generating table of palustrine wetland pixle counts 
+  #  based on binomial distribution normal approximation
+  generatePalustrineAreaTableBNA <- function(normalApproxTable=palustrineNormalApproximations,
                                            joinTable=palCcapClassDf) {
+    
     # generate 1 random normal value for each class
     palustrineMappedPixels <- mapply(rnorm, 1, normalApproxTable$mu, normalApproxTable$sigma)
-    palustrineMappedPixels[palustrineMappedPixels<0] <- 0 # remove 0 values
-    palustrineMappedPixels <- as.integer(palustrineMappedPixels) # convert to integer
+    # remove 0 values
+    palustrineMappedPixels[palustrineMappedPixels<0] <- 0
+    # convert to integer
+    palustrineMappedPixels <- as.integer(palustrineMappedPixels)
     joinTable["mappedPixelCount"] <- palustrineMappedPixels
     return(joinTable)
   }
@@ -560,29 +651,40 @@ set.seed(5) # set seed so that analyses are replicable
 
 # Functions for Generating Soil CAR, Stock, Biomass, and CH4 Values
 {
-  # Soil Carbon Accumulation Rate is log normally distributed because it can't be negative and has a long positive tail
+  # Soil Carbon Accumulation Rate is log normally distributed 
+  #  because it can't be negative and has a long positive tail
   generateLogNormalMeans <- function(x.n, x.log.mean, x.log.sd) { 
-    simulatedData <- rlnorm(x.n, x.log.mean, x.log.sd) # generate the simulated dataset
-    simulatedMedian <- median(simulatedData) # simulated median (also log mean), for local estimates
-    simulatedMean <- mean(simulatedData) # sumulate actual mean, for national estimates
-    # this comes in handy when analysing the difference between local and national effects
+    # generate the simulated dataset
+    simulatedData <- rlnorm(x.n, x.log.mean, x.log.sd)
+    # simulated median (also log mean), for local estimates
+    simulatedMedian <- median(simulatedData) 
+    # sumulate actual mean, for national estimates
+    simulatedMean <- mean(simulatedData)
+    # this comes in handy when analysing the difference 
+    #  between local and national effects
     return(list(median = simulatedMedian, mean = simulatedMean)) 
     
     }
   
-  generateNormalMeans <- function(x.n, x.mean, x.sd) { return(mean(rnorm(x.n, x.mean, x.sd))) }
+  generateNormalMeans <- function(x.n, x.mean, x.sd) { 
+    return(mean(rnorm(x.n, x.mean, x.sd))) 
+    }
   
-  generateTruncatedNormalMeans <- function(x.n, x.mean, x.sd, lowest_value = 0) { return(mean(rtruncnorm(n=x.n, a=lowest_value,
-                                                                                                    mean = x.mean, sd=x.sd))) }
-  
-  generateDepthLost <- function(depth.min = 0.5, depth.max=1.5) { return(runif(1, depth.min, depth.max)) } 
+  generateTruncatedNormalMeans <- function(x.n, x.mean, 
+                                           x.sd, lowest_value = 0) { 
+    return(mean(rtruncnorm(n=x.n, a=lowest_value, mean = x.mean, sd=x.sd))) 
+    }
+  generateDepthLost <- function(depth.min = 0.5, depth.max=1.5) { 
+    return(runif(1, depth.min, depth.max)) 
+    } 
   
   generateSoilEmissionsFactor <- function(cMassTable, depthIntervalLost) {
     return(sum(colMeans(cMassTable[,1:depthIntervalLost], na.rm = T)))
   }
 }
 
-# create some initial (.1) data.frames with just means for all mapped area, area scale factors, and emissions/storage factors
+# create some initial (.1) data.frames with just means for all 
+#  mapped area, area scale factors, and emissions/storage factors
 {
   # load estuarine mapped pixels
   estuarineMappedPixels.1 = estCcapClassDf
@@ -614,9 +716,13 @@ set.seed(5) # set seed so that analyses are replicable
   
   storageAndEmissions.1 = data.frame(soil.burial = mean(pb),
                                      soil.carbon.density = cm.mean,
-                                     emergent.biomass = emergent.biomass.mean, scrub.shrub.biomass = scrub.shrub.biomass.mean, forested.biomass = forested.biomass.mean,
-                                     estuarine.methane = estuarine.methane.mean.gwp, palustrine.methane = palustrine.methane.mean.gwp,
-                                     estuarine.methane.sgwp = estuarine.methane.mean.sgwp, palustrine.methane.sgwp = palustrine.methane.mean.sgwp
+                                     emergent.biomass = emergent.biomass.mean, 
+                                     scrub.shrub.biomass = scrub.shrub.biomass.mean, 
+                                     forested.biomass = forested.biomass.mean,
+                                     estuarine.methane = estuarine.methane.mean.gwp, 
+                                     palustrine.methane = palustrine.methane.mean.gwp,
+                                     estuarine.methane.sgwp = estuarine.methane.mean.sgwp, 
+                                     palustrine.methane.sgwp = palustrine.methane.mean.sgwp
                                      )
 }
 
@@ -647,31 +753,48 @@ set.seed(5) # set seed so that analyses are replicable
       
       # calculate scaled area
       {
-        # Multiply number of mapped pixels by the estimated to mapped ratio for the 2010 class 
+        # Multiply number of mapped pixels by 
+        #  the estimated to mapped ratio for the 2010 class 
         mapped.pixel.n = wetlandMappedPixels$mappedPixelCount[i]
         estimated.pixel.n = mapped.pixel.n * ccap2010perPixelScalers[, abbrev.t2]
-        # Multiply number of mapped pixels by the estimated to mapped ratio for the 2006-2010 change class 
-        if (class.t1 == class.t2) { # if there's no change scale by the 'no change' estimated to mapped ratio 
+        # Multiply number of mapped pixels by the 
+        #  estimated to mapped ratio for the 2006-2010 change class 
+        # if there's no change scale by the 'no change' estimated to mapped ratio 
+        if (class.t1 == class.t2) {
           estimated.pixel.n = mapped.pixel.n * cncPerPixelScalers$No.Change[1]
-        } else { # if there's a change scale number of pixels by the 'change' estimated to mapped ratio
+          # if there's a change scale number of pixels by the 'change' 
+          #  estimated to mapped ratio
+        } else {
           estimated.pixel.n = estimated.pixel.n * cncPerPixelScalers$Change[1]
         }
       }
       
       # calculate soil change
       {
-        # is it a wetland to wetland transition (wetland at time 1 and wetland at time 2)
-        if ((class.t1 %in% c(estuarineWetlands, palustrineWetlands)) & (class.t2 %in% c(estuarineWetlands, palustrineWetlands))) {
-          soil.change =  storageAndEmissions$soil.burial[1] * 5 # if it's a wetland remaining wetland then it buries carbon for 4 years
+        # is it a wetland to wetland transition 
+        #  (wetland at time 1 and wetland at time 2)
+        if ((class.t1 %in% c(estuarineWetlands, palustrineWetlands)) & 
+            (class.t2 %in% c(estuarineWetlands, palustrineWetlands))) {
+          # if it's a wetland remaining wetland then it buries carbon for 5 years
+          soil.change =  storageAndEmissions$soil.burial[1] * 5
         } else {
-          # is it a wetland restoration (non wetland at time 1 to wetland at time 2)
-          if ((! (class.t1 %in% c(estuarineWetlands, palustrineWetlands))) & (class.t2 %in% c(estuarineWetlands, palustrineWetlands))) {
-            soil.change =  storageAndEmissions$soil.burial[1] * 2.5 # if a class goes from not wetland to wetland we assume it starts buring carbon half way through the time step
+          # is it a wetland restoration
+          #  (non wetland at time 1 to wetland at time 2)
+          if ((! (class.t1 %in% c(estuarineWetlands, palustrineWetlands))) & 
+              (class.t2 %in% c(estuarineWetlands, palustrineWetlands))) {
+            # if a class goes from not wetland to wetland we assume 
+            #  it starts buring carbon half way through the time step
+            soil.change =  storageAndEmissions$soil.burial[1] * 2.5
           } else { # is it a wetland loss
-            if (class.t2 %in% soilLossEvents) { # is it a soil loss event, defined in the 'assumptions section' near the beginning of the code? 
-              soil.change = -(storageAndEmissions$soil.carbon.density * depth.lost * fraction.loss) # if this is a soil loss even, then the whole column is lost at once
+            # is it a soil loss event, defined in the 'assumptions section'? 
+            if (class.t2 %in% soilLossEvents) {
+              # if this is a soil loss even, then the whole column is lost at once
+              soil.change = -(storageAndEmissions$soil.carbon.density * 
+                                depth.lost * fraction.loss) 
             } else {
-              soil.change  = storageAndEmissions$soil.burial[1] * 2.5 # if it is a wetland loss without soil loss, then we assume it stops buring carbon halfway through the timestep 
+              # if it is a wetland loss without soil loss, then 
+              #  we assume it stops buring carbon halfway through the timestep 
+              soil.change  = storageAndEmissions$soil.burial[1] * 2.5
             }
           }
         }
@@ -748,15 +871,17 @@ set.seed(5) # set seed so that analyses are replicable
     # Summarize accross the entire inventory
     total_df <- data.frame(estimated_pixel_count = estimated_pixel_count_vect)
     total_df <- cbind(wetlandMappedPixels, total_df)
-    total_df["total_gCO2perM2"] <- (soil_gCO2perm2_vect + biomass_gCO2perm2_vect + methane_gCO2perm2_vect)
+    total_df["total_gCO2perM2"] <- (soil_gCO2perm2_vect + 
+                                      biomass_gCO2perm2_vect + 
+                                      methane_gCO2perm2_vect)
     total_df["soil_gCO2perM2"] <- soil_gCO2perm2_vect
     total_df["biomass_gCO2perM2"] <- biomass_gCO2perm2_vect
     total_df["methane_gCO2perM2"] <- methane_gCO2perm2_vect
     
-    total_million_tonnesCO2 <- sum((total_df$estimated_pixel_count * total_df$total_gCO2perM2 * 900 / 1E6)
-                                   , na.rm=T)
+    total_tonnesCO2 <- sum((total_df$estimated_pixel_count * 
+                              total_df$total_gCO2perM2 * 900 / 1E6), na.rm=T)
     
-    detailed_output <- list(total_million_tonnesCO2, total_df)
+    detailed_output <- list(total_tonnesCO2, total_df)
     
     return(detailed_output)
   }
@@ -899,9 +1024,11 @@ set.seed(5) # set seed so that analyses are replicable
   write_csv(finalDataframe[[5]], "data/outputTables/MonteCarloResults/national/total.savedIterations.csv")
 }
 
-# Re-run The Inventory with median values 1 input-variable at a time for the national scale sensitivity analysis
+# Re-run The Inventory with median values 1 input-variable at a time 
+#  for the national scale sensitivity analysis
 { 
-  # for all of the parameter (input) tables generate the median, and upper-lower (95% credible intervals)
+  # for all of the parameter (input) tables generate the median, 
+  #  and upper-lower (95% credible intervals)
   getColumnCIs <- function(input_df = palustrineMappedPixels.savedIterations) {
     input_df <- select(input_df, -iterationCode)
     for (i in 1:ncol(input_df)) {
@@ -935,7 +1062,8 @@ set.seed(5) # set seed so that analyses are replicable
     
     parameterNameStore <- c() # empty vector to store parameter names
     parameterTypeStore <- c() # empty vector to store parameter types
-    parameterEffectStore <- c() # empty vector to store 'effect' of parameter on overall total
+    # empty vector to store 'effect' of parameter on overall total
+    parameterEffectStore <- c()
     
     # iterate through each parameter table
     # start with palustrineMappedPixels
@@ -1148,7 +1276,9 @@ set.seed(5) # set seed so that analyses are replicable
       parameterEffectStore <- c(parameterEffectStore, abs(maxEstimate - minEstimate))
     }
     
-    sensitivityAnalysisDF <- data.frame(parameter = parameterNameStore, type = parameterTypeStore, effectTonnesCO2 = parameterEffectStore)
+    sensitivityAnalysisDF <- data.frame(parameter = parameterNameStore, 
+                                        type = parameterTypeStore, 
+                                        effectTonnesCO2 = parameterEffectStore)
     sensitivityAnalysisDF <- sensitivityAnalysisDF[order(-sensitivityAnalysisDF$effectTonnesCO2), ]
     
     sensitivityAnalysisDF["effectMillionTonnesCO2"] <- round(sensitivityAnalysisDF$effectTonnesCO2 * 1E-6, 2)
@@ -1167,7 +1297,8 @@ set.seed(5) # set seed so that analyses are replicable
   write_csv(sensitivity_outputs_means, "data/outputTables/sensitivityAnalysisResults/national/sensitivityAnalysisResults.csv") 
 }
 
-# run 10,000 iterations on the 'regional' setting for mapping excercise and comparison later
+# run 10,000 iterations on the 'regional' 
+#  setting for mapping excercise and comparison later.
 {
   # define number of iterations
   iterations <- 10000
@@ -1195,8 +1326,8 @@ set.seed(5) # set seed so that analyses are replicable
                             .options.snow = opts) %dopar% {
                               tempDF_list <- run_randomized_coastalNGGI(iterationCode = k,
                                                                         scopeOfAnalysis = "regional") #calling a function
-                              
-                              tempDF_list #Equivalent to outputDF = rbind(outputDF, tempDF)
+                              #Equivalent to outputDF = rbind(outputDF, tempDF)
+                              tempDF_list
                             }
   
   #stop cluster

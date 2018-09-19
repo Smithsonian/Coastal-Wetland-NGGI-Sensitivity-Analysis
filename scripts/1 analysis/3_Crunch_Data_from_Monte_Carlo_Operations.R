@@ -6,17 +6,25 @@ total_df.saved.iterations.regional <- read_csv("data/outputTables/MonteCarloResu
 total_df.saved.iterations.national <- read_csv("data/outputTables/MonteCarloResults/national/total.savedIterations.csv")
 
 # Define assumptions re: land cover classes
-classOrder <-c('High Intensity Developed', 'Medium Intensity Developed', 'Low Intensity Developed', 'Developed Open Space', 
+classOrder <-c('High Intensity Developed', 'Medium Intensity Developed', 
+               'Low Intensity Developed', 'Developed Open Space', 
                'Cultivated', 'Pasture/Hay', 
-               'Grassland', 'Deciduous Forest', 'Evergreen Forest', 'Mixed Forest', 'Scrub/Shrub', 
-               'Palustrine Forested Wetland', 'Palustrine Scrub/Shrub Wetland', 'Palustrine Emergent Wetland', 
-               'Estuarine Forested Wetland', 'Estuarine Scrub/Shrub Wetland', 'Estuarine Emergent Wetland', 
+               'Grassland', 'Deciduous Forest', 
+               'Evergreen Forest', 'Mixed Forest', 'Scrub/Shrub', 
+               'Palustrine Forested Wetland', 'Palustrine Scrub/Shrub Wetland', 
+               'Palustrine Emergent Wetland', 
+               'Estuarine Forested Wetland', 'Estuarine Scrub/Shrub Wetland', 
+               'Estuarine Emergent Wetland', 
                'Unconsolidated Shore', 'Bare Land', 'Water', 
                'Palustrine Aquatic Bed', 'Estuarine Aquatic Bed',
                'Snow/Ice')
 
-palustrineWetlands <- c('Palustrine Forested Wetland', 'Palustrine Scrub/Shrub Wetland', 'Palustrine Emergent Wetland')
-estuarineWetlands <- c('Estuarine Forested Wetland', 'Estuarine Scrub/Shrub Wetland', 'Estuarine Emergent Wetland')
+palustrineWetlands <- c('Palustrine Forested Wetland', 
+                        'Palustrine Scrub/Shrub Wetland', 
+                        'Palustrine Emergent Wetland')
+estuarineWetlands <- c('Estuarine Forested Wetland', 
+                       'Estuarine Scrub/Shrub Wetland', 
+                       'Estuarine Emergent Wetland')
 
 abbrevs <- c('HID', 'MID', 'LID', 'OSD',
              'CULT', 'PAST',
@@ -24,7 +32,8 @@ abbrevs <- c('HID', 'MID', 'LID', 'OSD',
              'PFW', 'PSS', 'PEM', 'EFW', 'ESS', 'EEM',
              'UCS', 'BAR', 'OW', 'PAB', 'EAB', 'SNOW')
 
-soilLossEvents <- c('High Intensity Developed', 'Medium Intensity Developed', 'Low Intensity Developed', 'Developed Open Space',
+soilLossEvents <- c('High Intensity Developed', 'Medium Intensity Developed', 
+                    'Low Intensity Developed', 'Developed Open Space',
                     'Cultivated', 'Pasture/Hay',
                     'Unconsolidated Shore', 'Water',
                     'Palustrine Aquatic Bed', 'Estuarine Aquatic Bed')
@@ -42,16 +51,19 @@ emergentVeg <- c('Cultivated', 'Pasture/Hay',
                  'Palustrine Emergent Wetland',
                  'Estuarine Emergent Wetland')
 
-nonVeg <-c('High Intensity Developed', 'Medium Intensity Developed', 'Low Intensity Developed', 'Developed Open Space',
+nonVeg <-c('High Intensity Developed', 'Medium Intensity Developed', 
+           'Low Intensity Developed', 'Developed Open Space',
            'Unconsolidated Shore', 'Bare Land', 'Water', 
            'Palustrine Aquatic Bed', 'Estuarine Aquatic Bed',
            'Tundra',
            'Snow/Ice')
 
-classify_by_salinity <- function(class_time1 = "Estuarine Emergent Wetland", class_time2 = "Open Water") {
+classify_by_salinity <- function(class_time1 = "Estuarine Emergent Wetland", 
+                                 class_time2 = "Open Water") {
   if (class_time1 %in% estuarineWetlands | class_time2 %in% estuarineWetlands) {
     salinity_class <- "Estuarine"
-  } else if (class_time1 %in% palustrineWetlands | class_time2 %in% palustrineWetlands) {
+  } else if (class_time1 %in% palustrineWetlands | 
+             class_time2 %in% palustrineWetlands) {
     salinity_class <- "Palustrine"
   } else {
     salinity_class <- NA
@@ -59,11 +71,17 @@ classify_by_salinity <- function(class_time1 = "Estuarine Emergent Wetland", cla
   return(salinity_class)
 }
 
-classify_by_stability <- function(class_time1 = "Estuarine Emergent Wetland", class_time2 = "Open Water") {
-  if (class_time1 %in%  estuarineWetlands | class_time1  %in%  palustrineWetlands | class_time2 %in% estuarineWetlands | class_time2 %in% palustrineWetlands) {
-    if (class_time2 %in% estuarineWetlands | class_time2 %in% palustrineWetlands) {
+classify_by_stability <- function(class_time1 = "Estuarine Emergent Wetland", 
+                                  class_time2 = "Open Water") {
+  if (class_time1 %in%  estuarineWetlands | 
+      class_time1  %in%  palustrineWetlands | 
+      class_time2 %in% estuarineWetlands | 
+      class_time2 %in% palustrineWetlands) {
+    if (class_time2 %in% estuarineWetlands | 
+        class_time2 %in% palustrineWetlands) {
       stability_class <- "Stable and Gains"
-    } else if ((! class_time2 %in% estuarineWetlands) & (! class_time2 %in% palustrineWetlands)) {
+    } else if ((! class_time2 %in% estuarineWetlands) & 
+               (! class_time2 %in% palustrineWetlands)) {
       stability_class <- "Losses"
     } else {
       stability_class <- NA
@@ -111,8 +129,11 @@ sector_and_total_mapping_outputs_regional <- total_df.saved.iterations.regional 
 write_csv(sector_and_total_mapping_outputs_regional, "data/outputTables/MonteCarloResults/regional/sector_and_total_mapping_outputs.csv")
 
 # Add a column with strategy used to scale up skewed variables
-total_df.saved.iterations.regional <- total_df.saved.iterations.regional %>% mutate(scaled_up_using = "logmean")
-total_df.saved.iterations.national <- total_df.saved.iterations.national %>% mutate(scaled_up_using = "mean")
+total_df.saved.iterations.regional <- total_df.saved.iterations.regional %>% 
+  mutate(scaled_up_using = "logmean")
+
+total_df.saved.iterations.national <- total_df.saved.iterations.national %>% 
+  mutate(scaled_up_using = "mean")
 
 # compile files
 total_df.saved.iterations <- rbind(total_df.saved.iterations.regional, total_df.saved.iterations.national)
@@ -124,7 +145,9 @@ total_nggi_summed_iterations <- total_df.saved.iterations %>%
   summarise(sum_total_MillionTonnesCO2PerYear = sum(total_MillionTonnesCO2perMappedPixel, na.rm=T) / 5) %>%
   arrange(scaled_up_using, iterationCode)
 
-total_nggi_summed_iterations["emission_or_storage"] <- ifelse(total_nggi_summed_iterations$sum_total_MillionTonnesCO2PerYear >= 0, "storage", "emission")
+total_nggi_summed_iterations["emission_or_storage"] <- 
+  ifelse(total_nggi_summed_iterations$sum_total_MillionTonnesCO2PerYear >= 0, 
+         "storage", "emission")
 
 # write total number of iterations to its own file
 # This will be used for the large histogram in the uncertainty analysis figure

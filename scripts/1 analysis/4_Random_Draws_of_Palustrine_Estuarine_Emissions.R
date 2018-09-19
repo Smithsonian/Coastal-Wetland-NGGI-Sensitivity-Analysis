@@ -3,7 +3,8 @@ library(tidyverse)
 
 # Load Sara's Methane Data
 methane <- read.csv("data/Methane/derivative/Methane Synthesis Knox.csv")
-names(methane) <- c("Site.Name", "Location", "Region", "Saliniity.class", "year", "Method", "Salinity.ppt", "CH4.flux", "Reference")
+names(methane) <- c("Site.Name", "Location", "Region", "Saliniity.class", 
+                    "year", "Method", "Salinity.ppt", "CH4.flux", "Reference")
 
 # Prep methane data and convert to gCO2 eq per m2 per year
 {
@@ -16,11 +17,15 @@ names(methane) <- c("Site.Name", "Location", "Region", "Saliniity.class", "year"
   generateMethaneGPs <- function(ch4) { return(ch4 * 25) }
   
   # Units are in gCH4 per m2 per year
-  ch4_co2_eq_sgwp <- mapply(generateMethaneSGPs, methane$CH4.flux) # Calculate CO2 equivalents
-  methane["ch4_co2_eq_sgwp"] <- ch4_co2_eq_sgwp # add to the dataframe so they can be sorted
+  # Calculate CO2 equivalents
+  ch4_co2_eq_sgwp <- mapply(generateMethaneSGPs, methane$CH4.flux)
+  # add to the dataframe so they can be sorted
+  methane["ch4_co2_eq_sgwp"] <- ch4_co2_eq_sgwp
   
-  ch4_co2_eq_gwp <- mapply(generateMethaneGPs, methane$CH4.flux) # Calculate CO2 equivalents
-  methane["ch4_co2_eq_gwp"] <- ch4_co2_eq_gwp # add to the dataframe so they can be sorted
+  # Calculate CO2 equivalents
+  ch4_co2_eq_gwp <- mapply(generateMethaneGPs, methane$CH4.flux)
+  # add to the dataframe so they can be sorted
+  methane["ch4_co2_eq_gwp"] <- ch4_co2_eq_gwp
   
   # Estuarine Emissions Factors are Normally Distributed
   # Units are in gCO2 equivalent per m2 per year
@@ -46,12 +51,17 @@ names(methane) <- c("Site.Name", "Location", "Region", "Saliniity.class", "year"
   palustrine.methane.mean.gwp <- mean(pal.ch4$ch4_co2_eq_gwp)
 }
 
-# Soil Carbon Accumulation Rate is log normally distributed because it can't be negative and has a long positive tail
+# Soil Carbon Accumulation Rate is log normally distributed because it can't be 
+#  negative and has a long positive tail
 generateLogNormalMeans <- function(x.n, x.log.mean, x.log.sd) { 
-  simulatedData <- rlnorm(x.n, x.log.mean, x.log.sd) # generate the simulated dataset
-  simulatedMedian <- median(simulatedData) # simulated median (also log mean), for local estimates
-  simulatedMean <- mean(simulatedData) # sumulate actual mean, for national estimates
-  # this comes in handy when analysing the difference between local and national effects
+  # generate the simulated dataset
+  simulatedData <- rlnorm(x.n, x.log.mean, x.log.sd)
+  # simulated median (also log mean), for local estimates
+  simulatedMedian <- median(simulatedData)
+  # sumulate actual mean, for national estimates
+  simulatedMean <- mean(simulatedData)
+  # this comes in handy when analysing the difference between 
+  #  local and national effects
   return(list(median = simulatedMedian, mean = simulatedMean)) 
   
 }
@@ -61,9 +71,13 @@ saved_emissions <- c()
 saved_type <- c()
 
 for (i in 1:10000) {
-  palustrine.methane.randomDraw <- generateLogNormalMeans(palustrine.methane.n, palustrine.methane.log.mean.gwp, palustrine.methane.log.sd.gwp)
+  palustrine.methane.randomDraw <- generateLogNormalMeans(palustrine.methane.n, 
+                                                          palustrine.methane.log.mean.gwp, 
+                                                          palustrine.methane.log.sd.gwp)
   saved_iterations <- c(saved_iterations, i, i)
-  saved_emissions <- c(saved_emissions, palustrine.methane.randomDraw$median, palustrine.methane.randomDraw$mean)
+  saved_emissions <- c(saved_emissions, 
+                       palustrine.methane.randomDraw$median, 
+                       palustrine.methane.randomDraw$mean)
   saved_type <- c(saved_type, "logmean", "mean")
 }
 
@@ -83,9 +97,12 @@ log.se <- sqrt((palustrine.methane.log.sd.gwp^2/palustrine.methane.n) +
                  (palustrine.methane.log.sd.gwp^4/(2*(palustrine.methane.n-1))))
 log_ci <- log.se * 1.96
 
-mean_of_logdist <- exp(palustrine.methane.log.mean.gwp + palustrine.methane.log.sd.gwp^2*0.5)
-mean_upper <- exp((palustrine.methane.log.mean.gwp + palustrine.methane.log.sd.gwp^2*0.5)  + log_ci)
-mean_lower <- exp((palustrine.methane.log.mean.gwp + palustrine.methane.log.sd.gwp^2*0.5)  - log_ci)
+mean_of_logdist <- exp(palustrine.methane.log.mean.gwp + 
+                         palustrine.methane.log.sd.gwp^2*0.5)
+mean_upper <- exp((palustrine.methane.log.mean.gwp + 
+                     palustrine.methane.log.sd.gwp^2*0.5)  + log_ci)
+mean_lower <- exp((palustrine.methane.log.mean.gwp + 
+                     palustrine.methane.log.sd.gwp^2*0.5)  - log_ci)
 
 # View Max Empirical Data
 (max(methane["ch4_co2_eq_gwp"]))
