@@ -2,21 +2,21 @@
 
 library(tidyverse)
 
-krauss_2018 <- read_csv("data/Biomass/krauss_2018/derrivative/krauss_2018_site_summary.csv")
+krauss_2018 <- read_csv("data/Biomass/krauss_2018/derivative/krauss_2018_site_summary.csv")
 krauss_2018 <- krauss_2018 %>% 
   mutate(plot_id = as.character(plot_id))
-twiley_2016 <- read_csv("data/Biomass/lter/twiley/derrivative/twiley_2016_site_summary.csv")
+twiley_2016 <- read_csv("data/Biomass/lter/twiley/derivative/twiley_2016_site_summary.csv")
 twiley_2016 <- twiley_2016 %>% 
   mutate(plot_id = as.character(plot_id))
-simard_2006 <- read_csv("data/Biomass/simard_2006/derrivative/simmard_2006_mangrove_site_summary.csv")
+simard_2006 <- read_csv("data/Biomass/simard_2006/derivative/simmard_2006_mangrove_site_summary.csv")
 simard_2006 <- simard_2006 %>% 
   mutate(plot_id = as.character(plot_id))
-megonigal_1997 <- read_csv("data/Biomass/megonigal_1997/derrivative/megonigal_1997_site_summary.csv")
-doughty_2015 <- read_csv("data/Biomass/doughty_2015/derrivative/doughty_2015_site_summary.csv")
-craft_2013 <- read_csv("data/Biomass/lter/craft/derrivative/craft_2013_site_summary.csv")
+megonigal_1997 <- read_csv("data/Biomass/megonigal_1997/derivative/megonigal_1997_site_summary.csv")
+doughty_2015 <- read_csv("data/Biomass/doughty_2015/derivative/doughty_2015_site_summary.csv")
+craft_2013 <- read_csv("data/Biomass/lter/craft/derivative/craft_2013_site_summary.csv")
 craft_2013 <- craft_2013 %>% 
   mutate(plot_id = as.character(plot_id))
-byrd_2018 <- read_csv("data/Biomass/byrd_2018/derrivative/byrd_2018_site_summary.csv")
+byrd_2018 <- read_csv("data/Biomass/byrd_2018/derivative/byrd_2018_site_summary.csv")
 
 master_data <- byrd_2018 %>% 
   full_join(megonigal_1997) %>% 

@@ -8,8 +8,8 @@ source('scripts/0 formatting/forested_biomass/allometric_equations.R') # load up
 
 # load the file skipping first 5 lines with text
 megonigal_tff <- read_tsv("data/Biomass/megonigal_1997/original/Dbhall.txt", skip=5) 
-megonigal_species_codes <- read_csv("data/Biomass/megonigal_1997/derrivative/megonigal_1997_species_code_table.csv")
-megoginal_leaf_productivity <- read_csv ("data/Biomass/megonigal_1997/derrivative/megonigal_1997_leaf_production.csv") # leaf biomass
+megonigal_species_codes <- read_csv("data/Biomass/megonigal_1997/derivative/megonigal_1997_species_code_table.csv")
+megoginal_leaf_productivity <- read_csv ("data/Biomass/megonigal_1997/derivative/megonigal_1997_leaf_production.csv") # leaf biomass
 
 # assign variable names conforming to best practices
 names(megonigal_tff) <- c("site_id", "plot_id", "tree_id", "species_code", "live_or_dead", "1987", "1988", "1989")
@@ -46,8 +46,8 @@ agb <- mapply(estimate_tff_agb_from_dbh_megonigal_1997,
               species = as.character(megonigal_tff_tall$species))
 megonigal_tff_tall["agb"] <- agb
 
-# write tall version of file to derrivative files
-write_csv(megonigal_tff_tall, "data/Biomass/megonigal_1997/derrivative/megonigal_1997_forest_plots_tall.csv")
+# write tall version of file to derivative files
+write_csv(megonigal_tff_tall, "data/Biomass/megonigal_1997/derivative/megonigal_1997_forest_plots_tall.csv")
 
 megonigal_1997_site_summary <- megonigal_tff_tall %>% 
   filter(live_or_dead == "live") %>% # remove dead plants
@@ -55,11 +55,11 @@ megonigal_1997_site_summary <- megonigal_tff_tall %>%
   summarise(sum_agb = sum(agb, na.rm=T)) %>%  # summarize all of the trees within a plot
   mutate(sum_agb_g_m2 = (sum_agb / plot_area_m2)) %>%  # calculate the gOM per m2
   group_by(study_id, site_id, plot_id) %>% # group by plot
-  summarise(mean_agb_g_m2 = mean(sum_agb_g_m2, na.rm=T))  # average accross years
+  summarise(mean_agb_g_m2 = mean(sum_agb_g_m2, na.rm=T))  # average across years
 
 megonigal_1997_site_summary["vegetation_class"] <- rep("forest", nrow(megonigal_1997_site_summary))
 
-write_csv(megonigal_1997_site_summary, "data/Biomass/megonigal_1997/derrivative/megonigal_1997_site_summary.csv")
+write_csv(megonigal_1997_site_summary, "data/Biomass/megonigal_1997/derivative/megonigal_1997_site_summary.csv")
 
 ggplot(data=megonigal_1997_site_summary, aes(x=mean_agb_g_m2)) +
   geom_density()

@@ -3,7 +3,7 @@ library(tidyverse)
 source('scripts/0 formatting/biomass/allometric_equations.R') # load up allometric equations
 baf <- 5
 
-simard_2006 <- read_csv("data/Biomass/simard_2006/derrivative/Florida_Trees.csv")
+simard_2006 <- read_csv("data/Biomass/simard_2006/derivative/Florida_Trees.csv")
 
 simard_2006_tall <- simard_2006 %>% 
   separate(plot_name, c("site_id", "plot_id"), "_")
@@ -32,8 +32,8 @@ simard_2006_tall <- simard_2006_tall %>%
          agb, tree_area_m2, n, tree_area_m2_to_forest_area_m2, plot_size_m2, agb_m2) %>% 
   filter(! is.na(dbh))
 
-# write summary to derrivative files
-write_csv(simard_2006_tall, "data/Biomass/simard_2006/derrivative/simmard_2006_mangrove_plots_tal.csv")
+# write summary to derivative files
+write_csv(simard_2006_tall, "data/Biomass/simard_2006/derivative/simmard_2006_mangrove_plots_tal.csv")
 
 # Create 
 simard_2006_site_summary <- simard_2006_tall %>% 
@@ -42,7 +42,7 @@ simard_2006_site_summary <- simard_2006_tall %>%
             mean_tree_height = mean(tree_height, na.rm=T)) %>%   # average accross years
   mutate(vegetation_class = ifelse(mean_tree_height >= 5, "forest", "shrub")) # we have tree heights so let's additionally categorize as forest or shrub
 
-write_csv(simard_2006_site_summary, "data/Biomass/simard_2006/derrivative/simmard_2006_mangrove_site_summary.csv")
+write_csv(simard_2006_site_summary, "data/Biomass/simard_2006/derivative/simmard_2006_mangrove_site_summary.csv")
 
 ggplot(data=simard_2006_site_summary, aes(x=mean_agb_g_m2)) +
   geom_density()

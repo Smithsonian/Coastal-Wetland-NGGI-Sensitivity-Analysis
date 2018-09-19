@@ -4,8 +4,8 @@ source('scripts/0 formatting/forested_biomass/allometric_equations.R') # load up
 # Load Ken Krauss's data
 krauss_tff <- read_csv("data/Biomass/krauss_2018/original/Carbonbudgetass/TFFW_Carbon_Budget_Stand_Structure_2005_and_2012.csv")
 
-# Load derrivative species names
-krauss_species_codes <- read_csv("data/Biomass/krauss_2018/derrivative/krauss_common_names_table.csv")
+# Load derivative species names
+krauss_species_codes <- read_csv("data/Biomass/krauss_2018/derivative/krauss_common_names_table.csv")
 
 genus_species <- unique(paste(krauss_species_codes$genus, krauss_species_codes$species, sep="_"))
 
@@ -34,7 +34,7 @@ krauss_leaf_production_summary <- krauss_leaf_production %>%
 krauss_tff_tall <- krauss_tff %>% 
   mutate(site_id = paste(river, "_", site, sep="")) %>% # create a species code by pasting genus and species together
   select(site_id, plot_id, tree_id, species_code, live_or_dead, year, dbh) %>%  # select important variables
-  left_join(krauss_species_codes, by = "species_code") # joing data table to derrivative table of species names 
+  left_join(krauss_species_codes, by = "species_code") # joing data table to derivative table of species names 
   
 agb <- mapply(estimate_general_agb_from_dbh_jones_2003, 
               dbh = krauss_tff_tall$dbh, 
@@ -58,8 +58,8 @@ krauss_tff_tall_NA <- krauss_tff_tall %>%
   filter(is.na(agb))
 print(unique(paste(krauss_tff_tall_NA$genus, krauss_tff_tall_NA$species, sep="_")))
 
-# write tall version of file to derrivative files
-write_csv(krauss_tff_tall, "data/Biomass/krauss_2018/derrivative/krauss_2018_forest_plots_tall.csv")
+# write tall version of file to derivative files
+write_csv(krauss_tff_tall, "data/Biomass/krauss_2018/derivative/krauss_2018_forest_plots_tall.csv")
 
 krauss_2018_site_summary <- krauss_tff_tall %>% 
    filter(live_or_dead == "live") %>% # remove dead plants
@@ -72,7 +72,7 @@ krauss_2018_site_summary <- krauss_tff_tall %>%
 krauss_2018_site_summary["vegetation_class"] <- rep("forest", nrow(krauss_2018_site_summary)) # Metadata states all are forest plots
 
 
-write_csv(krauss_2018_site_summary, "data/Biomass/krauss_2018/derrivative/krauss_2018_site_summary.csv")
+write_csv(krauss_2018_site_summary, "data/Biomass/krauss_2018/derivative/krauss_2018_site_summary.csv")
  
 ggplot(data=krauss_2018_site_summary, aes(x=mean_agb_g_m2)) +
    geom_density()

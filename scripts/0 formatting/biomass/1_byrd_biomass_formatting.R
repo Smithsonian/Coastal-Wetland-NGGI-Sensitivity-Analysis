@@ -1,5 +1,6 @@
+# Formatting for Byrd 2018 biomass data
 
-kristinBiomass <- read_csv("data/Biomass/byrd_2018/derrivative/BiomassSamples.csv")
+kristinBiomass <- read_csv("data/Biomass/byrd_2018/derivative/BiomassSamples.csv")
 kristinBiomass <- subset(kristinBiomass, biomass_gm > 0)
 
 vegetation_class <- ifelse(kristinBiomass$sp1 == "Iva frutescens" & kristinBiomass$pc_sp1 >= 0.50, "shrub", "emergent")
@@ -14,4 +15,4 @@ kristinBiomassB <- kristinBiomass %>%
          vegetation_class = vegetation_class
          )
 
-write_csv(kristinBiomassB, "data/Biomass/byrd_2018/derrivative/byrd_2018_site_summary.csv")
+write_csv(kristinBiomassB, "data/Biomass/byrd_2018/derivative/byrd_2018_site_summary.csv")

@@ -1,9 +1,9 @@
-# Script with functions for allometric equations encountered when pulling together above ground biomass data 
-#   for uncertainty and sensitivity analysis paper
+# Script with functions for allometric equations encountered when pulling 
+# together above ground biomass (agb) data for uncertainty and sensitivity analysis paper
 
 # general agb from review in appendix 2 of Megongial et al., 1997
 estimate_tff_agb_from_dbh_megonigal_1997 <- function(dbh = 12, genus = "Taxodium", species = "distichum") {
-  # Inputs include diameter at breast height in cenitmeters,
+  # Inputs include diameter at breast height in centimeters,
   #   Genus and species are used to match to a specific allometric equations
   # Outputs will be grams of organic matter
   # Code modified from SAS code sent to James Holmquist by Pat Megonigal on 25 March 2018
@@ -16,10 +16,12 @@ estimate_tff_agb_from_dbh_megonigal_1997 <- function(dbh = 12, genus = "Taxodium
     return(NA)
   } else {
     
-    # First item is a vector of values that don't need to be converted from centimeters to inches and from pounds to kilograms
-    # note change from Pat's code according to paper appendix 2 Fraxinus spp. do get converted
+    # First item is a vector of values that don't need to be converted from centimeters to inches and 
+    #   from pounds to kilograms
+    # note change from Megonigal's code according to paper appendix 2 Fraxinus spp. do get converted
     #   they are not in this vector
-    species_not_needing_empirical_conversions <- c("Nyssa aquatica", "Taxodium distichum", "Pinus taeda", "Salix nigra")
+    species_not_needing_empirical_conversions <- c("Nyssa aquatica", "Taxodium distichum", 
+                                                   "Pinus taeda", "Salix nigra")
     
     if (paste(genus, species, sep = " ") %in% species_not_needing_empirical_conversions) {
       input_dbh = dbh
@@ -28,11 +30,12 @@ estimate_tff_agb_from_dbh_megonigal_1997 <- function(dbh = 12, genus = "Taxodium
     }
     
     # run through the list of possible allometric equations
-    #   some need to be matched to a specific genus, some to a genus and a species, all others get categorized as Other spp.
+    #   some need to be matched to a specific genus, some to a genus and a species, all others get 
+    #   categorized as Other spp.
     if (genus == "Acer" & species == "rubrum") {
       # Acer rubrum
-      # this is a change from appendix 2 which says the function should be from 10 to 28. But there's no >28 version.
-      #   I'm assuming it's a typo and is a > 10 function like any other
+      # this is a change from appendix 2 which says the function should be from 10 to 28. But there's no 
+      #   >28 version. I'm assuming it's a typo and is a > 10 function like any other
       if (dbh >= 28) {
         # this equation is not in the chart but is in the SAS code. I'm making an educated guess.
         # equation form 1
@@ -213,8 +216,8 @@ estimate_tff_agb_from_dbh_megonigal_1997 <- function(dbh = 12, genus = "Taxodium
         # If diameter is smaller than 10 it's a sapling and doesn't get counted
         biomass <- 0 
       }
-    } else if (genus == "Salix" & species == "nigra") { # note: this species is in the sas code but not the paper
-      # Salix nigra
+    } else if (genus == "Salix" & species == "nigra") { # Salix nigra
+      # note: this species is in the sas code but not the paper
       if (dbh >= 10) {
         # Eq. form 2. Not in appendix 2 but in SAS code.
         biomass <- 10^(-1.50+(2.78*log10(input_dbh)))
@@ -239,7 +242,7 @@ estimate_tff_agb_from_dbh_megonigal_1997 <- function(dbh = 12, genus = "Taxodium
     # convert to kilograms if needed
     if (genus == "Pinus" & species == "taeda") {
       biomass_kg <- biomass / 1000 # Pinus taeda outputs g instead of kg. There is a typo in Appendix 2. 
-      # Pat's SAS code confirms this.
+      # Megonigal's SAS code confirms this.
     } else if  (paste(genus, species, sep = " ") %in% species_not_needing_empirical_conversions) {
       biomass_kg <- biomass # these ones don't need conversion
     } else {
@@ -256,7 +259,7 @@ estimate_tff_agb_from_dbh_megonigal_1997 <- function(dbh = 12, genus = "Taxodium
 #   cited by Krauss et al., 2018
 #   applied to Craft data
 estimate_general_agb_from_dbh_jones_2003 <- function(dbh = 12, genus = "Pinus", species = "spp") {
-  # Inputs include diameter at breast height in cenitmeters,
+  # Inputs include diameter at breast height in centimeters,
   #   Genus and species are used to match to a specific allometric equations
   # Outputs will be grams of organic matter
   # woodland
@@ -333,7 +336,7 @@ estimate_general_agb_from_dbh_jones_2003 <- function(dbh = 12, genus = "Pinus", 
 #   cited in Doughty et al., 2015
 #   applied to Twilley data
 estimate_mangrove_agb_from_dbh_smith_2006 <- function(dbh = 12, genus ="Avicennia", species = "germinans") {
-  # Inputs include diameter at breast height in cenitmeters,
+  # Inputs include diameter at breast height in centimeters,
   #   Genus and species are used to match to a specific allometric equations
   # Outputs will be grams of organic matter
   if (is.na(dbh) | is.na(genus) | is.na(species)) {
@@ -381,9 +384,10 @@ estimate_mangrove_agb_from_dbh_simard_2006 <- function(dbh = 12, genus ="Avicenn
   } else {
     # If the data values exist
     if (dbh < 1) {
-      # If the dbh is less than 1 cm apply averages derrived from the L-31 dataset (outlines in Simard et al., 2006 table 4)
-      # There were additonal height classes for shrub and fringe mangroves, but none of the trees I'm analysing are below 2 m,
-      # and none of the diameters are < 1 cm, so this seems fine
+      # If the dbh is less than 1 cm apply averages derrived from the L-31 dataset 
+      #   (outlines in Simard et al., 2006 table 4)
+      # There were additonal height classes for shrub and fringe mangroves, but none of the trees 
+      #   I'm analysing are below 2 m, and none of the diameters are < 1 cm, so this seems fine
       if (genus == "Rhizophora" & species == "mangle") {
         # RHIMAN
         agb_kg <- 0.003406
@@ -457,14 +461,17 @@ estimate_mangrove_agb_from_dbh_simard_2006 <- function(dbh = 12, genus ="Avicenn
 }
 
 # Allometric Equations from Cheryl Doughty's 2015 paper
-estimate_mangrove_agb_from_dbh_doughty_2015 <- function(dbh = 1, d30 = NA, genus ="Avicennia", species = "germinans") {
-  # Function written to convert above ground biomass from diameter at breast height, or diamter at 30 cm from the ground
+estimate_mangrove_agb_from_dbh_doughty_2015 <- function(dbh = 1, d30 = NA, genus ="Avicennia", 
+                                                        species = "germinans") {
+  # Function written to convert above ground biomass from diameter at breast height, or diamter 
+  #   at 30 cm from the ground
   # ... to above ground biomass.
   # Allometric equations come from: 
   # ... Doughty et al., 2015, Mangrove range expansion rapidly increases coastal wetland carbon storage. 
   # ...Estuaries and Coasts
   # Allometric equations are lited in Supplemental Tab. 2.
-  # Inputs include diameter at breast height OR diameter above 30 cm for dwarf Launcularia racemosa, genus and species
+  # Inputs include diameter at breast height OR diameter above 30 cm for dwarf Launcularia racemosa, 
+  #   genus and species
   # Output is above ground biomass in grams.
   if (is.na(genus) | is.na(species) | (is.na(dbh) & is.na(d30))) {
     # If any of the inputs are missing return a no data values
@@ -472,7 +479,8 @@ estimate_mangrove_agb_from_dbh_doughty_2015 <- function(dbh = 1, d30 = NA, genus
   } else {
     if (genus == "Rhizophora" & species == "mangle") {
       # equation from Smith and Whelen 
-      agb_kg <- 10^(1.731*log10(dbh) - 0.112) # note the table lists Dr instead of DBH but excel file formula is the same
+      agb_kg <- 10^(1.731*log10(dbh) - 0.112) # note the table lists Dr instead of DBH but excel file 
+      # formula is the same
     } else if (genus == "Avicennia" & species == "germinans") {
       # equation from Smith and Whelen 
       if (is.na(dbh)) {
@@ -484,7 +492,8 @@ estimate_mangrove_agb_from_dbh_doughty_2015 <- function(dbh = 1, d30 = NA, genus
       if (! is.na(d30)) {
         # If d30 was measured use the scrub equation
         # equation from Ross et al.
-        agb_kg <- exp(1.021*log(d30 / 10) + 4.411) / 1000 # equation takes in d30 as millimeters and exports grams
+        agb_kg <- exp(1.021*log(d30 / 10) + 4.411) / 1000 # equation takes in d30 as millimeters and 
+        # exports grams
       } else if (! is.na(dbh)) {
         # if d30 wasn't measured use the Sapling-Tall equation
         agb_kg <- 10^(1.930*log10(dbh) - 0.441)
