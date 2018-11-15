@@ -1,9 +1,7 @@
 ---
 title: "README"
 author: "James R Holmquist"
-output:
-  html_document:
-    fig_cap: true
+output: github_document
 ---
 
 # Overview
@@ -14,21 +12,23 @@ Files and code used to generate analyses in the Environmental Research Letters p
 <br>
 
 ### Manuscript Abstract
-Coastal wetlands store carbon dioxide (CO2) and emit CO2 and methane (CH4) making them an important part of greenhouse gas (GHG) inventorying. In the contiguous United States (CONUS), a coastal wetland inventory was recently calculated by combining maps of wetland type and change with soil, biomass, and CH4 flux data from a literature review. We assess uncertainty in this developing carbon monitoring system to quantify confidence in the inventory process itself and to prioritize future research. We provide a value-added analysis by defining types and scales of uncertainty for assumptions, burial and emissions datasets, and wetland maps, simulating 10,000 iterations of a simplified version of the inventory, and performing a sensitivity analysis. Coastal wetlands were likely a source of net-CO2-equivalent (CO2e) emissions from 2006 to 2011. Although stable estuarine wetlands were likely a CO2e sink, this effect was counteracted by catastrophic soil losses in the Gulf Coast, and CH4 emissions from tidal freshwater wetlands. The direction and magnitude of total CONUS CO2e flux were most sensitive to uncertainty in emissions and burial data, and assumptions about how to calculate the inventory. Critical data uncertainties included CH4 emissions for stable freshwater wetlands and carbon burial rates for all coastal wetlands. Critical assumptions included the average depth of soil affected by erosion events, the method used to convert CH4 fluxes to CO2e, and the fraction of carbon lost to the atmosphere following an erosion event. The inventory was relatively insensitive to mapping uncertainties. Future versions could be improved by collecting additional data, especially the depth affected by loss events, and by better mapping salinity and inundation gradients relevant to key GHG fluxes.
+Coastal wetlands store carbon dioxide (CO<sub>2</sub>) and emit CO<sub>2</sub> and methane (CH<sub>4</sub>) making them an important part of greenhouse gas (GHG) inventorying. In the contiguous United States (CONUS), a coastal wetland inventory was recently calculated by combining maps of wetland type and change with soil, biomass, and CH4 flux data from a literature review. We assess uncertainty in this developing carbon monitoring system to quantify confidence in the inventory process itself and to prioritize future research. We provide a value-added analysis by defining types and scales of uncertainty for assumptions, burial and emissions datasets, and wetland maps, simulating 10,000 iterations of a simplified version of the inventory, and performing a sensitivity analysis. Coastal wetlands were likely a source of net-CO<sub>2</sub>-equivalent (CO<sub>2</sub>e) emissions from 2006 to 2011. Although stable estuarine wetlands were likely a CO<sub>2</sub>e sink, this effect was counteracted by catastrophic soil losses in the Gulf Coast, and CH<sub>4</sub> emissions from tidal freshwater wetlands. The direction and magnitude of total CONUS CO<sub>2</sub> flux were most sensitive to uncertainty in emissions and burial data, and assumptions about how to calculate the inventory. Critical data uncertainties included CH4 emissions for stable freshwater wetlands and carbon burial rates for all coastal wetlands. Critical assumptions included the average depth of soil affected by erosion events, the method used to convert CH<sub>4</sub> fluxes to CO<sub>2</sub>e, and the fraction of carbon lost to the atmosphere following an erosion event. The inventory was relatively insensitive to mapping uncertainties. Future versions could be improved by collecting additional data, especially the depth affected by loss events, and by better mapping salinity and inundation gradients relevant to key GHG fluxes.
 
 <br>
 
-![Fig. 1: The three mapping layers used in our coastal wetland greenhouse gas inventory viewed for San Francisco Bay. A. 2011 Coastal Change Analysis Program (C-CAP) Land Cover Classifications. B. 2006 to 2011 C-CAP Change Map (Basemap © ESRI, used with permission). C. A probabilistic coastal lands map, showing the probability elevation is below twice highest monthly tide level, mean higher high water for spring tides (MHHWS).](figs/main/1 NGGI Mapping Slide.jpg)
+![](figs/main/1 NGGI Mapping Slide.jpg)
+Fig. 1: The three mapping layers used in our coastal wetland greenhouse gas inventory viewed for San Francisco Bay. A. 2011 Coastal Change Analysis Program (C-CAP) Land Cover Classifications. B. 2006 to 2011 C-CAP Change Map (Basemap © ESRI, used with permission). C. A probabilistic coastal lands map, showing the probability elevation is below twice highest monthly tide level, mean higher high water for spring tides (MHHWS).
 
 <br>
 <br>
 
-![Fig. 7: These fifteen inputs introduced the most uncertainty into the Coastal Wetland National Greenhouse Gas Inventory according to a one-at-a-time sensitivity analysis. GWP: Global Warming Potential, SGWP: Sustained GWP, SGCP: Sustained Global Cooling Potential, NWI: National Wetlands Inventory, EAB: Estuarine Aquatic Bed, OW: Open Water, UCS: Unconsolidated Shore, PAB: Palustrine Aquatic Bed.](figs/main/7 Sensitivity Analysis 3 by 6 180808.jpg)
+![](figs/main/7 Sensitivity Analysis 3 by 6 180808.jpg)
+Fig. 7: These fifteen inputs introduced the most uncertainty into the Coastal Wetland National Greenhouse Gas Inventory according to a one-at-a-time sensitivity analysis. GWP: Global Warming Potential, SGWP: Sustained GWP, SGCP: Sustained Global Cooling Potential, NWI: National Wetlands Inventory, EAB: Estuarine Aquatic Bed, OW: Open Water, UCS: Unconsolidated Shore, PAB: Palustrine Aquatic Bed.
 
 <br>
 
 ## Citation Information
-Please the code and derrivative analytics gathered here as:
+Please cite the code and derrivative analytics gathered here as:
 
 Holmquist, J.R., Windham-Myers, L., Bernal, B., Byrd, K. B., Crooks, S., Gonneea, M. E., Herold, N., Knox, S. H., Kroeger, K., McCombs, J., Megonigal, J. P., Meng, L., Morris, J. T., Sutton-Grier, A. E., Troxler, T. G., Weller, D. E. (2018). Uncertainty in United States coastal wetland greenhouse gas inventorying. Environmental Research Letters.  https://doi.org/10.1088/1748-9326/aae157.
 
