@@ -6,7 +6,7 @@ Byrd, K.B., Ballanti, L.R., Thomas, N.M., Nguyen, D.K., Holmquist, J.R., Simard,
 
 The [original](https://github.com/Smithsonian/Coastal-Wetland-NGGI-Sensitivity-Analysis/tree/master/data/Biomass/byrd_2018/original) subfolder contains files as they were received.
 
-The [derivative](https://github.com/Smithsonian/Coastal-Wetland-NGGI-Sensitivity-Analysis/tree/master/data/Biomass/byrd_2018/derivative) subfolder contains the same BiomassSamples file as original, reformatted as a .csv file and byrd_2018_site_summary.csv.  
+The [derivative](https://github.com/Smithsonian/Coastal-Wetland-NGGI-Sensitivity-Analysis/tree/master/data/Biomass/byrd_2018/derivative) subfolder contains the same BiomassSamples file as original, reformatted as a .csv file and [byrd_2018_site_summary.csv](https://github.com/Smithsonian/Coastal-Wetland-NGGI-Sensitivity-Analysis/blob/master/data/Biomass/byrd_2018/derivative/byrd_2018_site_summary.csv).  
 Attributes include:  
 study_id: Unique study level identification made up of the author’s family name and publication year.  
 site_id: Unique site-name generated from source.  
