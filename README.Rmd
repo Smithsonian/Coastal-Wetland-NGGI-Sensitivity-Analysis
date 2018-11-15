@@ -28,7 +28,18 @@ Coastal wetlands store carbon dioxide (CO2) and emit CO2 and methane (CH4) makin
 <br>
 
 ## Citation Information
-Please cite as:
+Please the code and derrivative analytics gathered here as:
 
-Holmquist, J.R., Windham-Myers, L., Bernal, B., Byrd, K. B., Crooks, S., Gonneea, M. E., Herold, N., Knox, S. H., Kroeger, K., McCombs, J., Megonigal, J. P., Meng, L., Morris, J. T., Sutton-Grier, A. E., Troxler, T. G., Weller, D. E. Uncertainty in United States coastal wetland greenhouse gas inventorying. Environmental Research Letters.  https://doi.org/10.1088/1748-9326/aae157.
+Holmquist, J.R., Windham-Myers, L., Bernal, B., Byrd, K. B., Crooks, S., Gonneea, M. E., Herold, N., Knox, S. H., Kroeger, K., McCombs, J., Megonigal, J. P., Meng, L., Morris, J. T., Sutton-Grier, A. E., Troxler, T. G., Weller, D. E. (2018). Uncertainty in United States coastal wetland greenhouse gas inventorying. Environmental Research Letters.  https://doi.org/10.1088/1748-9326/aae157.
+
+If reusing the data synthesized for these analyses please take care to cite the original works. These sources are listed in the orinal paper and its supplemental information, as well as in accompanying README files associated with particular datasets.
+
+## Repository Structure
+This repository is broken up into the main body and several subfolders. The main body contains this README file, an R Project, which will allow users to re-run R scripts while accessing the repository's directory as the working directory, a .gitattributes and a .gitignore file, which provide .git functionality to the repository, and self-descriptive subfolders containing data, figures, and scripts.
+
+data - contains all of the data files used and created in this analysis. These are organized by sector (Biomass, MengReview [used for Carbon Burial Rates], Methane, WetlandArea) as well as output tables, which contain derrivative results from the monte carlo and sensitivity analyses. Each data source's origin or citation is listed in separate readme files, and we use original and derivative subfolders to separate files as they were recieved or downloaded from those formatted and machine readable for analysis.
+
+figs - contains figures that appear in the paper. They are separated into main and si (supplemental information). The figures are numbered as they appear in the texts.
+
+scripts - contains the scripts used for formatting, monte carlo and sensitivity analyses, and creating figures. They are broken down as such into ordered subfolders (0 formatting, 1 analysis, 2 figures). Each subfolder contains ordered R scripts that access and output to the data folders.
 
