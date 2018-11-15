@@ -1,7 +1,8 @@
 # doughty_2015
 Please cite this data as:
 
-Doughty, C. L., Langley, J. A., Walker, W. S., Feller, I. C., Schaub, R., & Chapman, S. K. (2016). Mangrove range expansion rapidly increases coastal wetland carbon storage. Estuaries and Coasts, 39(2), 385-396.
+Doughty, C. L., Langley, J. A., Walker, W. S., Feller, I. C., Schaub, R., & Chapman, S. K. (2016). Mangrove range expansion rapidly increases coastal wetland carbon storage. Estuaries and Coasts, 39(2), 385-396.  
+
 The [original](https://github.com/Smithsonian/Coastal-Wetland-NGGI-Sensitivity-Analysis/tree/master/data/Biomass/doughty_2015/original) subfolder contains files as they were received. 
 
 The [derivative](https://github.com/Smithsonian/Coastal-Wetland-NGGI-Sensitivity-Analysis/tree/master/data/Biomass/doughty_2015/derivative) subfolder contains working files used in the data manipulation process, most importantly [doughty_2015_site_summary.csv](https://github.com/Smithsonian/Coastal-Wetland-NGGI-Sensitivity-Analysis/blob/master/data/Biomass/doughty_2015/derivative/doughty_2015_site_summary.csv) which contains the attributes:  
