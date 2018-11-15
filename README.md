@@ -17,7 +17,7 @@ Coastal wetlands store carbon dioxide (CO<sub>2</sub>) and emit CO<sub>2</sub> a
 
 <br>
 
-![](figs/main/1%20NGGI%20Mapping%20Slide.jpg) Fig. 1: The three mapping layers used in our coastal wetland greenhouse gas inventory viewed for San Francisco Bay. A. 2011 Coastal Change Analysis Program (C-CAP) Land Cover Classifications. B. 2006 to 2011 C-CAP Change Map (Basemap Â© ESRI, used with permission). C. A probabilistic coastal lands map, showing the probability elevation is below twice highest monthly tide level, mean higher high water for spring tides (MHHWS).
+![](figs/main/1%20NGGI%20Mapping%20Slide.jpg) Fig. 1: The three mapping layers used in our coastal wetland greenhouse gas inventory viewed for San Francisco Bay. A. 2011 Coastal Change Analysis Program (C-CAP) Land Cover Classifications. B. 2006 to 2011 C-CAP Change Map (Basemap © ESRI, used with permission). C. A probabilistic coastal lands map, showing the probability elevation is below twice highest monthly tide level, mean higher high water for spring tides (MHHWS).
 
 <br> <br>
 
