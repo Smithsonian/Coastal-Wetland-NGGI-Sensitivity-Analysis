@@ -4,7 +4,7 @@ This folder contains tabular datasets used in the paper.
 
 The [Biomass](https://github.com/Smithsonian/Coastal-Wetland-NGGI-Sensitivity-Analysis/tree/master/data/Biomass) subfolder contains files used in our synthesis of above ground biomass. 
 
-The [MengReview](https://github.com/Smithsonian/Coastal-Wetland-NGGI-Sensitivity-Analysis/tree/master/data/MengReview) subfolder contains files from Meng Lu’s literature review supporting the U.S. Greenhouse Gas Inventory. We used these files to model carbon burial rates. 
+The [MengReview](https://github.com/Smithsonian/Coastal-Wetland-NGGI-Sensitivity-Analysis/tree/master/data/MengReview) subfolder contains files from Meng Lu’s literature review supporting the U.S. Greenhouse Gas Inventory. We used these files to model carbon burial rates, and see this review's [host repository](https://github.com/Smithsonian/Coastal-Wetland-NGGI-Data-Public/) for more.
 
 The [Methane](https://github.com/Smithsonian/Coastal-Wetland-NGGI-Sensitivity-Analysis/tree/master/data/Methane) subfolder contains a dataset of methane emissions and removals compiled by Sara Knox for the State of the Carbon Cycle Report. 
 
